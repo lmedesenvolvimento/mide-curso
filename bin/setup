@@ -1,0 +1,9 @@
+# Instalando Pacotes
+npm install
+
+# Criando arquivos de configuração para VSCode
+echo 'Configurando VSCode'
+mkdir .vscode
+cp settings.json.example .vscode/settings.json
+
+echo 'Setup Completo ;\'
