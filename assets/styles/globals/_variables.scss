@@ -1,5 +1,6 @@
 @import '~bulma/sass/utilities/all';
 
+// Theme
 $primary: hsl(218, 100%, 21%);
 $secondary: hsl(341, 59%, 47%);
 $info: hsl(206, 86%, 36%);
@@ -52,4 +53,12 @@ $colors: (
     $danger,
     $danger-invert
   )
+);
+
+// Helpers
+$directions: (
+  t: 'top',
+  b: 'bottom',
+  l: 'left',
+  r: 'right'
 );

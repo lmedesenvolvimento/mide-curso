@@ -1,21 +1,21 @@
 <template>
   <section class="section">
     <div class="columns is-mobile">
-      <card title="Free" icon="github-circle">
+      <mide-card title="Free" icon="github-circle">
         Open source on
         <a href="https://github.com/buefy/buefy">
           GitHub
         </a>
-      </card>
+      </mide-card>
 
-      <card title="Responsive" icon="cellphone-link">
+      <mide-card title="Responsive" icon="cellphone-link">
         <b class="has-text-grey">
           Every
         </b>
         component is responsive
-      </card>
+      </mide-card>
 
-      <card title="Modern" icon="alert-decagram">
+      <mide-card title="Modern" icon="alert-decagram">
         Built with
         <a href="https://vuejs.org/">
           Vue.js
@@ -24,23 +24,17 @@
         <a href="http://bulma.io/">
           Bulma
         </a>
-      </card>
+      </mide-card>
 
-      <card title="Lightweight" icon="arrange-bring-to-front">
+      <mide-card title="Lightweight" icon="arrange-bring-to-front">
         No other internal dependency
-      </card>
+      </mide-card>
     </div>
   </section>
 </template>
 
 <script>
-import Card from '~/components/Card'
-
 export default {
-  name: 'HomePage',
-
-  components: {
-    Card
-  }
+  name: 'HomePage'
 }
 </script>
