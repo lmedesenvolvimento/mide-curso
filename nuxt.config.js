@@ -23,7 +23,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~assets/styles/_app.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -41,6 +41,7 @@ export default {
   modules: [
     // Doc: https://buefy.github.io/#/documentation
     'nuxt-buefy',
+    '@nuxtjs/style-resources',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios'
   ],
@@ -49,6 +50,22 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  /*
+   ** Buefy module configuration
+   ** See https://github.com/buefy/nuxt-buefy
+   */
+  buefy: {
+    css: false
+  },
+  /*
+   ** Globals Styles
+   */
+  styleResources: {
+    scss: [
+      '~assets/styles/globals/_functions.scss',
+      '~assets/styles/globals/_variables.scss'
+    ]
+  },
   /*
    ** Build configuration
    */
