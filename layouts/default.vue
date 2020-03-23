@@ -63,6 +63,7 @@ export default {
   }
   &__content {
     flex: 1;
+    width: 100%;
   }
 }
 </style>
