@@ -3,12 +3,10 @@
 @font-face{
   font-family: avenir-next-lt-pro-regular;
   src:url("~@/assets/fonts/AvenirNextLTPro-Regular.woff") format("woff"),
-  url("~@/assets/fonts/AvenirNextLTPro-Regular.ttf") format("ttf");;
+  url("~@/assets/fonts/AvenirNextLTPro-Regular.ttf") format("ttf");
 }
 
 html, body
 {
   font-family:"avenir-next-lt-pro-regular";
 }
-
-

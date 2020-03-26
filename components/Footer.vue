@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-4">
-          <div class="mide-logo">
+          <div class="mide-footer-mide-logo">
             <img src="~@/assets/images/logo-mide-branca.png" />
           </div>
           <div class="mide-footer-description">
@@ -11,22 +11,22 @@
             Occaecat non labore ut cupidatat mollit aliqua sint mollit
           </div>
         </div>
-        <div class="vl"></div>
+        <div class="mide-footer-vertical-line"></div>
 
         <div class="column">
           <p>Realização</p>
-          <div class="logo-ministerio">
+          <div class="mide-footer-logo-ministerio">
             <img src="~@/assets/images/logo-ministerio-branca.png" />
           </div>
         </div>
         <div class="column">
           <p>Produção</p>
-          <div class="logo-proativa">
+          <div class="mide-footer-logo-proativa">
             <img src="~@/assets/images/logo-proativa-branca.png" />
           </div>
         </div>
         <div class="column">
-          <div class="logo-lme">
+          <div class="mide-footer-logo-lme">
             <img src="~@/assets/images/logo-lme-branca.png" />
           </div>
         </div>
@@ -53,19 +53,19 @@ export default {}
       opacity: 0.6;
     }
 
-    .logo-ministerio {
+    .mide-footer-logo-ministerio {
       width: 242px;
       margin-right: 80px;
     }
-    .logo-proativa {
+    .mide-footer-logo-proativa {
       width: 134px;
     }
-    .logo-lme {
+    .mide-footer-logo-lme {
       padding-top: 10px;
       width: 113px;
     }
   }
-  .mide-logo {
+  .mide-footer-mide-logo {
     height: 55px;
     width: 105px;
     text-align: left;
@@ -78,7 +78,7 @@ export default {}
     letter-spacing: 0;
     opacity: 1;
   }
-  .vl {
+  .mide-footer-vertical-line {
     border-left: 2px solid white;
     height: 150px;
     padding-left: 40px;
