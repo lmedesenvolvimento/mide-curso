@@ -41,7 +41,7 @@ export default {}
 
 <style lang="scss">
 .mide-footer {
-  min-height: 250px;
+  min-height: $footer-height;
   color: $white;
   background-color: #a49ea0;
   > .container,
