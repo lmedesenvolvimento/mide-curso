@@ -13,7 +13,7 @@
         </div>
         <div class="mide-footer-vertical-line"></div>
 
-        <div class="column">
+        <div class="column is-4">
           <p>Realização</p>
           <div class="mide-footer-logo-ministerio">
             <img src="~@/assets/images/logo-ministerio-branca.png" />
@@ -41,7 +41,7 @@ export default {}
 
 <style lang="scss">
 .mide-footer {
-  min-height: $footer-height;
+  height: $footer-height;
   color: $white;
   background-color: #a49ea0;
   > .container,
@@ -84,6 +84,17 @@ export default {}
     padding-left: 40px;
     margin-right: 30px;
     opacity: 1;
+  }
+}
+
+@media (max-width: 1030px) {
+  .mide-footer {
+    height: 100%;
+    padding: 16%;
+
+    .mide-footer-vertical-line {
+      display: none;
+    }
   }
 }
 </style>
