@@ -13,7 +13,8 @@
           tag="nuxt-link"
           :to="item.to"
         >
-          <b-icon :icon="item.icon" class="mr-1" /> {{ item.title }}
+          <b-icon :icon="item.icon" :pack="item.pack" class="mr-1" />
+          {{ item.title }}
         </b-navbar-item>
       </template>
     </b-navbar>
@@ -30,18 +31,15 @@ export default {
     return {
       items: [
         {
-          title: 'Início',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
           title: 'Biblioteca',
-          icon: 'lightbulb',
+          icon: 'icon-study',
+          pack: 'icon',
           to: { name: 'inspire' }
         },
         {
           title: 'Forum',
-          icon: 'lightbulb',
+          icon: 'icon-libray',
+          pack: 'icon',
           to: { name: 'inspire' }
         }
       ]
