@@ -14,16 +14,15 @@
       </template>
 
       <template slot="end">
-        <div class="top-navbar-item">
-          <b-navbar-item
-            v-for="(item, key) of items"
-            :key="key"
-            tag="nuxt-link"
-            :to="item.to"
-          >
-            {{ item.title }}
-          </b-navbar-item>
-        </div>
+        <b-navbar-item
+          v-for="(item, key) of items"
+          :key="key"
+          tag="nuxt-link"
+          :to="item.to"
+        >
+          <b-icon :icon="item.icon" :pack="item.pack" class="mr-1" />
+          {{ item.title }}
+        </b-navbar-item>
       </template>
     </b-navbar>
     <div class="container layout__content">
@@ -40,12 +39,14 @@ export default {
       items: [
         {
           title: 'Início',
-          icon: 'study',
-          to: { name: 'index' }
+          icon: 'icon-study',
+          pack: 'icon',
+          to: { name: 'inspire' }
         },
         {
           title: 'Biblioteca',
-          icon: 'book',
+          icon: 'icon-libray',
+          pack: 'icon',
           to: { name: 'inspire' }
         }
       ]
