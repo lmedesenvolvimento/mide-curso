@@ -1,20 +1,29 @@
 <template>
   <div class="layout__default">
-    <b-navbar type="is-primary" wrapper-class="container">
+    <b-navbar wrapper-class="container" class="is-spaced has-shadow">
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
-          <img src="~assets/buefy.png" alt="Buefy" height="28" />
+          <a class="top-navbar-logo">
+            <img
+              src="~assets/images/mide-logo-colorida.png"
+              alt="Mide logo"
+              width="50"
+            />
+          </a>
         </b-navbar-item>
       </template>
+
       <template slot="end">
-        <b-navbar-item
-          v-for="(item, key) of items"
-          :key="key"
-          tag="nuxt-link"
-          :to="item.to"
-        >
-          <b-icon :icon="item.icon" class="mr-1" /> {{ item.title }}
-        </b-navbar-item>
+        <div class="top-navbar-item">
+          <b-navbar-item
+            v-for="(item, key) of items"
+            :key="key"
+            tag="nuxt-link"
+            :to="item.to"
+          >
+            {{ item.title }}
+          </b-navbar-item>
+        </div>
       </template>
     </b-navbar>
     <div class="container layout__content">
@@ -31,17 +40,12 @@ export default {
       items: [
         {
           title: 'Início',
-          icon: 'home',
+          icon: 'study',
           to: { name: 'index' }
         },
         {
           title: 'Biblioteca',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        },
-        {
-          title: 'Forum',
-          icon: 'lightbulb',
+          icon: 'book',
           to: { name: 'inspire' }
         }
       ]
@@ -60,6 +64,14 @@ export default {
     right: 0;
     display: flex;
     flex-direction: column;
+
+    .top-navbar-item {
+      font-family: 'Segoe UI', sans-serif;
+      letter-spacing: 1.4px;
+      font-size: 14px;
+      text-transform: uppercase;
+      display: flex;
+    }
   }
   &__content {
     flex: 1;
