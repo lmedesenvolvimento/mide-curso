@@ -13,7 +13,7 @@
         </div>
         <div class="mide-footer-vertical-line"></div>
 
-        <div class="column is-4">
+        <div class="column">
           <p>Realização</p>
           <div class="mide-footer-logo-ministerio">
             <img src="~@/assets/images/logo-ministerio-branca.png" />
@@ -87,10 +87,10 @@ export default {}
   }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1024px) {
   .mide-footer {
     height: 100%;
-    padding: 16%;
+    padding: 8%;
 
     .mide-footer-vertical-line {
       display: none;
