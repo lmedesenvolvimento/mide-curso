@@ -3,26 +3,26 @@
     <b-navbar wrapper-class="container" class="is-spaced has-shadow">
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
-          <a class="top-navbar-logo">
-            <img
-              src="~assets/images/mide-logo-colorida.png"
-              alt="Mide logo"
-              width="50"
-            />
-          </a>
+          <img
+            src="~assets/images/mide-logo-colorida.png"
+            alt="Mide logo"
+            height="100"
+          />
         </b-navbar-item>
       </template>
 
       <template slot="end">
-        <b-navbar-item
-          v-for="(item, key) of items"
-          :key="key"
-          tag="nuxt-link"
-          :to="item.to"
-        >
-          <b-icon :icon="item.icon" :pack="item.pack" class="mr-1" />
-          {{ item.title }}
-        </b-navbar-item>
+        <div class="top-navbar-item">
+          <b-navbar-item
+            v-for="(item, key) of items"
+            :key="key"
+            tag="nuxt-link"
+            :to="item.to"
+          >
+            <b-icon :icon="item.icon" :pack="item.pack" class="mr-1" />
+            {{ item.title }}
+          </b-navbar-item>
+        </div>
       </template>
     </b-navbar>
     <div class="container layout__content">
@@ -41,7 +41,7 @@ export default {
           title: 'Início',
           icon: 'icon-study',
           pack: 'icon',
-          to: { name: 'inspire' }
+          to: { name: 'index' }
         },
         {
           title: 'Biblioteca',
@@ -72,6 +72,7 @@ export default {
       font-size: 14px;
       text-transform: uppercase;
       display: flex;
+      color: #8e8e8e;
     }
   }
   &__content {
