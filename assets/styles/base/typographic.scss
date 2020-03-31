@@ -6,6 +6,12 @@
   url("~@/assets/fonts/AvenirNextLTPro-Regular.ttf") format("ttf");
 }
 
+@font-face {
+  font-family: avenir-next-lt-pro-bold;
+  src:url("~@/assets/fonts/AvenirNextLTPro-Bold.ttf") format("ttf"),
+  url("~@/assets/fonts/AvenirNextLTPro-Bold.woff") format("woff");
+}
+
 html, body
 {
   font-family:"avenir-next-lt-pro-regular";

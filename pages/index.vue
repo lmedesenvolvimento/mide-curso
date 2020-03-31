@@ -1,33 +1,40 @@
 <template>
   <section class="section">
-    <div class="columns is-mobile">
-      <mide-card title="Free" icon="github-circle">
-        Open source on
-        <a href="https://github.com/buefy/buefy">
-          GitHub
-        </a>
+    <div class="tile body-progress is-2 is-mobile">
+      <div class="tile is-vertical is-ancestor box">
+        <p class="body-progress-title has-text-centered">Conquistas</p>
+
+        <br />
+
+        <article class="tile is-child">semente</article>
+        <article class="tile is-child">planta</article>
+        <article class="tile is-child">árvore</article>
+      </div>
+    </div>
+
+    <div class="columns is-mobile body-card">
+      <mide-card title="Boas-vindas">
+        Ensinando em um mundo digital
       </mide-card>
 
-      <mide-card title="Responsive" icon="cellphone-link">
-        <b class="has-text-grey">
-          Every
-        </b>
-        component is responsive
+      <mide-card title="Ementa">
+        Introdução ao curso
       </mide-card>
 
-      <mide-card title="Modern" icon="alert-decagram">
-        Built with
-        <a href="https://vuejs.org/">
-          Vue.js
-        </a>
-        and
-        <a href="http://bulma.io/">
-          Bulma
-        </a>
+      <mide-card title="Objetivos de Aprendizagem">
+        Introdução ao curso
       </mide-card>
 
-      <mide-card title="Lightweight" icon="arrange-bring-to-front">
-        No other internal dependency
+      <mide-card title="Unidade 1">
+        Lorem Ipsu
+      </mide-card>
+
+      <mide-card title="Unidade 2">
+        Lorem Ipsu
+      </mide-card>
+
+      <mide-card title="Unidade 3">
+        Lorem Ipsu
       </mide-card>
     </div>
   </section>
@@ -38,3 +45,27 @@ export default {
   name: 'HomePage'
 }
 </script>
+
+<style lang="scss">
+.body-card {
+  max-width: 80%;
+  float: right;
+  flex-wrap: wrap;
+  padding-bottom: 4%;
+}
+.body-progress {
+  float: left;
+  .box {
+    border: 1px solid #e8e8e8;
+    border-radius: 25px;
+    opacity: 1;
+  }
+  .body-progress-title {
+    font: 14px avenir-next-lt-pro-bold;
+    letter-spacing: 1.4px;
+    color: #c0315f;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+}
+</style>
