@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="tile body-progress is-2 is-mobile">
-      <div class="tile is-vertical is-ancestor box">
+      <div class="tile is-vertical  is-ancestor box">
         <p class="body-progress-title has-text-centered">Conquistas</p>
 
         <br />
@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="columns is-mobile body-card">
+    <div class="columns is-desktop body-card">
       <mide-card title="Boas-vindas">
         Ensinando em um mundo digital
       </mide-card>
@@ -55,6 +55,7 @@ export default {
 }
 .body-progress {
   float: left;
+  position: absolute;
   .box {
     border: 1px solid #e8e8e8;
     border-radius: 25px;
@@ -66,6 +67,19 @@ export default {
     color: #c0315f;
     text-transform: uppercase;
     opacity: 1;
+  }
+}
+
+@media (max-width: 470px) {
+  .body-progress {
+    position: relative;
+    left: 32%;
+  }
+  .body-card {
+    margin-top: 8%;
+    width: 100%;
+    float: 0;
+    margin-right: 5%;
   }
 }
 </style>
