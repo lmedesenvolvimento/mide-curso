@@ -1,5 +1,8 @@
 <template>
-  <div class="column is-one-third is-multiline">
+  <div
+    class="column  
+ is-one-third-desktop "
+  >
     <div class="card">
       <div class="card-image">
         <figure class="image is-3by1"></figure>

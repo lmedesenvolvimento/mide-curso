@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="columns is-desktop body-card">
+    <div class="columns body-card">
       <mide-card title="Boas-vindas">
         Ensinando em um mundo digital
       </mide-card>
@@ -70,7 +70,7 @@ export default {
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 767px) {
   .body-progress {
     position: relative;
     left: 32%;
