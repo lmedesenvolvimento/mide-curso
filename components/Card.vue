@@ -1,23 +1,20 @@
 <template>
-  <div class="column">
+  <div
+    class="column  
+ is-one-third-desktop "
+  >
     <div class="card">
-      <header class="card-header">
-        <p class="card-header-title has-text-grey">
-          {{ title }}
-        </p>
-      </header>
-      <div class="card-content">
-        <div class="content has-text-centered">
-          <b-icon :icon="icon" size="is-large" type="is-primary" />
-        </div>
+      <div class="card-image">
+        <figure class="image is-3by1"></figure>
       </div>
-      <footer class="card-footer">
-        <div class="card-footer-item">
-          <span>
-            <slot />
-          </span>
-        </div>
-      </footer>
+
+      <p class="card-header-title">
+        {{ title }}
+      </p>
+
+      <div class="card-content has-text-left">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
@@ -36,3 +33,31 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.card {
+  box-shadow: 0px 12px 19px #3c80d116;
+  border-radius: 15px;
+  opacity: 1;
+  width: 266px;
+  height: 192px;
+
+  .image {
+    background: transparent
+      url('https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')
+      0% 0% no-repeat padding-box;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .card-header-title {
+    font: 12px/15px avenir-next-lt-pro-bold;
+    letter-spacing: 1.2px;
+    color: #c0315f;
+    text-transform: uppercase;
+    padding-top: 8%;
+    margin-bottom: -8%;
+  }
+  .card-content {
+    font-size: 14px;
+  }
+}
+</style>
