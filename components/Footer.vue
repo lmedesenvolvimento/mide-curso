@@ -41,7 +41,7 @@ export default {}
 
 <style lang="scss">
 .mide-footer {
-  min-height: $footer-height;
+  height: $footer-height;
   color: $white;
   background-color: #a49ea0;
   > .container,
@@ -84,6 +84,17 @@ export default {}
     padding-left: 40px;
     margin-right: 30px;
     opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mide-footer {
+    height: 100%;
+    padding: 8%;
+
+    .mide-footer-vertical-line {
+      display: none;
+    }
   }
 }
 </style>
