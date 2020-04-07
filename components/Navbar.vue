@@ -57,6 +57,7 @@ export default {
     letter-spacing: 1.4px;
     font-size: 14px;
     text-transform: uppercase;
+    text-align: center;
     display: flex;
     color: #8e8e8e;
     .top-navbar-icon {
