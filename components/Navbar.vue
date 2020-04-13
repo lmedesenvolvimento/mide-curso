@@ -1,5 +1,5 @@
 <template>
-  <b-navbar wrapper-class="container" class="is-spaced has-shadow">
+  <b-navbar wrapper-class="container" class="is-spaced has-shadow mide-navbar">
     <template slot="brand">
       <nuxt-link to="/">
         <img
@@ -51,17 +51,45 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
-  .top-navbar-item {
-    font-family: 'Segoe UI', sans-serif;
-    letter-spacing: 1.4px;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    color: #8e8e8e;
-    .top-navbar-icon {
-      margin-right: 5px;
+.mide-navbar {
+  > .container {
+    .navbar-brand {
+      a:not([aria-label='menu']) {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .top-navbar-item {
+      font-family: 'Segoe UI', sans-serif;
+      letter-spacing: 1.4px;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+      display: flex;
+      color: #8e8e8e;
+      .top-navbar-icon {
+        margin-right: 5px;
+      }
+    }
+  }
+  @media (min-width: $desktop) {
+    padding: 0px !important;
+  }
+
+  @media (max-width: $tablet) {
+    .navbar-brand {
+      a:not([aria-label='menu']) {
+        margin-left: $gap;
+      }
+    }
+    .navbar-end {
+      .top-navbar-item {
+        display: block;
+        a {
+          display: block;
+          text-align: left;
+        }
+      }
     }
   }
 }
