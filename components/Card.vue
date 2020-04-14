@@ -8,12 +8,12 @@
         <figure class="image is-3by1"></figure>
       </div>
 
-      <p class="card-header-title">
-        {{ title }}
-      </p>
+      <nuxt-link to="/unidades/unit">
+        <p class="card-header-title">{{ title }}</p>
+      </nuxt-link>
 
       <div class="card-content has-text-left">
-        <slot />
+        <slot name="description" /> {{ unit.description }}
       </div>
     </div>
   </div>
@@ -29,6 +29,10 @@ export default {
     icon: {
       type: String,
       required: true
+    },
+    unit: {
+      type: Object,
+      default: null
     }
   }
 }

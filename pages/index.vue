@@ -13,36 +13,56 @@
     </div>
 
     <div class="columns body-card">
-      <mide-card title="Boas-vindas">
-        Ensinando em um mundo digital
-      </mide-card>
-
-      <mide-card title="Ementa">
-        Introdução ao curso
-      </mide-card>
-
-      <mide-card title="Objetivos de Aprendizagem">
-        Introdução ao curso
-      </mide-card>
-
-      <mide-card title="Unidade 1">
-        Lorem Ipsu
-      </mide-card>
-
-      <mide-card title="Unidade 2">
-        Lorem Ipsu
-      </mide-card>
-
-      <mide-card title="Unidade 3">
-        Lorem Ipsu
-      </mide-card>
+      <mide-card
+        v-for="(unit, index) in units"
+        :key="index"
+        :title="unit.title"
+        :unit="unit"
+      />
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+
+  data() {
+    return {
+      units: [
+        {
+          id: 'boas-vindas',
+          title: 'Boas Vindas',
+          description: 'Ensinando em um mundo digital'
+        },
+        {
+          id: 'ementa',
+          title: 'Ementa',
+          description: 'Introdução ao curso'
+        },
+        {
+          id: 'objetivos',
+          title: 'Objetivos de Aprendizagem',
+          description: ' Introdução ao curso'
+        },
+        {
+          id: 'unit1',
+          title: 'Unidade 1',
+          description: ' Lorem ipsu'
+        },
+        {
+          id: 'unit2',
+          title: 'Unidade 2',
+          description: ' Lorem ipsu'
+        },
+        {
+          id: 'unit3',
+          title: 'Unidade 3',
+          description: ' Lorem ipsu'
+        }
+      ]
+    }
+  }
 }
 </script>
 
