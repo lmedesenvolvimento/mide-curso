@@ -3,6 +3,7 @@ import Footer from './Footer.vue'
 import Navbar from './Navbar.vue'
 import BodyUnit from './BodyUnit.vue'
 import NavLateral from './NavLateral.vue'
+import Quotes from './Quotes.vue'
 
 const Components = {
   install: (Vue) => {
@@ -11,6 +12,7 @@ const Components = {
     Vue.component('mide-navbar', Navbar)
     Vue.component('body-unit', BodyUnit)
     Vue.component('nav-lateral', NavLateral)
+    Vue.component('quotes', Quotes)
   }
 }
 

@@ -52,7 +52,17 @@
         direitos das mulheres, ao exercício da sexualidade e à vida em
         comunidade.
       </div>
+      <div>
+        <center>
+          Todos esses aspectos acima chamamos de cultura. <br />
+          <b>Podemos definir cultura como: </b>
+        </center>
+      </div>
     </div>
+
+    <center><quotes /></center>
+
+    blablabla
   </div>
 </template>
 
