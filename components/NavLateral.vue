@@ -45,7 +45,6 @@
               <input class="radio" type="radio" name="answer" />
               <div class="nav-aula">
                 AULA 2
-
                 <p>Cibercultura e a educação</p>
               </div></a
             >
@@ -100,7 +99,9 @@ export default {}
       .dropdown-item {
         font: Regular 14px/16px Avenir Next LT Pro;
         letter-spacing: 0px;
-        flex-wrap: wrap;
+        p {
+          flex-wrap: wrap;
+        }
 
         .radio {
           position: absolute;

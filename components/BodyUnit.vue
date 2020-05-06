@@ -26,7 +26,7 @@
         aspectos permitem que essas mudanças culturais sejam incorporadas na
         sociedade, como por exemplo, contingências ambientais, consciência
         social e invenção ou desenvolvimento de tecnologias.
-        <br /><br /><br /><br />
+        <br /><br />
 
         Assim, a cultura é o entendimento pelo qual fazemos da forma como uma
         sociedade vive e se comporta socialmente. Também é preciso lembrar que a
@@ -60,9 +60,19 @@
       </div>
     </div>
 
-    <center><quotes /></center>
-
-    blablabla
+    <center>
+      <quotes />
+      <br />
+      Assim, a cultura é o entendimento pelo qual fazemos da forma como uma
+      sociedade vive e se comporta socialmente. Também é preciso lembrar que a
+      cultura é dinâmica. Portanto, ela muda com o tempo, algumas
+      características sociais são adquiridas, outras deixada de lado. Alguns
+      aspectos permitem que essas mudanças culturais sejam incorporadas na
+      sociedade, como por exemplo, contingências ambientais, consciência social
+      e invenção ou desenvolvimento de tecnologias.
+      <br />
+      <question /> <br />
+    </center>
   </div>
 </template>
 

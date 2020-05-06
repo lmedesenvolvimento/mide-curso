@@ -4,6 +4,7 @@ import Navbar from './Navbar.vue'
 import BodyUnit from './BodyUnit.vue'
 import NavLateral from './NavLateral.vue'
 import Quotes from './Quotes.vue'
+import Question from './Question.vue'
 
 const Components = {
   install: (Vue) => {
@@ -13,6 +14,7 @@ const Components = {
     Vue.component('body-unit', BodyUnit)
     Vue.component('nav-lateral', NavLateral)
     Vue.component('quotes', Quotes)
+    Vue.component('question', Question)
   }
 }
 
