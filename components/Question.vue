@@ -1,5 +1,5 @@
 <template
-  ><div class="border">
+  ><div class="question-border">
     <div class="question-box">
       <div class="question-text">
         <p>PERGUNTA!</p>
@@ -11,11 +11,34 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    id: {
+      type: Number,
+      required: true
+    },
+    question: {
+      type: String,
+      required: true
+    }
+  },
+
+  data() {
+    return {
+      questions: [
+        {
+          id: 1,
+          question:
+            ' 1 Lorem ip sum lo rem ipsum lore ipsum lorem ipem sum ip sum loremem ipsum ipsum lor em ipem sum ipsemum?'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">
-.border {
+.question-border {
   border-left: 7px solid #3153b2;
   border-radius: 6px 0px 0px 6px;
   width: 591px;

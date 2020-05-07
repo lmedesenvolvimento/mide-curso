@@ -72,6 +72,8 @@
       e invenção ou desenvolvimento de tecnologias.
       <br />
       <question /> <br />
+
+      <challenge />
     </center>
   </div>
 </template>
