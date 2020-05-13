@@ -1,5 +1,5 @@
 <template>
-  <h1>Units # {{ $route.params.id }}</h1>
+  <div><body-unit /></div>
 </template>
 
 <script>
