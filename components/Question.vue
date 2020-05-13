@@ -21,18 +21,6 @@ export default {
       type: String,
       required: true
     }
-  },
-
-  data() {
-    return {
-      questions: [
-        {
-          id: 1,
-          question:
-            ' 1 Lorem ip sum lo rem ipsum lore ipsum lorem ipem sum ip sum loremem ipsum ipsum lor em ipem sum ipsemum?'
-        }
-      ]
-    }
   }
 }
 </script>
