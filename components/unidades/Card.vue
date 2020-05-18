@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-one-third-desktop ">
+  <div class="mide-unidades-card column is-one-third-desktop">
     <div class="card">
       <div class="card-image">
         <figure class="image is-3by1"></figure>
@@ -34,13 +34,10 @@ export default {
 </script>
 
 <style lang="scss">
-.card {
+.mide-unidades-card {
   box-shadow: 0px 12px 19px #3c80d116;
   border-radius: 15px;
   opacity: 1;
-  width: 266px;
-  height: 192px;
-
   .image {
     background: transparent
       url('https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')

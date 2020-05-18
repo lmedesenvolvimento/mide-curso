@@ -2,7 +2,7 @@
   <div class="layout">
     <mide-navbar />
     <div class="container layout__content">
-      <nav-lateral />
+      <mide-aulas-navigation />
       <nuxt />
     </div>
     <mide-footer />

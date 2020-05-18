@@ -1,5 +1,5 @@
 <template>
-  <div class="card ">
+  <div class="mide-body-unit card">
     <nav-lateral />
 
     <div class="card-image">
@@ -83,7 +83,7 @@ export default {}
 </script>
 
 <style lang="scss">
-.card {
+.mide-body-unit.card {
   box-shadow: 0px 12px 19px #3c80d116;
   border-radius: 15px;
   opacity: 1;
