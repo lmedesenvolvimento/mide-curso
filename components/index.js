@@ -1,4 +1,6 @@
-import Card from './Card.vue'
+// Unidades
+import UnidadeCard from './unidades/Card.vue'
+
 import Footer from './Footer.vue'
 import Navbar from './Navbar.vue'
 import BodyUnit from './BodyUnit.vue'
@@ -9,7 +11,8 @@ import Challenge from './Challenge.vue'
 
 const Components = {
   install: (Vue) => {
-    Vue.component('mide-card', Card)
+    Vue.component('mide-unidade-card', UnidadeCard)
+
     Vue.component('mide-footer', Footer)
     Vue.component('mide-navbar', Navbar)
     Vue.component('body-unit', BodyUnit)

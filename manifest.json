@@ -1,0 +1,39 @@
+{
+  "unidades": [
+    {
+        "id": "boas-vindas",
+        "titulo": "Boas Vindas",
+        "descricao": "Ensinando em um mundo digital",
+        "aulas": [
+                { "id": "hello", "titulo": "Hello", "initial": true },
+                { "id": "components", "titulo": "Componentes" },
+                { "id": "about", "titulo": "About" }
+        ]
+    },
+    {
+            "id": "ementa",
+            "titulo": "Ementa",
+            "descricao": "Introdução ao curso"
+    },
+    {
+            "id": "objetivos",
+            "titulo": "Objetivos de Aprendizagem",
+            "descricao": "Introdução ao curso"
+    },
+    {
+            "id": "unit1",
+            "titulo": "Unidade 1",
+            "descricao": "Lorem ipsu"
+    },
+    {
+            "id": "unit2",
+            "titulo": "Unidade 2",
+            "descricao": "Lorem ipsu"
+    },
+    {
+            "id": "unit3",
+            "titulo": "Unidade 3",
+            "descricao": "Lorem ipsu"
+    }
+  ]
+}

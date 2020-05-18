@@ -1,19 +1,16 @@
 <template>
-  <div
-    class="column  
- is-one-third-desktop "
-  >
+  <div class="column is-one-third-desktop ">
     <div class="card">
       <div class="card-image">
         <figure class="image is-3by1"></figure>
       </div>
 
-      <nuxt-link to="/unidades/unit">
-        <p class="card-header-title">{{ title }}</p>
+      <nuxt-link :to="toLesson">
+        <p class="card-header-title">{{ unidade.titulo }}</p>
       </nuxt-link>
 
       <div class="card-content has-text-left">
-        <slot name="description" /> {{ unit.description }}
+        <slot name="description" /> {{ unidade.descricao }}
       </div>
     </div>
   </div>
@@ -22,17 +19,15 @@
 <script>
 export default {
   props: {
-    title: {
-      type: String,
-      required: true
-    },
-    icon: {
-      type: String,
-      required: true
-    },
-    unit: {
+    unidade: {
       type: Object,
       default: null
+    }
+  },
+  computed: {
+    toLesson() {
+      const lesson = this.unidade?.aulas?.find(({ initial }) => initial)
+      return `/unidades/${this.unidade?.id}/${lesson?.id}`
     }
   }
 }

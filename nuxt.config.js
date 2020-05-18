@@ -43,7 +43,9 @@ export default {
     'nuxt-buefy',
     '@nuxtjs/style-resources',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    // https://www.npmjs.com/package/@nuxtjs/markdownit
+    '@nuxtjs/markdownit'
   ],
   /*
    ** Axios module configuration
@@ -56,6 +58,16 @@ export default {
    */
   buefy: {
     css: false
+  },
+  /*
+   ** markdownit module configuration
+   ** See https://www.npmjs.com/package/@nuxtjs/markdownit
+   */
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+    breaks: true,
+    use: ['markdown-it-div', 'markdown-it-attrs']
   },
   /*
    ** Globals Styles

@@ -13,11 +13,10 @@
     </div>
 
     <div class="columns body-card">
-      <mide-card
-        v-for="(unit, index) in units"
+      <mide-unidade-card
+        v-for="(unidade, index) in $manifest.unidades"
         :key="index"
-        :title="unit.title"
-        :unit="unit"
+        :unidade="unidade"
       />
     </div>
   </section>
@@ -25,44 +24,7 @@
 
 <script>
 export default {
-  name: 'HomePage',
-
-  data() {
-    return {
-      units: [
-        {
-          id: 'boas-vindas',
-          title: 'Boas Vindas',
-          description: 'Ensinando em um mundo digital'
-        },
-        {
-          id: 'ementa',
-          title: 'Ementa',
-          description: 'Introdução ao curso'
-        },
-        {
-          id: 'objetivos',
-          title: 'Objetivos de Aprendizagem',
-          description: ' Introdução ao curso'
-        },
-        {
-          id: 'unit1',
-          title: 'Unidade 1',
-          description: ' Lorem ipsu'
-        },
-        {
-          id: 'unit2',
-          title: 'Unidade 2',
-          description: ' Lorem ipsu'
-        },
-        {
-          id: 'unit3',
-          title: 'Unidade 3',
-          description: ' Lorem ipsu'
-        }
-      ]
-    }
-  }
+  name: 'HomePage'
 }
 </script>
 

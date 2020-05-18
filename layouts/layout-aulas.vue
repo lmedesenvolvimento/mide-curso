@@ -2,6 +2,7 @@
   <div class="layout">
     <mide-navbar />
     <div class="container layout__content">
+      <nav-lateral />
       <nuxt />
     </div>
     <mide-footer />
@@ -11,19 +12,3 @@
 <script>
 export default {}
 </script>
-
-<style lang="scss">
-.layout {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  &__content {
-    flex: 1;
-    width: 100%;
-  }
-}
-</style>
