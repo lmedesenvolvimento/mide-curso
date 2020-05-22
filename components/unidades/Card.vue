@@ -1,6 +1,6 @@
 <template>
-  <div class="mide-unidades-card column is-one-third-desktop">
-    <div class="card">
+  <div class="column is-4">
+    <div class="card mide-unidades-card">
       <div class="card-image">
         <figure class="image is-3by1"></figure>
       </div>
@@ -41,7 +41,8 @@ export default {
   .image {
     background: transparent
       url('https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')
-      0% 0% no-repeat padding-box;
+      0% 0% no-repeat;
+    background-size: cover;
     border-radius: 15px 15px 0px 0px;
   }
   .card-header-title {

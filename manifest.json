@@ -14,41 +14,13 @@
             "id": "ementa",
             "titulo": "Ementa",
             "descricao": "Introdução ao curso",
-            "aulas": [
-                {
-                        "id": "hello",
-                        "titulo": "Hello",
-                        "initial": true
-                },
-                {
-                        "id": "components",
-                        "titulo": "Componentes"
-                },
-                {
-                        "id": "about",
-                        "titulo": "About"
-                }
-        ]
+            "aulas": []
     },
     {
             "id": "objetivos",
             "titulo": "Objetivos de Aprendizagem",
             "descricao": "Introdução ao curso",
-            "aulas": [
-                {
-                        "id": "hello",
-                        "titulo": "Hello",
-                        "initial": true
-                },
-                {
-                        "id": "components",
-                        "titulo": "Componentes"
-                },
-                {
-                        "id": "about",
-                        "titulo": "About"
-                }
-        ]
+            "aulas": []
     }
   ]
 }

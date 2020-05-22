@@ -1,8 +1,10 @@
 <template>
   <div class="layout">
     <mide-navbar />
-    <div class="container layout__content">
-      <nuxt />
+    <div class="layout__content">
+      <div class="container">
+        <nuxt />
+      </div>
     </div>
     <mide-footer />
   </div>
@@ -14,16 +16,10 @@ export default {}
 
 <style lang="scss">
 .layout {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
   &__content {
-    flex: 1;
     width: 100%;
+    height: auto;
+    min-height: 66vh;
   }
 }
 </style>
