@@ -43,6 +43,7 @@ export default {}
 .mide-footer {
   height: $footer-height;
   color: $white;
+  margin-top: $gap * 4;
   background-color: #a49ea0;
   > .container,
   > .container > .columns {

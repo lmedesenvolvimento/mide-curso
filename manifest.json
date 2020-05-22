@@ -1,0 +1,26 @@
+{
+  "unidades": [
+    {
+        "id": "boas-vindas",
+        "titulo": "Boas Vindas",
+        "descricao": "Ensinando em um mundo digital",
+        "aulas": [
+                { "id": "hello", "titulo": "Hello", "initial": true },
+                { "id": "components", "titulo": "Componentes" },
+                { "id": "about", "titulo": "About" }
+        ]
+    },
+    {
+            "id": "ementa",
+            "titulo": "Ementa",
+            "descricao": "Introdução ao curso",
+            "aulas": []
+    },
+    {
+            "id": "objetivos",
+            "titulo": "Objetivos de Aprendizagem",
+            "descricao": "Introdução ao curso",
+            "aulas": []
+    }
+  ]
+}
