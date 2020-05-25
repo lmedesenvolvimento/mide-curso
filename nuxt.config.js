@@ -47,6 +47,9 @@ export default {
     // https://www.npmjs.com/package/@nuxtjs/markdownit
     '@nuxtjs/markdownit'
   ],
+  router: {
+    middleware: 'before-route-change'
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

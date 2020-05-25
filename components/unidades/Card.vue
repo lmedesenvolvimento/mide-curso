@@ -27,7 +27,7 @@ export default {
   computed: {
     toLesson() {
       const lesson = this.unidade?.aulas?.find(({ initial }) => initial)
-      return `/unidades/${this.unidade?.id}/${lesson?.id}`
+      return `/${this.unidade?.id}/${lesson?.id}/artigos/${lesson?.id}`
     }
   }
 }
