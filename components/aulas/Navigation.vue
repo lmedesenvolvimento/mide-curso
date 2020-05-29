@@ -40,6 +40,7 @@
               name="answer"
               :checked="isLessonActive(aula)"
             />
+            <br />
             <div class="mide-aulas-navigation-title">
               AULA {{ i + 1 }}
               <p>{{ aula.titulo }}</p>
@@ -48,6 +49,7 @@
         </div>
       </div>
     </b-collapse>
+    <br />
   </section>
 </template>
 
@@ -77,14 +79,39 @@ export default {
 <style lang="scss">
 .mide-aulas-navigation {
   position: absolute;
-  right: 0;
+  right: -32px;
   top: 24px;
+  border: 1px solid #e8e8e8;
+  border-radius: 25px;
+  opacity: 1;
+
+  .card-header-title {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #c0315f;
+    text-transform: uppercase;
+  }
+
   &-item {
     align-items: center;
   }
   &-title {
     flex: 1;
     margin-left: 16px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #545454;
+    :active {
+      color: #a9b4d4;
+    }
+    p {
+      font-weight: normal;
+      font-size: 14px;
+      letter-spacing: 0px;
+      color: #8c8d8e;
+    }
   }
   &-unidade {
     &-text {
