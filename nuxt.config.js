@@ -1,10 +1,8 @@
 const router =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
-        router: {
-          base: '/mide-curso/',
-          middleware: 'before-route-change'
-        }
+        base: '/mide-curso/',
+        middleware: 'before-route-change'
       }
     : { middleware: 'before-route-change' }
 
