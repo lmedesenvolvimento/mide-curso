@@ -1,6 +1,6 @@
 <template>
   <section class="mide-aulas-navigation">
-    <div class="card-header">
+    <div id="card-header-top" class="card-header">
       <p class="card-header-title"></p>
       <a class="card-header-icon">
         <b-icon icon="close"> </b-icon>
@@ -26,6 +26,7 @@
       <p class="mide-aulas-navigation-unidade-text">
         {{ unidade.titulo }}
       </p>
+      <hr class="dropdown-divider" />
       <div class="card-content">
         <div class="content">
           <nuxt-link
@@ -44,12 +45,12 @@
             <div class="mide-aulas-navigation-title">
               AULA {{ i + 1 }}
               <p>{{ aula.titulo }}</p>
+              <hr class="dropdown-divider" />
             </div>
           </nuxt-link>
         </div>
       </div>
     </b-collapse>
-    <br />
   </section>
 </template>
 
@@ -84,6 +85,13 @@ export default {
   border: 1px solid #e8e8e8;
   border-radius: 25px;
   opacity: 1;
+  :last-child {
+    border-radius: 0 0 25px 25px;
+  }
+
+  #card-header-top {
+    border-radius: 25px 25px 0 0;
+  }
 
   .card-header-title {
     font-weight: bold;
@@ -96,6 +104,7 @@ export default {
   &-item {
     align-items: center;
   }
+
   &-title {
     flex: 1;
     margin-left: 16px;
@@ -119,11 +128,27 @@ export default {
       text-align: center;
     }
   }
+
   .collapse {
+    &:last-child {
+      border-radius: 0 0 25px 25px;
+    }
+
     &-content {
       height: 240px;
       overflow-x: hidden;
       overflow-y: auto;
+      padding: 0 30px 15px 30px;
+      .radio {
+        border: 1px solid #3153b2;
+        opacity: 1;
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+      }
+      .mide-aulas-navigation-title {
+        padding-top: 20px;
+      }
     }
   }
 }
