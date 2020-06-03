@@ -35,6 +35,7 @@
             :key="aula.id"
             :to="lessonUrl(unidade, aula)"
             class="mide-aulas-navigation-item columns"
+            :class="{ 'is-active': isLessonActive(aula) }"
           >
             <input
               class="radio"
