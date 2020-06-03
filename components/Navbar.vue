@@ -54,6 +54,7 @@ export default {
 .mide-navbar {
   > .container {
     .navbar-brand {
+      margin-left: 0px;
       a:not([aria-label='menu']) {
         display: flex;
         align-items: center;
@@ -78,6 +79,7 @@ export default {
 
   @media (max-width: $tablet) {
     .navbar-brand {
+      margin-left: $gap;
       a:not([aria-label='menu']) {
         margin-left: $gap;
       }
