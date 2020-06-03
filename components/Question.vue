@@ -13,18 +13,7 @@
 </template>
 
 <script>
-export default {
-  props: {
-    id: {
-      type: Number,
-      required: true
-    },
-    question: {
-      type: String,
-      required: true
-    }
-  }
-}
+export default {}
 </script>
 
 <style lang="scss">

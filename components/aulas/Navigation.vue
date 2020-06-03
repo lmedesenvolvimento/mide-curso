@@ -32,7 +32,7 @@
           <nuxt-link
             v-for="(aula, i) in unidade.aulas"
             :key="aula.id"
-            :to="lessonUrl(aula)"
+            :to="lessonUrl(unidade, aula)"
             class="mide-aulas-navigation-item columns"
           >
             <input
@@ -68,10 +68,8 @@ export default {
       const lessonSlug = last(this.$route.name.split('-'))
       return lessonSlug === aula.id
     },
-    lessonUrl(aula) {
-      const lessonPath = this.$route.name.split('-')
-      lessonPath[lessonPath.length - 1] = aula.id
-      return '/' + lessonPath.join('/')
+    lessonUrl(unidade, aula) {
+      return `/${unidade.id}/${aula.id}/artigos/${aula.id}`
     }
   }
 }

@@ -1,3 +1,11 @@
+const router =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        base: '/mide-curso/',
+        middleware: 'before-route-change'
+      }
+    : { middleware: 'before-route-change' }
+
 export default {
   mode: 'spa',
   /*
@@ -47,6 +55,7 @@ export default {
     // https://www.npmjs.com/package/@nuxtjs/markdownit
     '@nuxtjs/markdownit'
   ],
+  router,
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
@@ -75,7 +84,8 @@ export default {
   styleResources: {
     scss: [
       '~assets/styles/globals/_functions.scss',
-      '~assets/styles/globals/_variables.scss'
+      '~assets/styles/globals/_variables.scss',
+      '~assets/styles/globals/_mixins.scss'
     ]
   },
   /*

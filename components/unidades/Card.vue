@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-4">
+  <div class="column is-4-desktop is-6-tablet is-12-mobile">
     <div class="card mide-unidades-card">
       <div class="card-image">
         <figure class="image is-3by1"></figure>
@@ -27,7 +27,7 @@ export default {
   computed: {
     toLesson() {
       const lesson = this.unidade?.aulas?.find(({ initial }) => initial)
-      return `/unidades/${this.unidade?.id}/${lesson?.id}`
+      return `/${this.unidade?.id}/${lesson?.id}/artigos/${lesson?.id}`
     }
   }
 }
@@ -50,8 +50,8 @@ export default {
     letter-spacing: 1.2px;
     color: #c0315f;
     text-transform: uppercase;
-    padding-top: 8%;
-    margin-bottom: -8%;
+    padding: 1.5rem 1.5rem 0px;
+    margin-bottom: $gap * -0.5;
   }
   .card-content {
     font-size: 14px;
