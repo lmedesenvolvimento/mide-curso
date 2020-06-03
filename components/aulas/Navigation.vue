@@ -81,7 +81,7 @@ export default {
 .mide-aulas-navigation {
   position: absolute;
   right: -32px;
-  top: 24px;
+
   border: 1px solid #e8e8e8;
   opacity: 1;
   border-radius: 25px;
@@ -123,7 +123,7 @@ export default {
       border-radius: 0 0 25px 25px;
     }
     &-text {
-      padding: 16px 0px;
+      padding: 20px 0px;
       text-align: center;
     }
   }
@@ -144,9 +144,13 @@ export default {
         width: 22px;
         height: 22px;
         margin-right: 10px;
+        margin-bottom: 15px;
       }
       .mide-aulas-navigation-title {
-        padding-top: 20px;
+        padding-top: 15px;
+        p {
+          margin-bottom: 30px;
+        }
       }
     }
   }
