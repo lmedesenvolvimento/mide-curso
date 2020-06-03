@@ -12,8 +12,9 @@
       class="card mide-aulas-navigation-unidade"
       animation="slide"
       :open="isOpen == index"
-      :class="{ 'is-active': isOpen == index }"
+      :class="{ 'is-active': isOpen === index }"
       @open="isOpen = index"
+      @close="isOpen = undefined"
     >
       <div slot="trigger" slot-scope="props" class="card-header" role="button">
         <p class="card-header-title">
@@ -81,16 +82,12 @@ export default {
   right: -32px;
   top: 24px;
   border: 1px solid #e8e8e8;
-  border-radius: 25px;
   opacity: 1;
-  :last-child {
-    border-radius: 0 0 25px 25px;
-  }
+  border-radius: 25px;
 
   #card-header-top {
     border-radius: 25px 25px 0 0;
   }
-
   .card-header-title {
     font-weight: bold;
     font-size: 12px;
@@ -121,6 +118,9 @@ export default {
     }
   }
   &-unidade {
+    &:last-child:not(.is-active) .card-header {
+      border-radius: 0 0 25px 25px;
+    }
     &-text {
       padding: 16px 0px;
       text-align: center;
