@@ -1,3 +1,6 @@
+// Plugins
+import RadialProgressBar from 'vue-radial-progress'
+
 // Unidades
 import UnidadeCard from './unidades/Card.vue'
 
@@ -24,8 +27,10 @@ const Components = {
     Vue.component('challenge', Challenge)
 
     Vue.component('mide-unidade-card', UnidadeCard)
-
     Vue.component('mide-aulas-navigation', AulasNavigation)
+
+    // plugins
+    Vue.component('mide-radial-progress', RadialProgressBar)
   }
 }
 
