@@ -151,4 +151,12 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: $widescreen) {
+  .mide-aulas-navigation {
+    position: static;
+    max-width: $tablet;
+    margin: $gap auto;
+  }
+}
 </style>

@@ -7,6 +7,14 @@ const getters = {
     return state.aulas.data.filter((a) => {
       return a.unidadeId === unidade.id
     })
+  },
+  getCurrentUnidade(state) {
+    const unidadeId = state.unidades.current?.id
+    return state.unidades.data.find(({ id }) => unidadeId === id)
+  },
+  getCurrentAula(state) {
+    const aulaId = state.aulas.current?.id
+    return state.aulas.data.find(({ id }) => aulaId === id)
   }
 }
 

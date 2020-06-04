@@ -5,9 +5,22 @@
         "titulo": "Boas Vindas",
         "descricao": "Ensinando em um mundo digital",
         "aulas": [
-                { "id": "hello", "titulo": "Hello", "initial": true },
-                { "id": "components", "titulo": "Componentes" },
-                { "id": "about", "titulo": "About" }
+                { 
+                        "id": "hello", 
+                        "titulo": "Hello", 
+                        "descricao": "Cupidatat incididunt laboris cupidatat duis eu adipisicing quis aliquip.",
+                        "initial": true 
+                },
+                { 
+                        "id": "components", 
+                        "titulo": "Componentes",
+                        "descricao": "Aliqua anim qui nulla duis ipsum ipsum ea qui laborum. Officia est eu in culpa."
+                 },
+                { 
+                        "id": "about", 
+                        "titulo": "About",
+                        "descricao": "Tempor aliquip adipisicing nulla duis."
+                 }
         ]
     },
     {

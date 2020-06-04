@@ -54,7 +54,6 @@ export default {
 .mide-navbar {
   > .container {
     .navbar-brand {
-      margin-left: 0px;
       a:not([aria-label='menu']) {
         display: flex;
         align-items: center;
@@ -73,16 +72,18 @@ export default {
       }
     }
   }
-  @media (min-width: $desktop) {
-    padding: 0px !important;
+  @media (max-width: $desktop) {
+    padding: 0px;
+    > .container {
+      .navbar-brand {
+        margin-left: $gap;
+      }
+    }
   }
 
   @media (max-width: $tablet) {
     .navbar-brand {
-      margin-left: $gap;
-      a:not([aria-label='menu']) {
-        margin-left: $gap;
-      }
+      margin-left: $gap / 2;
     }
     .navbar-end {
       .top-navbar-item {
