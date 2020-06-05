@@ -54,14 +54,75 @@
         social e invenção ou desenvolvimento de tecnologias.
       </p>
       <question />
-      <challenge />
     </center>
+    <div class="title">Form Button</div>
+
+    <challenge name="challege-1" :options="challenge" correct="capitalismo">
+      <template slot="quesiton">
+        <div class="question-title">DESAFIO!</div>
+        <p>
+          Quais dessas palavras você acha que o movimento da contracultura era
+          contra?
+        </p>
+      </template>
+    </challenge>
+
+    <div class="title">Customs Form Button</div>
+
+    <challenge name="challege-2" :options="challenge" correct="capitalismo">
+      <template slot="quesiton">
+        <div class="question-title">DESAFIO!</div>
+        <p>
+          Tempor dolor nostrud ex et incididunt labore aliqua reprehenderit
+          culpa occaecat amet id.
+        </p>
+      </template>
+      <template #option="{option, disabled, active}">
+        <b-button
+          :type="active ? 'is-danger' : 'is-light'"
+          tag="a"
+          :disabled="disabled"
+          >{{ option.text }}</b-button
+        >
+      </template>
+    </challenge>
+
+    <challenge name="challege-3" :options="challenge" correct="capitalismo">
+      <template slot="quesiton">
+        <div class="question-title">DESAFIO!</div>
+        <p>
+          Voluptate minim pariatur elit nisi mollit sunt voluptate
+          reprehenderit.
+        </p>
+      </template>
+      <template #option="{option, model, disabled, setModel}">
+        <label class="radio">
+          <input
+            type="radio"
+            name="answer"
+            :disabled="disabled"
+            @input="() => setModel(option)"
+          />
+          {{ option.text }}
+        </label>
+      </template>
+    </challenge>
   </article>
 </template>
 
 <script>
 export default {
-  layout: 'layout-aulas'
+  layout: 'layout-aulas',
+  data() {
+    return {
+      challenge: [
+        { text: 'Comunismo', value: 'comunismo' },
+        { text: 'Capitalismo', value: 'capitalismo' },
+        { text: 'Luta de Classe', value: 'luta-de-classe' },
+        { text: 'Ditadura', value: 'ditadura' }
+      ]
+    }
+  }
 }
 </script>
 

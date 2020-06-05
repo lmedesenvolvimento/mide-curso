@@ -2,64 +2,139 @@
   <div class="challenge">
     <div class="challenge-box">
       <div class="challenge-question">
-        <p>DESAFIO!</p>
-        Quais dessas palavras você acha que o movimento da contracultura era
-        contra?
+        <slot name="quesiton" />
       </div>
       <div class="challenge-options">
-        <button class="button is-white is-r">Capitalismo</button>
-        <button class="button is-white">Consumismo</button>
-        <button class="button is-white">Luta de Classes</button>
-        <button class="button is-white">Ditadura</button>
+        <label
+          v-for="option in options"
+          :key="option.value"
+          class="challenge-option"
+          :class="{ 'is-checked': option.checked }"
+        >
+          <span class="challenge-option-wrap">
+            <slot
+              name="option"
+              :option="option"
+              :model="selectedOption"
+              :active="isSelected(option)"
+              :disabled="disabled"
+              :setModel="select"
+            >
+              <b-button
+                tag="a"
+                :type="isSelected(option) ? 'is-primary' : 'is-light'"
+                :disabled="disabled"
+                >{{ option.text }}</b-button
+              >
+            </slot>
+          </span>
+          <input
+            :name="name"
+            type="radio"
+            :value="option.value"
+            class="challenge-radio"
+            @change="select(option)"
+          />
+        </label>
       </div>
-      <button class="button is-rounded ">Verificar</button>
+      <button
+        name="challenge"
+        class="challenge-submit button is-rounded "
+        :disabled="disabled"
+        @click="submit"
+      >
+        {{ submitBtnText }}
+      </button>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    name,
+    correct: {
+      type: String,
+      default: null
+    },
+    submitBtnText: {
+      type: String,
+      default: 'Verificar'
+    },
+    options: {
+      type: null,
+      default: []
+    }
+  },
+  data() {
+    return {
+      selectedOption: undefined,
+      disabled: false
+    }
+  },
+  created() {
+    this.$on('change', (value) => {
+      this.selectedOption = value
+    })
+  },
+  methods: {
+    isSelected(option) {
+      return this.selectedOption === option.value
+    },
+    select(option) {
+      this.$emit('change', option.value)
+    },
+    submit() {
+      const valid = this.correct === this.selectedOption
+      this.disabled = valid
+      alert(valid ? 'Parabéns Correto' : 'Falha errado')
+    }
+  }
+}
 </script>
 
 <style lang="scss">
 .challenge {
+  user-select: none;
   margin-bottom: 1.5rem;
-  .challenge-box {
-    width: 859px;
-    height: 250px;
-    background: #e4e9f2 0% 0% no-repeat padding-box;
-  }
-  .challenge-options {
-    padding: 15px;
+  text-align: center;
 
-    .is-white {
-      width: 133px;
-      height: 46px;
-      border-radius: 15px;
-      margin: 8px;
-      text-align: center;
-      box-shadow: 5px 5px 15px #3c80d116;
-      font: 12px avenir-next-lt-pro-bold;
-      letter-spacing: 1px;
-      color: #545454;
-      opacity: 1;
-      text-transform: uppercase;
-    }
+  &-box {
+    width: 100%;
+    padding: $gap;
+    background: #e4e9f2;
+    border-radius: $radius;
   }
-  .challenge-question {
-    padding: 20px;
+
+  &-options {
+    @include avenir;
+    margin: $gap 0px;
+  }
+
+  &-option {
+    margin: 0px ($gap / 4);
+  }
+
+  &-question {
     text-align: center;
     font-size: 14px;
     letter-spacing: 0px;
     color: #4b4b4b;
     opacity: 1;
 
-    p {
-      font: Bold 12px avenir-next-lt-pro-bold;
-      letter-spacing: 1px;
+    .question-title {
+      @include avenir-bold;
       color: #c0315f;
-      margin: 5px 0 10px 0;
+      margin-bottom: $gap;
     }
+  }
+
+  &-submit {
+    margin-top: 0px;
+  }
+
+  &-radio {
+    display: none;
   }
 
   .is-rounded {
@@ -72,7 +147,6 @@ export default {}
     text-transform: uppercase;
     font: Bold 12px avenir-next-lt-pro-bold;
     letter-spacing: 1px;
-    margin-top: 5px;
   }
 }
 </style>
