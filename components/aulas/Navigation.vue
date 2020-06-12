@@ -81,7 +81,7 @@ export default {
 .mide-aulas-navigation {
   position: absolute;
   right: -32px;
-  top: 24px;
+
   border: 1px solid #e8e8e8;
   opacity: 1;
   border-radius: 25px;
@@ -99,20 +99,22 @@ export default {
 
   &-item {
     align-items: center;
+
+    :active {
+      color: #3153b2;
+    }
   }
 
   &-title {
     flex: 1;
     margin-left: 16px;
-    font-weight: bold;
+    font-family: avenir-next-lt-pro-bold;
     font-size: 12px;
     letter-spacing: 1.2px;
     color: #545454;
-    :active {
-      color: #a9b4d4;
-    }
+
     p {
-      font-weight: normal;
+      font-family: avenir-next-lt-pro-regular;
       font-size: 14px;
       letter-spacing: 0px;
       color: #8c8d8e;
@@ -123,7 +125,7 @@ export default {
       border-radius: 0 0 25px 25px;
     }
     &-text {
-      padding: 16px 0px;
+      padding: 20px 0px;
       text-align: center;
     }
   }
@@ -138,15 +140,21 @@ export default {
       overflow-x: hidden;
       overflow-y: auto;
       padding: 0 30px 15px 30px;
+
       .radio {
-        border: 1px solid #3153b2;
+        border: 1px solid #c2c2c2;
         opacity: 1;
         width: 22px;
         height: 22px;
         margin-right: 10px;
+        margin-bottom: 15px;
       }
+
       .mide-aulas-navigation-title {
-        padding-top: 20px;
+        padding-top: 15px;
+        p {
+          margin-bottom: 30px;
+        }
       }
     }
   }
