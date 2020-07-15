@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-4-desktop is-6-tablet is-12-mobile">
+  <div class="column is-3-desktop is-6-tablet is-12-mobile">
     <div class="card mide-unidades-card">
       <div class="card-image">
         <figure class="image is-3by1"></figure>
@@ -11,6 +11,10 @@
 
       <div class="card-content has-text-left">
         <slot name="description" /> {{ unidade.descricao }}
+        <div class="mide-progress">
+          30%
+          <progress class="progress is-info" value="30" max="100"></progress>
+        </div>
       </div>
     </div>
   </div>
@@ -55,6 +59,16 @@ export default {
   }
   .card-content {
     font-size: 14px;
+  }
+
+  .mide-progress {
+    margin-top: 16px;
+    color: #3153b2;
+    font: 12px/15px avenir-next-lt-pro-bold;
+    .progress {
+      width: 85%;
+      float: right;
+    }
   }
 }
 </style>
