@@ -38,6 +38,7 @@ export default {
 <style lang="scss">
 .mide-home-page {
   padding: 3.5rem 0px;
+  min-height: 100vh;
   @media (max-width: $tablet) {
     > .container > .columns {
       display: flex;

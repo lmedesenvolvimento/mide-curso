@@ -39,6 +39,7 @@ export default {
   position: absolute;
   opacity: 1;
   width: 850px;
+  min-height: 100vh;
   max-width: $tablet;
   margin: ($gap * 2) 64px;
   .card-image {
@@ -102,6 +103,12 @@ export default {
       justify-content: center;
       padding-bottom: 0px;
     }
+  }
+  .mide-aulas-navigation {
+    float: none;
+    margin-top: 400px;
+    width: 100%;
+    right: 0;
   }
 }
 </style>
