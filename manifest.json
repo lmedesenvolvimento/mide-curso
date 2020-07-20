@@ -1,11 +1,12 @@
-{
-  "unidades": [
-        {
-                "id": "sobre",
-                "titulo": "SOBRE O CURSO",
-                "descricao": "Ementa e objetivos de aprendizagem",
-                "aulas":[]
-        },
+ {
+         "unidades": [
+
+                {
+                        "id": "sobre",
+                        "titulo": "SOBRE O CURSO",
+                        "descricao": "Ementa e objetivos de aprendizagem",
+                        "aulas":[]
+                },
 
     {
         "id": "boas-vindas",

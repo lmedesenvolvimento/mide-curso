@@ -79,13 +79,10 @@ export default {
 
 <style lang="scss">
 .mide-aulas-navigation {
-  position: absolute;
   right: -32px;
-
   border: 1px solid #e8e8e8;
   opacity: 1;
   border-radius: 25px;
-
   #card-header-top {
     border-radius: 25px 25px 0 0;
   }
@@ -162,7 +159,7 @@ export default {
 
 @media screen and (max-width: $widescreen) {
   .mide-aulas-navigation {
-    position: static;
+    position: relative;
     max-width: $tablet;
     margin: $gap auto;
   }

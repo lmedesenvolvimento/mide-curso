@@ -36,9 +36,11 @@ export default {
 .mide-lesson {
   box-shadow: 0px 12px 19px #3c80d116;
   border-radius: 15px;
+  position: absolute;
   opacity: 1;
+  width: 850px;
+  min-height: 100vh;
   max-width: $tablet;
-  height: 100%;
   margin: ($gap * 2) 64px;
   .card-image {
     background: transparent url('~assets/images/bannerunit.png') 0% 0% no-repeat
@@ -84,6 +86,12 @@ export default {
     margin-bottom: 1.5rem;
   }
 }
+.mide-aulas-navigation {
+  float: right;
+  width: 258px;
+  margin-top: 64px;
+}
+
 @media screen and (max-width: $widescreen) {
   #aula {
     padding: 16px;
@@ -95,6 +103,12 @@ export default {
       justify-content: center;
       padding-bottom: 0px;
     }
+  }
+  .mide-aulas-navigation {
+    float: none;
+    margin-top: 400px;
+    width: 100%;
+    right: 0;
   }
 }
 </style>
