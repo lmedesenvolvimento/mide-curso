@@ -79,9 +79,7 @@ export default {
 
 <style lang="scss">
 .mide-aulas-navigation {
-  position: absolute;
   right: -32px;
-
   border: 1px solid #e8e8e8;
   opacity: 1;
   border-radius: 25px;

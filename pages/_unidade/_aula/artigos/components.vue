@@ -1,5 +1,5 @@
 <template>
-  <article id="componetes">
+  <article id="componentes">
     <p>
       Assim, a cultura é o entendimento pelo qual fazemos da forma como uma
       sociedade vive e se comporta socialmente. Também é preciso lembrar que a
