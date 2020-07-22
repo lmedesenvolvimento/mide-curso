@@ -3,7 +3,7 @@
     <div id="card-header-top" class="card-header">
       <p class="card-header-title"></p>
       <a class="card-header-icon">
-        <b-icon icon="close"> </b-icon>
+        <b-icon icon="close"></b-icon>
       </a>
     </div>
     <b-collapse
@@ -17,16 +17,12 @@
       @close="isOpen = undefined"
     >
       <div slot="trigger" slot-scope="props" class="card-header" role="button">
-        <p class="card-header-title">
-          {{ unidade.titulo }}
-        </p>
+        <p class="card-header-title">{{ unidade.titulo }}</p>
         <a class="card-header-icon">
-          <b-icon :icon="props.open ? 'menu-down' : 'menu-up'"> </b-icon>
+          <b-icon :icon="props.open ? 'menu-down' : 'menu-up'"></b-icon>
         </a>
       </div>
-      <p class="mide-aulas-navigation-unidade-text">
-        {{ unidade.titulo }}
-      </p>
+      <p class="mide-aulas-navigation-unidade-text">{{ unidade.descricao }}</p>
       <hr class="dropdown-divider" />
       <div class="card-content">
         <div class="content">
@@ -43,10 +39,11 @@
               name="answer"
               :checked="isLessonActive(aula)"
             />
+
             <br />
             <div class="mide-aulas-navigation-title">
-              AULA {{ i + 1 }}
-              <p>{{ aula.titulo }}</p>
+              <div id="tituloaula">{{ aula.titulo }} {{ i++ }}</div>
+              <p>{{ aula.descricao }}</p>
               <hr class="dropdown-divider" />
             </div>
           </nuxt-link>
@@ -149,6 +146,9 @@ export default {
 
       .mide-aulas-navigation-title {
         padding-top: 15px;
+        #tituloaula {
+          text-transform: uppercase;
+        }
         p {
           margin-bottom: 30px;
         }

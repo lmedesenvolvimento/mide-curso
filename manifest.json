@@ -1,48 +1,46 @@
- {
-         "unidades": [
-
-                {
-                        "id": "sobre",
-                        "titulo": "SOBRE O CURSO",
-                        "descricao": "Ementa e objetivos de aprendizagem",
-                        "aulas":[]
-                },
+{
+  "unidades": [
+    {
+      "id": "sobre",
+      "titulo": "SOBRE O CURSO",
+      "descricao": "Ementa e objetivos de aprendizagem",
+      "aulas": []
+    },
 
     {
-        "id": "boas-vindas",
-        "titulo": "UNIDADE I",
-        "descricao": "Ensinando em um mundo digital",
-        "aulas": [
-                { 
-                        "id": "hello", 
-                        "titulo": "Hello", 
-                        "descricao": "Cupidatat incididunt laboris cupidatat duis eu adipisicing quis aliquip.",
-                        "initial": true 
-                },
-                { 
-                        "id": "components", 
-                        "titulo": "Componentes",
-                        "descricao": "Aliqua anim qui nulla duis ipsum ipsum ea qui laborum. Officia est eu in culpa."
-                 },
-                { 
-                        "id": "about", 
-                        "titulo": "About",
-                        "descricao": "Tempor aliquip adipisicing nulla duis."
-                 }
-        ]
+      "id": "boas-vindas",
+      "titulo": "UNIDADE I",
+      "descricao": "Ensinando em um mundo digital",
+      "aulas": [
+        {
+          "id": "hello",
+          "titulo": "Introdução",
+          "descricao": "Unidade I",
+          "initial": true
+        },
+        {
+          "id": "components",
+          "titulo": "Temática",
+          "descricao": "Cibercultura e a educação"
+        },
+        {
+          "id": "about",
+          "titulo": "Temática",
+          "descricao": "A cultura digital na BNCC"
+        }
+      ]
     },
     {
-            "id": "ementa",
-            "titulo": "UNIDADE II",
-            "descricao": "Conhecendo recursos digitais educacionais",
-            "aulas": []
+      "id": "ementa",
+      "titulo": "UNIDADE II",
+      "descricao": "Conhecendo recursos digitais educacionais",
+      "aulas": []
     },
     {
-            "id": "objetivos",
-            "titulo": "UNIDADE III",
-            "descricao": "Planejando aulas com os RED",
-            "aulas": []
+      "id": "objetivos",
+      "titulo": "UNIDADE III",
+      "descricao": "Planejando aulas com os RED",
+      "aulas": []
     }
-
-]
+  ]
 }

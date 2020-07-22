@@ -5,11 +5,7 @@
         <figure class="mide-lesson-image"></figure>
         <div class="header">
           <h3>{{ unidade.titulo }}</h3>
-          <h1>{{ aula.titulo }}</h1>
-
-          <p>
-            {{ aula.descricao }}
-          </p>
+          <h1>{{ unidade.descricao }}</h1>
         </div>
       </div>
       <div class="card-content">
@@ -38,9 +34,8 @@ export default {
   border-radius: 15px;
   position: absolute;
   opacity: 1;
-  width: 850px;
+  width: 800px;
   min-height: 100vh;
-  max-width: $tablet;
   margin: ($gap * 2) 64px;
   .card-image {
     background: transparent url('~assets/images/bannerunit.png') 0% 0% no-repeat
@@ -67,18 +62,15 @@ export default {
     height: 100%;
     color: #fff;
     position: relative;
-    padding-bottom: $gap;
+    padding-bottom: 1.5 * $gap;
     z-index: 5;
-    p {
-      max-width: 75%;
-      margin: 8px auto;
-    }
     h1 {
-      font: Bold 28px/37px Segoe UI;
+      margin-top: 8px;
+      font: 28px avenir-next-lt-pro-bold;
     }
     h3 {
       text-transform: uppercase;
-      font: Bold 14px/16px Avenir Next LT Pro;
+      font: 18px avenir-next-lt-pro-bold;
       letter-spacing: 1.4px;
     }
   }
@@ -88,7 +80,7 @@ export default {
 }
 .mide-aulas-navigation {
   float: right;
-  width: 258px;
+  width: 260px;
   margin-top: 64px;
 }
 

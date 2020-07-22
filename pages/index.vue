@@ -1,7 +1,7 @@
 <template>
   <section class="mide-home-page">
     <div class="container">
-      <img src="~assets/images/headcurso.png" class="mide-cabecalho" />
+      <img src="~assets/images/imagem-inicio.png" class="mide-cabecalho" />
       <div class="mide-cabecalho-text">
         <h3 class="has-text-left">Aproveite os estudos!</h3>
         <h1>Uso de recursos educativos digitais</h1>
@@ -47,6 +47,7 @@ export default {
   }
   .mide-cabecalho {
     margin-bottom: 20px;
+    width: 790px;
   }
   .mide-cabecalho-text {
     float: right;
@@ -56,11 +57,14 @@ export default {
       letter-spacing: 1.2px;
       color: #c0315f;
       text-transform: uppercase;
-      margin-top: 50px;
+      margin-top: 40px;
     }
     h1 {
       font: 35px avenir-next-lt-pro-bold;
       margin-bottom: 24px;
+    }
+    p {
+      font-size: 18px;
     }
   }
 
