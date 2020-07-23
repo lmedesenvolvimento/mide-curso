@@ -8,7 +8,7 @@
   <center>
   <button
         name="prosseguir"
-        class="button is-rounded "
+        class="button prosseguir"
         :disabled="disabled"
         @click="submit"
   /></center>
@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .mide-explicacao {
   float: left;
 }
@@ -30,7 +30,7 @@ export default {
   text-indent: 50px;
 }
 
-.button {
+.prosseguir {
   margin-top: 32px;
   background-image: url('~assets/images/botao-prosseguir.png');
   width: 145px;

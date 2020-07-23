@@ -28,7 +28,7 @@ export default {}
 .quotes {
   margin-bottom: 1.5rem;
   .quotes-image {
-    margin-left: 80px;
+    margin-left: 24px;
     margin-top: -172px;
     position: absolute;
   }
@@ -40,7 +40,7 @@ export default {}
     border-radius: 25px;
     opacity: 0.35;
     position: absolute;
-    margin-left: 120px;
+    margin-left: 64px;
     margin-top: -18px;
   }
 
@@ -60,11 +60,12 @@ export default {}
 
     .quotes-text {
       text-align: left;
-      font: Regular 14px/19px Avenir Next LT Pro;
+      font-size: 14px;
       letter-spacing: 0px;
       color: #4b4b4b;
       margin-left: 30px;
       width: 454px;
+
       height: 56px;
     }
     .quotes-author {
