@@ -1,18 +1,24 @@
 //@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 
-@font-face{
+@font-face {
   font-family: avenir-next-lt-pro-regular;
-  src:url("~@/assets/fonts/AvenirNextLTPro-Regular.woff") format("woff"),
-  url("~@/assets/fonts/AvenirNextLTPro-Regular.ttf") format("ttf");
+  src: url('~@/assets/fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+    url('~@/assets/fonts/AvenirNextLTPro-Regular.ttf') format('ttf');
 }
 
 @font-face {
   font-family: avenir-next-lt-pro-bold;
-  src:url("~@/assets/fonts/AvenirNextLTPro-Bold.ttf") format("ttf"),
-  url("~@/assets/fonts/AvenirNextLTPro-Bold.woff") format("woff");
+  src: url('~@/assets/fonts/AvenirNextLTPro-Bold.ttf') format('ttf'),
+    url('~@/assets/fonts/AvenirNextLTPro-Bold.woff') format('woff');
 }
 
-html, body
-{
-  font-family:"avenir-next-lt-pro-regular";
+@font-face {
+  font-family: segoe-ui;
+  src: url('~@/assets/fonts/Segoe UI.ttf') format('ttf'),
+    url('~@/assets/fonts/Segoe-UI.woff') format('woff');
+}
+
+html,
+body {
+  font-family: 'avenir-next-lt-pro-regular';
 }
