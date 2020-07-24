@@ -1,4 +1,4 @@
-<template>
+-------<template>
   <div id="aula">
     <div class="mide-lesson card">
       <div class="card-image">
