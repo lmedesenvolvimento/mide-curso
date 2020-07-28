@@ -1,25 +1,33 @@
--------<template>
+<template>
   <div id="aula">
-    <div class="mide-lesson card">
-      <div class="card-image">
-        <figure class="mide-lesson-image"></figure>
-        <div class="header">
-          <h3>{{ unidade.titulo }}</h3>
-          <h1>{{ unidade.descricao }}</h1>
+    <div
+      class="mide-lesson-container"
+      :class="{ 'is-full': !lessonNavIsVisible }"
+    >
+      <div class="mide-lesson card">
+        <div class="card-image">
+          <figure class="mide-lesson-image"></figure>
+          <div class="header">
+            <h3>{{ unidade.titulo }}</h3>
+            <h1>{{ unidade.descricao }}</h1>
+          </div>
+        </div>
+        <div class="card-content">
+          <nuxt-child />
         </div>
       </div>
-      <div class="card-content">
-        <nuxt-child />
-      </div>
+      <mide-aulas-navigation />
     </div>
-    <mide-aulas-navigation />
   </div>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters, mapState } from 'vuex'
 export default {
   computed: {
+    ...mapState({
+      lessonNavIsVisible: ({ site }) => site.lessonNavIsVisible
+    }),
     ...mapGetters({
       unidade: 'getCurrentUnidade',
       aula: 'getCurrentAula'
@@ -30,16 +38,20 @@ export default {
 
 <style lang="scss">
 .mide-lesson {
+  justify-self: center;
   box-shadow: 0px 12px 19px #3c80d116;
   border-radius: 15px;
-  position: absolute;
   opacity: 1;
-  width: 800px;
+  max-width: $lesson-card-width;
   min-height: 100vh;
-  margin: ($gap * 2) 64px;
+  margin: ($gap * 2) auto;
+  @media (max-width: $widescreen) {
+    max-width: $tablet;
+  }
   .card-image {
     background: transparent url('~assets/images/bannerunit.png') 0% 0% no-repeat
       padding-box;
+    background-size: cover;
     border-radius: 25px 25px 0px 0px;
     height: $lesson-card-height;
     .mide-lesson-image {
@@ -77,11 +89,16 @@ export default {
   p {
     margin-bottom: 1.5rem;
   }
-}
-.mide-aulas-navigation {
-  float: right;
-  width: 260px;
-  margin-top: 64px;
+  &-container {
+    display: flex;
+    align-items: flex-start;
+    @media (max-width: $widescreen) {
+      flex-wrap: wrap-reverse;
+    }
+    &.is-full .mide-lesson {
+      max-width: $desktop;
+    }
+  }
 }
 
 @media screen and (max-width: $widescreen) {
@@ -95,12 +112,6 @@ export default {
       justify-content: center;
       padding-bottom: 0px;
     }
-  }
-  .mide-aulas-navigation {
-    float: none;
-    margin-top: 400px;
-    width: 100%;
-    right: 0;
   }
 }
 </style>

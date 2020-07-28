@@ -1,3 +1,4 @@
+import site from './modules/site'
 import aulas from './modules/aulas'
 import unidades from './modules/unidades'
 
@@ -20,6 +21,7 @@ const getters = {
 
 export default {
   modules: {
+    site,
     aulas,
     unidades
   },

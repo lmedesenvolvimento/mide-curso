@@ -235,7 +235,6 @@
 
 <script>
 export default {
-  layout: 'layout-aulas',
   data() {
     return {
       challenge: [

@@ -1,8 +1,13 @@
 <template>
-  <section class="mide-aulas-navigation">
+  <div v-if="!visible" class="mide-aulas-navigation-toggle-btn">
+    <a class="card-header-icon" @click.stop="toggle">
+      <b-icon icon="arrow-right"></b-icon>
+    </a>
+  </div>
+  <section v-else class="mide-aulas-navigation">
     <div id="card-header-top" class="card-header">
       <p class="card-header-title"></p>
-      <a class="card-header-icon">
+      <a class="card-header-icon" @click.stop="toggle">
         <b-icon icon="close"></b-icon>
       </a>
     </div>
@@ -62,7 +67,20 @@ export default {
       isOpen: 0
     }
   },
+  computed: {
+    visible: {
+      get() {
+        return this.$store.state.site.lessonNavIsVisible
+      },
+      set(value) {
+        this.$store.dispatch('site/setLessonNav', value)
+      }
+    }
+  },
   methods: {
+    toggle() {
+      this.visible = !this.visible
+    },
     isLessonActive(aula) {
       const lessonSlug = last(this.$route.name.split('-'))
       return lessonSlug === aula.id
@@ -76,10 +94,23 @@ export default {
 
 <style lang="scss">
 .mide-aulas-navigation {
-  right: -32px;
+  align-self: flex-start;
   border: 1px solid #e8e8e8;
   opacity: 1;
   border-radius: 25px;
+  min-width: 320px;
+  max-width: 320px;
+  margin-top: $gap * 2;
+  @media (max-width: $widescreen) {
+    position: relative;
+    width: 100%;
+    max-width: $tablet;
+    margin: $gap auto;
+  }
+  @media (max-width: $tablet) {
+    display: block;
+    max-width: 100%;
+  }
   #card-header-top {
     border-radius: 25px 25px 0 0;
   }
@@ -89,6 +120,17 @@ export default {
     letter-spacing: 1.2px;
     color: #c0315f;
     text-transform: uppercase;
+  }
+
+  &-toggle-btn {
+    background-color: white;
+    box-shadow: 3px 3px 9px transparentize($color: #000000, $amount: 0.75);
+    margin: $gap * 2 0px;
+    border-radius: $gap;
+    border: 1px solid transparentize($color: #000000, $amount: 0.9);
+    .card-header-icon {
+      padding: 0.75rem 2.5rem;
+    }
   }
 
   &-item {
@@ -125,6 +167,9 @@ export default {
   }
 
   .collapse {
+    .collapse-trigger {
+      display: block;
+    }
     &:last-child {
       border-radius: 0 0 25px 25px;
     }
@@ -154,14 +199,6 @@ export default {
         }
       }
     }
-  }
-}
-
-@media screen and (max-width: $widescreen) {
-  .mide-aulas-navigation {
-    position: relative;
-    max-width: $tablet;
-    margin: $gap auto;
   }
 }
 </style>

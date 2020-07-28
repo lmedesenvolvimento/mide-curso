@@ -1,33 +1,35 @@
 <template>
   <div class="mide-footer">
     <div class="container">
-      <div class="columns is-vcentered">
-        <div class="column is-4">
-          <div class="mide-footer-mide-logo">
-            <img src="~@/assets/images/logo-mide-branca.png" />
+      <div class="container is-fluid">
+        <div class="columns is-vcentered">
+          <div class="column is-4">
+            <div class="mide-footer-mide-logo">
+              <img src="~@/assets/images/logo-mide-branca.png" />
+            </div>
+            <div class="mide-footer-description">
+              Ex ex sunt minim laborum in reprehenderit esse amet deserunt.
+              Occaecat non labore ut cupidatat mollit aliqua sint mollit
+            </div>
           </div>
-          <div class="mide-footer-description">
-            Ex ex sunt minim laborum in reprehenderit esse amet deserunt.
-            Occaecat non labore ut cupidatat mollit aliqua sint mollit
-          </div>
-        </div>
-        <div class="mide-footer-vertical-line"></div>
+          <div class="mide-footer-vertical-line"></div>
 
-        <div class="column">
-          <p>Realização</p>
-          <div class="mide-footer-logo-ministerio">
-            <img src="~@/assets/images/logo-ministerio-branca.png" />
+          <div class="column">
+            <p>Realização</p>
+            <div class="mide-footer-logo-ministerio">
+              <img src="~@/assets/images/logo-ministerio-branca.png" />
+            </div>
           </div>
-        </div>
-        <div class="column">
-          <p>Produção</p>
-          <div class="mide-footer-logo-proativa">
-            <img src="~@/assets/images/logo-proativa-branca.png" />
+          <div class="column">
+            <p>Produção</p>
+            <div class="mide-footer-logo-proativa">
+              <img src="~@/assets/images/logo-proativa-branca.png" />
+            </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="mide-footer-logo-lme">
-            <img src="~@/assets/images/logo-lme-branca.png" />
+          <div class="column">
+            <div class="mide-footer-logo-lme">
+              <img src="~@/assets/images/logo-lme-branca.png" />
+            </div>
           </div>
         </div>
       </div>
@@ -43,7 +45,6 @@ export default {}
 .mide-footer {
   height: $footer-height;
   color: $white;
-  margin-top: $gap * 4;
   background-color: #a49ea0;
   > .container,
   > .container > .columns {
@@ -91,8 +92,6 @@ export default {}
 @media (max-width: 1024px) {
   .mide-footer {
     height: 100%;
-    padding: 8%;
-
     .mide-footer-vertical-line {
       display: none;
     }

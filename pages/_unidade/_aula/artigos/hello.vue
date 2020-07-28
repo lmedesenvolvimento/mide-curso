@@ -7,18 +7,12 @@
   </div>
   <center>
   <button
-        name="prosseguir"
-        class="button prosseguir"
-        :disabled="disabled"
-        @click="submit"
+    name="prosseguir"
+    class="button prosseguir"
+    :disabled="disabled"
+    @click="submit"
   /></center>
 </template>
-
-<script>
-export default {
-  layout: 'aulas'
-}
-</script>
 
 <style lang="scss">
 .mide-explicacao {
