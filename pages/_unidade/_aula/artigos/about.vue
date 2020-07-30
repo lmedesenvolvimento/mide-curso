@@ -1,13 +1,7 @@
-<template lang="md">
-  # About!
- 
-  Current route is: {{ $route.path }}
+<template>
+  <mide-aulas-container>
+    <h1>About! Current route is: {{ $route.path }}</h1>
+  </mide-aulas-container>
 </template>
-
-<script>
-export default {
-  layout: 'layout-aulas'
-}
-</script>
 
 <style></style>
