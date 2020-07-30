@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{275:function(t,e,n){"use strict";n.r(e);var r=n(2),component=Object(r.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("section",[e("h1",[this._v("About!")]),this._v(" "),e("p",[this._v("Current route is: "+this._s(this.$route.path))])])}),[],!1,null,null,null);e.default=component.exports}}]);
