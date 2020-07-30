@@ -27,39 +27,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-angle-up {
-  &:before {
-    content: $icon-angle-up; 
-  }
+.icon-arrow-right:before {
+  content: "\e900";
 }
-.icon-angle-down {
-  &:before {
-    content: $icon-angle-down; 
-  }
+.icon-add:before {
+  content: "\e901";
 }
-.icon-study {
-  &:before {
-    content: $icon-study; 
-  }
+.icon-close:before {
+  content: "\e902";
 }
-.icon-libray {
-  &:before {
-    content: $icon-libray; 
-  }
+.icon-study:before {
+  content: "\e903";
 }
-.icon-close {
-  &:before {
-    content: $icon-close; 
-  }
+.icon-libray:before {
+  content: "\e904";
 }
-.icon-book {
-  &:before {
-    content: $icon-book; 
-  }
+.icon-book:before {
+  content: "\e906";
 }
-.icon-arrow-right {
-  &:before {
-    content: $icon-arrow-right; 
-  }
+.icon-angle-up:before {
+  content: "\f106";
 }
-
+.icon-angle-down:before {
+  content: "\f107";
+}

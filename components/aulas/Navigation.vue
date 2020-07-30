@@ -1,14 +1,14 @@
 <template>
   <div v-if="!visible" class="mide-aulas-navigation-toggle-btn">
     <a class="card-header-icon" @click.stop="toggle">
-      <b-icon icon="arrow-right"></b-icon>
+      <b-icon icon="icon-arrow-right" pack="custom"></b-icon>
     </a>
   </div>
   <section v-else class="mide-aulas-navigation">
     <div id="card-header-top" class="card-header">
       <p class="card-header-title"></p>
       <a class="card-header-icon" @click.stop="toggle">
-        <b-icon icon="close"></b-icon>
+        <b-icon icon="icon-close" pack="custom"></b-icon>
       </a>
     </div>
     <b-collapse
@@ -24,35 +24,32 @@
       <div slot="trigger" slot-scope="props" class="card-header" role="button">
         <p class="card-header-title">{{ unidade.titulo }}</p>
         <a class="card-header-icon">
-          <b-icon :icon="props.open ? 'menu-down' : 'menu-up'"></b-icon>
+          <b-icon
+            :icon="props.open ? 'icon-angle-up' : 'icon-angle-down'"
+            pack="custom"
+          ></b-icon>
         </a>
       </div>
-      <p class="mide-aulas-navigation-unidade-text">{{ unidade.descricao }}</p>
-      <hr class="dropdown-divider" />
-      <div class="card-content">
-        <div class="content">
-          <nuxt-link
-            v-for="(aula, i) in unidade.aulas"
-            :key="aula.id"
-            :to="lessonUrl(unidade, aula)"
-            class="mide-aulas-navigation-item columns"
-            :class="{ 'is-active': isLessonActive(aula) }"
-          >
-            <input
-              class="radio"
-              type="radio"
-              name="answer"
-              :checked="isLessonActive(aula)"
-            />
+      <div class="collapse-items-content container is-fluid">
+        <nuxt-link
+          v-for="(aula, i) in unidade.aulas"
+          :key="aula.id"
+          :to="lessonUrl(unidade, aula)"
+          class="mide-aulas-navigation-item columns"
+          :class="{ 'is-active': isLessonActive(aula) }"
+        >
+          <input
+            class="radio"
+            type="radio"
+            name="answer"
+            :checked="isLessonActive(aula)"
+          />
 
-            <br />
-            <div class="mide-aulas-navigation-title">
-              <div id="tituloaula">{{ aula.titulo }} {{ i++ }}</div>
-              <p>{{ aula.descricao }}</p>
-              <hr class="dropdown-divider" />
-            </div>
-          </nuxt-link>
-        </div>
+          <div class="mide-aulas-navigation-title">
+            <div id="tituloaula">{{ aula.titulo }} {{ i + 1 }}</div>
+            <p>{{ aula.descricao }}</p>
+          </div>
+        </nuxt-link>
       </div>
     </b-collapse>
   </section>
@@ -94,12 +91,15 @@ export default {
 
 <style lang="scss">
 .mide-aulas-navigation {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: $gap;
   align-self: flex-start;
   border: 1px solid #e8e8e8;
   opacity: 1;
   border-radius: 25px;
-  min-width: 320px;
-  max-width: 320px;
+  min-width: $lesson-navigation-width;
+  max-width: $lesson-navigation-width;
   margin-top: $gap * 2;
   @media (max-width: $widescreen) {
     position: relative;
@@ -130,6 +130,9 @@ export default {
     border: 1px solid transparentize($color: #000000, $amount: 0.9);
     .card-header-icon {
       padding: 0.75rem 2.5rem;
+      .icon {
+        transform: rotate(-180deg);
+      }
     }
   }
 
@@ -174,28 +177,39 @@ export default {
       border-radius: 0 0 25px 25px;
     }
 
+    &-items-content {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      .mide-aulas-navigation-item {
+        padding: 1.75rem 0.75rem;
+        p {
+          margin-bottom: 0px;
+        }
+        &:not(:last-child) {
+          border-bottom: 1px solid #ddd;
+        }
+        &.is-active {
+          background-color: #e8e8e8;
+          border-left: 3px solid $info;
+        }
+      }
+    }
+
     &-content {
-      height: 240px;
       overflow-x: hidden;
       overflow-y: auto;
-      padding: 0 30px 15px 30px;
+      padding: 0px;
 
       .radio {
         border: 1px solid #c2c2c2;
         opacity: 1;
         width: 22px;
         height: 22px;
-        margin-right: 10px;
-        margin-bottom: 15px;
       }
 
       .mide-aulas-navigation-title {
-        padding-top: 15px;
         #tituloaula {
           text-transform: uppercase;
-        }
-        p {
-          margin-bottom: 30px;
         }
       }
     }

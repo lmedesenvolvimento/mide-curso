@@ -5,6 +5,7 @@ import RadialProgressBar from 'vue-radial-progress'
 import UnidadeCard from './unidades/Card.vue'
 
 // Aulas
+import AulasContainer from './aulas/Container.vue'
 import AulasNavigation from './aulas/Navigation.vue'
 
 import Footer from './Footer.vue'
@@ -27,6 +28,8 @@ const Components = {
     Vue.component('challenge', Challenge)
 
     Vue.component('mide-unidade-card', UnidadeCard)
+
+    Vue.component('mide-aulas-container', AulasContainer)
     Vue.component('mide-aulas-navigation', AulasNavigation)
 
     // plugins

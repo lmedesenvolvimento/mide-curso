@@ -19,7 +19,6 @@
           tag="nuxt-link"
           :to="item.to"
         >
-          <b-icon :icon="item.icon" :pack="item.pack" class="top-navbar-icon" />
           {{ item.title }}
         </b-navbar-item>
       </div>
@@ -34,13 +33,11 @@ export default {
       items: [
         {
           title: 'Início',
-          icon: 'icon-study',
           pack: 'icon',
           to: { name: 'index' }
         },
         {
           title: 'Biblioteca',
-          icon: 'icon-libray',
           pack: 'icon',
           to: { name: 'inspire' }
         }

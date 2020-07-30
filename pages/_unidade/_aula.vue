@@ -4,100 +4,32 @@
       class="mide-lesson-container"
       :class="{ 'is-full': !lessonNavIsVisible }"
     >
-      <div class="mide-lesson card">
-        <div class="card-image">
-          <figure class="mide-lesson-image"></figure>
-          <div class="header">
-            <h3>{{ unidade.titulo }}</h3>
-            <h1>{{ unidade.descricao }}</h1>
-          </div>
-        </div>
-        <div class="card-content">
-          <nuxt-child />
-        </div>
-      </div>
+      <nuxt-child />
       <mide-aulas-navigation />
     </div>
   </div>
 </template>
 
 <script>
-import { mapGetters, mapState } from 'vuex'
+import { mapState } from 'vuex'
 export default {
   computed: {
     ...mapState({
       lessonNavIsVisible: ({ site }) => site.lessonNavIsVisible
-    }),
-    ...mapGetters({
-      unidade: 'getCurrentUnidade',
-      aula: 'getCurrentAula'
     })
   }
 }
 </script>
 
 <style lang="scss">
-.mide-lesson {
-  justify-self: center;
-  box-shadow: 0px 12px 19px #3c80d116;
-  border-radius: 15px;
-  opacity: 1;
-  max-width: $lesson-card-width;
-  min-height: 100vh;
-  margin: ($gap * 2) auto;
+.mide-lesson-container {
+  display: flex;
+  align-items: flex-start;
   @media (max-width: $widescreen) {
-    max-width: $tablet;
+    flex-wrap: wrap-reverse;
   }
-  .card-image {
-    background: transparent url('~assets/images/bannerunit.png') 0% 0% no-repeat
-      padding-box;
-    background-size: cover;
-    border-radius: 25px 25px 0px 0px;
-    height: $lesson-card-height;
-    .mide-lesson-image {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(180deg, #3153b2c7 0%, #192a59 100%);
-      border-radius: 25px 25px 0px 0px;
-      mix-blend-mode: multiply;
-      z-index: 1;
-    }
-  }
-  .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: center;
-    height: 100%;
-    color: #fff;
-    position: relative;
-    padding-bottom: 1.5 * $gap;
-    z-index: 5;
-    h1 {
-      margin-top: 8px;
-      font: 28px avenir-next-lt-pro-bold;
-    }
-    h3 {
-      text-transform: uppercase;
-      font: 18px avenir-next-lt-pro-bold;
-      letter-spacing: 1.4px;
-    }
-  }
-  p {
-    margin-bottom: 1.5rem;
-  }
-  &-container {
-    display: flex;
-    align-items: flex-start;
-    @media (max-width: $widescreen) {
-      flex-wrap: wrap-reverse;
-    }
-    &.is-full .mide-lesson {
-      max-width: $desktop;
-    }
+  &.is-full .mide-lesson {
+    max-width: $desktop;
   }
 }
 
@@ -105,13 +37,19 @@ export default {
   #aula {
     padding: 16px;
   }
-  .mide-lesson {
-    width: 100%;
-    margin: 0px auto;
-    .header {
-      justify-content: center;
-      padding-bottom: 0px;
-    }
+}
+
+#aula {
+  .page-enter-active,
+  .page-leave-active {
+    transition: all 0.5s;
+  }
+  .page-enter {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  .page-leave-to {
+    opacity: 0;
   }
 }
 </style>
