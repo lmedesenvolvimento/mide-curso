@@ -19,21 +19,35 @@
 
       <h1>1960</h1>
       <section class="carrossel">
-        <center>
-          <br />
-          <br />
-
-          <div class="card-image-carrossel"></div>
-          <h2>Mundo da música</h2>
-          <hr class="carrossel-horizontal-line" />
-          <p>
-            No mundo na música, a banda “Os Beatles” fazia sucesso e estava nas
-            paradas das rádios. Aqui no Brasil, surgia um fenômeno musical
-            chamado MPB (Música Popular Brasileira) lançando cantores como Elis
-            Regina, Vinicius de Moraes, Edu Lobo, Nara Leão e Chico Buarque.
-          </p>
-          <img src="~assets/images/imagem-mundo-da-musica.png" />
-        </center>
+        <b-carousel
+          :arrow="arrow"
+          :arrow-both="arrowBoth"
+          :arrow-hover="arrowHover"
+          :icon-pack="iconPack"
+          :icon-prev="iconPrev"
+          :icon-next="iconNext"
+          :icon-size="iconSize"
+        >
+          <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
+            <section :class="`hero is-medium is-${carousel.color}`">
+              <div class="hero-body has-text-centered">
+                <center>
+                  <div class="card-image-carrossel"></div>
+                  <h2>Mundo da música</h2>
+                  <hr class="carrossel-horizontal-line" />
+                  <p>
+                    No mundo na música, a banda “Os Beatles” fazia sucesso e
+                    estava nas paradas das rádios. Aqui no Brasil, surgia um
+                    fenômeno musical chamado MPB (Música Popular Brasileira)
+                    lançando cantores como Elis Regina, Vinicius de Moraes, Edu
+                    Lobo, Nara Leão e Chico Buarque.
+                  </p>
+                  <img src="~assets/images/imagem-mundo-da-musica.png" />
+                </center>
+              </div>
+            </section>
+          </b-carousel-item>
+        </b-carousel>
       </section>
 
       <p>
@@ -228,9 +242,17 @@
         </template>
       </challenge>
 
-      <img src="~assets/images/carla-explicacao.png" class="carla-explica" />
+      <img src="~assets/images/carla-explica.png" class="carla-explica" />
       <br />
-      <img src="~assets/images/marcos-explicacao.png" class="marcos-explica" />
+      <div class="explica-1">
+        Nessa temática, abordamos o conceito de cibercultura e suas
+        características.
+      </div>
+
+      <img src="~assets/images/marcos-explica.png" class="marcos-explica" />
+      <div class="explica-2">
+        Na próxima temática, veremos como a cultura digital é discutida na BNCC.
+      </div>
     </article>
   </mide-aulas-container>
 </template>
@@ -244,6 +266,20 @@ export default {
         { text: 'Capitalismo', value: 'capitalismo' },
         { text: 'Luta de Classe', value: 'luta-de-classe' },
         { text: 'Ditadura', value: 'ditadura' }
+      ],
+
+      arrow: true,
+      arrowBoth: false,
+      arrowHover: false,
+      iconPack: 'mdi',
+      iconPrev: 'arrow-left',
+      iconNext: 'arrow-right',
+      iconSize: '',
+      carousels: [
+        { title: 'Slide 1' },
+        { title: 'Slide 2' },
+        { title: 'Slide 3' },
+        { title: 'Slide 4' }
       ]
     }
   }
@@ -332,6 +368,21 @@ article {
   }
   .carla-explica {
     float: right;
+  }
+  .marcos.explica {
+    position: reltive;
+  }
+  .explica-1 {
+    margin-top: 80px;
+    text-align: right;
+    text-indent: 50px;
+  }
+  .explica-2 {
+    text-align: left;
+    margin-top: -150px;
+    margin-right: 50px;
+    float: right;
+    margin-left: 300px;
   }
 }
 </style>
