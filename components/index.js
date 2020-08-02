@@ -17,6 +17,9 @@ import Quotes from './Quotes.vue'
 import Question from './Question.vue'
 import Challenge from './Challenge.vue'
 
+// Chat
+import ChatDialog from './ChatDialog'
+
 const Components = {
   install: (Vue) => {
     Vue.component('mide-footer', Footer)
@@ -31,6 +34,8 @@ const Components = {
 
     Vue.component('mide-aulas-container', AulasContainer)
     Vue.component('mide-aulas-navigation', AulasNavigation)
+
+    Vue.component('mide-chat-dialog', ChatDialog)
 
     // plugins
     Vue.component('mide-radial-progress', RadialProgressBar)
