@@ -18,10 +18,25 @@
             :class="{ 'is-right': dialog.right }"
           >
             <figure class="image is-48x48">
-              <img class="is-rounded" :src="dialog.avatar" />
+              <img
+                v-if="dialog.avatar"
+                class="is-rounded"
+                :src="dialog.avatar"
+              />
             </figure>
             <div class="column">
+              <div v-if="dialog.type === 'bool'">
+                <div v-show="dialog.text" class="chat-dialog-content-item-box">
+                  {{ dialog.text }}
+                </div>
+              </div>
               <div
+                v-else-if="dialog.type === 'text'"
+                v-html="dialog.text"
+              ></div>
+              <div v-else-if="dialog.type === 'end'"></div>
+              <div
+                v-else
                 class="chat-dialog-content-item-box"
                 v-html="dialog.text"
               ></div>
