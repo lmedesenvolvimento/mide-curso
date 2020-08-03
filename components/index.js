@@ -19,6 +19,7 @@ import Challenge from './Challenge.vue'
 
 // Chat
 import ChatDialog from './ChatDialog'
+import ModalChatDialog from './ModalChatDialog'
 
 const Components = {
   install: (Vue) => {
@@ -36,6 +37,7 @@ const Components = {
     Vue.component('mide-aulas-navigation', AulasNavigation)
 
     Vue.component('mide-chat-dialog', ChatDialog)
+    Vue.component('mide-modal-chat-dialog', ModalChatDialog)
 
     // plugins
     Vue.component('mide-radial-progress', RadialProgressBar)
