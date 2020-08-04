@@ -17,6 +17,8 @@
       <section class="modal-card-body">
         <mide-chat-dialog v-model="dialogIndex" :dialogs="dialogs">
           <template v-slot:header>
+            <img src="~assets/images/avatar-boas-vindas-marcos.png" />
+            <img src="~assets/images/avatar-boas-vindas-carla.png" /><br />
             Marcos e Carla <br />
             <small>Professores do curso</small>
           </template>
@@ -115,4 +117,14 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss">
+.modal-card-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #696969;
+  font: Bold 18px avenir-next-lt-pro-bold;
+}
+.modal-card-foot {
+  align-content: center;
+}
+</style>

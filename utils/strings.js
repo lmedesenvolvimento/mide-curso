@@ -1,54 +1,58 @@
 export const INTRO_DIALOGS = [
   {
-    avatar:
-      'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
-    text:
-      'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+    avatar: require('assets/images/avatar-dialogo-carla.png'),
+    text: 'Olá meu nome é <strong>Carla</strong>. Sou professora de Matemática.'
   },
   {
-    avatar:
-      'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
+    right: true,
+    avatar: require('assets/images/avatar-dialogo-marcos.png'),
+    text: 'Oi meu nome é <strong>Marcos</strong>. Sou professor de Português.'
+  },
+  {
+    avatar: require('assets/images/avatar-dialogo-carla.png'),
     text:
-      'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+      'É com satisfação que recebemos você no curso "Uso de recursos educativos digitais!"'
+  },
+  {
+    right: true,
+    avatar: require('assets/images/avatar-dialogo-marcos.png'),
+    text:
+      'Neste curso vamos entender como a <strong>cultura digital</strong> pode mudar algumas práticas de sala de aula. Vamos <strong>conhecer</strong> alguns  Recursos Educacionais Digitais ou, simplesmente, <strong>RED</strong>.'
+  },
+  {
+    avatar: require('assets/images/avatar-dialogo-carla.png'),
+    text:
+      'Sim! Vamos ver como esses recursos podem ser instrumentos de ensino e aprendizagem na Língua Portuguesa e na Matemática nos anos iniciais do Ensino Fundamental.'
+  },
+
+  {
+    right: true,
+    avatar: require('assets/images/avatar-dialogo-marcos.png'),
+    text:
+      'Ao final do curso vamos conhecer alguns <strong>planejamentos</strong> e também <strong>planejar</strong> aulas com suporte de Recursos Educacionais Digitais.'
+  },
+  {
+    avatar: require('assets/images/avatar-dialogo-carla.png'),
+    text: 'Os objetivos do curso são esses:'
   },
   {
     type: 'text',
     text:
-      'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
-  },
-  {
-    avatar:
-      'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
-    text:
-      'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+      '<center><strong>1.</strong> Desenvolver conhecimento sobre o ensino e aprendizagem na cultura digital <br><strong>2.</strong> Conhecer Recursos Educacionais Digitais (RED) como instrumentos de ensino e aprendizagem. <br> <strong>3.</strong> Planejar aulas com suporte dos RED</center>'
   },
   {
     right: true,
-    avatar:
-      'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
+    avatar: require('assets/images/avatar-dialogo-marcos.png'),
     text:
-      'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+      ' Vamos entender um pouco da estrutura do curso. Você deseja ver a <strong>ementa</strong> agora?'
   },
   {
     type: 'bool',
     yes: [
       {
-        avatar:
-          'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
-        text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
-      },
-      {
-        avatar:
-          'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
-        text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
-      },
-      {
-        avatar:
-          'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
-        text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+        right: true,
+        avatar: require('assets/images/avatar-dialogo-marcos.png'),
+        text: 'Tudo bem! Esta é a ementa do curso:'
       },
       {
         type: 'text',
@@ -56,11 +60,13 @@ export const INTRO_DIALOGS = [
           'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
       },
       {
-        right: true,
-        avatar:
-          'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
+        avatar: require('assets/images/avatar-dialogo-carla.png'),
         text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+          'Agora veja a estrutura abaixo para entender a estrutura do curso:'
+      },
+      {
+        text:
+          '<img src=require(~assets/images/estrutura-do-curso-com-texto.png)/>'
       },
       {
         type: 'end'
@@ -69,29 +75,17 @@ export const INTRO_DIALOGS = [
     no: [
       {
         right: true,
-        avatar:
-          'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
+        avatar: require('assets/images/avatar-dialogo-marcos.png'),
         text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+          'Tudo bem! Lembre-se que você pode acessar a ementa sempre que desejar durante o curso.'
       },
       {
-        right: true,
-        avatar:
-          'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
-        text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+        avatar: require('assets/images/avatar-dialogo-carla.png'),
+        text: 'Agora veja a imagem abaixo para entender a estrutura do curso:'
       },
       {
-        avatar:
-          'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
         text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
-      },
-      {
-        avatar:
-          'https://64.media.tumblr.com/4b28d2f57b17cfab9b61375993079d94/1b723c96385f867e-93/s500x750/595359073bd03b058856ad2309f91bba6772b8e8.png',
-        text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+          '<img src=require(~assets/images/estrutura-do-curso-com-texto.png)/>'
       },
       {
         type: 'end'
