@@ -21,6 +21,9 @@
             <img src="~assets/images/avatar-boas-vindas-carla.png" /><br />
             Marcos e Carla <br />
             <small>Professores do curso</small>
+            <center>
+              <hr class="modal-horizontal-line" />
+            </center>
           </template>
         </mide-chat-dialog>
       </section>
@@ -118,13 +121,24 @@ export default {
 </script>
 
 <style lang="scss">
-.modal-card-title {
-  text-transform: uppercase;
-  text-align: center;
-  color: #696969;
-  font: Bold 18px avenir-next-lt-pro-bold;
-}
-.modal-card-foot {
-  align-content: center;
+.modal-card {
+  border-radius: 25px;
+  .modal-card-head {
+    box-shadow: 0px 0px 1px #696969;
+    background-color: #fff;
+    .modal-card-title {
+      text-transform: uppercase;
+      text-align: center;
+      color: #696969;
+      font: Bold 18px avenir-next-lt-pro-bold;
+    }
+  }
+  .modal-horizontal-line {
+    width: 50px;
+  }
+  .modal-card-foot {
+    background-color: #fff;
+    border: none;
+  }
 }
 </style>
