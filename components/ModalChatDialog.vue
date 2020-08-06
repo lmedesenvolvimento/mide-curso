@@ -4,6 +4,7 @@
     :active.sync="visible"
     has-modal-card
     trap-focus
+    :width="480"
     :can-cancel="false"
     :destroy-on-hide="true"
     aria-role="dialog"
@@ -30,12 +31,17 @@
       <footer class="modal-card-foot">
         <div class="modal-card-foot-actions">
           <span v-if="isBool">
-            <b-button type="is-primary" @click="yesBoolDialog">Sim</b-button>
-            <b-button type="is-primary" @click="noBoolDialog">Não</b-button>
+            <b-button type="is-info" rounded @click="yesBoolDialog"
+              >Sim</b-button
+            >
+            <b-button type="is-info" rounded @click="noBoolDialog"
+              >Não</b-button
+            >
           </span>
           <b-button
             v-else
-            type="is-primary"
+            class="modal-card-foot-actions-next"
+            type="is-info"
             icon-right="icon-arrow-right"
             icon-pack="custom"
             rounded
@@ -123,8 +129,9 @@ export default {
 <style lang="scss">
 .modal-card {
   border-radius: 25px;
-  .modal-card-head {
-    box-shadow: 0px 0px 1px #696969;
+  > .modal-card-head {
+    box-shadow: 3px 3px 18px #696969;
+    border-bottom: none;
     background-color: #fff;
     .modal-card-title {
       text-transform: uppercase;
@@ -139,6 +146,17 @@ export default {
   .modal-card-foot {
     background-color: #fff;
     border: none;
+    &-actions {
+      margin: auto;
+      &-next {
+        width: 48px;
+        height: 48px;
+      }
+      .button {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
   }
 }
 </style>

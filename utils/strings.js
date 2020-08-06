@@ -37,8 +37,13 @@ export const INTRO_DIALOGS = [
   },
   {
     type: 'text',
-    text:
-      '<center><strong>1.</strong> Desenvolver conhecimento sobre o ensino e aprendizagem na cultura digital <br><strong>2.</strong> Conhecer Recursos Educacionais Digitais (RED) como instrumentos de ensino e aprendizagem. <br> <strong>3.</strong> Planejar aulas com suporte dos RED</center>'
+    text: `
+        <ol>
+          <li>Desenvolver conhecimento sobre o ensino e aprendizagem na cultura digital</li>
+          <li>Conhecer Recursos Educacionais Digitais (RED) como instrumentos de ensino e aprendizagem.</li>
+          <li>Planejar aulas com suporte dos RED.</li>
+        </ol>
+      `
   },
   {
     right: true,
@@ -65,8 +70,8 @@ export const INTRO_DIALOGS = [
           'Agora veja a estrutura abaixo para entender a estrutura do curso:'
       },
       {
-        text:
-          '<img src=require(~assets/images/estrutura-do-curso-com-texto.png)/>'
+        type: 'text',
+        text: `<img src="${require('assets/images/estrutura-do-curso-com-texto.png')}"/>`
       },
       {
         type: 'end'
@@ -84,8 +89,10 @@ export const INTRO_DIALOGS = [
         text: 'Agora veja a imagem abaixo para entender a estrutura do curso:'
       },
       {
-        text:
-          '<img src=require(~assets/images/estrutura-do-curso-com-texto.png)/>'
+        type: 'text',
+        text: `
+            <img src="${require('assets/images/estrutura-do-curso-com-texto.png')}" />
+          `
       },
       {
         type: 'end'

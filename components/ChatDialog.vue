@@ -26,7 +26,10 @@
             </figure>
             <div class="column">
               <div v-if="dialog.type === 'bool'">
-                <div v-show="dialog.text" class="chat-dialog-content-item-box">
+                <div
+                  v-show="dialog.text"
+                  class="chat-dialog-content-item-box is-bool"
+                >
                   {{ dialog.text }}
                 </div>
               </div>
@@ -126,6 +129,8 @@ export default {
         width: 100%;
         height: $gap * 4;
         top: $gap * -5;
+        margin-left: $gap * -1;
+        margin-right: $gap * -1;
         z-index: 5;
       }
       .columns {
@@ -140,8 +145,16 @@ export default {
       &-box {
         background-color: transparentize($color: #ddd, $amount: 0.5);
         padding: 0.5rem 1rem;
-        border-radius: 0.25rem;
+        border-radius: 0.75rem;
         margin-right: 48px;
+        &.is-bool {
+          background-color: $info;
+          display: inline-block;
+          float: right;
+          color: white;
+          font-weight: bold;
+          border-bottom-right-radius: 0px;
+        }
       }
     }
   }
