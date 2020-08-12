@@ -53,7 +53,7 @@
     </div>
     <div class="fundo">
       <section>
-        <b>CONHEÇA AQUI AS 10 COMPETÊNCIAS GERAIS:</b>
+        <h3>CONHEÇA AQUI AS 10 COMPETÊNCIAS GERAIS:</h3>
 
         <b-collapse
           v-for="(collapse, index) of collapses"
@@ -84,6 +84,34 @@
         </b-collapse>
       </section>
     </div>
+
+    <p>
+      Para a BNCC as práticas pedagógicas devem se basear dentro de um contexto
+      histórico e cultural.
+    </p>
+
+    <p>
+      É muito importante que possamos refletir novas formas de se comunicar ao
+      invés de apenas pensar em acúmulo de informações. Por isso, podemos
+      refletir sobre como a cultura digital nos ajuda a:
+    </p>
+
+    <img src="~assets/images/infografico-cultura-digital.png" />
+
+    <p>
+      Nós, professores, precisamos pensar que essas competências nos ajudam e,
+      como também, ajudam nossos alunos a:
+    </p>
+    <p>
+      <i>
+        “Aprender a aprender, saber lidar com a informação cada vez mais
+        disponível, atuar com discernimento e responsabilidade nos contextos das
+        culturas digitais, aplicar conhecimentos para resolver problemas, ter
+        autonomia para tomar decisões, ser proativo para identificar os dados de
+        uma situação e buscar soluções, conviver e aprender com as diferenças e
+        as diversidades.”
+      </i>
+    </p>
   </mide-aulas-container>
 </template>
 
@@ -177,17 +205,30 @@ p {
   font-size: 14px;
 }
 .fundo {
-  background-color: #dcdcdc;
+  background-color: #e8e8e8;
   width: 105%;
   margin-left: -20px;
+
   section {
-    width: 90%;
+    margin-bottom: 50px;
+    padding: 50px;
+    h3 {
+      text-transform: uppercase;
+      font: Bold 16px avenir-next-lt-pro-bold;
+      margin-left: 30%;
+    }
     .card {
       border-radius: 10px;
-    }
-    .card-header {
-      margin-top: 50px;
-      border-radius: 20px;
+      box-shadow: 5px 5px 15px #3c80d116;
+      .card-header {
+        margin-top: 20px;
+      }
+      .card-header-title {
+        font: Bold 14px avenir-next-lt-pro-bold;
+      }
+      .card-content {
+        text-indent: 50px;
+      }
     }
   }
 }
