@@ -1,16 +1,23 @@
 <template>
   <mide-aulas-container>
-    <img src="~assets/images/marcos-celular.png" />
-    <img
-      src="~assets/images/colchete-explicacao-medio.png"
-      class="tematica2-colchete"
-    />
-    <div class="text1">
-      Agora que determinamos algumas <b>características</b> da
-      <b>Cibercultura</b>, vamos voltar nosso olhar à educação. Como a
-      <b>cultura digital</b> se insere no <b>currículo escolar</b>? <br />E qual
-      o papel do <b>professor</b> nessa inserção? <br /><b>Vamos descobrir?</b>
+    <div class="columns">
+      <div class="column is-4">
+        <img src="~assets/images/marcos-celular.png" />
+      </div>
+      <div class="column is-1">
+        <img
+          src="~assets/images/colchete-explicacao-medio.png"
+          class="colchete1"
+        />
+      </div>
+      <div class="column fala-marcos">
+        Agora que determinamos algumas <b>características</b> da
+        <b>Cibercultura</b>, vamos voltar nosso olhar à educação. Como a
+        <b>cultura digital</b> se insere no <b>currículo escolar</b>? E qual o
+        papel do <b>professor</b> nessa inserção?<br /><b>Vamos descobrir?</b>
+      </div>
     </div>
+
     <hr />
 
     <p>
@@ -26,34 +33,66 @@
       (BNCC).
     </p>
     <p>Lembrando que:</p>
-
-    <div class="textobncc">
-      <p>Base Nacional Comum Curricular (BNCC)</p>
-      <p>
-        “A Base Nacional Comum Curricular (BNCC) é um documento de caráter
-        normativo que define o conjunto orgânico e progressivo de aprendizagens
-        essenciais que todos os alunos devem desenvolver ao longo das etapas e
-        modalidades da Educação Básica, de modo a que tenham assegurados seus
-        direitos de aprendizagem e desenvolvimento, em conformidade com o que
-        preceitua o Plano Nacional de Educação (PNE).”
-      </p>
-    </div>
-    <img src="~assets/images/quadro-bncc.png" class="quadrobncc" />
+    <center>
+      <div class="textobncc">
+        <p><b>Base Nacional Comum Curricular (BNCC)</b></p>
+        <p>
+          “A Base Nacional Comum Curricular (BNCC) é um documento de caráter
+          normativo que define o conjunto orgânico e progressivo de
+          aprendizagens essenciais que todos os alunos devem desenvolver ao
+          longo das etapas e modalidades da Educação Básica, de modo a que
+          tenham assegurados seus direitos de aprendizagem e desenvolvimento, em
+          conformidade com o que preceitua o Plano Nacional de Educação (PNE).”
+        </p>
+      </div>
+      <img src="~assets/images/quadro-bncc.png" class="quadrobncc" />
+    </center>
     <br />
-    <img src="~assets/images/marcos-celular-close.png" />
-    <img
-      src="~assets/images/colchete-explicacao-medio.png"
-      class="tematica2-colchete"
-    />
-    <div class="text2">
-      A BNCC é um documento plural e estabelece um conjunto de aprendizagens
-      essenciais e indispensáveis para que todas as escolas possam a ter uma
-      referência nacional obrigatória para a elaboração ou adequação de seus
-      currículos e propostas pedagógicas.
+
+    <div class="columns">
+      <div class="column is-one-third">
+        <img src="~assets/images/marcos-celular-close.png" />
+      </div>
+      <div class="column is-1">
+        <img
+          src="~assets/images/colchete-explicacao-medio.png"
+          class="colchete1 "
+        />
+      </div>
+
+      <div class="column fala-marcos">
+        A <b>BNCC</b> é um <b>documento plural</b> e estabelece um
+        <b>conjunto de aprendizagens</b>
+        essenciais e indispensáveis para que todas as escolas possam a ter uma
+        referência nacional obrigatória para a elaboração ou adequação de seus
+        currículos e propostas pedagógicas.
+      </div>
     </div>
+
+    <div class="columns">
+      <div class="column is-7 fala-carla">
+        Portanto, ao longo da <b>Educação Básica</b>, as aprendizagens
+        essenciais definidas na <b>BNCC</b> devem concorrer para
+        <b>assegurar</b> aos estudantes o desenvolvimento de
+        <b>dez competências gerais</b>, que apoiem os direitos de aprendizagem e
+        desenvolvimento.
+      </div>
+
+      <div class="column is-1">
+        <img
+          src="~assets/images/colchete-explicacao-medio2.png"
+          class="colchete2"
+        />
+      </div>
+
+      <div class="column is-one-third">
+        <img src="~assets/images/carla-explicacao.png" />
+      </div>
+    </div>
+
     <div class="fundo">
       <section>
-        <h3>CONHEÇA AQUI AS 10 COMPETÊNCIAS GERAIS:</h3>
+        <h6 class="title is-6">CONHEÇA AQUI AS 10 COMPETÊNCIAS GERAIS:</h6>
 
         <b-collapse
           v-for="(collapse, index) of collapses"
@@ -96,8 +135,9 @@
       refletir sobre como a cultura digital nos ajuda a:
     </p>
 
-    <img src="~assets/images/infografico-cultura-digital.png" />
-
+    <center>
+      <img src="~assets/images/infografico-cultura-digital.png" />
+    </center>
     <p>
       Nós, professores, precisamos pensar que essas competências nos ajudam e,
       como também, ajudam nossos alunos a:
@@ -178,20 +218,25 @@ export default {
 </script>
 
 <style lang="scss">
-.tematica2-colchete {
-  margin-bottom: 50px;
+.column {
+  font: 15px avenir-next-lt-pro-regular;
+  padding-right: 5px;
 }
-.text1 {
-  width: 500px;
-  float: right;
-  font-size: 13px;
-  margin-top: 70px;
+.colchete1 {
+  margin-top: 40px;
+  margin-left: -30px;
 }
-.text2 {
-  font-size: 15px;
-  width: 500px;
-  float: right;
-  margin-top: 60px;
+.fala-marcos {
+  margin-top: 52px;
+  margin-left: -60px;
+  margin-right: 10px;
+}
+.fala-carla {
+  text-align: right;
+  margin-top: 55px;
+}
+.colchete2 {
+  margin-top: 50px;
 }
 p {
   text-indent: 50px;
@@ -199,7 +244,7 @@ p {
 .textobncc {
   position: absolute;
   color: #fff;
-  width: 630px;
+  max-width: 630px;
   text-align: center;
   margin: 40px 0 0 60px;
   font-size: 14px;
@@ -212,10 +257,10 @@ p {
   section {
     margin-bottom: 50px;
     padding: 50px;
-    h3 {
+    h6 {
       text-transform: uppercase;
-      font: Bold 16px avenir-next-lt-pro-bold;
-      margin-left: 30%;
+      text-align: center;
+      font: Bold 15px avenir-next-lt-pro-bold;
     }
     .card {
       border-radius: 10px;
