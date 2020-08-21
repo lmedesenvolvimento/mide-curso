@@ -92,7 +92,9 @@
 
     <div class="fundo">
       <section>
-        <h6 class="title is-6">CONHEÇA AQUI AS 10 COMPETÊNCIAS GERAIS:</h6>
+        <h6 class="title is-6">
+          <center>CONHEÇA AQUI AS 10 COMPETÊNCIAS GERAIS:</center>
+        </h6>
 
         <b-collapse
           v-for="(collapse, index) of collapses"
@@ -151,6 +153,116 @@
         uma situação e buscar soluções, conviver e aprender com as diferenças e
         as diversidades.”
       </i>
+    </p>
+    <div class="columns">
+      <div class="column is-7 fala-carla">
+        Na base, duas competências chamam atenção para a cultura digital.
+        Vejamos o que diz a competência 4.
+      </div>
+
+      <div class="column is-1 colchete2">
+        <img src="~assets/images/colchete-explicacao-pequeno.png" />
+      </div>
+
+      <div class="column">
+        <img src="~assets/images/explicacao-carla.png" />
+      </div>
+    </div>
+
+    <p>
+      MARCOS: Competência 4 “Utilizar diferentes linguagens – verbal (oral ou
+      visual-motora, como Libras, e escrita), corporal, visual, sonora e digital
+      –, bem como conhecimentos das linguagens artística, matemática e
+      científica, para se expressar e partilhar informações, experiências,
+      ideias e sentimentos em diferentes contextos, além de produzir sentidos
+      que levem ao entendimento mútuo.”
+    </p>
+    <p>
+      CARLA: Percebam que essa competência fala sobre saber se comunicar
+      utilizando diferentes linguagem. Como você poderia estimular seus alunos a
+      se comunicarem através dessas linguagens?
+    </p>
+
+    <p>MARCOS: Agora vamos ver o que diz a competência 5.</p>
+
+    <p>
+      CARLA: “Compreender, utilizar e criar tecnologias digitais de informação e
+      comunicação de forma crítica, significativa, reflexiva e ética nas
+      diversas práticas sociais (incluindo as escolares) para se comunicar,
+      acessar e disseminar informações, produzir conhecimentos, resolver
+      problemas e exercer protagonismo e autoria na vida pessoal e coletiva.”
+    </p>
+
+    <p>
+      MARCOS: Essa competência é mais voltada para a cultura digital. Nela,
+      compreendemos a importância de utilizar e criar tecnologias digitais de
+      forma crítica, significativa e ética. Sabe o que eu pensei? Como podemos
+      iniciar uma conversa com os alunos sobre discussões em redes sociais, por
+      exemplo?
+    </p>
+
+    <div class="fundo">
+      <center>
+        <h6 class="title is-6">
+          Essa reportagem mostra algumas estratégias para se discutir o tema com
+          os alunos:
+        </h6>
+        <img src="~assets/images/imagem-reportagem.png" />
+        <p>
+          Veja mais em:
+          http://fundacaotelefonica.org.br/noticias/internet-segura-tres-estrategias-para-discutir-o-tema-na-escola/
+        </p>
+      </center>
+    </div>
+    <img src="~assets/images/icone-contextualizacao.png" class="icones" />
+    <h6 class="title is-6">
+      Saberes necessários para a construção das competências de inclusão e
+      letramento digitais
+    </h6>
+    <p>
+      A construção destas competências encontra-se em três elementos que
+      definem, hoje, a inclusão e o letramento digitais: saber <b>LER</b>, saber
+      <b>ESCREVER</b> e saber <b>PARTICIPAR</b> na internet (OCHS, 2019).
+    </p>
+    <img
+      src="~assets/images/marcos-e-carla-leitura-escola.png"
+      class="icones"
+    />
+    <h6>SABER LER</h6>
+    <br />
+    Saber LER na internet significa realizar a leitura crítica dos textos de
+    mídia em qualquer formato, utilizando-se de habilidades no domínio das
+    técnicas de busca, organização e produção do conhecimento. Esta análise
+    crítica só é possível quando se entende o significado da mídia na sociedade
+    e a importância da liberdade de expressão. Também fazem parte da leitura
+    competente o entendimento sobre como circulam as informações na grande mídia
+    e nos diversos ambientes que compõem a internet, como as mídias sociais, bem
+    como a comunicação de conteúdo patrocinado e influenciadores.
+
+    <hr />
+    <p>
+      CARLA: Saber ler na internet envolve saber conferir a qualidade da
+      informação encontrada. Você confere as informações que recebe? Em que
+      sites você costuma buscar as informações?
+    </p>
+
+    <hr />
+
+    <img src="~assets/images/carla-saber-escrever.png" class="icones" />
+    <h6>SABER ESCREVER</h6>
+    <br />
+    Saber ESCREVER na internet significa produzir mídias desenvolvidas de forma
+    técnica e criativa, utilizando-se de ferramentas digitais adequadas,
+    adaptando-se continuamente a novos recursos para produção e compartilhamento
+    de conhecimento. Para tanto, é necessário utilizar adequadamente textos,
+    imagens, dados e áudio, entendendo e adequando as suas linguagens a cada
+    formato de mídia.
+
+    <hr />
+
+    <p>
+      MARCOS: Que conteúdos os alunos de vocês produzem na Internet? Que tal uma
+      roda de conversa sobre esse assunto?
     </p>
   </mide-aulas-container>
 </template>
@@ -249,6 +361,12 @@ p {
   margin: 40px 0 0 60px;
   font-size: 14px;
 }
+
+h6 {
+  text-transform: uppercase;
+  font: Bold 15px avenir-next-lt-pro-bold;
+}
+
 .fundo {
   background-color: #e8e8e8;
   width: 105%;
@@ -257,11 +375,6 @@ p {
   section {
     margin-bottom: 50px;
     padding: 50px;
-    h6 {
-      text-transform: uppercase;
-      text-align: center;
-      font: Bold 15px avenir-next-lt-pro-bold;
-    }
     .card {
       border-radius: 10px;
       box-shadow: 5px 5px 15px #3c80d116;
@@ -276,5 +389,10 @@ p {
       }
     }
   }
+}
+
+.icones {
+  float: left;
+  padding-right: 15px;
 }
 </style>
