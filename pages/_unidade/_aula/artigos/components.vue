@@ -241,17 +241,27 @@
           </label>
         </template>
       </challenge>
-
-      <img src="~assets/images/carla-explica.png" class="carla-explica" />
-      <br />
-      <div class="explica-1">
-        Nessa temática, abordamos o conceito de cibercultura e suas
-        características.
+      <div class="columns">
+        <div class="column fala-carla">
+          <img src="~assets/images/carla-explicacao.png" />
+          <br />
+        </div>
+        <div class="column is-7">
+          Nessa temática, abordamos o conceito de cibercultura e suas
+          características.
+        </div>
       </div>
-
-      <img src="~assets/images/marcos-explica.png" class="marcos-explica" />
-      <div class="explica-2">
-        Na próxima temática, veremos como a cultura digital é discutida na BNCC.
+      <div class="columns">
+        <div class="column is-7">
+          Na próxima temática, veremos como a cultura digital é discutida na
+          BNCC.
+        </div>
+        <div class="column">
+          <img
+            src="~assets/images/marcos-explicacao.png"
+            class="marcos-explica"
+          />
+        </div>
       </div>
     </article>
   </mide-aulas-container>
@@ -367,22 +377,7 @@ article {
     margin: 3px;
   }
   .carla-explica {
-    float: right;
-  }
-  .marcos.explica {
-    position: reltive;
-  }
-  .explica-1 {
-    margin-top: 80px;
-    text-align: right;
-    text-indent: 50px;
-  }
-  .explica-2 {
-    text-align: left;
-    margin-top: -150px;
-    margin-right: 50px;
-    float: right;
-    margin-left: 300px;
+    float: left;
   }
 }
 </style>
