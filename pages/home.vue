@@ -30,11 +30,13 @@
       v-model="isWelcomeActive"
       :dialogs="dialogs"
       @dialogs="onDialogsChange"
+      @close="onDialogsClose"
     />
   </section>
 </template>
 
 <script>
+import Cookies from 'js-cookie'
 import { INTRO_DIALOGS } from '@/utils/strings'
 
 export default {
@@ -46,7 +48,10 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      this.isWelcomeActive = true
+      const isShowedWelcomeDialog = !!Cookies.get('WELCOME_DIALOG')
+      if (!isShowedWelcomeDialog) {
+        this.isWelcomeActive = true
+      }
     })
   },
   methods: {
@@ -55,6 +60,9 @@ export default {
     },
     onDialogsChange(dialogs) {
       this.dialogs = dialogs
+    },
+    onDialogsClose() {
+      Cookies.set('WELCOME_DIALOG', true, { expires: 7 })
     }
   }
 }

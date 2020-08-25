@@ -13,18 +13,18 @@
       "descricao": "Ensinando em um mundo digital",
       "aulas": [
         {
-          "id": "hello",
+          "id": "unidade-I-introducao",
           "titulo": "Introdução",
           "descricao": "Unidade I",
           "initial": true
         },
         {
-          "id": "components",
+          "id": "unidade-I-cibercultura",
           "titulo": "Temática",
           "descricao": "Cibercultura e a educação"
         },
         {
-          "id": "about",
+          "id": "unidade-I-digital",
           "titulo": "Temática",
           "descricao": "A cultura digital na BNCC"
         }

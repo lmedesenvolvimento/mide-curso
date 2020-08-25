@@ -120,6 +120,7 @@ export default {
     },
     onClose() {
       this.$emit('change', false)
+      this.$emit('close', true)
       this.dialogIndex = 0
     }
   }
