@@ -4,7 +4,7 @@
       <img src="~assets/images/imagem-inicio.png" class="mide-cabecalho" />
       <div class="mide-cabecalho-text">
         <h3 class="has-text-left">Aproveite os estudos!</h3>
-        <h1>Uso de recursos educativos digitais</h1>
+        <h1>Uso de recursos Educacionais Digitais</h1>
         <p>
           Com este curso, você vai poder desenvolver seus conhecimentos acerca
           do uso de Recursos Educacionais Digitais como instrumentos de ensino
@@ -85,7 +85,7 @@ export default {
       margin-top: 40px;
     }
     h1 {
-      font: 35px avenir-next-lt-pro-bold;
+      font: 32px avenir-next-lt-pro-bold;
       margin-bottom: 24px;
     }
     p {

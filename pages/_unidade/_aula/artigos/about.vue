@@ -51,7 +51,7 @@
 
     <div class="columns">
       <div class="column is-one-third">
-        <img src="~assets/images/marcos-celular-close.png" />
+        <img src="~assets/images/marcos-explicacao.png" />
       </div>
       <div class="column is-1">
         <img

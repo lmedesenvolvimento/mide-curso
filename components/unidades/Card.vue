@@ -43,9 +43,8 @@ export default {
   border-radius: 15px;
   opacity: 1;
   .image {
-    background: transparent
-      url('https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')
-      0% 0% no-repeat;
+    background: transparent url('~assets/images/card-sobre-o-curso.png') 0% 0%
+      no-repeat;
     background-size: cover;
     border-radius: 15px 15px 0px 0px;
   }

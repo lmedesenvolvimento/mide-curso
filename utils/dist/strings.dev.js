@@ -1,0 +1,74 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = exports.INTRO_DIALOGS = void 0;
+var INTRO_DIALOGS = [{
+  avatar: require('assets/images/avatar-dialogo-carla.png'),
+  text: 'Olá meu nome é <strong>Carla</strong>. Sou professora de Matemática.'
+}, {
+  right: true,
+  avatar: require('assets/images/avatar-dialogo-marcos.png'),
+  text: 'Oi meu nome é <strong>Marcos</strong>. Sou professor de Português.'
+}, {
+  avatar: require('assets/images/avatar-dialogo-carla.png'),
+  text: 'É com satisfação que recebemos você no curso "Uso de recursos educativos digitais!"'
+}, {
+  right: true,
+  avatar: require('assets/images/avatar-dialogo-marcos.png'),
+  text: 'Neste curso vamos entender como a <strong>cultura digital</strong> pode mudar algumas práticas de sala de aula. Vamos <strong>conhecer</strong> alguns  Recursos Educacionais Digitais ou, simplesmente, <strong>RED</strong>.'
+}, {
+  avatar: require('assets/images/avatar-dialogo-carla.png'),
+  text: 'Sim! Vamos ver como esses recursos podem ser instrumentos de ensino e aprendizagem na Língua Portuguesa e na Matemática nos anos iniciais do Ensino Fundamental.'
+}, {
+  right: true,
+  avatar: require('assets/images/avatar-dialogo-marcos.png'),
+  text: 'Ao final do curso vamos conhecer alguns <strong>planejamentos</strong> e também <strong>planejar</strong> aulas com suporte de Recursos Educacionais Digitais.'
+}, {
+  avatar: require('assets/images/avatar-dialogo-carla.png'),
+  text: 'Os objetivos do curso são esses:'
+}, {
+  type: 'text',
+  text: "\n        <ol>\n          <li>Desenvolver conhecimento sobre o ensino e aprendizagem na cultura digital</li>\n          <li>Conhecer Recursos Educacionais Digitais (RED) como instrumentos de ensino e aprendizagem.</li>\n          <li>Planejar aulas com suporte dos RED.</li>\n        </ol>\n      "
+}, {
+  right: true,
+  avatar: require('assets/images/avatar-dialogo-marcos.png'),
+  text: ' Vamos entender um pouco da estrutura do curso. Você deseja ver a <strong>ementa</strong> agora?'
+}, {
+  type: 'bool',
+  yes: [{
+    right: true,
+    avatar: require('assets/images/avatar-dialogo-marcos.png'),
+    text: 'Tudo bem! Esta é a ementa do curso:'
+  }, {
+    type: 'text',
+    text: 'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+  }, {
+    avatar: require('assets/images/avatar-dialogo-carla.png'),
+    text: 'Agora veja a estrutura abaixo para entender a estrutura do curso:'
+  }, {
+    type: 'text',
+    text: "<img src=\"".concat(require('assets/images/estrutura-do-curso-com-texto.png'), "\"/>")
+  }, {
+    type: 'end'
+  }],
+  no: [{
+    right: true,
+    avatar: require('assets/images/avatar-dialogo-marcos.png'),
+    text: 'Tudo bem! Lembre-se que você pode acessar a ementa sempre que desejar durante o curso.'
+  }, {
+    avatar: require('assets/images/avatar-dialogo-carla.png'),
+    text: 'Agora veja a imagem abaixo para entender a estrutura do curso:'
+  }, {
+    type: 'text',
+    text: "\n            <img src=\"".concat(require('assets/images/estrutura-do-curso-com-texto.png'), "\" />\n          ")
+  }, {
+    type: 'end'
+  }]
+}];
+exports.INTRO_DIALOGS = INTRO_DIALOGS;
+var _default = {
+  INTRO_DIALOGS: INTRO_DIALOGS
+};
+exports["default"] = _default;
