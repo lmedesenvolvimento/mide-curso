@@ -6,7 +6,7 @@
       "descricao": "Ensinando em um mundo digital",
       "aulas": [
         {
-          "id": "unidade-I-introducao",
+          "id": "unidade-I-digital",
           "next": "unidade-I-cibercultura",
           "titulo": "Introdução",
           "descricao": "Unidade I",
@@ -14,12 +14,12 @@
         },
         {
           "id": "unidade-I-cibercultura",
-          "next": "unidade-I-digital",
+          "next": "unidade-I-introducao",
           "titulo": "Temática",
           "descricao": "Cibercultura e a educação"
         },
         {
-          "id": "unidade-I-digital",
+          "id": "unidade-I-introducao",
           "titulo": "Temática",
           "descricao": "A cultura digital na BNCC"
         }
@@ -31,7 +31,7 @@
       "descricao": "Conhecendo recursos digitais educacionais",
       "aulas": [
         {
-          "id": "unidade-II-introducao",
+          "id": "unidade-II-digital",
           "next": "unidade-II-cibercultura",
           "titulo": "Introdução",
           "descricao": "Unidade II",
@@ -39,12 +39,12 @@
         },
         {
           "id": "unidade-II-cibercultura",
-          "next": "unidade-II-digital",
+          "next": "unidade-II-introducao",
           "titulo": "Temática",
           "descricao": "Cibercultura e a educação"
         },
         {
-          "id": "unidade-II-digital",
+          "id": "unidade-II-introducao",
           "titulo": "Temática",
           "descricao": "A cultura digital na BNCC"
         }
