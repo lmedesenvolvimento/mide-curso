@@ -6,21 +6,21 @@
       "descricao": "Ensinando em um mundo digital",
       "aulas": [
         {
-          "id": "unidade-I-digital",
-          "next": "unidade-I-cibercultura",
+          "id": "unidade-I-introducao",
+          "next": "unidade-I-tematica-I",
           "titulo": "Introdução",
           "descricao": "Unidade I",
           "initial": true
         },
         {
-          "id": "unidade-I-cibercultura",
-          "next": "unidade-I-introducao",
-          "titulo": "Temática",
+          "id": "unidade-I-tematica-I",
+          "next": "unidade-I-tematica-II",
+          "titulo": "Temática I",
           "descricao": "Cibercultura e a educação"
         },
         {
-          "id": "unidade-I-introducao",
-          "titulo": "Temática",
+          "id": "unidade-I-tematica-II",
+          "titulo": "Temática II",
           "descricao": "A cultura digital na BNCC"
         }
       ]
@@ -31,22 +31,22 @@
       "descricao": "Conhecendo recursos digitais educacionais",
       "aulas": [
         {
-          "id": "unidade-II-digital",
-          "next": "unidade-II-cibercultura",
+          "id": "unidade-II-introducao",
+          "next": "unidade-II-tematica-II",
           "titulo": "Introdução",
           "descricao": "Unidade II",
           "initial": true
         },
         {
-          "id": "unidade-II-cibercultura",
-          "next": "unidade-II-introducao",
-          "titulo": "Temática",
-          "descricao": "Cibercultura e a educação"
+          "id": "unidade-I-tematica-I",
+          "next": "unidade-II-tematica-II",
+          "titulo": "Temática I",
+          "descricao": "O USO DE RECURSOS EDUCACIONAIS DIGITAIS (RED) COMO FERRAMENTA NO ENSINO DE LÍNGUA PORTUGUESA E  MATEMÁTICA"
         },
         {
-          "id": "unidade-II-introducao",
-          "titulo": "Temática",
-          "descricao": "A cultura digital na BNCC"
+          "id": "unidade-II-tematica-II",
+          "titulo": "Temática II",
+          "descricao": "RECURSOS NA PLATAFORMA INTEGRADA DE RECURSOS EDUCACIONAIS DIGITAIS"
         }
       ]
     },
