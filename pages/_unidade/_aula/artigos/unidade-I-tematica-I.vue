@@ -1,7 +1,19 @@
 <template>
   <mide-aulas-container>
-    <div id="unidade-I-cibercultura">
+    <div id="unidade-I-tematica-I">
       <article>
+        <p class="titulos">
+          Objetivos de aprendizagem:
+        </p>
+        <p>
+          - Compreender a cibercultura como um aspecto favorável para a
+          ressignificação da prática docente comprometida com uma educação
+          cidadã;
+        </p>
+        <p>
+          - Entender o impacto das tecnologias na vida das pessoas e na
+          sociedade, incluindo as relações sociais, culturais e comerciais.
+        </p>
         <section class="fala-carla">
           <img src="~assets/images/carla-unidade-1.png" class="carla-1" />
           <img
@@ -48,6 +60,48 @@
                 </div>
               </section>
             </b-carousel-item>
+            <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
+              <section :class="`hero is-medium is-${carousel.color}`">
+                <div class="hero-body has-text-centered">
+                  <center>
+                    <div class="card-image-carrossel"></div>
+                    <h2>Ciência e tecnologia</h2>
+                    <hr class="carrossel-horizontal-line" />
+                    <p>
+                      No campo da ciência e tecnologia, as grandes potências
+                      estavam preocupadas em conhecer o sistema solar,
+                      explorando a Lua e outros planetas.
+                    </p>
+                    <p>
+                      O piloto do Centro de Pesquisas de voo da NASA, Joseph A.
+                      Walker, voou no primeiro voo do foguete norte-americano
+                      X-15. Em 2 de março de 1060 alcançou no voo 48.630 pés do
+                      chão. Era o nono vôo do programa.
+                    </p>
+                    <img src="~assets/images/imagem-ciencia-e-tecnologia.png" />
+                  </center>
+                </div>
+              </section>
+            </b-carousel-item>
+            <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
+              <section :class="`hero is-medium is-${carousel.color}`">
+                <div class="hero-body has-text-centered">
+                  <center>
+                    <div class="card-image-carrossel"></div>
+                    <h2>VESTIMENTAS</h2>
+                    <hr class="carrossel-horizontal-line" />
+                    <p>
+                      Vamos observar também que as roupas, as discussões e a
+                      maneira de pensar e agir eram bem diferentes da nossa
+                      época. Enfim, muitas as atividades humanas como a forma de
+                      se comunicar, a arquitetura, as comidas e músicas são bem
+                      diferentes das que temos hoje.
+                    </p>
+                    <img src="~assets/images/imagem-vestimentas.png" />
+                  </center>
+                </div>
+              </section>
+            </b-carousel-item>
           </b-carousel>
         </section>
 
@@ -74,9 +128,9 @@
           incorporadas na sociedade, como por exemplo, contingências ambientais,
           consciência social e invenção ou desenvolvimento de tecnologias.
         </p>
-        <center>
+        <!-- <center>
           <question />
-        </center>
+        </center> -->
         <br />
         <hr class="questionhorizontalline" />
         <br />
@@ -225,10 +279,6 @@
         <challenge name="challege-3" :options="challenge" correct="capitalismo">
           <template slot="quesiton">
             <div class="question-title">DESAFIO!</div>
-            <p>
-              Voluptate minim pariatur elit nisi mollit sunt voluptate
-              reprehenderit.
-            </p>
           </template>
           <template #option="{option, model, disabled, setModel}">
             <label class="radio">
@@ -246,14 +296,21 @@
         <img src="~assets/images/carla-explica.png" class="carla-explica" />
         <br />
         <div class="explica-1">
-          Nessa temática, abordamos o conceito de cibercultura e suas
-          características.
+          Nesta unidade, conhecemos o conceito de cibercultura, em que contexto
+          ele surgiu e como influencia as práticas na sociedade.
         </div>
 
         <img src="~assets/images/marcos-explica.png" class="marcos-explica" />
         <div class="explica-2">
-          Na próxima temática, veremos como a cultura digital é discutida na
-          BNCC.
+          Também estudamos como a BNCC apresenta a cultura digital nas
+          competências gerais.
+        </div>
+
+        <img src="~assets/images/carla-explica.png" class="carla-explica" />
+        <br />
+        <div class="explica-1">
+          Na próxima unidade, vamos apresentar o conceito de Recursos
+          Educacionais Digitais e sua classificação.
         </div>
       </article>
     </div>
@@ -278,12 +335,7 @@ export default {
       iconPrev: 'arrow-left',
       iconNext: 'arrow-right',
       iconSize: '',
-      carousels: [
-        { title: 'Slide 1' },
-        { title: 'Slide 2' },
-        { title: 'Slide 3' },
-        { title: 'Slide 4' }
-      ]
+      carousels: [{ title: 'Slide 1' }]
     }
   }
 }

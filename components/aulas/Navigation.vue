@@ -34,6 +34,7 @@
         <nuxt-link
           v-for="(aula, i) in unidade.aulas"
           :key="aula.id"
+          :value_index="i"
           :to="lessonUrl(unidade, aula)"
           class="mide-aulas-navigation-item columns"
           :class="{ 'is-active': isLessonActive(aula) }"
@@ -41,7 +42,7 @@
           <input class="radio" type="radio" name="answer" />
 
           <div class="mide-aulas-navigation-title">
-            <div id="tituloaula">{{ aula.titulo }} {{ i + 1 }}</div>
+            <div id="tituloaula">{{ aula.titulo }}</div>
             <p>{{ aula.descricao }}</p>
           </div>
         </nuxt-link>
