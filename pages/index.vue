@@ -18,12 +18,47 @@
           <img src="~assets/images/botao-iniciar-curso.png" width="200" />
         </nuxt-link>
       </button>
+      <mide-modal-chat-dialog
+        v-model="isWelcomeActive"
+        :dialogs="dialogs"
+        @dialogs="onDialogsChange"
+        @close="onDialogsClose"
+      />
     </div>
   </center>
 </template>
 
 <script>
-export default {}
+import Cookies from 'js-cookie'
+import { INTRO_DIALOGS } from '@/utils/strings'
+
+export default {
+  data() {
+    return {
+      dialogs: [...INTRO_DIALOGS],
+      isWelcomeActive: false
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      const isShowedWelcomeDialog = !!Cookies.get('WELCOME_DIALOG')
+      if (!isShowedWelcomeDialog) {
+        this.isWelcomeActive = true
+      }
+    })
+  },
+  methods: {
+    openWelcomeDialog() {
+      this.isWelcomeActive = true
+    },
+    onDialogsChange(dialogs) {
+      this.dialogs = dialogs
+    },
+    onDialogsClose() {
+      Cookies.set('WELCOME_DIALOG', true, { expires: 7 })
+    }
+  }
+}
 </script>
 
 <style lang="scss">

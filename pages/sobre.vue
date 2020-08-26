@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="sobre">
     <h3>Sobre o curso</h3>
     <br />
     <div class="columns">
@@ -106,7 +106,9 @@
 
     <center>
       <button>
-        <img src="~assets/images/botao-retornar-ao-inicio.png" />
+        <nuxt-link to="/home">
+          <img src="~assets/images/botao-retornar-ao-inicio.png" />
+        </nuxt-link>
       </button>
     </center>
   </section>
@@ -117,28 +119,30 @@ export default {}
 </script>
 
 <style lang="scss">
-h3 {
-  text-align: center;
-  font: 18px avenir-next-lt-pro-bold;
-  letter-spacing: 1.2px;
-  color: #c0315f;
-  text-transform: uppercase;
-  margin: 50px 0 50px;
-}
-.text {
-  position: absolute;
-  color: #fff;
-  padding: 100px;
-  h4 {
-    color: #fff;
+#sobre {
+  h3 {
+    text-align: center;
+    font: 18px avenir-next-lt-pro-bold;
+    letter-spacing: 1.2px;
+    color: #c0315f;
+    text-transform: uppercase;
+    margin: 50px 0 50px;
   }
-}
-.imagem {
-  margin-top: 50px;
-}
-button {
-  border: none;
-  background: none;
-  margin: 10px 0 50px;
+  .text {
+    position: absolute;
+    color: #fff;
+    padding: 100px;
+    h4 {
+      color: #fff;
+    }
+  }
+  .imagem {
+    margin-top: 50px;
+  }
+  button {
+    border: none;
+    background: none;
+    margin: 10px 0 50px;
+  }
 }
 </style>

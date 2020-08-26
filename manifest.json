@@ -1,13 +1,6 @@
 {
   "unidades": [
     {
-      "id": "sobre",
-      "titulo": "SOBRE O CURSO",
-      "descricao": "Ementa e objetivos de aprendizagem",
-      "aulas": []
-    },
-
-    {
       "id": "boas-vindas",
       "titulo": "UNIDADE I",
       "descricao": "Ensinando em um mundo digital",

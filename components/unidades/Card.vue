@@ -41,6 +41,7 @@ export default {
 .mide-unidades-card {
   box-shadow: 0px 12px 19px #3c80d116;
   border-radius: 15px;
+  height: 100%;
   opacity: 1;
   .image {
     background: transparent
