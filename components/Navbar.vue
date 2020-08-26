@@ -34,7 +34,7 @@ export default {
         {
           title: 'Início',
           pack: 'icon',
-          to: { name: 'index' }
+          to: { name: 'home' }
         },
         {
           title: 'Biblioteca',

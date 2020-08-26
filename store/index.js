@@ -22,8 +22,6 @@ const getters = {
       ({ id }) => state.aulas.current?.id === id
     )
 
-    console.log(aula, aula.next)
-
     if (aula.next) {
       return state.aulas.data.find(({ id }) => aula.next === id)
     }

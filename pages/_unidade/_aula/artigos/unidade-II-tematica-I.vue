@@ -1,6 +1,6 @@
 <template>
   <mide-aulas-container>
-    <article id="unidade-I-cibercultura">
+    <article id="unidade-II-tematica-I">
       <section class="fala-carla">
         <img src="~assets/images/carla-unidade-1.png" class="carla-1" />
         <img
@@ -287,7 +287,7 @@ export default {
 </script>
 
 <style lang="scss">
-#unidade-I-cibercultura {
+#unidade-II-tematica-I {
   article {
     margin-top: 50px;
     section {
