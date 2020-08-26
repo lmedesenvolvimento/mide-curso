@@ -39,6 +39,18 @@
           de aula.
         </p>
       </div>
+      <div class="columns">
+        <div class="column">
+          <img src="~assets/images/carla-explicacao.png" />
+        </div>
+        <div class="column">
+          “Convidamos vocês para essa reflexão tão importante para prática
+          docente.”
+        </div>
+        <div class="column">
+          <img src="~assets/images/marcos-explicacao.png" />
+        </div>
+      </div>
     </div>
   </mide-aulas-container>
 </template>
