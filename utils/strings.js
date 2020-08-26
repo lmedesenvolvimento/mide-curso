@@ -62,7 +62,7 @@ export const INTRO_DIALOGS = [
       {
         type: 'text',
         text:
-          'Fugiat consequat duis dolor et et elit in veniam consequat do nostrud minim.'
+          'A cultura digital e o mundo contemporâneo. Recursos Educacionais Digitais como instrumentos de ensino e aprendizagem. Possibilidades do uso de RED de Língua Portuguesa e Matemática nos anos iniciais do Ensino Fundamental.  Planejamento de aulas com suporte de Recursos Educacionais Digitais'
       },
       {
         avatar: require('assets/images/avatar-dialogo-carla.png'),

@@ -6,11 +6,9 @@
       <h3>Curso de Formação</h3>
       <h1 class="title is-1">Uso de Recursos Educacionais Digitais</h1>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
-        <br />
-        Lorem Ipsum has been the industry's standard dummy text ever since the
-        1500s.
+        O curso irá lhe ajudar a entender como a cultura digital pode mudar
+        algumas práticas de sala de aula e conhecer Recursos Educacionais
+        Digitais (RED) de Língua Portuguesa e Matemática.
       </p>
       <br />
       <button>
