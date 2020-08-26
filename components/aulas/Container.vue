@@ -3,8 +3,8 @@
     <div class="card-image">
       <figure class="mide-lesson-image"></figure>
       <div class="header">
-        <h3>{{ unidade.titulo }}</h3>
-        <h1>{{ unidade.descricao }}</h1>
+        <h3>{{ unidade && unidade.titulo }}</h3>
+        <h1>{{ unidade && unidade.descricao }}</h1>
       </div>
     </div>
     <div class="card-content">
@@ -24,7 +24,10 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     nextUrl() {
-      return `/${this.unidade.id}/${this.next.id}/artigos/${this.next.id}`
+      if (this.unidade && this.next) {
+        return `/${this.unidade.id}/${this.next.id}/artigos/${this.next.id}`
+      }
+      return null
     },
     ...mapGetters({
       unidade: 'getCurrentUnidade',

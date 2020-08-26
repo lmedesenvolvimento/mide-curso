@@ -52,6 +52,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import { last } from '@/utils/arrays'
 
 export default {
@@ -68,7 +69,15 @@ export default {
       set(value) {
         this.$store.dispatch('site/setLessonNav', value)
       }
-    }
+    },
+    ...mapState({
+      unidades: ({ unidades }) => unidades.data
+    })
+  },
+  created() {
+    this.isOpen = this.unidades.findIndex((unidade) => {
+      return unidade.id === this.$route.params.unidade
+    })
   },
   methods: {
     toggle() {

@@ -4,8 +4,8 @@
       class="mide-lesson-container"
       :class="{ 'is-full': !lessonNavIsVisible }"
     >
-      <nuxt-child />
       <mide-aulas-navigation />
+      <nuxt-child />
     </div>
   </div>
 </template>
