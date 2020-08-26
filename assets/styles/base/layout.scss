@@ -9,3 +9,26 @@
     }
   }
 }
+
+// Blocks
+.block-bordered {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: $gap 1.5rem;
+  margin: $gap * 1.5 -1.5rem;
+}
+.block-bordered ~ .block-bordered {
+  border-top: none !important;
+}
+
+.dialog-box {
+  background-color: #EEEEEE;
+  border-radius: $gap;
+  padding: $gap * 0.75;
+  &.is-left {
+    border-bottom-left-radius: 0px;
+  }
+  &.is-right {
+    border-bottom-right-radius: 0px;
+  }
+}

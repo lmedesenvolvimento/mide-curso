@@ -47,6 +47,61 @@
               <b>Podemos definir cultura como: </b>
             </center>
           </p>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Ullamco consequat laboris qui aliqua pariatur nisi. Tempor eu
+                  ullamco officia proident irure. Proident velit quis quis sit
+                  ullamco Lorem laborum pariatur amet ad dolore labore officia.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Ullamco consequat laboris qui aliqua pariatur nisi. Tempor eu
+                  ullamco officia proident irure. Proident velit quis quis sit
+                  ullamco Lorem laborum pariatur amet ad dolore labore officia.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box">
+                  Ullamco consequat laboris qui aliqua pariatur nisi. Tempor eu
+                  ullamco officia proident irure. Proident velit quis quis sit
+                  ullamco Lorem laborum pariatur amet ad dolore labore officia.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
 
           <center>
             <quotes />
@@ -55,10 +110,7 @@
               uma sociedade vive e se comporta socialmente. Também é preciso
               lembrar que a cultura é dinâmica. Portanto, ela muda com o tempo,
               algumas características sociais são adquiridas, outras deixada de
-              lado. Alguns aspectos permitem que essas mudanças culturais sejam
-              incorporadas na sociedade, como por exemplo, contingências
-              ambientais, consciência social e invenção ou desenvolvimento de
-              tecnologias.
+              lado.
             </p>
             <question />
           </center>

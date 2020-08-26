@@ -22,7 +22,7 @@ const getters = {
       ({ id }) => state.aulas.current?.id === id
     )
 
-    if (aula.next) {
+    if (aula?.next) {
       return state.aulas.data.find(({ id }) => aula.next === id)
     }
     return null
