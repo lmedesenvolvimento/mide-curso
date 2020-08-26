@@ -40,6 +40,11 @@ export default {
           title: 'Biblioteca',
           pack: 'icon',
           to: { name: 'inspire' }
+        },
+        {
+          title: 'Componentes',
+          pack: 'icon',
+          to: { name: 'inspire' }
         }
       ]
     }
