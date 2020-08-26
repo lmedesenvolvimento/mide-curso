@@ -293,20 +293,23 @@
           </template>
         </challenge>
 
-        <img src="~assets/images/carla-explica.png" class="carla-explica" />
+        <img src="~assets/images/carla-explicacao.png" class="carla-explica" />
         <br />
         <div class="explica-1">
           Nesta unidade, conhecemos o conceito de cibercultura, em que contexto
           ele surgiu e como influencia as práticas na sociedade.
         </div>
 
-        <img src="~assets/images/marcos-explica.png" class="marcos-explica" />
+        <img
+          src="~assets/images/marcos-explicacao.png"
+          class="marcos-explica"
+        />
         <div class="explica-2">
           Também estudamos como a BNCC apresenta a cultura digital nas
           competências gerais.
         </div>
 
-        <img src="~assets/images/carla-explica.png" class="carla-explica" />
+        <img src="~assets/images/carla-explicacao.png" class="carla-explica" />
         <br />
         <div class="explica-1">
           Na próxima unidade, vamos apresentar o conceito de Recursos
