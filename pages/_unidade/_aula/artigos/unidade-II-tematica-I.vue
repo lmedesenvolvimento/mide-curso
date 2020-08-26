@@ -1,257 +1,266 @@
 <template>
   <mide-aulas-container>
-    <article id="unidade-I-cibercultura">
-      <section class="fala-carla">
-        <img src="~assets/images/carla-unidade-1.png" class="carla-1" />
-        <img
-          src="~assets/images/colchete-explicacao-medio.png"
-          class="colchete"
-        />
-        <div id="paragrafo1">
-          Antes de começar a discussão sobre <strong>cibercultura</strong>,
-          gostaríamos que você viajasse no tempo até o ano de
-          <strong>1960</strong>. <br />
-          O que você acha que iria encontrar? Vamos viajar no tempo e
-          <strong>relembrar</strong> como era a
-          <strong>sociedade nessa época</strong>?
+    <article id="unidade-II">
+      <h6 class="title is-6">Os objetivos deste bloco são:</h6>
+
+      <li>
+        Estabelecer relações entre os saberes da cultura escolar e aqueles
+        referentes à digital.
+      </li>
+      <li>
+        Mostrar como professores podem utilizar de forma efetiva recursos
+        educacionais digitais em sala de aula.
+      </li>
+      <hr />
+
+      <div class="columns">
+        <div class="column is-4">
+          <img src="~assets/images/marcos-unidade-2.png" />
         </div>
-      </section>
-
-      <h1>1960</h1>
-      <section class="carrossel">
-        <b-carousel
-          :arrow="arrow"
-          :arrow-both="arrowBoth"
-          :arrow-hover="arrowHover"
-          :icon-pack="iconPack"
-          :icon-prev="iconPrev"
-          :icon-next="iconNext"
-          :icon-size="iconSize"
-        >
-          <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-            <section :class="`hero is-medium is-${carousel.color}`">
-              <div class="hero-body has-text-centered">
-                <center>
-                  <div class="card-image-carrossel"></div>
-                  <h2>Mundo da música</h2>
-                  <hr class="carrossel-horizontal-line" />
-                  <p>
-                    No mundo na música, a banda “Os Beatles” fazia sucesso e
-                    estava nas paradas das rádios. Aqui no Brasil, surgia um
-                    fenômeno musical chamado MPB (Música Popular Brasileira)
-                    lançando cantores como Elis Regina, Vinicius de Moraes, Edu
-                    Lobo, Nara Leão e Chico Buarque.
-                  </p>
-                  <img src="~assets/images/imagem-mundo-da-musica.png" />
-                </center>
-              </div>
-            </section>
-          </b-carousel-item>
-        </b-carousel>
-      </section>
-
-      <p>
-        <br />
-        <center>
-          Todos esses aspectos acima chamamos de cultura.
-          <br />
-          <b>Podemos definir cultura como:</b>
-        </center>
-      </p>
-
-      <center>
-        <quotes />
-      </center>
-      <p>
-        Assim, a cultura é o entendimento pelo qual fazemos da forma como uma
-        sociedade vive e se comporta socialmente. Também é preciso lembrar que a
-        cultura é dinâmica. Portanto, ela muda com o tempo, algumas
-        características sociais são adquiridas, outras deixada de lado.
-      </p>
-      <p>
-        Alguns aspectos permitem que essas mudanças culturais sejam incorporadas
-        na sociedade, como por exemplo, contingências ambientais, consciência
-        social e invenção ou desenvolvimento de tecnologias.
-      </p>
-      <center>
-        <question />
-      </center>
-      <br />
-      <hr class="questionhorizontalline" />
-      <br />
-      <img src="~assets/images/icone-contextualizacao.png" class="icones" />
-      <div class="titulos">Contextualização Histórica</div>
-      <p>
-        Os anos 1960 foram muito importantes para entender a sociedade do século
-        XXI. Isto porque eles iniciaram uma série de grandes transformações
-        culturais que constituíram um impacto decisivo em nossa maneira de
-        perceber o mundo e de viver. Estas transformações foram possíveis
-        porque, de um lado, havia um sentimento da necessidade de reconstrução
-        da cidadania e do relacionamento entre os povos, após o trauma da
-        Segunda Guerra Mundial e do nazismo; de outro lado, a chamada “Guerra
-        Fria” continuava a lembrar às pessoas que tudo poderia acontecer
-        novamente, e desta vez de maneira ainda mais catastrófica.
-      </p>
-      <p>
-        Momentos assim costumam gerar grandes discussões e consequentemente
-        tentativas de solução. Um destes debates, no nível cultural, foi a
-        chamada “contracultura”, no qual principalmente jovens e artistas
-        rebelavam-se contra as políticas belicistas, especialmente aquelas de
-        cunho nuclear. Ao mesmo tempo, defendiam uma abertura nos costumes e nos
-        direitos humanos, sobretudo quanto aos direitos das mulheres, ao
-        exercício da sexualidade e à vida em comunidade.
-      </p>
-
-      <challenge name="challege-1" :options="challenge" correct="capitalismo">
-        <template slot="quesiton">
-          <div class="question-title">DESAFIO!</div>
+        <div class="column">
+          Você sabia que as <b>tecnologias</b> disponíveis em cada época
+          <b>transformaram</b> radicalmente as formas de
+          <b>ensinar e aprender</b>?
+        </div>
+      </div>
+      <hr />
+      <div class="columns">
+        <div class="column">
+          <img
+            src="~assets/images/imagem-texto-imprensa-1.png"
+            class="imgimprensa"
+          />
+          <img src="~assets/images/caixa-texto-imprensa.png" />
+        </div>
+        <div class="column">
           <p>
-            Quais dessas palavras você acha que o movimento da contracultura era
-            contra?
+            Como você acha que os professores no século XV lidaram com a
+            revolução da imprensa e com o uso de textos impressos para se
+            trabalhar em sala de aula? Ou mesmo com a possibilidade de se ter
+            acesso com mais facilidade aos textos da época?
           </p>
-        </template>
-      </challenge>
-
-      <p>
-        A Guerra Fria gerava o desenvolvimento de tecnologias de estratégia
-        militar, na tentativa de lidar com a nova realidade da bomba nuclear.
-        Uma destas tecnologias foi desenvolvida nos Estados Unidos pela ARPA -
-        Advanced Research Projects Agency, pertencente ao Departamento de
-        Defesa. Denominada ARPANET, constituía uma rede de troca de pacotes de
-        dados utilizando dois protocolos inovadores - o TCP (Transmission
-        Control Protocol) e o IP (Internet Protocol), que possibilitavam uma
-        descentralização sem precedentes na comunicação. Isto dificultava a
-        destruição de uma base de dados pelo inimigo. Com a redução das tensões
-        da Guerra Fria, nas duas décadas seguintes a tecnologia da ARPANET foi
-        aperfeiçoada e ampliada, inicialmente para a área científica e
-        posteriormente para a área comercial.
-      </p>
-      <p>
-        A tecnologia TCP/IP propiciou também um grande avanço para a economia
-        mundial. Com ela, uma nova globalização foi possível, interligando
-        rapidamente mercados financeiros e de consumo e propiciando o rápido
-        desenvolvimento de economias locais.
-      </p>
-      <p>
-        A ampliação das economias, sobretudo para aquelas capitalistas, foi
-        facilitada pelos acordos políticos entre as grandes potências
-        econômicas, que buscaram formas de cooperação até então inéditas. Ao
-        mesmo tempo, o fim da União Soviética propiciou a ampliação de
-        transações comerciais aos países anteriormente sob sua influência,
-        graças à nova tecnologia de redes, a Internet.
-      </p>
-      <center>
-        <div class="frase">
-          Assim, a Internet nasce sob esta múltipla composição:
-        </div>
-
-        <img src="~assets/images/quadro-cibercultura.png" />
-        <div class="frase">
-          Este é o “caldo de cultura” do qual nasce a cibercultura.
-        </div>
-      </center>
-      <br />
-      <hr class="questionhorizontalline" />
-      <br />
-
-      <img src="~assets/images/icone-contextualizacao.png" class="icones" />
-      <div class="titulos">Características da Cibercultura</div>
-      <p>A cibercultura é definida pelo filósofo Pierre Levy como:</p>
-      <center>
-        <br />
-        <quotes /> <br />
-      </center>
-      <p>
-        Ele traduz em meio tecnológico avançado (daí o prefixo "ciber") as
-        complexas conexões entre aqueles fenômenos históricos iniciados nos anos
-        1960, agora acrescidos de novas possibilidades, além de gerar outro
-        fenômenos.
-      </p>
-      <br />
-      <center>
-        <quotes />
-      </center>
-      <p>
-        O espaço virtual que constitui o ciberespaço é um espaço real. Ele gera
-        fenômenos culturais na vida das pessoas tão válidos quanto aqueles do
-        espaço físico. Portanto, não faz sentido opor o espaço virtual a um
-        suposto espaço “real”. No entanto, as formas geradoras destes fenômenos
-        culturais são diversas do espaço físico, devido a algumas
-        características muito peculiares da cibercultura.
-      </p>
-      <div>Vejamos algumas destas principais características.</div>
-      <br />
-      <challenge name="challege-2" :options="challenge" correct="capitalismo">
-        <template slot="quesiton">
-          <div class="question-title">DESAFIO!</div>
           <p>
-            Você poderia relacionar essas características da cibercultura
-            descritas abaixo? <strong>Arraste</strong> as imagens para o
-            <strong>espaço vazio</strong> de cada característica.
+            Pense também na época em que o rádio trouxe possibilidade de levar
+            informações e conteúdos para diversas pessoas ao mesmo tempo,
+            quebrando a lógica de transmissão reduzida do século XVII.
           </p>
-
-          <img
-            src="~assets/images/desafio-cibercultura-imagem-1.png"
-            width="160"
-            class="challenge-images"
-          />
-          <img
-            src="~assets/images/desafio-cibercultura-imagem-2.png"
-            width="160"
-            class="challenge-images"
-          />
-          <img
-            src="~assets/images/desafio-cibercultura-imagem-3.png"
-            width="160"
-            class="challenge-images"
-          />
-          <img
-            src="~assets/images/desafio-cibercultura-imagem-4.png"
-            width="160"
-            class="challenge-images"
-          />
-        </template>
-        <template #option="{option, disabled, active}">
-          <b-button
-            :type="active ? 'is-danger' : 'is-light'"
-            tag="a"
-            :disabled="disabled"
-            >{{ option.text }}</b-button
+          <p>
+            O aparelho foi um meio de informação das pessoas do começo do século
+            XX e até hoje continua sendo um dos maiores instrumento de
+            comunicação do mundo.
+          </p>
+        </div>
+      </div>
+      <center>
+        <p class="citacao">
+          <i
+            >“[...] a escola deve utilizar, em seu proveito, com a maior
+            amplitude<br />
+            possível, todos os recursos formidáveis, como a imprensa, o disco,
+            <br />o cinema e o rádio [...].”</i
           >
-        </template>
-      </challenge>
-
-      <challenge name="challege-3" :options="challenge" correct="capitalismo">
-        <template slot="quesiton">
-          <div class="question-title">DESAFIO!</div>
-          <p>
-            Voluptate minim pariatur elit nisi mollit sunt voluptate
-            reprehenderit.
-          </p>
-        </template>
-        <template #option="{option, model, disabled, setModel}">
-          <label class="radio">
-            <input
-              type="radio"
-              name="answer"
-              :disabled="disabled"
-              @input="() => setModel(option)"
-            />
-            {{ option.text }}
-          </label>
-        </template>
-      </challenge>
-
-      <img src="~assets/images/carla-explica.png" class="carla-explica" />
+        </p>
+        <img src="~assets/images/caixa-citação-texto-imprensa.png" />
+      </center>
       <br />
-      <div class="explica-1">
-        Nessa temática, abordamos o conceito de cibercultura e suas
-        características.
+
+      <div class="columns">
+        <div class="column">
+          <img
+            src="~assets/images/imagem-texto-imprensa-2.png"
+            width="280"
+            class="imgimprensa2"
+          />
+          <img src="~assets/images/caixa-texto-imprensa.png" />
+        </div>
+        <div class="column">
+          <p>
+            Parte de manuscrito do Manifesto dos Pioneiros da Educação Nacional
+            (1932) que já defendia o uso de meios de comunicação na educação.
+          </p>
+          <p>
+            O documento reivindicava laicidade, gratuidade, obrigatoriedade do
+            ensino público e defendia uma reação contra a estrutura educacional
+            vigente, considerada verbalista e artificial.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="columns">
+        <div class="column">
+          <p>
+            Ao longo da educação brasileira, também podemos ver grandes
+            modificações na forma de ensinar e aprender com a televisão, vídeos,
+            computadores, software, jogos digitais e objetos de aprendizagem e,
+            mais recentemente com as redes sociais e os dispositivos móveis,
+            principalmente os smartphones.
+          </p>
+          <p>
+            Vivemos imersos na cultura digital. Nossa sociedade apresenta
+            múltiplas formas de comunicação e interação proporcionadas pelos
+            meios virtuais.
+          </p>
+        </div>
+        <div class="column">
+          <img src="~assets/images/marcos-e-carla-unidade-2-texto.png" />
+        </div>
+      </div>
+      <p>
+        Toda aprendizagem, assim, vem sendo mediada pelas tecnologias de cada
+        período, modificando algumas práticas pedagógicas. Conforme vimos no
+        módulo passado, atualmente, a cultura digital se constitui no uso dos
+        diferentes dispositivos digitais, como smartphones, tablets,
+        computadores, notebooks etc. Em diversas formas e linguagens de se
+        comunicar, como vídeos, áudios, animações, imagens. Essas linguagens
+        podem aparecer em múltiplos contextos, sejam o das redes sociais, dos
+        ambientes de aprendizagem ou dos aplicativos que conectam pessoas em
+        tempo real, por exemplo.
+      </p>
+      <hr />
+
+      <div class="columns">
+        <div class="column is-9">
+          Ok, mas como eu posso utilizar essas tecnologias durante minhas aulas?
+          Como incorporar essas linguagens e tecnologias ao planejamento? Quais
+          recursos têm disponíveis?
+        </div>
+        <div class="column">
+          <img src="~assets/images/marcos-unidade-2-texto.png" />
+        </div>
       </div>
 
-      <img src="~assets/images/marcos-explica.png" class="marcos-explica" />
-      <div class="explica-2">
-        Na próxima temática, veremos como a cultura digital é discutida na BNCC.
+      <div class="columns">
+        <div class="column">
+          <img src="~assets/images/carla-unidade-2-texto.png" />
+        </div>
+        <div class="column is-9">
+          Uma das ferramentas que estão sendo bastante utilizadas são os
+          Recursos Educacionais Digitais (RED).
+          <br />
+          Vamos conhecer mais sobre eles?
+        </div>
+      </div>
+      <hr />
+
+      <p>
+        Podemos definir os RED como:
+      </p>
+      <center>
+        <p class="definicao">
+          Como qualquer recurso digital que possa ser utilizado no cenário
+          educacional, abrangendo assim um contexto bastante amplo e que
+          contempla diversas terminologias comumente já estabelecidas (CIEB,
+          2017)
+        </p>
+        <img src="~assets/images/caixa-definicao-red.png" />
+      </center>
+      <br />
+      <p>
+        Exemplos dessas terminologias adotadas são os objetos de aprendizagem,
+        recursos educacionais abertos, objetos educacionais reutilizáveis, entre
+        outras.
+      </p>
+      <p>
+        Eles uma forma mais abrangente das mídias para apoiar ou mediar o
+        aprendizado. Os RED como, o próprio nome diz, são “recursos educacionais
+        digitais”. Eles fazem parte de uma cultura essencialmente digital, na
+        qual se apoiam as práticas docentes em sala de aula.
+      </p>
+      <hr />
+
+      <div class="columns">
+        <div class="column">
+          <img src="~assets/images/carla-unidade-2-texto.png" />
+        </div>
+        <div class="column is-9">
+          <p>
+            Posso acrescentar que a maioria desses recursos são desenvolvidos
+            essencialmente pensando nas estratégias pedagógicas e como
+            professores e alunos podem utilizar na sala de aula.
+          </p>
+          <p>
+            Antes de mostrar alguns RED, vamos conhecer um pouco sobre a sua
+            classificação?
+          </p>
+          <br />
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column is-9">
+          Hum, que interessante. Como posso conhecer mais sobre esses RED?
+        </div>
+        <div class="column">
+          <img src="~assets/images/marcos-unidade-2-texto.png" />
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <img src="~assets/images/carla-unidade-2-texto.png" />
+        </div>
+        <div class="column is-9">
+          <p>
+            Bem, primeiramente é importante conhecer como os RED são
+            classificados.
+          </p>
+          <br />
+        </div>
+      </div>
+
+      <div class="classificacao">
+        Conforme CIEB (2017), esses recursos podem:
+        <section>
+          <b-collapse
+            v-for="(collapse, index) of collapses"
+            :key="index"
+            class="card"
+          >
+            <div slot="trigger" class="card-header">
+              <p class="card-header-title">
+                {{ collapse.title }}
+              </p>
+            </div>
+          </b-collapse>
+        </section>
+        <b-collapse :open="false" aria-id="contentIdForA11y1">
+          <button slot="trigger" class="button">
+            Ver referência
+          </button>
+          <div class="notification">
+            <div class="content">
+              <p>
+                CECHINEL, Cristian. Modelos de Curadoria de Recursos
+                Educacionais Digitais. Centro de Inovação para a Educação
+                Brasileira (CIEB), 2017. Disponível em:
+                <a
+                  href="http://www.cieb.net.br/wp-content/uploads/2017/10/CIEB-Estudos-5-Modelos-de-curadoria-de-recursos-educacionais-digitais-31-10-17.pdf"
+                  >http://www.cieb.net.br/wp-content/uploads/2017/10/CIEB-Estudos-5-Modelos-de-curadoria-de-recursos-educacionais-digitais-31-10-17.pdf</a
+                >
+              </p>
+            </div>
+          </div>
+        </b-collapse>
+      </div>
+      <br />
+      <br />
+      <p>
+        Com base nas diferentes perspectivas apresentadas, optou-se nesse
+        material, adotar a classificação apresentada pelo Centro de Inovação
+        para Educação Brasileira
+      </p>
+      <div class="columns">
+        <div class="column">
+          <img src="~assets/images/carla-unidade-2-texto.png" />
+        </div>
+        <div class="column is-9">
+          <p>
+            Levando em consideração que já há um entendimento sobre como os RED
+            podem ser classificados, vamos agora definir e exemplificar cada um
+            dos tipos de recurso.
+          </p>
+          <br />
+        </div>
       </div>
     </article>
   </mide-aulas-container>
@@ -261,25 +270,35 @@
 export default {
   data() {
     return {
-      challenge: [
-        { text: 'Comunismo', value: 'comunismo' },
-        { text: 'Capitalismo', value: 'capitalismo' },
-        { text: 'Luta de Classe', value: 'luta-de-classe' },
-        { text: 'Ditadura', value: 'ditadura' }
-      ],
-
-      arrow: true,
-      arrowBoth: false,
-      arrowHover: false,
-      iconPack: 'mdi',
-      iconPrev: 'arrow-left',
-      iconNext: 'arrow-right',
-      iconSize: '',
-      carousels: [
-        { title: 'Slide 1' },
-        { title: 'Slide 2' },
-        { title: 'Slide 3' },
-        { title: 'Slide 4' }
+      isOpen: 0,
+      collapses: [
+        {
+          title:
+            'Ser de diferentes formatos (textos, imagens, vídeos, áudios, páginas web);'
+        },
+        {
+          title:
+            'Atender a distintos níveis de público e finalidades (superior, fundamental, primário, técnico, empresarial);'
+        },
+        {
+          title:
+            'Ter diferentes tamanhos ou granularidades (conteúdos atômicos independentes, lições, aulas completas, capítulos, livros);'
+        },
+        {
+          title:
+            'Ser de diversos tipos (animações, simulações, tutoriais, jogos);'
+        },
+        {
+          title:
+            'Rodar em diferentes plataformas (computadores pessoais, tablets, celulares); '
+        },
+        {
+          title:
+            'Possuir diferentes licenças e condições de uso (gratuitos, pagos, abertos e adaptáveis, fechados) e;'
+        },
+        {
+          title: 'Abordar diferentes temáticas ou disciplinas.'
+        }
       ]
     }
   }
@@ -287,102 +306,24 @@ export default {
 </script>
 
 <style lang="scss">
-#unidade-I-cibercultura {
-  article {
-    margin-top: 50px;
-    section {
-      padding-bottom: 80px;
-      .carla-1 {
-        float: left;
-      }
-      .colchete {
-        padding: 12px;
-        float: left;
-        margin-top: 30px;
-      }
-      #paragrafo1 {
-        font-size: 14px;
-        padding-top: 50px;
-      }
-    }
-
-    h1 {
-      font: 53px avenir-next-lt-pro-bold;
-      margin-left: 40%;
-      color: #4b4b4b;
-      opacity: 0.33;
-
-      margin-bottom: -30px;
-      letter-spacing: 0px;
-    }
-    .carrossel {
-      background-color: #f3f5f9;
-      p {
-        width: 591px;
-        text-align: left;
-      }
-      .card-image-carrossel {
-        background: url('~assets/images/imagem-1960-violao.png') 50% 0%
-          no-repeat;
-        border-radius: 25px 25px 0px 0px;
-        height: 211px;
-      }
-
-      h2 {
-        text-transform: uppercase;
-        text-align: center;
-        font: 16px avenir-next-lt-pro-bold;
-        padding: 20px;
-        letter-spacing: 0px;
-        opacity: 1;
-      }
-
-      .carrossel-horizontal-line {
-        border: 1px solid #c0315f;
-        opacity: 1;
-        width: 44px;
-
-        margin-top: 0px;
-      }
-    }
-    .questionhorizontalline {
-      border: 1px solid #707070;
-      opacity: 0.5;
-    }
-    .icones {
-      float: left;
-    }
-    .titulos {
-      text-transform: uppercase;
-      font: Bold 16px avenir-next-lt-pro-bold;
-      padding: 3px 0 20px 50px;
-    }
-    .frase {
-      padding: 10px 0 10px 0;
-    }
-    .challenge-images {
-      border: 2px solid #3153b2;
-      border-radius: 15px;
-      margin: 3px;
-    }
-    .carla-explica {
-      float: right;
-    }
-    .marcos.explica {
-      position: reltive;
-    }
-    .explica-1 {
-      margin-top: 80px;
-      text-align: right;
-      text-indent: 50px;
-    }
-    .explica-2 {
-      text-align: left;
-      margin-top: -150px;
-      margin-right: 50px;
-      float: right;
-      margin-left: 300px;
-    }
+#unidade-II {
+  .imgimprensa {
+    position: absolute;
+    padding: 0 55px 50px;
+  }
+  .citacao {
+    position: absolute;
+    padding: 50px 120px 0;
+    font-size: 14px;
+  }
+  .imgimprensa2 {
+    position: absolute;
+    margin: -20px 0 0 30px;
+  }
+  .definicao {
+    position: absolute;
+    color: #fff;
+    padding: 50px;
   }
 }
 </style>
