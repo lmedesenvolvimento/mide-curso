@@ -225,25 +225,22 @@ export default {
     font: 15px avenir-next-lt-pro-regular;
     padding-right: 5px;
   }
-  // REFACTOR
-  // .colchete1 {
-  //   margin-top: 40px;
-  //   margin-left: -30px;
-  // }
-  // .fala-marcos {
-  //   margin-top: 52px;
-  //   margin-left: -60px;
-  //   margin-right: 10px;
-  // }
-  // .fala-carla {
-  //   @include clearfix;
-  //   position: relative;
-  //   text-align: right;
-  //   margin-top: 55px;
-  // }
-  // .colchete2 {
-  //   margin-top: 50px;
-  // }
+  .colchete1 {
+    margin-top: 40px;
+    margin-left: -30px;
+  }
+  .fala-marcos {
+    margin-top: 52px;
+    margin-left: -60px;
+    margin-right: 10px;
+  }
+  .fala-carla {
+    text-align: right;
+    margin-top: 55px;
+  }
+  .colchete2 {
+    margin-top: 50px;
+  }
   .textobncc {
     background: url('~assets/images/quadro-bncc.png') no-repeat;
     background-size: cover;

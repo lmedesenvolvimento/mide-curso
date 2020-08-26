@@ -16,6 +16,18 @@ const getters = {
   getCurrentAula(state) {
     const aulaId = state.aulas.current?.id
     return state.aulas.data.find(({ id }) => aulaId === id)
+  },
+  getNextAula(state) {
+    const aula = state.aulas.data.find(
+      ({ id }) => state.aulas.current?.id === id
+    )
+
+    console.log(aula, aula.next)
+
+    if (aula.next) {
+      return state.aulas.data.find(({ id }) => aula.next === id)
+    }
+    return null
   }
 }
 

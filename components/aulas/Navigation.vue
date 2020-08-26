@@ -38,12 +38,7 @@
           class="mide-aulas-navigation-item columns"
           :class="{ 'is-active': isLessonActive(aula) }"
         >
-          <input
-            class="radio"
-            type="radio"
-            name="answer"
-            :checked="isLessonActive(aula)"
-          />
+          <input class="radio" type="radio" name="answer" />
 
           <div class="mide-aulas-navigation-title">
             <div id="tituloaula">{{ aula.titulo }} {{ i + 1 }}</div>
@@ -123,6 +118,8 @@ export default {
   }
 
   &-toggle-btn {
+    position: sticky;
+    top: $gap;
     background-color: white;
     box-shadow: 3px 3px 9px transparentize($color: #000000, $amount: 0.75);
     margin: $gap * 2 0px;
@@ -188,7 +185,7 @@ export default {
         &:not(:last-child) {
           border-bottom: 1px solid #ddd;
         }
-        &.is-active {
+        &.nuxt-link-active {
           background-color: #e8e8e8;
           border-left: 3px solid $info;
         }

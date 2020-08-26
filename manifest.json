@@ -14,12 +14,14 @@
       "aulas": [
         {
           "id": "unidade-I-introducao",
+          "next": "unidade-I-cibercultura",
           "titulo": "Introdução",
           "descricao": "Unidade I",
           "initial": true
         },
         {
           "id": "unidade-I-cibercultura",
+          "next": "unidade-I-digital",
           "titulo": "Temática",
           "descricao": "Cibercultura e a educação"
         },
@@ -34,7 +36,26 @@
       "id": "ementa",
       "titulo": "UNIDADE II",
       "descricao": "Conhecendo recursos digitais educacionais",
-      "aulas": []
+      "aulas": [
+        {
+          "id": "unidade-II-introducao",
+          "next": "unidade-II-cibercultura",
+          "titulo": "Introdução",
+          "descricao": "Unidade II",
+          "initial": true
+        },
+        {
+          "id": "unidade-II-cibercultura",
+          "next": "unidade-II-digital",
+          "titulo": "Temática",
+          "descricao": "Cibercultura e a educação"
+        },
+        {
+          "id": "unidade-II-digital",
+          "titulo": "Temática",
+          "descricao": "A cultura digital na BNCC"
+        }
+      ]
     },
     {
       "id": "objetivos",

@@ -9,6 +9,12 @@
     </div>
     <div class="card-content">
       <slot />
+      <nuxt-link
+        v-if="next"
+        :to="nextUrl"
+        tag="div"
+        class="mide-lesson-next"
+      ></nuxt-link>
     </div>
   </div>
 </template>
@@ -17,9 +23,13 @@
 import { mapGetters } from 'vuex'
 export default {
   computed: {
+    nextUrl() {
+      return `/${this.unidade.id}/${this.next.id}/artigos/${this.next.id}`
+    },
     ...mapGetters({
       unidade: 'getCurrentUnidade',
-      aula: 'getCurrentAula'
+      aula: 'getCurrentAula',
+      next: 'getNextAula'
     })
   }
 }
@@ -76,8 +86,24 @@ export default {
       letter-spacing: 1.4px;
     }
   }
-  p {
-    margin-bottom: 1.5rem;
+  .card-content {
+    p {
+      text-indent: 50px;
+      margin-bottom: 1.5rem;
+    }
+  }
+  &-next {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: avenir-next-lt-pro-bold;
+    background-image: url('~assets/images/botao-prosseguir.png');
+    width: 145px;
+    height: 37px;
+    margin: $gap auto;
+    &:hover,
+    &:active {
+      cursor: pointer;
+    }
   }
 }
 
