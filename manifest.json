@@ -34,13 +34,13 @@
       "aulas": [
         {
           "id": "unidade-II-introducao",
-          "next": "unidade-II-tematica-II",
+          "next": "unidade-II-tematica-I",
           "titulo": "Introdução",
           "descricao": "Unidade II",
           "initial": true
         },
         {
-          "id": "unidade-I-tematica-I",
+          "id": "unidade-II-tematica-I",
           "next": "unidade-II-tematica-II",
           "titulo": "Temática I",
           "descricao": "O USO DE RECURSOS EDUCACIONAIS DIGITAIS (RED) COMO FERRAMENTA NO ENSINO DE LÍNGUA PORTUGUESA E  MATEMÁTICA"
@@ -57,7 +57,26 @@
       "url": "images/card-unidade-3.png",
       "titulo": "UNIDADE III",
       "descricao": "Planejando aulas com os RED",
-      "aulas": []
+      "aulas": [
+        {
+          "id": "unidade-III-introducao",
+          "next": "unidade-III-tematica-I",
+          "titulo": "Introdução",
+          "descricao": "Unidade III",
+          "initial": true
+        },
+        {
+          "id": "unidade-III-tematica-I",
+          "next": "unidade-III-tematica-II",
+          "titulo": "Temática I",
+          "descricao": "PLANEJAMENTO DO PROCESSO DE ENSINO COM SUPORTE DE RED"
+        },
+        {
+          "id": "unidade-III-tematica-II",
+          "titulo": "Temática II",
+          "descricao": "PROPOSTAS DE PLANOS DE AULAS COM SUPORTE DE RED"
+        }
+      ]
     }
   ]
 }
