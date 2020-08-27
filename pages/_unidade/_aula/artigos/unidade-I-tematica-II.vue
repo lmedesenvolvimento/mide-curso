@@ -1,29 +1,24 @@
 <template>
   <mide-aulas-container>
     <div id="unidade-I-tematica-II">
-      <p class="titulos">
+      <h6 class="titulos">
         Objetivos de aprendizagem:
-      </p>
-      <p>
-        - Conhecer as competências relacionadas à cultura digital elencadas pela
+      </h6>
+      <li>
+        Conhecer as competências relacionadas à cultura digital elencadas pela
         Base Nacional Comum Curricular (BNCC);
-      </p>
-      <p>
-        - Incentivar o contato dos professores com as tecnologias da informação
-        e comunicação para se comunicar, acessar e disseminar informações,
+      </li>
+      <li>
+        Incentivar o contato dos professores com as tecnologias da informação e
+        comunicação para se comunicar, acessar e disseminar informações,
         produzir conhecimentos, resolver problemas e exercer protagonismo e
         autoria na vida pessoal e coletiva.
-      </p>
+      </li>
       <div class="columns">
         <div class="column is-4">
-          <img src="~assets/images/marcos-unidade-1.png" />
+          <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
         </div>
-        <div class="column is-1">
-          <img
-            src="~assets/images/colchete-explicacao-medio.png"
-            class="colchete1"
-          />
-        </div>
+        <div class="column is-1"></div>
         <div class="column fala-marcos">
           Agora que determinamos algumas <b>características</b> da
           <b>Cibercultura</b>, vamos voltar nosso olhar à educação. Como a
@@ -67,12 +62,6 @@
         <div class="column is-one-third">
           <img src="~assets/images/marcos-explicacao.png" />
         </div>
-        <div class="column is-1">
-          <img
-            src="~assets/images/colchete-explicacao-medio.png"
-            class="colchete1 "
-          />
-        </div>
 
         <div class="column fala-marcos">
           A <b>BNCC</b> é um <b>documento plural</b> e estabelece um
@@ -91,14 +80,6 @@
           <b>dez competências gerais</b>, que apoiem os direitos de aprendizagem
           e desenvolvimento.
         </div>
-
-        <div class="column is-1">
-          <img
-            src="~assets/images/colchete-explicacao-medio2.png"
-            class="colchete2"
-          />
-        </div>
-
         <div class="column is-one-third">
           <img src="~assets/images/carla-explicacao.png" />
         </div>
@@ -150,7 +131,7 @@
       </p>
 
       <center>
-        <img src="~assets/images/infografico-cultura-digital.png" />
+        <img src="~assets/images/unidade-I/infografico-cultura-digital.png" />
       </center>
       <p>
         Nós, professores, precisamos pensar que essas competências nos ajudam e,
@@ -172,11 +153,6 @@
           Na base, duas competências chamam atenção para a cultura digital.
           Vejamos o que diz a competência 4.
         </div>
-
-        <div class="column is-1 colchete2">
-          <img src="~assets/images/colchete-explicacao-pequeno.png" />
-        </div>
-
         <div class="column">
           <img src="~assets/images/carla-explicacao.png" />
         </div>
@@ -221,7 +197,7 @@
             Essa reportagem mostra algumas estratégias para se discutir o tema
             com os alunos:
           </h6>
-          <img src="~assets/images/imagem-reportagem.png" />
+          <img src="~assets/images/unidade-I/imagem-reportagem.png" />
           <p>
             Veja mais em:
             http://fundacaotelefonica.org.br/noticias/internet-segura-tres-estrategias-para-discutir-o-tema-na-escola/
@@ -240,7 +216,7 @@
         2019).
       </p>
       <img
-        src="~assets/images/marcos-e-carla-leitura-escola.png"
+        src="~assets/images/unidade-I/marcos-e-carla-leitura-escola.png"
         class="icones"
       />
       <h6>SABER LER</h6>
@@ -265,7 +241,10 @@
 
       <hr />
 
-      <img src="~assets/images/carla-saber-escrever.png" class="icones" />
+      <img
+        src="~assets/images/unidade-I/carla-saber-escrever.png"
+        class="icones"
+      />
       <h6>SABER ESCREVER</h6>
       <br />
       Saber ESCREVER na internet significa produzir mídias desenvolvidas de
@@ -284,7 +263,7 @@
       </p>
       <hr />
       <img
-        src="~assets/images/marcos-ecarla-saber-participar-na-internet.png"
+        src="~assets/images/unidade-I/marcos-ecarla-saber-participar-na-internet.png"
       />
       <p>
         Saber PARTICIPAR na internet envolve utilizar a internet de forma
@@ -524,6 +503,7 @@ export default {
 
 <style lang="scss">
 #unidade-I-tematica-II {
+  margin-top: 50px;
   .column {
     font: 15px avenir-next-lt-pro-regular;
     padding-right: 5px;
@@ -547,6 +527,11 @@ export default {
   // .colchete2 {
   //   margin-top: 50px;
   // }
+  .titulos {
+    text-transform: uppercase;
+    font: Bold 16px avenir-next-lt-pro-bold;
+    padding: 3px 0 20px 50px;
+  }
   .textobncc {
     background: url('~assets/images/quadro-bncc.png') no-repeat;
     background-size: cover;

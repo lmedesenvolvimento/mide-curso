@@ -2,23 +2,24 @@
   <mide-aulas-container>
     <div id="unidade-I-tematica-I">
       <article>
-        <p class="titulos">
+        <h6 class="titulos">
           Objetivos de aprendizagem:
-        </p>
-        <p>
-          - Compreender a cibercultura como um aspecto favorável para a
+        </h6>
+
+        <li>
+          Compreender a cibercultura como um aspecto favorável para a
           ressignificação da prática docente comprometida com uma educação
           cidadã;
-        </p>
-        <p>
-          - Entender o impacto das tecnologias na vida das pessoas e na
-          sociedade, incluindo as relações sociais, culturais e comerciais.
-        </p>
+        </li>
+
+        <li>
+          Entender o impacto das tecnologias na vida das pessoas e na sociedade,
+          incluindo as relações sociais, culturais e comerciais.
+        </li>
         <section class="fala-carla">
-          <img src="~assets/images/carla-unidade-1.png" class="carla-1" />
           <img
-            src="~assets/images/colchete-explicacao-medio.png"
-            class="colchete"
+            src="~assets/images/unidade-I/carla-unidade-1.png"
+            class="carla-1"
           />
           <div id="paragrafo1">
             Antes de começar a discussão sobre <strong>cibercultura</strong>,
@@ -55,7 +56,9 @@
                       lançando cantores como Elis Regina, Vinicius de Moraes,
                       Edu Lobo, Nara Leão e Chico Buarque.
                     </p>
-                    <img src="~assets/images/imagem-mundo-da-musica.png" />
+                    <img
+                      src="~assets/images/unidade-I/imagem-mundo-da-musica.png"
+                    />
                   </center>
                 </div>
               </section>
@@ -78,7 +81,9 @@
                       X-15. Em 2 de março de 1060 alcançou no voo 48.630 pés do
                       chão. Era o nono vôo do programa.
                     </p>
-                    <img src="~assets/images/imagem-ciencia-e-tecnologia.png" />
+                    <img
+                      src="~assets/images/unidade-I/imagem-ciencia-e-tecnologia.png"
+                    />
                   </center>
                 </div>
               </section>
@@ -97,7 +102,9 @@
                       se comunicar, a arquitetura, as comidas e músicas são bem
                       diferentes das que temos hoje.
                     </p>
-                    <img src="~assets/images/imagem-vestimentas.png" />
+                    <img
+                      src="~assets/images/unidade-I/imagem-vestimentas.png"
+                    />
                   </center>
                 </div>
               </section>
@@ -200,7 +207,7 @@
             Assim, a Internet nasce sob esta múltipla composição:
           </div>
 
-          <img src="~assets/images/quadro-cibercultura.png" />
+          <img src="~assets/images/unidade-I/quadro-cibercultura.png" />
           <div class="frase">
             Este é o “caldo de cultura” do qual nasce a cibercultura.
           </div>
@@ -246,22 +253,22 @@
             </p>
 
             <img
-              src="~assets/images/desafio-cibercultura-imagem-1.png"
+              src="~assets/images/unidade-I/desafio-cibercultura-imagem-1.png"
               width="160"
               class="challenge-images"
             />
             <img
-              src="~assets/images/desafio-cibercultura-imagem-2.png"
+              src="~assets/images/unidade-I/desafio-cibercultura-imagem-2.png"
               width="160"
               class="challenge-images"
             />
             <img
-              src="~assets/images/desafio-cibercultura-imagem-3.png"
+              src="~assets/images/unidade-I/desafio-cibercultura-imagem-3.png"
               width="160"
               class="challenge-images"
             />
             <img
-              src="~assets/images/desafio-cibercultura-imagem-4.png"
+              src="~assets/images/unidade-I/desafio-cibercultura-imagem-4.png"
               width="160"
               class="challenge-images"
             />
@@ -354,11 +361,11 @@ export default {
       .carla-1 {
         float: left;
       }
-      .colchete {
+      /* .colchete {
         padding: 12px;
         float: left;
         margin-top: 30px;
-      }
+      } */
       #paragrafo1 {
         float: left;
         font-size: 14px;
@@ -382,8 +389,8 @@ export default {
         text-align: left;
       }
       .card-image-carrossel {
-        background: url('~assets/images/imagem-1960-violao.png') 50% 0%
-          no-repeat;
+        background: url('~assets/images/unidade-I/imagem-1960-violao.png') 50%
+          0% no-repeat;
         border-radius: 25px 25px 0px 0px;
         height: 211px;
       }
@@ -411,6 +418,9 @@ export default {
     }
     .icones {
       float: left;
+    }
+    h6 {
+      color: #c0315f;
     }
     .titulos {
       text-transform: uppercase;
