@@ -16,20 +16,25 @@
           Entender o impacto das tecnologias na vida das pessoas e na sociedade,
           incluindo as relações sociais, culturais e comerciais.
         </li>
-        <section class="fala-carla">
-          <img
-            src="~assets/images/unidade-I/carla-unidade-1.png"
-            class="carla-1"
-          />
-          <div id="paragrafo1">
-            Antes de começar a discussão sobre <strong>cibercultura</strong>,
-            gostaríamos que você viajasse no tempo até o ano de
-            <strong>1960</strong>. <br />
-            O que você acha que iria encontrar? Vamos viajar no tempo e
-            <strong>relembrar</strong> como era a
-            <strong>sociedade nessa época</strong>?
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <figure>
+                <img src="~assets/images/unidade-I/carla-unidade-1.png" />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="dialog-box is-left">
+                Antes de começar a discussão sobre
+                <strong>cibercultura</strong>, gostaríamos que você viajasse no
+                tempo até o ano de <strong>1960</strong>. <br />
+                O que você acha que iria encontrar? Vamos viajar no tempo e
+                <strong>relembrar</strong> como era a
+                <strong>sociedade nessa época</strong>?
+              </div>
+            </div>
           </div>
-        </section>
+        </div>
 
         <h1>1960</h1>
         <section class="carrossel">
@@ -301,27 +306,52 @@
           </template>
         </challenge>
 
-        <img src="~assets/images/carla-explicacao.png" class="carla-explica" />
-        <br />
-        <div class="explica-1">
-          Nesta unidade, conhecemos o conceito de cibercultura, em que contexto
-          ele surgiu e como influencia as práticas na sociedade.
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <figure>
+                <img src="~assets/images/carla-explicacao.png" />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="dialog-box is-left">
+                Nesta unidade, conhecemos o conceito de cibercultura, em que
+                contexto ele surgiu e como influencia as práticas na sociedade.
+              </div>
+            </div>
+          </div>
         </div>
 
-        <img
-          src="~assets/images/marcos-explicacao.png"
-          class="marcos-explica"
-        />
-        <div class="explica-2">
-          Também estudamos como a BNCC apresenta a cultura digital nas
-          competências gerais.
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column">
+              <div class="dialog-box is-right">
+                Também estudamos como a BNCC apresenta a cultura digital nas
+                competências gerais.
+              </div>
+            </div>
+            <div class="column is-3">
+              <figure>
+                <img src="~assets/images/marcos-explicacao.png" />
+              </figure>
+            </div>
+          </div>
         </div>
 
-        <img src="~assets/images/carla-explicacao.png" class="carla-explica" />
-        <br />
-        <div class="explica-1">
-          Na próxima unidade, vamos apresentar o conceito de Recursos
-          Educacionais Digitais e sua classificação.
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <figure>
+                <img src="~assets/images/carla-explicacao.png" />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="dialog-box is-left">
+                Na próxima unidade, vamos apresentar o conceito de Recursos
+                Educacionais Digitais e sua classificação.
+              </div>
+            </div>
+          </div>
         </div>
       </article>
     </div>
