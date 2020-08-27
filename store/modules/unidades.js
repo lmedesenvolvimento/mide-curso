@@ -2,7 +2,10 @@ import manifest from '@/manifest.json'
 
 const state = {
   current: null,
-  data: manifest.unidades
+  data: manifest.unidades.map((u) => {
+    u.url = require(`@/assets/${u.url}`)
+    return u
+  })
 }
 
 const actions = {

@@ -20,10 +20,12 @@
             <div class="column is-3-desktop is-6-tablet is-12-mobile">
               <div class="card mide-unidades-card">
                 <div class="card-image">
-                  <img
-                    src="~assets/images/card-sobre-o-curso.png"
-                    class="image"
-                  />
+                  <figure
+                    class="image is-2by1"
+                    :style="{
+                      'background-image': `url(${require('@/assets/images/card-sobre-o-curso.png')})`
+                    }"
+                  ></figure>
                 </div>
 
                 <nuxt-link to="sobre">

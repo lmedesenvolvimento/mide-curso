@@ -2,7 +2,12 @@
   <div class="column is-3-desktop is-6-tablet is-12-mobile">
     <div class="card mide-unidades-card">
       <div class="card-image">
-        <figure class="image is-3by1"></figure>
+        <figure
+          class="image is-2by1"
+          :style="{
+            'background-image': `url(${unidade.url})`
+          }"
+        ></figure>
       </div>
 
       <nuxt-link :to="toLesson">
@@ -44,11 +49,11 @@ export default {
   height: 100%;
   opacity: 1;
   .image {
-    background: transparent
-      url('https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')
-      0% 0% no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
   }
   .card-header-title {
     font: 12px/15px avenir-next-lt-pro-bold;

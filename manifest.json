@@ -2,7 +2,7 @@
   "unidades": [
     {
       "id": "boas-vindas",
-      "url": "assets/images/colchete-explicacao-medio.png",
+      "url": "images/card-unidade-1.png",
       "titulo": "UNIDADE I",
       "descricao": "Ensinando em um mundo digital",
       "aulas": [
@@ -28,7 +28,7 @@
     },
     {
       "id": "ementa",
-      "url": "assets/images/card-unidade-2.png",
+      "url": "images/card-unidade-2.png",
       "titulo": "UNIDADE II",
       "descricao": "Conhecendo recursos digitais educacionais",
       "aulas": [
@@ -54,7 +54,7 @@
     },
     {
       "id": "objetivos",
-      "url": "assets/images/card-unidade-3.png",
+      "url": "images/card-unidade-3.png",
       "titulo": "UNIDADE III",
       "descricao": "Planejando aulas com os RED",
       "aulas": []
