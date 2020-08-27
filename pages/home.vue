@@ -20,7 +20,10 @@
             <div class="column is-3-desktop is-6-tablet is-12-mobile">
               <div class="card mide-unidades-card">
                 <div class="card-image">
-                  <figure class="image is-3by1"></figure>
+                  <img
+                    src="~assets/images/card-sobre-o-curso.png"
+                    class="image"
+                  />
                 </div>
 
                 <nuxt-link to="sobre">
