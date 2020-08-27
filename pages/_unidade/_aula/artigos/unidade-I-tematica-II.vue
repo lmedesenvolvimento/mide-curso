@@ -14,21 +14,26 @@
         produzir conhecimentos, resolver problemas e exercer protagonismo e
         autoria na vida pessoal e coletiva.
       </li>
-      <div class="columns">
-        <div class="column is-4">
-          <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
-        </div>
-        <div class="column is-1"></div>
-        <div class="column fala-marcos">
-          Agora que determinamos algumas <b>características</b> da
-          <b>Cibercultura</b>, vamos voltar nosso olhar à educação. Como a
-          <b>cultura digital</b> se insere no <b>currículo escolar</b>? E qual o
-          papel do <b>professor</b> nessa inserção?<br /><b>Vamos descobrir?</b>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Agora que determinamos algumas <b>características</b> da
+              <b>Cibercultura</b>, vamos voltar nosso olhar à educação. Como a
+              <b>cultura digital</b> se insere no <b>currículo escolar</b>? E
+              qual o papel do <b>professor</b> nessa inserção?<br /><b
+                >Vamos descobrir?</b
+              >
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
+            </figure>
+          </div>
         </div>
       </div>
-
-      <hr />
-
       <p>
         Diante das características da cibercultura e tendo em vista sua ampla
         presença no cotidiano de alunos e professores, sobretudo pela
@@ -58,30 +63,41 @@
       </center>
       <br />
 
-      <div class="columns">
-        <div class="column is-one-third">
-          <img src="~assets/images/marcos-explicacao.png" />
-        </div>
-
-        <div class="column fala-marcos">
-          A <b>BNCC</b> é um <b>documento plural</b> e estabelece um
-          <b>conjunto de aprendizagens</b>
-          essenciais e indispensáveis para que todas as escolas possam a ter uma
-          referência nacional obrigatória para a elaboração ou adequação de seus
-          currículos e propostas pedagógicas.
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              A <b>BNCC</b> é um <b>documento plural</b> e estabelece um
+              <b>conjunto de aprendizagens</b>
+              essenciais e indispensáveis para que todas as escolas possam a ter
+              uma referência nacional obrigatória para a elaboração ou adequação
+              de seus currículos e propostas pedagógicas.
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
         </div>
       </div>
 
-      <div class="columns">
-        <div class="column is-7 fala-carla">
-          Portanto, ao longo da <b>Educação Básica</b>, as aprendizagens
-          essenciais definidas na <b>BNCC</b> devem concorrer para
-          <b>assegurar</b> aos estudantes o desenvolvimento de
-          <b>dez competências gerais</b>, que apoiem os direitos de aprendizagem
-          e desenvolvimento.
-        </div>
-        <div class="column is-one-third">
-          <img src="~assets/images/carla-explicacao.png" />
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Portanto, ao longo da <b>Educação Básica</b>, as aprendizagens
+              essenciais definidas na <b>BNCC</b> devem concorrer para
+              <b>assegurar</b> aos estudantes o desenvolvimento de
+              <b>dez competências gerais</b>, que apoiem os direitos de
+              aprendizagem e desenvolvimento.
+            </div>
+          </div>
         </div>
       </div>
 
@@ -148,48 +164,113 @@
         </i>
       </p>
 
-      <div class="columns">
-        <div class="column is-7 fala-carla">
-          Na base, duas competências chamam atenção para a cultura digital.
-          Vejamos o que diz a competência 4.
-        </div>
-        <div class="column">
-          <img src="~assets/images/carla-explicacao.png" />
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Na base, duas competências chamam atenção para a cultura digital.
+              Vejamos o que diz a competência 4.
+            </div>
+          </div>
         </div>
       </div>
-      <img src="~assets/images/marcos-explicacao.png" />
-      <p>
-        Competência 4 “Utilizar diferentes linguagens – verbal (oral ou
-        visual-motora, como Libras, e escrita), corporal, visual, sonora e
-        digital –, bem como conhecimentos das linguagens artística, matemática e
-        científica, para se expressar e partilhar informações, experiências,
-        ideias e sentimentos em diferentes contextos, além de produzir sentidos
-        que levem ao entendimento mútuo.”
-      </p>
-      <img src="~assets/images/carla-explicacao.png" />
-      <p>
-        Percebam que essa competência fala sobre saber se comunicar utilizando
-        diferentes linguagem. Como você poderia estimular seus alunos a se
-        comunicarem através dessas linguagens?
-      </p>
-      <img src="~assets/images/marcos-explicacao.png" />
-      <p>Agora vamos ver o que diz a competência 5.</p>
-      <img src="~assets/images/carla-explicacao.png" />
-      <p>
-        “Compreender, utilizar e criar tecnologias digitais de informação e
-        comunicação de forma crítica, significativa, reflexiva e ética nas
-        diversas práticas sociais (incluindo as escolares) para se comunicar,
-        acessar e disseminar informações, produzir conhecimentos, resolver
-        problemas e exercer protagonismo e autoria na vida pessoal e coletiva.”
-      </p>
-      <img src="~assets/images/marcos-explicacao.png" />
-      <p>
-        Essa competência é mais voltada para a cultura digital. Nela,
-        compreendemos a importância de utilizar e criar tecnologias digitais de
-        forma crítica, significativa e ética. Sabe o que eu pensei? Como podemos
-        iniciar uma conversa com os alunos sobre discussões em redes sociais,
-        por exemplo?
-      </p>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Competência 4 “Utilizar diferentes linguagens – verbal (oral ou
+              visual-motora, como Libras, e escrita), corporal, visual, sonora e
+              digital –, bem como conhecimentos das linguagens artística,
+              matemática e científica, para se expressar e partilhar
+              informações, experiências, ideias e sentimentos em diferentes
+              contextos, além de produzir sentidos que levem ao entendimento
+              mútuo.”
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Percebam que essa competência fala sobre saber se comunicar
+              utilizando diferentes linguagem. Como você poderia estimular seus
+              alunos a se comunicarem através dessas linguagens?
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Agora vamos ver o que diz a competência 5.
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              “Compreender, utilizar e criar tecnologias digitais de informação
+              e comunicação de forma crítica, significativa, reflexiva e ética
+              nas diversas práticas sociais (incluindo as escolares) para se
+              comunicar, acessar e disseminar informações, produzir
+              conhecimentos, resolver problemas e exercer protagonismo e autoria
+              na vida pessoal e coletiva.”
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Essa competência é mais voltada para a cultura digital. Nela,
+              compreendemos a importância de utilizar e criar tecnologias
+              digitais de forma crítica, significativa e ética. Sabe o que eu
+              pensei? Como podemos iniciar uma conversa com os alunos sobre
+              discussões em redes sociais, por exemplo?
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
 
       <div class="fundo">
         <center>
@@ -232,14 +313,22 @@
       influenciadores.
 
       <hr />
-      <img src="~assets/images/carla-explicacao.png" />
-      <p>
-        Saber ler na internet envolve saber conferir a qualidade da informação
-        encontrada. Você confere as informações que recebe? Em que sites você
-        costuma buscar as informações?
-      </p>
-
-      <hr />
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Saber ler na internet envolve saber conferir a qualidade da
+              informação encontrada. Você confere as informações que recebe? Em
+              que sites você costuma buscar as informações?
+            </div>
+          </div>
+        </div>
+      </div>
 
       <img
         src="~assets/images/unidade-I/carla-saber-escrever.png"
@@ -256,12 +345,22 @@
 
       <hr />
 
-      <img src="~assets/images/marcos-explicacao.png" />
-      <p>
-        Que conteúdos os alunos de vocês produzem na Internet? Que tal uma roda
-        de conversa sobre esse assunto?
-      </p>
-      <hr />
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Que conteúdos os alunos de vocês produzem na Internet? Que tal uma
+              roda de conversa sobre esse assunto?
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+
       <img
         src="~assets/images/unidade-I/marcos-ecarla-saber-participar-na-internet.png"
       />
@@ -278,19 +377,40 @@
         sua importância fazem parte deste processo participativo.
       </p>
       <hr />
-      <img src="~assets/images/carla-explicacao.png" />
-      <p>
-        Como seus os alunos estão acessando e participando das mídias? Como
-        seria interessante saber como eles se percebem e são críticos em relação
-        a isso?
-      </p>
-      <img src="~assets/images/marcos-explicacao.png" />
-      <p>
-        Tudo isso parece ser bem interessante. Vamos refletir um pouco que
-        competência podemos desenvolver para discutir todas essas temáticas com
-        nossos alunos?
-      </p>
-      <hr />
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Como seus os alunos estão acessando e participando das mídias?
+              Como seria interessante saber como eles se percebem e são críticos
+              em relação a isso?
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Tudo isso parece ser bem interessante. Vamos refletir um pouco que
+              competência podemos desenvolver para discutir todas essas
+              temáticas com nossos alunos?
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+
       <img src="~assets/images/icone-contextualizacao.png" class="icones" />
       <h6 class="title is-6">Competências digitais do professor</h6>
 
@@ -406,35 +526,86 @@
         replicada e espelhada em múltiplas cópias em servidores mundo afora.
       </p>
 
-      <img src="~assets/images/carla-explicacao.png" />
-      <p>
-        que tal você verificar se conseguiu compreender algumas das ideias
-        apresentadas aqui nessa temática?
-      </p>
-      <img src="~assets/images/marcos-explicacao.png" />
-      <p>
-        Respondam as questões acerca da cultura digital apresentada na Base
-        Nacional Comum Curricular (BNCC).
-      </p>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Que tal você verificar se conseguiu compreender algumas das ideias
+              apresentadas aqui nessa temática?
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Respondam as questões acerca da cultura digital apresentada na
+              Base Nacional Comum Curricular (BNCC).
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
 
       <h1 class="title is-2">~~ COMPONENTE COM QUESTÕES ~~</h1>
 
-      <img src="~assets/images/carla-explicacao.png" />
-      <p>
-        Nesta unidade, conhecemos o conceito de cibercultura, em que contexto
-        ele surgiu e como influencia as práticas na sociedade.
-      </p>
-      <img src="~assets/images/marcos-explicacao.png" />
-      <p>
-        Também estudamos como a BNCC apresenta a cultura digital nas
-        competências gerais.
-      </p>
-      <img src="~assets/images/carla-explicacao.png" />
-      <p>
-        Na próxima unidade, vamos apresentar o conceito de Recursos Educacionais
-        Digitais e sua classificação.
-      </p>
-      <hr />
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Nesta unidade, conhecemos o conceito de cibercultura, em que
+              contexto ele surgiu e como influencia as práticas na sociedade.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Também estudamos como a BNCC apresenta a cultura digital nas
+              competências gerais.
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Na próxima unidade, vamos apresentar o conceito de Recursos
+              Educacionais Digitais e sua classificação.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </mide-aulas-container>
 </template>
