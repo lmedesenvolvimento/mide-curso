@@ -286,6 +286,7 @@
                 type="radio"
                 name="answer"
                 :disabled="disabled"
+                :model="model"
                 @input="() => setModel(option)"
               />
               {{ option.text }}
@@ -345,7 +346,7 @@ export default {
 </script>
 
 <style lang="scss">
-#unidade-I-cibercultura {
+#unidade-I-tematica-I {
   article {
     margin-top: 50px;
     section {

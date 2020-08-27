@@ -1,6 +1,6 @@
 <template>
   <mide-aulas-container>
-    <article id="unidade-II">
+    <article id="unidade-II-tematica-I">
       <h6 class="title is-6">Os objetivos deste bloco são:</h6>
 
       <li>
@@ -306,7 +306,7 @@ export default {
 </script>
 
 <style lang="scss">
-#unidade-II {
+#unidade-II-tematica-I {
   .imgimprensa {
     position: absolute;
     padding: 0 55px 50px;
