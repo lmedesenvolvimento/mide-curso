@@ -11,6 +11,7 @@ import AulasNavigation from './aulas/Navigation.vue'
 import Footer from './Footer.vue'
 import Navbar from './Navbar.vue'
 import Trophies from './Trophies.vue'
+import Tabs from './Tabs.vue'
 
 // Artigos
 import Quotes from './Quotes.vue'
@@ -26,6 +27,7 @@ const Components = {
     Vue.component('mide-footer', Footer)
     Vue.component('mide-navbar', Navbar)
     Vue.component('mide-trophies', Trophies)
+    Vue.component('mide-tabs', Tabs)
 
     Vue.component('quotes', Quotes)
     Vue.component('question', Question)

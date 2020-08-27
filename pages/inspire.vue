@@ -130,6 +130,50 @@
             </template>
           </challenge>
 
+          <div class="title">Tabs</div>
+          <mide-tabs>
+            <b-tab-item label="Pictures">
+              <p>
+                Exercitation est commodo sit aliquip anim sint irure adipisicing
+                reprehenderit irure tempor. Reprehenderit occaecat non aliquip
+                dolor Lorem exercitation cillum deserunt. Magna irure Lorem et
+                est fugiat labore voluptate aliqua laborum quis veniam ullamco
+                eu.
+              </p>
+            </b-tab-item>
+
+            <b-tab-item label="Music">
+              <p>
+                Deserunt sint culpa pariatur ea voluptate ullamco anim. Elit
+                elit nulla sint magna voluptate eiusmod non Lorem sit ea non
+                labore qui Lorem. Fugiat aliqua eu dolor laboris eiusmod sint
+                nulla duis. Lorem qui veniam et laboris velit consequat dolor
+                labore laborum exercitation est eu laborum. Laborum exercitation
+                do ullamco magna nisi amet. Amet dolor ad do incididunt irure
+                tempor nostrud. Dolore elit ipsum velit labore dolor laboris.
+              </p>
+            </b-tab-item>
+
+            <b-tab-item label="Books">
+              <p>
+                Et consectetur voluptate pariatur ea in quis. Reprehenderit
+                cillum nostrud eu ut laborum. Incididunt culpa ut esse aute
+                voluptate minim ex laboris veniam ullamco. Elit esse magna ea
+                dolor enim aliquip pariatur id veniam. Non est in elit aliquip
+                dolore cupidatat sunt nisi.
+              </p>
+            </b-tab-item>
+
+            <b-tab-item label="Videos">
+              <p>
+                Nunc nec velit nec libero vestibulum eleifend. Curabitur
+                pulvinar congue luctus. Nullam hendrerit iaculis augue vitae
+                ornare. Maecenas vehicula pulvinar tellus, id sodales felis
+                lobortis eget.
+              </p>
+            </b-tab-item>
+          </mide-tabs>
+
           <div class="title">Customs Form Button</div>
 
           <challenge
