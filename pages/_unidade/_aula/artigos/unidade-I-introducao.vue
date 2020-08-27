@@ -2,7 +2,7 @@
   <mide-aulas-container>
     <div id="unidade-I-introducao">
       <img
-        src="~assets/images/explicacao-carla-e-marcos.png"
+        src="~assets/images/unidade-I/explicacao-carla-e-marcos.png"
         class="mide-explicacao"
       />
       <div class="mide-texto-inicial">
