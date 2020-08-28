@@ -3,13 +3,7 @@
     <div id="unidade-III-tematica-II">
       <div class="columns">
         <div class="column is-4">
-          <img src="~assets/images/marcos-unidade-1.png" />
-        </div>
-        <div class="column is-1">
-          <img
-            src="~assets/images/colchete-explicacao-medio.png"
-            class="colchete1"
-          />
+          <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
         </div>
 
         <div class="column fala-marcos">
@@ -20,12 +14,6 @@
       <div class="columns">
         <div class="column is-7 fala-carla">
           Qual plano você quer conhecer primeiro?
-        </div>
-        <div class="column is-1">
-          <img
-            src="~assets/images/colchete-explicacao-medio2.png"
-            class="colchete2"
-          />
         </div>
 
         <div class="column is-one-third">
