@@ -64,6 +64,7 @@ export default {
   position: relative;
   border: 1px solid #ddd;
   border-radius: 1rem;
+  margin-bottom: 1.5rem;
   .tabs {
     display: flex;
     li {

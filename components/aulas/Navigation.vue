@@ -118,6 +118,10 @@ export default {
   }
   #card-header-top {
     border-radius: 25px 25px 0 0;
+    a {
+      font-size: 12px;
+      color: $info;
+    }
   }
   .card-header-title {
     font-weight: bold;
@@ -137,6 +141,7 @@ export default {
     border: 1px solid transparentize($color: #000000, $amount: 0.9);
     .card-header-icon {
       padding: 0.75rem 2.5rem;
+      color: $info;
       .icon {
         transform: rotate(-180deg);
       }
@@ -167,6 +172,11 @@ export default {
     }
   }
   &-unidade {
+    &.is-active {
+      .collapse-trigger {
+        margin-bottom: 0.75rem;
+      }
+    }
     &:last-child:not(.is-active) .card-header {
       border-radius: 0 0 25px 25px;
     }
@@ -177,14 +187,37 @@ export default {
   }
 
   .collapse {
+    &:first-child {
+      .card-header {
+        border-top: 1px solid #ddd;
+      }
+    }
+    &:last-child {
+      .card-header {
+        border-bottom: none;
+      }
+    }
+    .card-header {
+      box-shadow: none;
+      border-bottom: 1px solid #ddd;
+    }
     .collapse-trigger {
+      position: relative;
       display: block;
+      z-index: 4;
+      .card-header-icon {
+        color: $info;
+        font-size: 21px;
+      }
     }
     &:last-child {
       border-radius: 0 0 25px 25px;
     }
 
     &-items-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
       padding-left: 0.75rem;
       padding-right: 0.75rem;
       .mide-aulas-navigation-item {
@@ -197,14 +230,14 @@ export default {
         }
         &.nuxt-link-active {
           background-color: #e8e8e8;
-          border-left: 3px solid $info;
+          border-right: 3px solid $info;
         }
       }
     }
 
     &-content {
-      overflow-x: hidden;
-      overflow-y: auto;
+      display: block;
+      height: auto;
       padding: 0px;
 
       .radio {

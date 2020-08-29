@@ -5,12 +5,13 @@
         <slot name="header"> Dialog Header {{ scrollIndex }} </slot>
       </div>
       <transition-group
+        key="chat-dialog-content-items"
         name="chat-dialog-content-items"
         class="chat-dialog-content-items"
       >
         <div
           v-for="(dialog, index) in visibleDiaologs"
-          :key="index"
+          :key="index + 1"
           class="chat-dialog-content-item container is-fluid"
         >
           <div

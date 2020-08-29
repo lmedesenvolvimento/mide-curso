@@ -14,7 +14,6 @@ import Trophies from './Trophies.vue'
 import Tabs from './Tabs.vue'
 
 // Artigos
-import Quotes from './Quotes.vue'
 import Question from './Question.vue'
 import Challenge from './Challenge.vue'
 
@@ -29,7 +28,6 @@ const Components = {
     Vue.component('mide-trophies', Trophies)
     Vue.component('mide-tabs', Tabs)
 
-    Vue.component('quotes', Quotes)
     Vue.component('question', Question)
     Vue.component('challenge', Challenge)
 

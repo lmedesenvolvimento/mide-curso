@@ -46,6 +46,11 @@ export default {}
   height: $footer-height;
   color: $white;
   background-color: #a49ea0;
+  > .container > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   > .container,
   > .container > .columns {
     height: 100%;

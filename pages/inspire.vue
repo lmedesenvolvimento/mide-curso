@@ -3,6 +3,7 @@
     <div class="mide-lesson-container is-full">
       <mide-aulas-container>
         <article id="componentes">
+          <div class="title">Tipográfia</div>
           <p>
             Assim, a cultura é o entendimento pelo qual fazemos da forma como
             uma sociedade vive e se comporta socialmente. Também é preciso
@@ -13,40 +14,19 @@
             ambientais, consciência social e invenção ou desenvolvimento de
             tecnologias.
           </p>
-
-          <p>
-            Assim, a cultura é o entendimento pelo qual fazemos da forma como
-            uma sociedade vive e se comporta socialmente. Também é preciso
-            lembrar que a cultura é dinâmica. Portanto, ela muda com o tempo,
-            algumas características sociais são adquiridas, outras deixada de
-            lado. Alguns aspectos permitem que essas mudanças culturais sejam
-            incorporadas na sociedade, como por exemplo, contingências
-            ambientais, consciência social e invenção ou desenvolvimento de
-            tecnologias. Os anos 1960 foram muito importantes para entender a
-            sociedade do século XXI. Isto porque eles iniciaram uma série de
-            grandes transformações culturais que constituíram um impacto
-            decisivo em nossa maneira de perceber o mundo e de viver. Estas
-            transformações foram possíveis porque, de um lado, havia um
-            sentimento da necessidade de reconstrução da cidadania e do
-            relacionamento entre os povos, após o trauma da Segunda Guerra
-            Mundial e do nazismo; de outro lado, a chamada “Guerra Fria”
-            continuava a lembrar às pessoas que tudo poderia acontecer
-            novamente, e desta vez de maneira ainda mais catastrófica. Momentos
-            assim costumam gerar grandes discussões e consequentemente
-            tentativas de solução. Um destes debates, no nível cultural, foi a
-            chamada “contracultura”, no qual principalmente jovens e artistas
-            rebelavam-se contra as políticas belicistas, especialmente aquelas
-            de cunho nuclear. Ao mesmo tempo, defendiam uma abertura nos
-            costumes e nos direitos humanos, sobretudo quanto aos direitos das
-            mulheres, ao exercício da sexualidade e à vida em comunidade.
-          </p>
-
           <p>
             <center>
               Todos esses aspectos acima chamamos de cultura. <br />
               <b>Podemos definir cultura como: </b>
             </center>
           </p>
+
+          <div class="title">Título I</div>
+          <div class="title is-uppercase">Título I (Caixa alta)</div>
+          <div class="title has-icon heading">
+            Contextualização
+          </div>
+
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column is-3">
@@ -103,8 +83,69 @@
             </div>
           </div>
 
+          <div class="highlighted">
+            <h3 class="title">Sem título</h3>
+            <p>
+              Ex aliquip consequat sit reprehenderit irure ea sit id amet non
+              ullamco. Occaecat nisi ut ipsum in consequat et laboris officia
+              officia. Reprehenderit nostrud fugiat cillum deserunt. Enim magna
+              exercitation voluptate exercitation culpa sunt fugiat consequat.
+            </p>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="highlighted is-vertical">
+                <h3 class="title">Sem título Vertical</h3>
+                <p>
+                  Ex aliquip consequat sit reprehenderit irure ea sit id amet
+                  non ullamco. Occaecat nisi ut ipsum in consequat et laboris
+                  officia officia. Reprehenderit nostrud fugiat cillum deserunt.
+                  Enim magna exercitation voluptate exercitation culpa sunt
+                  fugiat consequat.
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="highlighted is-vertical">
+                <h3 class="title">Sem título Vertical</h3>
+                <p>
+                  Ex aliquip consequat sit reprehenderit irure ea sit id amet
+                  non ullamco. Occaecat nisi ut ipsum in consequat et laboris
+                  officia officia. Reprehenderit nostrud fugiat cillum deserunt.
+                  Enim magna exercitation voluptate exercitation culpa sunt
+                  fugiat consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-100 has-background-light">
+            <div class="title">Title</div>
+            <p>
+              Aliqua aliqua laboris aliqua nulla deserunt. In ad ex officia et
+              excepteur. Ea minim esse ullamco reprehenderit. Aute deserunt
+              mollit amet fugiat commodo incididunt aute. Dolor occaecat irure
+              nulla duis ea deserunt incididunt ut. Minim consectetur fugiat
+              pariatur id nostrud ex sunt est sint ullamco laboris eu labore
+              tempor.
+            </p>
+          </div>
+
+          <div class="quotes">
+            <div class="quotes-box">
+              Todo aquele complexo que inclui o <b>conhecimento</b>, as
+              <b>crenças</b>, a <b>arte</b>, a <b>moral</b>, a <b>lei</b>, os
+              costumes e todos os outros <b>hábitos</b> e capacidades adquiridos
+              pelo homem como membro da sociedade.
+
+              <div class="quotes-author">
+                LARAIA, 2006
+              </div>
+            </div>
+          </div>
+
           <center>
-            <quotes />
             <p>
               Assim, a cultura é o entendimento pelo qual fazemos da forma como
               uma sociedade vive e se comporta socialmente. Também é preciso
@@ -112,23 +153,7 @@
               algumas características sociais são adquiridas, outras deixada de
               lado.
             </p>
-            <question />
           </center>
-          <div class="title">Form Button</div>
-
-          <challenge
-            name="challege-1"
-            :options="challenge"
-            correct="capitalismo"
-          >
-            <template slot="quesiton">
-              <div class="question-title">DESAFIO!</div>
-              <p>
-                Quais dessas palavras você acha que o movimento da contracultura
-                era contra?
-              </p>
-            </template>
-          </challenge>
 
           <div class="title">Tabs</div>
           <mide-tabs>
@@ -174,7 +199,7 @@
             </b-tab-item>
           </mide-tabs>
 
-          <div class="title">Customs Form Button</div>
+          <div class="title">Forms</div>
 
           <challenge
             name="challege-2"
@@ -198,6 +223,7 @@
             </template>
           </challenge>
 
+          <div class="subtitle">Custom Forms</div>
           <challenge
             name="challege-3"
             :options="challenge"

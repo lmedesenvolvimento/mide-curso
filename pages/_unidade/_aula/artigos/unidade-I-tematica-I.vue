@@ -126,9 +126,13 @@
           </center>
         </p>
 
-        <center>
-          <quotes />
-        </center>
+        <!-- 
+          REFACTOR
+          seen: inspire.vue
+          <center>
+            <quotes />
+          </center> 
+        -->
         <p>
           Assim, a cultura é o entendimento pelo qual fazemos da forma como uma
           sociedade vive e se comporta socialmente. Também é preciso lembrar que
@@ -224,20 +228,26 @@
         <img src="~assets/images/icone-contextualizacao.png" class="icones" />
         <div class="titulos">Características da Cibercultura</div>
         <p>A cibercultura é definida pelo filósofo Pierre Levy como:</p>
-        <center>
-          <br />
-          <quotes /> <br />
-        </center>
+        <!-- 
+          REFACTOR
+          seen: inspire.vue
+          <center>
+            <quotes />
+          </center> 
+        -->
         <p>
           Ele traduz em meio tecnológico avançado (daí o prefixo "ciber") as
           complexas conexões entre aqueles fenômenos históricos iniciados nos
           anos 1960, agora acrescidos de novas possibilidades, além de gerar
           outro fenômenos.
         </p>
-        <br />
-        <center>
-          <quotes />
-        </center>
+        <!-- 
+          REFACTOR
+          seen: inspire.vue
+          <center>
+            <quotes />
+          </center> 
+        -->
         <p>
           O espaço virtual que constitui o ciberespaço é um espaço real. Ele
           gera fenômenos culturais na vida das pessoas tão válidos quanto
