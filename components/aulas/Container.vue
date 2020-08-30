@@ -40,13 +40,14 @@ export default {
 
 <style lang="scss">
 .mide-lesson {
+  display: flex;
+  flex-direction: column;
   justify-self: center;
   box-shadow: 0px 12px 19px #3c80d116;
   border-radius: 15px;
   opacity: 1;
   width: 100%;
   max-width: $lesson-card-width;
-  min-height: 100vh;
   margin: ($gap * 2) auto;
   @media (max-width: $widescreen) {
     max-width: $tablet;
@@ -90,8 +91,11 @@ export default {
     }
   }
   .card-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    flex: 1;
     p {
-      text-indent: 50px;
       margin-bottom: 1.5rem;
     }
   }

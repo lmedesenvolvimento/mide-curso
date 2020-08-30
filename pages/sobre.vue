@@ -14,6 +14,7 @@
             Educacionais Digitais.
           </p>
         </div>
+        <!-- REFACTOR -->
         <img src="~assets/images/caixa-texto.png" />
       </div>
       <div class="column imagem">
@@ -42,6 +43,7 @@
             3. Planejar aulas com suporte dos RED.
           </ol>
         </div>
+        <!-- REFACTOR -->
         <img src="~assets/images/caixa-texto.png" />
       </div>
     </div>
@@ -74,6 +76,7 @@
             3) Planejamento de aulas com suporte de RED.
           </ol>
         </div>
+        <!-- REFACTOR -->
         <img src="~assets/images/caixa-texto.png" />
       </div>
       <div class="column imagem">
@@ -100,6 +103,7 @@
             2) Planejamento de uma aula com o uso de tecnologia
           </ol>
         </div>
+        <!-- REFACTOR -->
         <img src="~assets/images/caixa-texto.png" />
       </div>
     </div>

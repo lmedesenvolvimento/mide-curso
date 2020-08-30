@@ -242,7 +242,7 @@ export default {
     margin-top: 50px;
   }
   .textobncc {
-    background: url('~assets/images/quadro-bncc.png') no-repeat;
+    // background: url('~assets/images/highlighted-default.png') no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;

@@ -22,3 +22,35 @@ html,
 body {
   font-family: 'avenir-next-lt-pro-regular';
 }
+
+
+.title {
+  @include avenir-bold;
+  &.heading {
+    @extend .is-uppercase;
+    font-size: 16px;
+  }
+  &.has-icon {
+    display: flex;
+    line-height: 26px;
+    &::before {
+      display: inline-block;
+      background: url('~@/assets/images/icone-contextualizacao.png') no-repeat;
+      background-position: center;
+      content: ' ';
+      width: 27px;
+      height: 26px;
+      margin-right: 1rem;
+    }
+  }
+}
+
+.is-uppercase {
+  text-transform: uppercase !important;
+}
+
+p {
+  &.abnt {
+    text-indent: 2rem;
+  }
+}
