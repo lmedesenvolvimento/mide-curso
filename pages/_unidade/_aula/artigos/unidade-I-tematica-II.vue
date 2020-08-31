@@ -17,6 +17,11 @@
 
       <div class="block-bordered">
         <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
+            </figure>
+          </div>
           <div class="column">
             <div class="dialog-box is-right">
               Agora que determinamos algumas <b>características</b> da
@@ -27,19 +32,15 @@
               >
             </div>
           </div>
-          <div class="column is-3">
-            <figure>
-              <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
-            </figure>
-          </div>
         </div>
       </div>
       <p>
-        Diante das características da cibercultura e tendo em vista sua ampla
-        presença no cotidiano de alunos e professores, sobretudo pela
-        disseminação massiva dos smartphones, fica evidente a necessidade de
-        todos compreenderem de que maneira a cultura digital atua em nossas
-        vidas e como utilizá-la em nosso favor no processo pedagógico.
+        Diante das <strong>características</strong> da
+        <strong>cibercultura</strong> e tendo em vista sua ampla presença no
+        cotidiano de alunos e professores, sobretudo pela disseminação massiva
+        dos smartphones, fica evidente a necessidade de todos compreenderem de
+        que maneira a cultura digital atua em nossas vidas e como utilizá-la em
+        nosso favor no processo pedagógico.
       </p>
       <p>
         Sabendo da importância de se compreender como podemos usar a cultura
@@ -47,20 +48,19 @@
         Curricular (BNCC).
       </p>
       <p>Lembrando que:</p>
-      <center>
-        <div class="textobncc">
-          <p><b>Base Nacional Comum Curricular (BNCC)</b></p>
-          <p>
-            “A Base Nacional Comum Curricular (BNCC) é um documento de caráter
-            normativo que define o conjunto orgânico e progressivo de
-            aprendizagens essenciais que todos os alunos devem desenvolver ao
-            longo das etapas e modalidades da Educação Básica, de modo a que
-            tenham assegurados seus direitos de aprendizagem e desenvolvimento,
-            em conformidade com o que preceitua o Plano Nacional de Educação
-            (PNE).”
-          </p>
-        </div>
-      </center>
+
+      <div class="highlighted">
+        <h3 class="title">Base Nacional Comum Curricular (BNCC)</h3>
+        <p>
+          “A Base Nacional Comum Curricular (BNCC) é um documento de caráter
+          normativo que define o conjunto orgânico e progressivo de
+          aprendizagens essenciais que todos os alunos devem desenvolver ao
+          longo das etapas e modalidades da Educação Básica, de modo a que
+          tenham assegurados seus direitos de aprendizagem e desenvolvimento, em
+          em conformidade com o que preceitua o Plano Nacional de Educação
+          (PNE).”
+        </p>
+      </div>
       <br />
 
       <div class="block-bordered">
@@ -164,7 +164,7 @@
         </i>
       </p>
 
-      <div class="block-bordered">
+      <div>
         <div class="columns is-vcentered">
           <div class="column is-3">
             <figure>
@@ -174,23 +174,23 @@
           <div class="column">
             <div class="dialog-box is-left">
               Na base, duas competências chamam atenção para a cultura digital.
-              Vejamos o que diz a competência 4.
+              Vejamos o que diz a <strong>competência 4</strong>.
             </div>
           </div>
         </div>
       </div>
 
-      <div class="block-bordered">
+      <div>
         <div class="columns is-vcentered">
           <div class="column">
             <div class="dialog-box is-right">
-              Competência 4 “Utilizar diferentes linguagens – verbal (oral ou
-              visual-motora, como Libras, e escrita), corporal, visual, sonora e
-              digital –, bem como conhecimentos das linguagens artística,
-              matemática e científica, para se expressar e partilhar
-              informações, experiências, ideias e sentimentos em diferentes
-              contextos, além de produzir sentidos que levem ao entendimento
-              mútuo.”
+              <strong>Competência 4</strong> <br />
+              “Utilizar diferentes linguagens – verbal (oral ou visual-motora,
+              como Libras, e escrita), corporal, visual, sonora e digital –, bem
+              como conhecimentos das linguagens artística, matemática e
+              científica, para se expressar e partilhar informações,
+              experiências, ideias e sentimentos em diferentes contextos, além
+              de produzir sentidos que levem ao entendimento mútuo.”
             </div>
           </div>
           <div class="column is-3">
@@ -201,7 +201,7 @@
         </div>
       </div>
 
-      <div class="block-bordered">
+      <div>
         <div class="columns is-vcentered">
           <div class="column is-3">
             <figure>
@@ -210,19 +210,20 @@
           </div>
           <div class="column">
             <div class="dialog-box is-left">
-              Percebam que essa competência fala sobre saber se comunicar
-              utilizando diferentes linguagem. Como você poderia estimular seus
-              alunos a se comunicarem através dessas linguagens?
+              Percebam que essa <strong>competência</strong> fala sobre saber se
+              comunicar utilizando <strong>diferentes linguagem</strong>. Como
+              você poderia estimular seus alunos a se comunicarem através dessas
+              linguagens?
             </div>
           </div>
         </div>
       </div>
 
-      <div class="block-bordered">
+      <div>
         <div class="columns is-vcentered">
           <div class="column">
             <div class="dialog-box is-right">
-              Agora vamos ver o que diz a competência 5.
+              Agora vamos ver o que diz a <strong>competência 5</strong>.
             </div>
           </div>
           <div class="column is-3">
@@ -233,7 +234,7 @@
         </div>
       </div>
 
-      <div class="block-bordered">
+      <div>
         <div class="columns is-vcentered">
           <div class="column is-3">
             <figure>
@@ -257,11 +258,13 @@
         <div class="columns is-vcentered">
           <div class="column">
             <div class="dialog-box is-right">
-              Essa competência é mais voltada para a cultura digital. Nela,
-              compreendemos a importância de utilizar e criar tecnologias
-              digitais de forma crítica, significativa e ética. Sabe o que eu
-              pensei? Como podemos iniciar uma conversa com os alunos sobre
-              discussões em redes sociais, por exemplo?
+              Essa competência é mais voltada para a
+              <strong>cultura digital</strong>. Nela, compreendemos a
+              importância de utilizar e criar tecnologias digitais de forma
+              <strong>crítica</strong>, <strong>significativa</strong> e
+              <strong>ética</strong>. Sabe o que eu pensei? Como podemos iniciar
+              uma conversa com os alunos sobre discussões em redes sociais, por
+              exemplo?
             </div>
           </div>
           <div class="column is-3">
@@ -296,21 +299,31 @@
         saber <b>ESCREVER</b> e saber <b>PARTICIPAR</b> na internet (OCHS,
         2019).
       </p>
-      <img
-        src="~assets/images/unidade-I/marcos-e-carla-leitura-escola.png"
-        class="icones"
-      />
-      <h6>SABER LER</h6>
-      <br />
-      Saber LER na internet significa realizar a leitura crítica dos textos de
-      mídia em qualquer formato, utilizando-se de habilidades no domínio das
-      técnicas de busca, organização e produção do conhecimento. Esta análise
-      crítica só é possível quando se entende o significado da mídia na
-      sociedade e a importância da liberdade de expressão. Também fazem parte da
-      leitura competente o entendimento sobre como circulam as informações na
-      grande mídia e nos diversos ambientes que compõem a internet, como as
-      mídias sociais, bem como a comunicação de conteúdo patrocinado e
-      influenciadores.
+
+      <div class="columns is-vcentered">
+        <div class="column is-4">
+          <figure>
+            <img
+              src="~assets/images/unidade-I/marcos-e-carla-leitura-escola.png"
+              class="icones"
+            />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="is-left">
+            <h6 class="titulos">SABER LER</h6>
+            Saber LER na internet significa realizar a leitura crítica dos
+            textos de mídia em qualquer formato, utilizando-se de habilidades no
+            domínio das técnicas de busca, organização e produção do
+            conhecimento. Esta análise crítica só é possível quando se entende o
+            significado da mídia na sociedade e a importância da liberdade de
+            expressão. Também fazem parte da leitura competente o entendimento
+            sobre como circulam as informações na grande mídia e nos diversos
+            ambientes que compõem a internet, como as mídias sociais, bem como a
+            comunicação de conteúdo patrocinado e influenciadores.
+          </div>
+        </div>
+      </div>
 
       <hr />
       <div class="block-bordered">
@@ -329,20 +342,27 @@
           </div>
         </div>
       </div>
-
-      <img
-        src="~assets/images/unidade-I/carla-saber-escrever.png"
-        class="icones"
-      />
-      <h6>SABER ESCREVER</h6>
-      <br />
-      Saber ESCREVER na internet significa produzir mídias desenvolvidas de
-      forma técnica e criativa, utilizando-se de ferramentas digitais adequadas,
-      adaptando-se continuamente a novos recursos para produção e
-      compartilhamento de conhecimento. Para tanto, é necessário utilizar
-      adequadamente textos, imagens, dados e áudio, entendendo e adequando as
-      suas linguagens a cada formato de mídia.
-
+      <div class="columns is-vcentered">
+        <div class="column is-4">
+          <figure>
+            <img
+              src="~assets/images/unidade-I/carla-saber-escrever.png"
+              class="icones"
+            />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="is-left">
+            <h6 class="titulos">SABER ESCREVER</h6>
+            Saber ESCREVER na internet significa produzir mídias desenvolvidas
+            de forma técnica e criativa, utilizando-se de ferramentas digitais
+            adequadas, adaptando-se continuamente a novos recursos para produção
+            e compartilhamento de conhecimento. Para tanto, é necessário
+            necessário utilizar adequadamente textos, imagens, dados e áudio,
+            entendendo e adequando as suas linguagens a cada formato de mídia.
+          </div>
+        </div>
+      </div>
       <hr />
 
       <div class="block-bordered">
@@ -360,24 +380,32 @@
           </div>
         </div>
       </div>
-
-      <img
-        src="~assets/images/unidade-I/marcos-ecarla-saber-participar-na-internet.png"
-      />
-      <p>
-        Saber PARTICIPAR na internet envolve utilizar a internet de forma
-        segura, responsável e consciente, em função da interação com outras
-        pessoas. Isto envolve habilidades de compreensão dos efeitos da
-        participação em redes sociais virtuais, combatendo a desinformação, o
-        bullying e o discurso de ódio, bem como os mecanismos de denúncia destes
-        eventos. A participação na internet envolve ainda o próprio uso
-        equilibrado da rede, entendendo-a como uma das perspectivas da vida
-        social e da construção da consciência crítica, não como o centro das
-        atividades cotidianas. A preservação da privacidade e a compreensão de
-        sua importância fazem parte deste processo participativo.
-      </p>
       <hr />
-
+      <div class="columns is-vcentered">
+        <div class="column is-4">
+          <figure>
+            <img
+              src="~assets/images/unidade-I/marcos-ecarla-saber-participar-na-internet.png"
+            />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="is-left">
+            <h6 class="titulos">SABER PARTICIPAR NA INTERNET?</h6>
+            Saber PARTICIPAR na internet envolve utilizar a internet de forma
+            segura, responsável e consciente, em função da interação com outras
+            pessoas. Isto envolve habilidades de compreensão dos efeitos da
+            participação em redes sociais virtuais, combatendo a desinformação,
+            o bullying e o discurso de ódio, bem como os mecanismos de denúncia
+            destes eventos. A participação na internet envolve ainda o próprio
+            uso equilibrado da rede, entendendo-a como uma das perspectivas da
+            vida social e da construção da consciência crítica, não como o
+            centro das atividades cotidianas. A preservação da privacidade e a
+            compreensão de sua importância fazem parte deste processo
+            participativo.
+          </div>
+        </div>
+      </div>
       <div class="block-bordered">
         <div class="columns is-vcentered">
           <div class="column is-3">
