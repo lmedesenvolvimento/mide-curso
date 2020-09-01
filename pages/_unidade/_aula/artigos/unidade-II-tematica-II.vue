@@ -1,158 +1,478 @@
 <template>
   <mide-aulas-container>
     <div id="unidade-II-tematica-II">
-      <div class="columns">
-        <div class="column is-4">
-          <img src="~assets/images/marcos-celular.png" />
-        </div>
-        <div class="column is-1">
-          <img
-            src="~assets/images/colchete-explicacao-medio.png"
-            class="colchete1"
-          />
-        </div>
-        <div class="column fala-marcos">
-          Agora que determinamos algumas <b>características</b> da
-          <b>Cibercultura</b>, vamos voltar nosso olhar à educação. Como a
-          <b>cultura digital</b> se insere no <b>currículo escolar</b>? E qual o
-          papel do <b>professor</b> nessa inserção?<br /><b>Vamos descobrir?</b>
-        </div>
-      </div>
+      <h6 class="titulos">
+        Objetivos de aprendizagem:
+      </h6>
+      <li>
+        Apresentar os recursos educacionais digitais disponíveis na Plataforma
+        Integrada de Recursos Educacionais Digitais do Ministério da Educação.
+      </li>
+      <li>
+        Compreender a sua utilização e suas contribuições nas práticas de sala
+        de aula.
+      </li>
 
-      <hr />
-
-      <p>
-        Diante das características da cibercultura e tendo em vista sua ampla
-        presença no cotidiano de alunos e professores, sobretudo pela
-        disseminação massiva dos smartphones, fica evidente a necessidade de
-        todos compreenderem de que maneira a cultura digital atua em nossas
-        vidas e como utilizá-la em nosso favor no processo pedagógico.
-      </p>
-      <p>
-        Sabendo da importância de se compreender como podemos usar a cultura
-        digital ao nosso favor, vamos nos apoiar na Base Nacional Comum
-        Curricular (BNCC).
-      </p>
-      <p>Lembrando que:</p>
-      <center>
-        <div class="textobncc">
-          <p><b>Base Nacional Comum Curricular (BNCC)</b></p>
-          <p>
-            “A Base Nacional Comum Curricular (BNCC) é um documento de caráter
-            normativo que define o conjunto orgânico e progressivo de
-            aprendizagens essenciais que todos os alunos devem desenvolver ao
-            longo das etapas e modalidades da Educação Básica, de modo a que
-            tenham assegurados seus direitos de aprendizagem e desenvolvimento,
-            em conformidade com o que preceitua o Plano Nacional de Educação
-            (PNE).”
-          </p>
-        </div>
-      </center>
-      <br />
-
-      <div class="columns">
-        <div class="column is-one-third">
-          <img src="~assets/images/marcos-celular-close.png" />
-        </div>
-        <div class="column is-1">
-          <img
-            src="~assets/images/colchete-explicacao-medio.png"
-            class="colchete1 "
-          />
-        </div>
-
-        <div class="column fala-marcos">
-          A <b>BNCC</b> é um <b>documento plural</b> e estabelece um
-          <b>conjunto de aprendizagens</b>
-          essenciais e indispensáveis para que todas as escolas possam a ter uma
-          referência nacional obrigatória para a elaboração ou adequação de seus
-          currículos e propostas pedagógicas.
-        </div>
-      </div>
-
-      <div class="columns">
-        <div class="column is-7 fala-carla">
-          Portanto, ao longo da <b>Educação Básica</b>, as aprendizagens
-          essenciais definidas na <b>BNCC</b> devem concorrer para
-          <b>assegurar</b> aos estudantes o desenvolvimento de
-          <b>dez competências gerais</b>, que apoiem os direitos de aprendizagem
-          e desenvolvimento.
-        </div>
-
-        <div class="column is-1">
-          <img
-            src="~assets/images/colchete-explicacao-medio2.png"
-            class="colchete2"
-          />
-        </div>
-
-        <div class="column is-one-third">
-          <img src="~assets/images/carla-explicacao.png" />
-        </div>
-      </div>
-
-      <div class="fundo">
-        <section>
-          <h6 class="title is-6">CONHEÇA AQUI AS 10 COMPETÊNCIAS GERAIS:</h6>
-
-          <b-collapse
-            v-for="(collapse, index) of collapses"
-            :key="index"
-            class="card"
-            animation="slide"
-            :open="isOpen == index"
-            @open="isOpen = index"
-          >
-            <div
-              slot="trigger"
-              slot-scope="props"
-              class="card-header"
-              role="button"
-            >
-              <div class="card-header-title">
-                {{ collapse.title }}
-              </div>
-              <a class="card-header-icon">
-                <b-icon :icon="props.open ? 'menu-up' : 'menu-down'"> </b-icon>
-              </a>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Nesse módulo, vamos apresentar 5 RED de Língua Portuguesa e 5 de
+              Matemática desenvolvidos, com apoio do Ministério da Educação pela
+              Universidade Federal do Ceará, no projeto Mídias Digitais na
+              Educação (MIDE).
             </div>
-            <div class="card-content">
-              <div class="content">
-                {{ collapse.text }}
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Qual componente curricular você quer conhecer primeiro?
+            </div>
+          </div>
+        </div>
+      </div>
+      LINGUA PORTUGUESA OU MATEMÁTICA (botões)
+      <p>se portugues</p>
+      <img src="~assets/images/capa-portugues.png" />
+
+      <div class="title">Língua Portuguesa</div>
+      <mide-tabs>
+        <b-tab-item label="1º RED">
+          <div class="title is-uppercase">de olho na lista</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Diariamente, escrevemos e lemos listas de produtos que temos
+                  que comprar no supermercado, fazemos listas de convidados para
+                  um aniversário ou, até mesmo, listamos as atividades
+                  programadas para o dia.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
               </div>
             </div>
-          </b-collapse>
-        </section>
-      </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Assim, realizar uma atividade que envolva criar listas é
+                  significativo para as crianças, pois tem uma função social não
+                  só na infância, já que este uso percorre, inclusive, a vida
+                  adulta.
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <p>
-        Para a BNCC as práticas pedagógicas devem se basear dentro de um
-        contexto histórico e cultural.
-      </p>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box">
+                  Vamos conhecer um recurso que trabalha com o gênero lista?
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure>
+                <img
+                  src="~assets/images/imagem-quadrada-de-olho-na-lista.png"
+                  class="icones"
+                />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">DE OLHO NA LISTA</h6>
+                O recurso “De olho na lista” busca trabalhar com a leitura e a
+                produção de listas, por meio da apresentação de situações nas
+                quais três personagens deverão utilizar listas para realizar
+                atividades planejadas para o cotidiano, tais como compras e
+                organização de tarefas. Logo, o RED em questão foi pensado para
+                proporcionar a compreensão acerca do gênero lista, além de sua
+                organização composicional. Intenta-se que o aluno consiga
+                relacionar as características do gênero às situações-problema
+                que se apresentam ao longo do recurso. O RED apresenta um
+                repertório de palavras diversificado, de maneira que os alunos
+                em processo de alfabetização e de letramento trabalhem a
+                competência leitora e a classificação de palavras com base em
+                seu campo semântico.
+              </div>
+            </div>
+          </div>
+        </b-tab-item>
 
-      <p>
-        É muito importante que possamos refletir novas formas de se comunicar ao
-        invés de apenas pensar em acúmulo de informações. Por isso, podemos
-        refletir sobre como a cultura digital nos ajuda a:
-      </p>
+        <b-tab-item label="2º RED">
+          <div class="title is-uppercase">qual seu pedido?</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Você já reparou como nosso país tem uma cultura heterogênea?
+                  As músicas, as danças e a culinária se diferenciam bastante de
+                  uma região para outra.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Sim! A culinária de uma região pode mostrar muito sobre os
+                  costumes e a realidade sociocultural. Nesse sentido, os
+                  cardápios de restaurantes surgem como um texto informativo da
+                  vida cotidiana que mostra os hábitos de consumo.
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <center>
-        <img src="~assets/images/infografico-cultura-digital.png" />
-      </center>
-      <p>
-        Nós, professores, precisamos pensar que essas competências nos ajudam e,
-        como também, ajudam nossos alunos a:
-      </p>
-      <p>
-        <i>
-          “Aprender a aprender, saber lidar com a informação cada vez mais
-          disponível, atuar com discernimento e responsabilidade nos contextos
-          das culturas digitais, aplicar conhecimentos para resolver problemas,
-          ter autonomia para tomar decisões, ser proativo para identificar os
-          dados de uma situação e buscar soluções, conviver e aprender com as
-          diferenças e as diversidades.”
-        </i>
-      </p>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Pois é! Por isso, queremos mostrar para você um recurso que
+                  tem como objetivo trabalhar a leitura e a produção de
+                  cardápios.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure>
+                <img
+                  src="~assets/images/imagem-quadrada-qual-o-seu-pedido.png"
+                  class="icones"
+                />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">QUAL O SEU PEDIDO?</h6>
+                O recurso "Qual é o seu pedido?" busca trabalhar a leitura e a
+                produção de cardápios, por meio da apresentação de situações de
+                interação com esse gênero, contextualizadas nas funções de
+                cliente, de garçom/garçonete e de chef. Assim, pretende-se
+                explorar a compreensão sobre o gênero a partir de sua
+                funcionalidade. Este recurso explora elementos de jogos, como
+                avatares e recompensas, para que o aluno consiga relacionar as
+                características do gênero às situações-problema que se
+                apresentam ao longo do recurso. Ainda, busca-se trazer um
+                repertório de pratos diversificados, de maneira que os alunos em
+                processo de alfabetização e de letramento possam observar
+                diferentes ortografias e ampliar seu vocabulário e conhecimento
+                de mundo.
+              </div>
+            </div>
+          </div>
+        </b-tab-item>
+
+        <b-tab-item label="3º RED">
+          <div class="title is-uppercase">fábulas animadas</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Olá! Você gosta de ouvir histórias?
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Sim! Quando eu era criança, meu gênero favorito era a fábula!
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  O meu também! Além do mais, gosto muito desse gênero, pois
+                  apresenta uma narrativa que constrói um ensinamento ou uma
+                  moral. Vamos conhecer como o recurso “Fábulas animadas” pode
+                  apoiar as atividades desse gênero?
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure>
+                <img
+                  src="~assets/images/imagem-quadrada-fabulas.png"
+                  class="icones"
+                />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">FÁBULAS ANIMADAS</h6>
+                O recurso apresenta duas fábulas, que são “O Galo e a Raposa” e
+                “O Ratinho, o Gato e o Galo”. Cada uma destas fábulas contém
+                atividades específicas, apresentadas em uma sequência didática
+                linear. Durante a leitura da primeira fábula, "O Galo e a
+                Raposa", o alunos é convidado a identificar elementos que faltam
+                e que fazem parte da construção de sentido do texto, passando
+                por reflexões ortográficas. As atividades contêm questões de
+                interpretação referentes à estrutura da fábula e suas principais
+                características. Em cada atividade, o aluno recebe adesivos que
+                serão usados nas ilustrações da segunda fábula. Na segunda
+                fábula, "O Ratinho, o Gato e o Galo", o aluno realiza a leitura
+                da história, devendo completar as ilustrações com os adesivos
+                que foram recebidos na etapa anterior. Ao final, o aluno deverá
+                elaborar uma moral de acordo com a fábula lida, de modo que ele
+                escreva a sua percepção acerca do desfecho da história.
+              </div>
+            </div>
+          </div>
+        </b-tab-item>
+
+        <b-tab-item label="4º RED">
+          <div class="title is-uppercase">fábulas animadas</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Já pensou que legal seria se tivéssemos um recurso que
+                  trabalhasse os gêneros de uma revista?
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Ah, você ainda não conhece o recurso Revista Digital da
+                  Criança?
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Não, quero conhecer! Em qual ano posso utilizar? Mostra para
+                  mim?
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Já usei no quarto e no quinto ano. Claro! Vamos lá?
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure>
+                <img
+                  src="~assets/images/imagem-quadrada-revista-digital.png"
+                  class="icones"
+                />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">REVISTA DIGITAL DA CRIANÇA</h6>
+                O RED é dividido em seções, simulando o formato de uma revista
+                convencional, tendo início com a capa, que é a tela inicial do
+                recurso. Em seguida, o RED traz um editorial, com uma breve
+                apresentação dos editores, e o sumário, que apresenta todo o seu
+                conteúdo. Aborda-se, na seção posterior, um infográfico
+                interativo sobre a evolução das brincadeiras infantis. Nele,
+                apresentam-se curiosidades (Quando começou? Como se brinca? Você
+                sabia?) sobre as brincadeiras: faz de conta, cabra-cega,
+                amarelinha e games. Em seguida, o recurso traz um caça-palavras
+                sobre as brincadeiras apresentadas no infográfico. Na seção
+                seguinte, o recurso apresenta uma entrevista com Maria Clara, de
+                nove anos, sobre a produção de conteúdo digital. Após a
+                entrevista, tem-se um jogo da memória, no qual o aluno deverá
+                relacionar cartas de baralho sobre as perguntas e as respostas
+                da entrevista. Por último, o recurso apresenta a seção das
+                cartas dos leitores, na qual é possível ter acesso às cartas de
+                Laura e Bernardo, duas crianças fictícias que discutem uma
+                reportagem sobre o uso de canudos descartáveis. O RED é
+                concluído com a produção de uma carta do leitor feita pelo
+                aluno, sobre algum tema de interesse tratado na revista que foi
+                lida.
+              </div>
+            </div>
+          </div>
+        </b-tab-item>
+
+        <b-tab-item label="5º RED">
+          <div class="title is-uppercase">AVENTURA NO MUNDO DOS QUADRINHOS</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Já conhecemos recursos para trabalhar os gêneros lista,
+                  cardápio, fábula e até um recurso que utiliza a estrutura de
+                  uma revista e os gêneros que a compõem.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Vamos conhecer, agora, um recurso que explora um gênero muito
+                  conhecido e adorado tanto por crianças como por adultos? Os
+                  quadrinhos! Vamos lá?
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure>
+                <img
+                  src="~assets/images/imagem-quadrada-aventura-no-mundo.png"
+                  class="icones"
+                />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">AVENTURA NO MUNDO DOS QUADRINHOS</h6>
+                O recurso foi pensado em dois modos de jogo. O primeiro modo é
+                intitulado Iniciar Aventura e o segundo o Mundo de Liz. A ideia
+                é trabalhar uma narrativa que terá os personagens Croma, Albedo
+                e Vernáculo, que vivem no Mundo dos Quadrinhos. Albedo roubou
+                algumas páginas do livro o Mundo de Liz. Croma, com a ajuda do
+                senhor das palavras, Vernáculo, terá que resgatá-las. O primeiro
+                modo possui quatro fases, que são: Primeira fase: se passa na
+                Estrada de Requadros, trabalhando-se o fluxo de leitura dos
+                quadrinhos. Os alunos terão que organizar os quadrinhos em sua
+                ordem correta, conforme a lógica da narrativa. Segunda fase:
+                acontece na Ilha dos Balões. Aqui será trabalhada a relação
+                entre exemplos de balões de fala e o seu significado, além
+                daqueles usados dentro da narrativa para a criação de efeito de
+                sentido. Terceira fase: se passa no Bosque de Ícona, nos quais
+                serão trabalhados enigmas, por meio dos recursos gráficos
+                presentes nos quadrinhos, tais como expressões faciais e linhas
+                cinéticas. Quarta fase: se passa na chamada Montanha de Litera,
+                onde acontecerá uma batalha final, representada por meio dos
+                aspectos interpretativos dos quadrinhos. Estes incluem aspectos
+                textuais, gráficos e não verbais dos quadros. Após reunir todas
+                as páginas perdidas do livro o Mundo de Liz, o segundo modo de
+                jogo é ativado. Nele, serão apresentadas informações adicionais
+                sobre o Mundo de Liz, história em quadrinhos selecionada para o
+                desenvolvimento deste recurso educacional digital.
+              </div>
+            </div>
+          </div>
+        </b-tab-item>
+      </mide-tabs>
     </div>
   </mide-aulas-container>
 </template>

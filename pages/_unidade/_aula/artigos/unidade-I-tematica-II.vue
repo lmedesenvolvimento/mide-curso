@@ -288,11 +288,10 @@
           </p>
         </center>
       </div>
-      <img src="~assets/images/icone-contextualizacao.png" class="icones" />
-      <h6 class="title is-6">
+      <div class="title has-icon heading">
         Saberes necessários para a construção das competências de inclusão e
         letramento digitais
-      </h6>
+      </div>
       <p>
         A construção destas competências encontra-se em três elementos que
         definem, hoje, a inclusão e o letramento digitais: saber <b>LER</b>,
@@ -439,8 +438,9 @@
         </div>
       </div>
 
-      <img src="~assets/images/icone-contextualizacao.png" class="icones" />
-      <h6 class="title is-6">Competências digitais do professor</h6>
+      <div class="title has-icon heading">
+        Competências digitais do professor
+      </div>
 
       <p>
         Quais as competências necessárias ao professor, no sentido de promover e
@@ -494,11 +494,10 @@
         práticas, além de criticar suas próprias práticas.
       </p>
       <hr />
-      <img src="~assets/images/icone-contextualizacao.png" class="icones" />
-      <h6 class="title is-6">
+      <div class="title has-icon heading">
         Posturas e atitudes do professor necessárias à promoção das competências
         tecnológicas digitais nos alunos
-      </h6>
+      </div>
 
       <p>
         O professor da Educação Básica precisa assumir determinadas posturas e
@@ -530,30 +529,30 @@
         e ferramentas de uso cotidiano do aluno, especialmente as redes sociais,
         fóruns de discussão da internet, blogs, jornais e revistas digitais.
       </p>
-
-      <h6 class="title is-6">Cuidados que devem ser tomados</h6>
-      <p>
-        Cuidado especial deve ser tomado quanto a uma postura responsável e
-        crítica do aluno em relação à rede. Neste sentido, o professor deve
-        promover atividades que ponham em debate aspectos éticos das relações
-        sociais na internet: respeitar opiniões diversas, evitar o cyberbullying
-        (e denunciar a sua prática), identificação de situações de
-        desinformação, ao mesmo tempo em que estimula experiências de
-        engajamento que fortaleçam essas posturas no aluno.
-      </p>
-      <p>
-        Cuidados na exposição do aluno na internet. Os alunos realizam na
-        internet muitas de suas atividades cotidianas, inclusive aquelas ligadas
-        à aprendizagem escolar. Eles estão, portanto, bastante expostos a
-        diversas situações de assédio e uso indevido de dados, dentre outros. É
-        importante, então debater com eles as possibilidades e os riscos dessa
-        exposição, sobretudo comentários, mensagens de texto e áudio,
-        fotografias e vídeos. É importante que saibam: uma vez que algo foi
-        publicado, ficará na rede de forma permanente, mesmo que seja
-        aparentemente apagado pelo autor. Toda publicação é automaticamente
-        replicada e espelhada em múltiplas cópias em servidores mundo afora.
-      </p>
-
+      <div class="w-100 has-background-light">
+        <h6 class="title is-6">Cuidados que devem ser tomados</h6>
+        <p>
+          Cuidado especial deve ser tomado quanto a uma postura responsável e
+          crítica do aluno em relação à rede. Neste sentido, o professor deve
+          promover atividades que ponham em debate aspectos éticos das relações
+          sociais na internet: respeitar opiniões diversas, evitar o
+          cyberbullying (e denunciar a sua prática), identificação de situações
+          de desinformação, ao mesmo tempo em que estimula experiências de
+          engajamento que fortaleçam essas posturas no aluno.
+        </p>
+        <p>
+          Cuidados na exposição do aluno na internet. Os alunos realizam na
+          internet muitas de suas atividades cotidianas, inclusive aquelas
+          ligadas à aprendizagem escolar. Eles estão, portanto, bastante
+          expostos a diversas situações de assédio e uso indevido de dados,
+          dentre outros. É importante, então debater com eles as possibilidades
+          e os riscos dessa exposição, sobretudo comentários, mensagens de texto
+          e áudio, fotografias e vídeos. É importante que saibam: uma vez que
+          algo foi publicado, ficará na rede de forma permanente, mesmo que seja
+          aparentemente apagado pelo autor. Toda publicação é automaticamente
+          replicada e espelhada em múltiplas cópias em servidores mundo afora.
+        </p>
+      </div>
       <div class="block-bordered">
         <div class="columns is-vcentered">
           <div class="column is-3">
