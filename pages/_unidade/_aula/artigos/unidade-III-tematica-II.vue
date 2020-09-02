@@ -21,6 +21,635 @@
         </div>
       </div>
     </div>
+    <p>
+      PORTUGUÊS
+    </p>
+    <p>
+      Personagens juntos: Olá, vamos conhecer agora uma proposta de plano usando
+      o RED Revista Digital da Criança. Conforme vimos na Unidade 2, este
+      recurso tem como objetivo trabalhar a leitura e a interpretação textual,
+      por meio de diferentes gêneros discursivos, dentre eles o editorial, o
+      infográfico, a entrevista e a carta do leitor. É muito interessante que
+      você possa conhecer bem o recurso antes de ler o plano. Para isso você
+      pode baixá-lo aqui.
+    </p>
+    <p>
+      1. ESTRUTURA CURRICULAR <br />
+      1.1 Modalidade / nível de ensino: <br />
+      4o ano do Ensino Fundamental <br />
+
+      1.2. Áreas do conhecimento: <br />
+      Linguagem <br />
+
+      1.3 Componente curricular: <br />
+      Língua Portuguesa <br />
+
+      1.4 Unidade Temática (prática de linguagem): <br />
+      Leitura/escuta (compartilhada e autônoma) <br />
+
+      1.5 Objeto do conhecimento: <br />
+      Compreensão em leitura<br />
+    </p>
+    <p>
+      2. DADOS DA AULA <br />
+      2.1 O que o(a) aluno(a) poderá aprender com esta aula <br />
+
+      Identificar as características de uma revista, tais como capa e seções,
+      por exemplo; <br />
+      Perceber as especificidades das revistas e dos gêneros que a compõem a
+      partir de seus conteúdos. <br />
+
+      Habilidade da BNCC: <br />
+      Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos
+      em vlogs argumentativos, dentre outros gêneros do campo político-cidadão,
+      de acordo com as convenções dos gêneros e considerando a situação
+      comunicativa e o tema/assunto do texto.
+    </p>
+    <p>
+      2.2 Duração da atividade <br />
+      Duas aulas de 50 minutos cada
+    </p>
+    <p>
+      2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)
+    </p>
+    <p>
+      Para a utilização do RED, é necessário que os(as) alunos(as) já consigam
+      compreender e generalizar as características apresentadas por uma revista,
+      por meio da leitura dos textos de cada seção, intercalando a linguagem
+      verbal e não verbal, bem como por meio da escrita de uma carta do leitor,
+      que tem a argumentação como enfoque principal. Por esse motivo, é
+      importante verificar o nível de conhecimento da turma em relação às
+      habilidades que serão trabalhadas, principalmente em relação ao domínio da
+      leitura e da escrita por parte dos(as) alunos(as).
+    </p>
+    <p>
+      Para que o(a) aluno(a) se aproprie da percepção das revistas como suporte
+      de gêneros do campo jornalístico-midiático, com consciência da função
+      social desses textos que a compõem e de suas utilidades no cotidiano,
+      espera-se que ele(a) já tenha se apropriado dos seguintes conhecimentos:
+    </p>
+    <ul>
+      <li>
+        Navegação básica na Web: o(a) aluno(a) deve ser capaz de usar, com
+        relativa autonomia, um computador equipado com mouse e teclado.
+      </li>
+      <li>
+        Leitura autônoma: Ao ler palavras isoladas e textos curtos, espera-se
+        que os(as) alunos(as) demonstrem capacidade de ler autonomamente, ainda
+        que empregando diferentes estratégias de leitura, por exemplo,
+        analisando letras iniciais e finais, lendo incidentalmente ou
+        reconhecendo palavras memorizadas.
+      </li>
+      <li>
+        Reconhecimento de gêneros do campo jornalístico-midiático: Ao ler uma
+        revista, espera-se que os(as) alunos(as) consigam reconhecer alguns
+        gêneros, tais como editoria, entrevista, carta ao leitor ou outros, que
+        circulam tipicamente nesse suporte, a partir de suas características
+        gerais.
+      </li>
+    </ul>
+    <p>
+      2.4 Estratégias e recursos da aula
+    </p>
+    <p>
+      1a aula:
+    </p>
+    <p>
+      Na primeira aula sugere-se que os(as) alunos(as) explorem as seções da
+      Revista Digital e o seu formato. É importante deixar os (as) alunos(as)
+      livres para conhecer como é o seu funcionamento.
+    </p>
+    <p>
+      Dependendo do nível da sua turma, pode ser interessante propor a
+      utilização do recurso em duplas ou em trios, de modo que os(as) alunos(as)
+      possam trocar informações e discutir sobre as seções e atividades da
+      revista. É interessante observar como ocorrem as inferências, o fluxo de
+      leitura e as negociações entre as duplas ou trios para a resolução das
+      atividades. Verifique se alguma dupla ou trio demonstra dificuldade de
+      leitura ou de escrita e intervenha quando necessário, por exemplo,
+      ajudando os(as) alunos(as) na leitura dos conteúdos das seções ou dos
+      comandos.
+    </p>
+    <p>
+      Ao conhecer o recurso você deve ter percebido que ele é dividido em
+      seções, simulando o formato de uma revista convencional, tendo início com
+      a capa, que é a tela inicial do recurso.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      O RED traz um editorial, com uma breve apresentação dos editores, e o
+      sumário, que apresenta todo o seu conteúdo.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Aborda-se, na seção posterior, um infográfico interativo sobre a evolução
+      das brincadeiras infantis. Nele, apresentam-se curiosidades (Quando
+      começou? Como se brinca? Você sabia?) sobre as brincadeiras: faz de conta,
+      cabra-cega, amarelinha e games.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Em seguida, o recurso traz um caça-palavras sobre as brincadeiras
+      apresentadas no infográfico.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Na seção seguinte, o recurso apresenta uma entrevista com Maria Clara, de
+      nove anos, sobre a produção de conteúdo digital.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Após a entrevista, tem-se um jogo da memória, no qual o(a) aluno(a) deverá
+      relacionar cartas de baralho sobre as perguntas e as respostas da
+      entrevista.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Por se tratar de uma revista em formato digital, as linguagens verbal e
+      não verbal, sejam elas estáticas ou animadas, apresentam-se interligadas e
+      servem de suporte para a elucidação das atividades do RED. Observe se as
+      duplas ou trios demonstram compreender a importância destas linguagens
+      para a relação de sentido dos textos durante a leitura das seções.
+      Instigue-os a observarem e lerem cada seção por completo, atentando-se
+      para a ordem dos textos e das imagens que surgem ao longo do RED.
+    </p>
+    <p>
+      Estima-se que essa aula inicial leve em média 40 minutos para que eles
+      explorem as seções acima. Reserve aproximadamente 10 minutos para, ao
+      final da aula, conversar com os(as) alunos(as) sobre a utilização do RED e
+      sobre as descobertas feitas por eles sobre os gêneros veiculados pela
+      revista durante este uso, como:
+    </p>
+    <ul>
+      <li>
+        Qual a estrutura da revista trazida pelo RED?
+      </li>
+      <li>
+        Como a revista está dividida?
+      </li>
+      <li>
+        Qual a especificidade (tema/assuntos) da revista tratada no RED?
+      </li>
+      <li>
+        Quais características típicas de uma revista estão presentes no recurso?
+      </li>
+    </ul>
+    <p>
+      Na aula seguinte, sugere-se trabalhar na última seção do RED que é a
+      produção de um texto da carta do leitor. É importante frisar que essas
+      seções não tem uma ordem, elas podem ser exploradas de acordo com a
+      necessidade e planejamentos das atividades da turma.
+    </p>
+    <p>
+      2a aula:
+    </p>
+    <p>
+      Na segunda aula podemos trabalhar com o gênero carta do leitor. A última
+      seção do recurso apresenta uma carta dos leitores, na qual é possível ter
+      acesso às cartas de Laura e Bernardo, duas crianças fictícias que discutem
+      uma reportagem sobre o uso de canudos descartáveis.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      A produção de uma carta do leitor deve ser feita pelo(a) aluno(a), sobre
+      algum tema de interesse tratado na revista que foi lida. Ao final da
+      atividade da escrita da carta do leitor, o(a) aluno(a) tem a opção de imgv
+      primir ou salvar a carta.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      A produção da carta do leitor pode ser feita em outro documento no
+      computador ou mesmo em um papel. A proposta é que a produção textual tenha
+      seu valor no processo e não no produto e, portanto, deve seguir as etapas
+      a seguir.
+    </p>
+    <p>
+      Leitura: estimule a releitura das temáticas da Revista Digital da Criança
+      e as cartas modelos que a revista traz.
+    </p>
+    <p>
+      Discussão do modelo: estimule a discussão entre as duplas e trios sobre a
+      estrutura da carta do leitor que a revista apresenta.
+    </p>
+    <p>
+      Rascunho: Oriente os(as) alunos(as) a esboçarem uma estrutura inicial para
+      o texto. Explique que eles(as) podem anotar as características do assunto
+      escolhido para escrever a carta do leitor em uma folha à parte.
+      Sugira-lhes, ainda, que reflitam quais aspectos, assuntos e imagens podem
+      compor o texto, de modo a estabelecerem os principais pontos que deverão
+      aparecer em suas produções.
+    </p>
+    <p>
+      Elaboração da primeira versão: Os(as) alunos(as) podem, a partir dos
+      rascunhos, fazer uma leitura do texto produzido, primeiramente, de forma
+      oral, discutindo uns com os outros a estrutura do texto. Essa discussão,
+      em um segundo momento, deve ser anotada e organizada como um texto
+      completo, organizado de acordo com a estrutura de uma carta ao leitor.
+    </p>
+    <p>
+      Revisão: A partir da primeira versão, proponha alguns questionamentos para
+      que os(as) alunos(as) avaliem o seu próprio texto e para que, ao final,
+      possam melhorá-lo. Veja algumas sugestões:
+    </p>
+    <ul>
+      <li>
+        O assunto abordado nesta seção está adequado à temática da revista?
+      </li>
+      <li>
+        Esta seção apresenta os elementos principais que deve trazer, com base
+        no estudo do RED Revista Digital da Criança feito anteriormente?
+      </li>
+      <li>
+        A finalidade a qual esta seção se propõe está corretamente estruturada?
+      </li>
+    </ul>
+    <p>
+      Esse momento também pode ser aproveitado para corrigir a escrita das
+      palavras, preferencialmente, com a organização dos(as) alunos(as) ainda em
+      grupos.
+    </p>
+    <p>
+      Versão final: Realizadas as correções de revisão, a versão final estará
+      pronta. Estimule os(as) alunos(as) a socializarem, com os colegas, as
+      cartas produzidas.
+    </p>
+    <p>
+      Ao final do trabalho com o RED, verifique se os(as) alunos(as) entenderam
+      a finalidade e a estrutura de uma carta do leitor, observe o tema
+      escolhido e as estratégias utilizadas pelas duplas e/ou trios para a
+      escrita da carta.
+    </p>
+    <p>
+      2.5 Avaliação
+    </p>
+    <p>
+      Espera-se que, por meio da experiência com o RED, os(as) alunos(as)
+      desenvolvam habilidades de leitura e de escrita e sejam capazes de
+      compreender as características constituintes de uma revista. É importante
+      ressaltar que a avaliação da compreensão de um aluno(a) para a utilização
+      de um ou mais gêneros deve ser entendida como um processo, em que se
+      observam os avanços alcançados em cada uma das etapas da sequência
+      didática. Para a avaliação das aprendizagens construídas ao longo das
+      atividades sugeridas neste material, você pode avaliar dois aspectos: (1)
+      entendimento da turma sobre os gêneros veiculados pelo suporte revista e;
+      (2) avaliar a produção textual da carta do leitor.
+    </p>
+    <p>
+      Sobre o primeiro aspecto, você poderá observar se os(as) alunos(as) ou
+      duplas concluíram cada fase (sessões) do RED. A observação pode ser
+      baseada se os(as) alunos(as) entenderam as características básicas dos
+      gêneros veiculados pelo suporte revista. Sugere-se que essa observação
+      seja realizada durante as atividades ou mesmo ao final da atividade com o
+      RED. Observe as hipóteses e as descobertas feitas pelos(as) alunos(as) e
+      as dificuldades apontadas por eles(as). Para o segundo aspecto, você pode
+      ter acesso à carta produzida por cada aluno(a) no RED. Leia as cartas
+      produzidas e observe se eles estão atingindo as habilidades esperadas.
+    </p>
+    <p>
+      MATEMÁTICA
+    </p>
+    <p>
+      Personagens juntos: Olá, vamos conhecer uma proposta de plano usando o RED
+      É o Bicho 2.0. Conforme vimos na Unidade 2, O REG possui 4 atividades. Em
+      nosso plano, vamos usar somente a atividade do Peixe-Boi que tem por
+      objetivo possibilitar que os(as) alunos(as) desenvolvam o pensamento
+      numérico e a habilidade de quantificar objetos e interpretar informações
+      através da quantificação. É muito importante que você possa conhecer bem o
+      recurso antes de ler o plano. Para isso, basta acessá-lo aqui.
+    </p>
+    <p>
+      1. ESTRUTURA CURRICULAR <br />
+      1.1 Modalidade / nível de ensino: <br />
+      3o ano do Ensino Fundamental <br />
+
+      1.2. Áreas do conhecimento: <br />
+      Matemática <br />
+
+      1.3 Componente curricular: <br />
+      Matemática <br />
+
+      1.4 Unidade Temática: <br />
+      Números <br />
+
+      1.5 Objeto do conhecimento: <br />
+      Contar, Quantificar, Julgar e interpretar argumentos baseados em
+      quantidades
+    </p>
+    <p>
+      2. DADOS DA AULA
+    </p>
+    <p>
+      2.1 O que o(a) aluno(a) poderá aprender com esta aula
+    </p>
+    <p>
+      Na atividade do Peixe-boi, o(a) aluno(a) poderá aprender a formar
+      agrupamentos (conjuntos), contar, quantificar e a trabalhar as operações
+      de adição e subtração através da resolução de problemas de comparação.
+    </p>
+    <p>
+      2.2 Duração da atividade
+    </p>
+    <p>
+      2 aulas de 50 minutos cada
+    </p>
+    <p>
+      2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)
+    </p>
+    <p>
+      Para que o(a) aluno(a) se aproprie da percepção de agrupamento bem como da
+      capacidade de resolução de problemas de adição com os significados de
+      juntar e comparar, espera-se que ele já tenha se apropriado dos seguintes
+      conhecimentos:
+    </p>
+    <ul>
+      <li>
+        Navegação básica na Web: o(a) aluno(a) deve ser capaz de usar, com
+        relativa autonomia, um computador equipado com mouse e teclado.
+      </li>
+      <li>
+        Realizar operações com números inteiros;
+      </li>
+      <li>
+        Ter noção intuitiva de quantificação;
+      </li>
+      <li>
+        Saber orientar-se na resolução de problemas simples;
+      </li>
+      <li>
+        Compreender o que são números e numerais e saber relacioná-los.
+      </li>
+    </ul>
+    <p>
+      2.4 Estratégias e recursos da aula
+    </p>
+    <p>
+      1a. aula
+    </p>
+    <p>
+      Por se tratar de um recurso que trabalha aspectos relacionados à
+      preservação do meio ambiente, especificamente, preservação de espécies que
+      estão sob o risco de extinção e biodiversidade, sugere-se que, nesta 1a.
+      aula, você aborde o tema extinção com sua turma, com o auxílio de um
+      poema. Sugerimos o poema Animais em extinção, de Claudia Pehrsson
+      Tambasco.
+    </p>
+    <pre>
+      Animais em Extinção
+      Tem bicho em extinção
+      Que deveria ter de montão
+      Pandas, araras e até gavião
+      Leopardo, golfinho e bisão
+      Todos esses ameaçados de extinção
+
+      Existem bichos em extinção
+      Que já foram muitos nesse mundão
+      Estão quase em extinção
+      Um bichinho e um bichão
+      O tigre-siberiano e o mico leão
+
+      Existia um bicho grandalhão
+      Era o dinossauro, e bem grandão
+      Que bom seria se nesse mundão
+      Não existissem espécies em extinção
+      Tem homem que caça por emoção
+      Tem cientista que mata por informação
+      Nenhum desses tem noção
+      De que bichinho e bichão
+      Podem ficar em extinção…
+    </pre>
+    <p>
+      Após a leitura do poema, converse com seus alunos(as) sobre a extinção,
+      falando especificamentes sobre:
+    </p>
+    <ul>
+      <li>
+        O que é extinção?
+      </li>
+      <li>
+        Por que acontece a extinção?
+      </li>
+      <li>
+        Onde acontece a extinção?
+      </li>
+    </ul>
+    <p>
+      Sugere-se ainda que sejam levantados as seguintes questões com sua turma:
+    </p>
+    <ul>
+      <li>
+        Que outros problemas a intervenção humana causa à natureza?
+      </li>
+      <li>
+        O que o homem pode fazer para resolver problemas relacionados a
+        extinção, desmatamento e poluição?
+      </li>
+    </ul>
+    <p>
+      Para finalizar, monte com sua turma cartazes explicando como é possível
+      ajudar na preservação dos animais e cole-os em sua sala de aula.
+    </p>
+    <p>
+      2a aula:
+    </p>
+    <p>
+      Nesta aula procure organizar sua turma em duplas ou trios. Peça aos(as)
+      alunos(as) para lerem em voz alta o texto sobre o Peixe-boi que está no
+      início da atividade do recurso e em seguida oriente que todos cliquem em
+      atividade.
+    </p>
+    <p>
+      Na primeira atividade, os(as) alunos(as) deverão agrupar os filhotes,
+      conforme a referência dada para cada uma das espécies.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Na tela de agrupamento, os(as) alunos(as) deverão clicar no filhote e
+      arrastá-lo até o animal adulto
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Após realizar o agrupamento, os(as) alunos(as) serão conduzidos a
+      atividade de contar e quantificar as espécies.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Após a realização da atividade de contagem e quantificação, o(a) aluno(a)
+      deve responder desafios envolvendo comparação e adição através de
+      resolução problemas.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Ao finalizarem a atividade, os(as) alunos(as) serão condecorados com a
+      medalha de Defensor dos Filhotes.
+    </p>
+    <p>
+      FIGURA
+    </p>
+    <p>
+      Como sugestão, imprima a medalha de defensor dos filhotes e ao final,
+      entregue-as aos seus alunos.
+    </p>
+    <p>
+      Enquanto os(as) alunos(as) realizam a atividade, circule pela sala e
+      observe se eles(as) utilizam de alguma estratégia específica para realizar
+      a atividade (cálculo mental, contagem nos dedos, desenhos, uso de
+      calculadora etc.). Verifique se há alguma dificuldade de compreensão da
+      atividade no que se refere à leitura ou aos conceitos matemáticos.
+      Identifique também que tipos de erros foram evidenciados pelos(as)
+      alunos(as). Veja se as duplas ou trios conversam entre si ou se um(a)
+      dos(das) alunos(as) está monopolizando a realização das atividades. Caso
+      isso esteja ocorrendo, sugira o revezamento do mouse, ou seja, cada
+      aluno(a) irá usar o mouse alternadamente para responder cada uma das
+      questões apresentadas no RED.
+    </p>
+    <p>
+      Ao final da utilização do recurso, peça aos(às) alunos(as) para relatarem,
+      em voz alta, as estratégias adotadas para responder as perguntas do RED em
+      sala de aula.
+    </p>
+    <p>
+      Você poderá registrar o processo de resolução no quadro e perguntar se
+      alguém resolveu de forma diferente ou se todos resolveram da mesma forma.
+      Valorize a diversidade de respostas e estratégias adotadas pelos(as)
+      aluno(as).
+    </p>
+    <p>
+      Ao final do trabalho com o recurso, verifique se os(as) alunos(as)
+      entenderam a finalidade e a estrutura da atividade.
+    </p>
+    <p>
+      Concluída a discussão da atividade, é importante frisar a relação da
+      preservação do meio ambiente com a matemática e como essa ciência está
+      presente em nosso dia a dia.
+    </p>
+    <p>
+      2.5 Avaliação
+    </p>
+    <p>
+      É muito importante que a avaliação seja mediadora da aprendizagem, ou
+      seja, que o professor acompanhe cada aluno(a) no momento da interação com
+      o objeto. Deve ser avaliado se os(as) alunos(as) estão superando suas
+      próprias dificuldades e se estão procurando colaborar com o(a) colega, a
+      fim destes também progredirem. A avaliação não deve se preocupar apenas
+      com aspectos quantitativos como número de respostas certas e erradas.
+      Valorize também os aspectos qualitativos, procurando perceber como os(as)
+      alunos(as) compreendem as situações de comparação, como demonstram o
+      conhecimento dos conceitos trabalhados e se são capazes de utilizar esses
+      conceitos em outras situações-problema quando solicitados.
+    </p>
+    <p>
+      Como em toda avaliação, o professor deve ficar atento para identificar
+      aqueles que estão tendo dificuldades em agrupar, formar conjuntos e
+      solucionar problemas de adição usando a subtração. Identificadas as
+      dificuldades mencionadas, busque se colocar como mediador criando
+      situações de contextualização.
+    </p>
+    <p>
+      Dessa maneira, a avaliação será uma forma de identificar quais alunos(as)
+      conseguiram compreender os conceitos matemáticos, quais alunos(as) tiveram
+      dificuldades e, a partir disso, propor meios para que consigam superar as
+      dificuldades na construção desse conhecimento.
+    </p>
+    <p>
+      Personagens Homem: Apresentamos dois exemplos de plano de aula com suporte
+      de recursos educacionais digitais.
+    </p>
+    <p>
+      Personagem Mulher: No último bloco do nosso curso, você vai realizar o seu
+      planejamento de uma aula uso de RED. Vamos lá?
+    </p>
+    <p>
+      1. ESTRUTURA CURRICULAR <br />
+      1.1 Modalidade / nível de ensino: <br />
+      [Entre 20 e 60 caracteres]<br />
+
+      1.2. Áreas do conhecimento: <br />
+      [Entre 10 e 20 caracteres]<br />
+
+      1.3 Componente curricular: <br />
+      [Entre 20 e 60 caracteres]<br />
+
+      1.4 Unidade Temática (prática de linguagem): <br />
+      [Entre 30 e 100 caracteres]<br />
+
+      1.5 Objeto do conhecimento: <br />
+      [Entre 20 e 60 caracteres]<br />
+    </p>
+    <p>
+      2. DADOS DA AULA<br />
+      2.1 O que o(a) aluno(a) poderá aprender com esta aula<br />
+      [Entre 150 e 600 caracteres]<br />
+    </p>
+    <p>
+      2.2 Duração da atividade<br />
+      [Entre 20 e 60 caracteres]<br />
+    </p>
+    <p>
+      2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)<br />
+      [Entre 1000 e 5000 caracteres]
+    </p>
+    <p>
+      2.4 Estratégias e recursos da aula<br />
+      [Entre 1000 e 5000 caracteres]
+    </p>
+    <p>
+      2.5 Avaliação<br />
+      [Entre 1000 e 5000 caracteres]
+    </p>
+    <p>
+      Personagem Mulher: Parabéns pelo preenchimento do Plano.
+    </p>
+    <p>
+      Personagens Homem: Você pode imprimir ou salvar seu plano clicando no
+      botão imprimir.
+    </p>
+    <p>
+      Personagem mulher: Nessa unidade, conhecemos um modelo de planejamento de
+      aula com suporte de RED.
+    </p>
+    <p>
+      Personagem Homem: Vimos dois exemplos de planos, sendo um com de Língua
+      Portuguesa e outro de Matemática com RED disponíveis na Plataforma
+      RED/MEC.
+    </p>
+    <p>
+      Personagem Homem: Por último, fizemos nosso próprio planejamento.
+    </p>
+    <p>
+      Dois personagens juntos. Chegamos assim ao final do nosso curso. Esperamos
+      que você tenha aprendido bastante e possa colocar em prática tudo que
+      estudou.
+    </p>
   </mide-aulas-container>
 </template>
 

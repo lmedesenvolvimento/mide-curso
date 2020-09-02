@@ -164,15 +164,14 @@
       <p>
         Podemos definir os RED como:
       </p>
-      <center>
-        <p class="definicao">
+      <div class="highlighted">
+        <p>
           Como qualquer recurso digital que possa ser utilizado no cenário
           educacional, abrangendo assim um contexto bastante amplo e que
           contempla diversas terminologias comumente já estabelecidas (CIEB,
           2017)
         </p>
-        <img src="~assets/images/caixa-definicao-red.png" />
-      </center>
+      </div>
       <br />
       <p>
         Exemplos dessas terminologias adotadas são os objetos de aprendizagem,
@@ -443,8 +442,9 @@
         <b-tab-item label="5º RED"> </b-tab-item>
       </mide-tabs>
       <hr />
-      <img src="~assets/images/icone-contextualizacao.png" class="icones" />
-      <b>ONDE ENCONTRAR RECURSOS EDUCACIONAIS DIGITAIS?</b>
+      <div class="title has-icon heading">
+        ONDE ENCONTRAR RECURSOS EDUCACIONAIS DIGITAIS?
+      </div>
 
       <div class="block-bordered">
         <div class="columns is-vcentered">

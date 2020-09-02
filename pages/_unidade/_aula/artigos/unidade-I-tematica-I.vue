@@ -125,7 +125,14 @@
             <b>Podemos definir cultura como:</b>
           </center>
         </p>
-
+        <p>
+          “Todo aquele complexo que inclui o <strong>conhecimento</strong>, as
+          <strong>crenças</strong>, a <strong>arte</strong>, a
+          <strong>moral</strong>, a <strong>lei</strong>, os
+          <strong>costumes</strong> e todos os outros <strong>hábitos</strong> e
+          capacidades adquiridos pelo homem como membro da sociedade" (LARAIA,
+          2006).
+        </p>
         <!-- 
           REFACTOR
           seen: inspire.vue
@@ -228,6 +235,13 @@
         <img src="~assets/images/icone-contextualizacao.png" class="icones" />
         <div class="titulos">Características da Cibercultura</div>
         <p>A cibercultura é definida pelo filósofo Pierre Levy como:</p>
+        <p>
+          “Conjunto de <strong>técnicas</strong> (materiais e intelectuais), de
+          <strong>práticas</strong>, de <strong>atitudes</strong>, de
+          <strong>modos de pensamento</strong> e de <strong>valores</strong> que
+          se desenvolvem juntamente com o crescimento do ciberespaço” (LÉVY,
+          1999).
+        </p>
         <!-- 
           REFACTOR
           seen: inspire.vue
@@ -240,6 +254,14 @@
           complexas conexões entre aqueles fenômenos históricos iniciados nos
           anos 1960, agora acrescidos de novas possibilidades, além de gerar
           outro fenômenos.
+        </p>
+        <p>
+          Esse fenômeno acontece no “ciberespaço”, um “<strong
+            >espaço social</strong
+          >
+          constituído simultaneamente pelas <strong>redes sociais</strong> que
+          estabelecem culturas locais em seu interior e pelas redes técnicas que
+          possibilitam essas conexões” (GUIMARÃES JR., 2010).
         </p>
         <!-- 
           REFACTOR
@@ -315,7 +337,45 @@
             </label>
           </template>
         </challenge>
-
+        <p>
+          O seguinte Vídeo apresenta várias características da Cibercultura:
+        </p>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              VIDEO
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  Daft Bodies - Harder, Better, Faster, Stronger
+                </p>
+                <p>
+                  No Vídeo, vemos duas jovens fazendo uma coreografia com a
+                  letra da música "Harder, Better, Faster, Stronger", da dupla
+                  francesa Daft Punk. A música por si só já apresenta algumas
+                  características da cibercultura, pois usa uma sequência de
+                  palavras de forma rimada e lógica. As palavras inicialmente
+                  são apresentadas e depois combinadas (remixadas) dando outro
+                  sentido à música. Assim, não há uma linearidade na letra, mas
+                  mesmo assim ela faz sentido. As jovens encobrem o rosto e usam
+                  o corpo para apresentar a letra dando a ideia de múltipla
+                  identidade e fragmentação. Além disso, fazem um remix, pois
+                  apresentam a música sem o clipe original. Aparentemente, o
+                  objetivo principal da gravação é o entretenimento. A música se
+                  popularizou e teve inúmeros vídeos publicados no Youtube
+                  indicando a cultura remix e o espírito comunitário.
+                </p>
+                <p>
+                  E você conseguiu perceber outras características da
+                  cibercultura no vídeo? Se tiver curiosidade pesquise mais
+                  sobre o vídeo original e suas diferentes versões. Todas são
+                  facilmente encontradas na Internet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="block-bordered">
           <div class="columns is-vcentered">
             <div class="column is-3">
@@ -325,8 +385,8 @@
             </div>
             <div class="column">
               <div class="dialog-box is-left">
-                Nesta unidade, conhecemos o conceito de cibercultura, em que
-                contexto ele surgiu e como influencia as práticas na sociedade.
+                Nessa temática, abordamos o conceito de cibercultura e suas
+                características.
               </div>
             </div>
           </div>
@@ -336,30 +396,14 @@
           <div class="columns is-vcentered">
             <div class="column">
               <div class="dialog-box is-right">
-                Também estudamos como a BNCC apresenta a cultura digital nas
-                competências gerais.
+                Na próxima temática, veremos como a cultura digital é discutida
+                na BNCC.
               </div>
             </div>
             <div class="column is-3">
               <figure>
                 <img src="~assets/images/marcos-explicacao.png" />
               </figure>
-            </div>
-          </div>
-        </div>
-
-        <div class="block-bordered">
-          <div class="columns is-vcentered">
-            <div class="column is-3">
-              <figure>
-                <img src="~assets/images/carla-explicacao.png" />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="dialog-box is-left">
-                Na próxima unidade, vamos apresentar o conceito de Recursos
-                Educacionais Digitais e sua classificação.
-              </div>
             </div>
           </div>
         </div>
