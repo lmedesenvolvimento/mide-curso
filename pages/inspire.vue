@@ -202,6 +202,20 @@
           <div class="title">Forms</div>
 
           <challenge
+            name="challege-1"
+            :options="challenge"
+            correct="capitalismo"
+          >
+            <template slot="quesiton">
+              <div class="question-title">DESAFIO!</div>
+              <p>
+                Tempor dolor nostrud ex et incididunt labore aliqua
+                reprehenderit culpa occaecat amet id.
+              </p>
+            </template>
+          </challenge>
+
+          <challenge
             name="challege-2"
             :options="challenge"
             correct="capitalismo"
@@ -246,6 +260,92 @@
                 />
                 {{ option.text }}
               </label>
+            </template>
+          </challenge>
+
+          <challenge
+            name="challege-4"
+            :options="challenge"
+            :multiple="true"
+            correct="capitalismo,comunismo"
+          >
+            <template slot="quesiton">
+              <div class="question-title">DESAFIO MULTIPLO!</div>
+              <p>
+                Tempor dolor nostrud ex et incididunt labore aliqua
+                reprehenderit culpa occaecat amet id.
+              </p>
+            </template>
+          </challenge>
+          <challenge
+            name="challege-5"
+            :options="challenge"
+            :multiple="true"
+            correct="capitalismo,comunismo"
+          >
+            <template slot="quesiton">
+              <div class="question-title">DESAFIO MULTIPLO!</div>
+              <p>
+                Tempor dolor nostrud ex et incididunt labore aliqua
+                reprehenderit culpa occaecat amet id.
+              </p>
+            </template>
+            <template #success="{totalCorrect}">
+              <div class="container is-fluid">
+                <div class="columns">
+                  <div class="column is-3">
+                    <figure>
+                      <img src="~assets/images/carla-explicacao.png" />
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <p>
+                      <strong
+                        >Muito bem! <br />
+                        Você
+                        <span class="has-text-success"
+                          >Acertou {{ totalCorrect }}
+                        </span>
+                        palavras!
+                      </strong>
+                    </p>
+                    <p>
+                      Ea fugiat velit eu ea ipsum culpa laborum culpa. Mollit
+                      aliquip ipsum in do labore proident aliquip veniam
+                      pariatur duis officia esse occaecat. Veniam reprehenderit
+                      ut do sit. Cillum esse eu quis eu adipisicing cillum
+                      officia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </template>
+            <template #error>
+              <div class="container is-fluid">
+                <div class="columns">
+                  <div class="column is-3">
+                    <figure>
+                      <img src="~assets/images/marcos-explicacao.png" />
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <strong
+                      >Que pena!<br />
+                      Você
+                      <span class="has-text-danger">
+                        não acertou
+                      </span>
+                      tente novamente!
+                    </strong>
+                    <p>
+                      Nostrud officia veniam fugiat occaecat. Adipisicing
+                      exercitation sunt reprehenderit ullamco nisi elit
+                      pariatur. Labore mollit tempor et Lorem culpa irure ad
+                      nostrud ex elit amet incididunt laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </template>
           </challenge>
         </article>

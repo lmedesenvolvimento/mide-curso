@@ -17,45 +17,72 @@
               :option="option"
               :model="selectedOption"
               :active="isSelected(option)"
-              :disabled="disabled"
+              :disabled="valid"
               :setModel="select"
             >
               <b-button
                 tag="a"
                 :type="isSelected(option) ? 'is-primary' : 'is-light'"
-                :disabled="disabled"
+                :disabled="valid"
                 >{{ option.text }}</b-button
               >
             </slot>
           </span>
           <input
-            :name="name"
+            :name="getName"
             type="radio"
             :value="option.value"
             class="challenge-radio"
-            @change="select(option)"
+            @click="select(option)"
           />
         </label>
       </div>
       <button
         name="challenge"
         class="challenge-submit button is-rounded "
-        :disabled="disabled"
+        :disabled="valid"
         @click="submit"
       >
         {{ submitBtnText }}
       </button>
+      <div v-if="dirty" class="challenge-feedback">
+        <slot
+          v-if="valid"
+          name="success"
+          :valid="valid"
+          :multiple="multiple"
+          :totalCorrect="totalCorrect"
+        >
+          <strong class="has-text-success">Muito bem!</strong> <br />
+          Respota respondida corretamente.
+        </slot>
+        <slot
+          v-else
+          name="error"
+          :valid="valid"
+          :multiple="multiple"
+          :totalCorrect="totalCorrect"
+        >
+          <strong class="has-text-danger">Que pena!</strong> <br />
+          Tente novamente.
+        </slot>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import { v4 as uuidv4 } from 'uuid'
 export default {
   props: {
     name,
     correct: {
       type: String,
       default: null
+    },
+    multiple: {
+      type: Boolean,
+      default: false
     },
     submitBtnText: {
       type: String,
@@ -69,25 +96,66 @@ export default {
   data() {
     return {
       selectedOption: undefined,
-      disabled: false
+      disabled: false,
+      valid: false,
+      dirty: false
     }
   },
-  created() {
-    this.$on('change', (value) => {
-      this.selectedOption = value
-    })
+  computed: {
+    getName() {
+      if (this.multiple) {
+        return uuidv4()
+      }
+      return this.name
+    },
+    totalCorrect() {
+      return this.selectedOption
+        .split(',')
+        .filter((o) => this.correct.split(',').includes(o)).length
+    }
   },
   methods: {
     isSelected(option) {
+      if (!this.selectedOption) return false
+
+      if (this.multiple) {
+        const options = this.selectedOption.split(',')
+        return options.includes(option.value)
+      }
+
       return this.selectedOption === option.value
     },
     select(option) {
-      this.$emit('change', option.value)
+      this.$nextTick(() => {
+        if (this.multiple) {
+          if (this.isSelected(option)) {
+            const options = this.selectedOption.split(',')
+            const indexOf = options.findIndex((o) => o === option.value)
+
+            options.splice(indexOf, 1)
+
+            this.selectedOption = options.join(',')
+          } else {
+            const options = [this.selectedOption, option.value]
+            this.selectedOption = options.filter((o) => !!o).join(',')
+          }
+
+          return
+        }
+        this.selectedOption = option.value
+      })
     },
     submit() {
-      const valid = this.correct === this.selectedOption
-      this.disabled = valid
-      alert(valid ? 'Parabéns Correto' : 'Falha errado')
+      const options = this.selectedOption.split(',')
+
+      const validated = options.every((o) =>
+        this.correct.split(',').includes(o)
+      )
+
+      this.valid =
+        validated && options.length === this.correct.split(',').length
+
+      this.dirty = true
     }
   }
 }
@@ -135,6 +203,19 @@ export default {
 
   &-radio {
     display: none;
+  }
+
+  &-feedback {
+    border-top: 2px solid #ccc;
+    margin-top: 2rem;
+    margin-left: $gap * -1;
+    margin-right: $gap * -1;
+    padding: $gap $gap 0px;
+    text-align: left;
+    strong {
+      @include avenir-bold;
+      text-transform: uppercase;
+    }
   }
 
   .is-rounded {
