@@ -135,6 +135,56 @@
               </div>
             </div>
           </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-2.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-3.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-4.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-5.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-6.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-7.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-8.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-9.png" />
+          </div>
+
+          <img src="~assets/images/tela-de-olho-na-lista-1.png" />
+          <p>
+            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+            https://plataformaintegrada.mec.gov.br/recurso?id=34570&name=De%20olho%20na%20lista
+          </p>
         </b-tab-item>
 
         <b-tab-item label="2º RED">
@@ -217,6 +267,53 @@
               </div>
             </div>
           </div>
+
+          <div class="w-100 has-background-light">
+            <section>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
+
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-1.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-2.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-3.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-4.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-5.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-6.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-7.png" />
+          </div>
+
+          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+          https://plataformaintegrada.mec.gov.br/recurso?id=35899&name=Qual%20%C3%A9%20o%20
         </b-tab-item>
 
         <b-tab-item label="3º RED">
@@ -296,10 +393,25 @@
               </div>
             </div>
           </div>
+
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-fabulas-1.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-2.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-3.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-4.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-5.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-6.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-7.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-8.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-9.png" />
+          </div>
+          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+          https://plataformaintegrada.mec.gov.br/recurso?id=34568&name=F%C3%A1bulas%20Animadas
         </b-tab-item>
 
         <b-tab-item label="4º RED">
-          <div class="title is-uppercase">fábulas animadas</div>
+          <div class="title is-uppercase">revista digital da criança</div>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
@@ -395,6 +507,19 @@
               </div>
             </div>
           </div>
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-revista-digital-2.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-3.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-4.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-5.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-6.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-7.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-8.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-9.png" />
+          </div>
+          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+          https://plataformaintegrada.mec.gov.br/recurso?id=35900&name=Revista%20Digital%20da%20Crian%C3%A7a
         </b-tab-item>
 
         <b-tab-item label="5º RED">
@@ -471,8 +596,106 @@
               </div>
             </div>
           </div>
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-2.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-3.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-4.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-5.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-6.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-7.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-8.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-9.png" />
+          </div>
+          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+          https://plataformaintegrada.mec.gov.br/recurso?id=36041&name=Aventura%20no%20Mundo%20dos%20Quadrinhos
         </b-tab-item>
       </mide-tabs>
+
+      <p>se matemática</p>
+      <img src="~assets/images/capa-matematica.png" />
+      <mide-tabs>
+        <b-tab-item label="1º RED"> </b-tab-item>
+        <b-tab-item label="2º RED"> </b-tab-item>
+        <b-tab-item label="3º RED"> </b-tab-item>
+        <b-tab-item label="4º RED"> </b-tab-item>
+        <b-tab-item label="5º RED"> </b-tab-item>
+      </mide-tabs>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Nesta unidade, aprendemos que os Recursos Educacionais Digitais
+              são qualquer recurso digital que pode ser utilizado no cenário
+              educacional.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Vimos que eles podem ser classificados em 5 tipos: animação,
+              simulação, tutorial, áudio e jogo.
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Também conhecemos alguns RED de Língua Portuguesa e de Matemática
+              disponíveis na Plataforma MEC/RED.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Que tal conhecermos como planejar aulas usando RED?
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Vamos ver isso na próxima Unidade.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </mide-aulas-container>
 </template>
@@ -484,54 +707,34 @@ export default {
       isOpen: 0,
       collapses: [
         {
-          title: '1. CONHECIMENTO',
+          title: 'HABILIDADE (EF12LP01) ',
           text:
-            'Valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo físico, social, cultural e digital para entender e explicar a realidade, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.'
+            'Ler palavras novas com precisão na decodificação, no caso de palavras de uso frequente, ler globalmente, por memorização.'
         },
         {
-          title: '2. PENSAMENTO CIENTÍFICO, CRÍTICO E CRIATIVO',
+          title: 'HABILIDADE (EF12LP04)',
           text:
-            'Exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica, a imaginação e a criatividade, para investigar causas, elaborar e testar hipóteses, formular e resolver problemas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das diferentes áreas.'
+            'Ler e compreender, em colaboração com os colegas e com a ajuda do professor ou já com certa autonomia, listas [...] do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.'
         },
         {
-          title: '3. REPERTÓRIO CULTURAL',
+          title: 'HABILIDADE (EF01LP02)',
           text:
-            ' Valorizar e fruir as diversas manifestações artísticas e culturais, das locais às mundiais, e também participar de práticas diversificadas da produção artístico-cultural.'
+            'Escrever, espontaneamente ou por ditado, palavras e frases de forma alfabética – usando letras/grafemas que representem fonemas.'
         },
         {
-          title: '4. COMUNICAÇÃO',
+          title: 'HABILIDADE (EF01LP08)',
           text:
-            'Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, bem como conhecimentos das linguagens artística, matemática e científica, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao entendimento mútuo.'
+            'Relacionar elementos sonoros (sílabas, fonemas, partes de palavras) com sua representação escrita.'
         },
         {
-          title: '5. CULTURA DIGITAL',
+          title: 'HABILIDADE (EF01LP17)',
           text:
-            'Compreender, utilizar e criar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares) para se comunicar, acessar e disseminar informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva.'
+            'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, listas [...] do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'
         },
         {
-          title: '6. TRABALHO E PROJETO DE VIDA',
+          title: 'HABILIDADE (EF01LP20)',
           text:
-            'Valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências que lhe possibilitem entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.'
-        },
-        {
-          title: '7. ARGUMENTAÇÃO',
-          text:
-            'Argumentar com base em fatos, dados e informações confiáveis, para formular, negociar e defender ideias, pontos de vista e decisões comuns que respeitem e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, com posicionamento ético em relação ao cuidado de si mesmo, dos outros e do planeta.'
-        },
-        {
-          title: '8. AUTOCONHECIMENTO E AUTOCUIDADO',
-          text:
-            'Conhecer-se, apreciar-se e cuidar de sua saúde física e emocional, compreendendo-se na diversidade humana e reconhecendo suas emoções e as dos outros, com autocrítica e capacidade para lidar com elas.'
-        },
-        {
-          title: '9. EMPATIA E COOPERAÇÃO',
-          text:
-            'Exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação, fazendo-se respeitar e promovendo o respeito ao outro e aos direitos humanos, com acolhimento e valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.'
-        },
-        {
-          title: '10. RESPONSABILIDADE E CIDADANIA',
-          text:
-            'Agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação, tomando decisões com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários.'
+            'Identificar e reproduzir, em listas [...] a formatação e diagramação específica de cada um desses gêneros.'
         }
       ]
     }
@@ -541,61 +744,20 @@ export default {
 
 <style lang="scss">
 #unidade-II-tematica-II {
-  .column {
-    font: 15px avenir-next-lt-pro-regular;
-    padding-right: 5px;
-  }
-  .colchete1 {
-    margin-top: 40px;
-    margin-left: -30px;
-  }
-  .fala-marcos {
-    margin-top: 52px;
-    margin-left: -60px;
-    margin-right: 10px;
-  }
-  .fala-carla {
-    text-align: right;
-    margin-top: 55px;
-  }
-  .colchete2 {
-    margin-top: 50px;
-  }
-  .textobncc {
-    // background: url('~assets/images/highlighted-default.png') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    text-align: center;
-    padding: $gap $gap * 1.5;
-    margin: 40px 0 0 60px;
-    font-size: 14px;
-  }
-  .fundo {
-    background-color: #e8e8e8;
-    width: 105%;
-    margin-left: -20px;
-
-    section {
-      margin-bottom: 50px;
-      padding: 50px;
-      h6 {
-        text-transform: uppercase;
-        text-align: center;
-        font: Bold 15px avenir-next-lt-pro-bold;
+  section {
+    margin-bottom: 50px;
+    padding: 50px;
+    .card {
+      border-radius: 10px;
+      box-shadow: 5px 5px 15px #3c80d116;
+      .card-header {
+        margin-top: 20px;
       }
-      .card {
-        border-radius: 10px;
-        box-shadow: 5px 5px 15px #3c80d116;
-        .card-header {
-          margin-top: 20px;
-        }
-        .card-header-title {
-          font: Bold 14px avenir-next-lt-pro-bold;
-        }
-        .card-content {
-          text-indent: 50px;
-        }
+      .card-header-title {
+        font: Bold 14px avenir-next-lt-pro-bold;
+      }
+      .card-content {
+        text-indent: 50px;
       }
     }
   }
