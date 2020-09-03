@@ -1,0 +1,51 @@
+.card {
+  &.is-grey {
+    background-color: #EDF1F0;
+    border-radius: $gap * 0.75;
+    margin-bottom: 1.5rem;
+    .card-header {
+      box-shadow: none;
+      &-title {
+        @include avenir-bold;
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+      }
+    }
+    .card-content {
+      padding-top: 0px;
+      border: none;
+    }
+  }
+  &-tag {
+    @include avenir-bold;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    background: royalblue;
+    color: white;
+    display: inline-block;
+    font-size: 1.25rem !important;
+    border-radius: 4px;
+    width: $gap;
+    height: $gap;
+    margin: 1rem 1.5rem 0px;
+    &.is-amber {
+      background: orange;
+    }
+    &.is-green {
+      background: green;
+    }
+    &.is-blue {
+      background: royalblue;
+    }
+    &.is-cyan {
+      background: #00A09E;
+    }
+    &.is-purple {
+      background: purple;
+    }
+    &.is-red {
+      background: #CF3558;
+    }
+  }
+}

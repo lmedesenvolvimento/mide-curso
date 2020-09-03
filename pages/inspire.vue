@@ -83,6 +83,88 @@
             </div>
           </div>
 
+          <div class="container is-fluid mb-4">
+            <div class="columns is-multiline is-fill-vertical">
+              <div class="column is-6 mb-2">
+                <div class="card is-grey">
+                  <div class="card-tag is-amber">1</div>
+                  <div class="card-header">
+                    <div class="card-header-title">Lorem ipsum</div>
+                  </div>
+                  <div class="card-content">
+                    Laborum fugiat in anim irure cillum anim ea velit mollit
+                    deserunt nostrud quis.
+                  </div>
+                </div>
+              </div>
+              <div class="column is-6 mb-2">
+                <div class="card is-grey">
+                  <div class="card-tag is-green">2</div>
+                  <div class="card-header">
+                    <div class="card-header-title">Lorem ipsum</div>
+                  </div>
+                  <div class="card-content">
+                    Velit consequat sunt est anim occaecat duis nisi voluptate.
+                    Amet sint sunt elit labore eu id ullamco ea. Lorem nostrud
+                    excepteur sint esse mollit culpa velit.
+                  </div>
+                </div>
+              </div>
+              <div class="column is-6 mb-2">
+                <div class="card is-grey">
+                  <div class="card-tag is-blue">3</div>
+                  <div class="card-header">
+                    <div class="card-header-title">Lorem ipsum</div>
+                  </div>
+                  <div class="card-content">
+                    Deserunt exercitation incididunt minim magna. Laborum anim
+                    duis occaecat nulla nisi culpa ex incididunt occaecat esse
+                    aute deserunt. Proident ut amet cupidatat tempor commodo
+                    sunt.
+                  </div>
+                </div>
+              </div>
+              <div class="column is-6 mb-2">
+                <div class="card is-grey">
+                  <div class="card-tag is-cyan">4</div>
+                  <div class="card-header">
+                    <div class="card-header-title">Lorem ipsum</div>
+                  </div>
+                  <div class="card-content">
+                    Laborum fugiat in anim irure cillum anim ea velit mollit
+                    deserunt nostrud quis.
+                  </div>
+                </div>
+              </div>
+              <div class="column is-6 mb-2">
+                <div class="card is-grey">
+                  <div class="card-tag is-purple">5</div>
+                  <div class="card-header">
+                    <div class="card-header-title">Lorem ipsum</div>
+                  </div>
+                  <div class="card-content">
+                    Laborum fugiat in anim irure cillum anim ea velit mollit
+                    deserunt nostrud quis. Nulla ipsum dolore commodo elit ipsum
+                    do esse ex. Id aute magna dolore do. In duis deserunt magna
+                    esse culpa magna exercitation.
+                  </div>
+                </div>
+              </div>
+              <div class="column is-6 mb-2">
+                <div class="card is-grey">
+                  <div class="card-tag is-red">6</div>
+                  <div class="card-header">
+                    <div class="card-header-title">Lorem ipsum</div>
+                  </div>
+                  <div class="card-content">
+                    Laborum fugiat in anim irure cillum anim ea velit mollit
+                    deserunt nostrud quis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="highlighted">
             <h3 class="title">Sem título</h3>
             <p>
@@ -284,7 +366,7 @@
             correct="capitalismo,comunismo"
           >
             <template slot="quesiton">
-              <div class="question-title">DESAFIO MULTIPLO!</div>
+              <div class="question-title">DESAFIO MÚLTIPLO!</div>
               <p>
                 Tempor dolor nostrud ex et incididunt labore aliqua
                 reprehenderit culpa occaecat amet id.

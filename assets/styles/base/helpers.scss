@@ -21,4 +21,7 @@
 // Flexbox
 .is-fill-vertical {
   align-items: stretch !important;
+  > .column > * {
+    height: 100%;
+  }
 }
