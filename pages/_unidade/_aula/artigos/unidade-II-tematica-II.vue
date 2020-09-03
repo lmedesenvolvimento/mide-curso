@@ -136,36 +136,50 @@
             </div>
           </div>
           <div class="w-100 has-background-light">
-            <div class="title is-uppercase">atividades listadas na bncc</div>
-            <b-collapse
-              v-for="(collapse, index) of collapses"
-              :key="index"
-              class="card"
-              animation="slide"
-              :open="isOpen == index"
-              @open="isOpen = index"
-            >
-              <div
-                slot="trigger"
-                slot-scope="props"
-                class="card-header"
-                role="button"
+            <section>
+              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
               >
-                <div class="card-header-title">
-                  {{ collapse.title }}
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
                 </div>
-                <a class="card-header-icon">
-                  <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
-                  </b-icon>
-                </a>
-              </div>
-              <div class="card-content">
-                <div class="content">
-                  {{ collapse.text }}
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
                 </div>
-              </div>
-            </b-collapse>
+              </b-collapse>
+            </section>
           </div>
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-2.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-3.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-4.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-5.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-6.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-7.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-8.png" />
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-9.png" />
+          </div>
+
           <img src="~assets/images/tela-de-olho-na-lista-1.png" />
           <p>
             Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
@@ -253,6 +267,53 @@
               </div>
             </div>
           </div>
+
+          <div class="w-100 has-background-light">
+            <section>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
+
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-1.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-2.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-3.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-4.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-5.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-6.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-7.png" />
+          </div>
+
+          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+          https://plataformaintegrada.mec.gov.br/recurso?id=35899&name=Qual%20%C3%A9%20o%20
         </b-tab-item>
 
         <b-tab-item label="3º RED">
@@ -332,6 +393,21 @@
               </div>
             </div>
           </div>
+
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-fabulas-1.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-2.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-3.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-4.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-5.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-6.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-7.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-8.png" />
+            <img src="~assets/images/unidade-II/tela-fabulas-9.png" />
+          </div>
+          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+          https://plataformaintegrada.mec.gov.br/recurso?id=34568&name=F%C3%A1bulas%20Animadas
         </b-tab-item>
 
         <b-tab-item label="4º RED">
@@ -431,6 +507,19 @@
               </div>
             </div>
           </div>
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-revista-digital-2.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-3.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-4.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-5.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-6.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-7.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-8.png" />
+            <img src="~assets/images/unidade-II/tela-revista-digital-9.png" />
+          </div>
+          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+          https://plataformaintegrada.mec.gov.br/recurso?id=35900&name=Revista%20Digital%20da%20Crian%C3%A7a
         </b-tab-item>
 
         <b-tab-item label="5º RED">
@@ -507,6 +596,19 @@
               </div>
             </div>
           </div>
+          Imagens para galeria:
+          <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-2.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-3.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-4.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-5.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-6.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-7.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-8.png" />
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-9.png" />
+          </div>
+          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+          https://plataformaintegrada.mec.gov.br/recurso?id=36041&name=Aventura%20no%20Mundo%20dos%20Quadrinhos
         </b-tab-item>
       </mide-tabs>
 
@@ -642,61 +744,20 @@ export default {
 
 <style lang="scss">
 #unidade-II-tematica-II {
-  .column {
-    font: 15px avenir-next-lt-pro-regular;
-    padding-right: 5px;
-  }
-  .colchete1 {
-    margin-top: 40px;
-    margin-left: -30px;
-  }
-  .fala-marcos {
-    margin-top: 52px;
-    margin-left: -60px;
-    margin-right: 10px;
-  }
-  .fala-carla {
-    text-align: right;
-    margin-top: 55px;
-  }
-  .colchete2 {
-    margin-top: 50px;
-  }
-  .textobncc {
-    // background: url('~assets/images/highlighted-default.png') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    text-align: center;
-    padding: $gap $gap * 1.5;
-    margin: 40px 0 0 60px;
-    font-size: 14px;
-  }
-  .fundo {
-    background-color: #e8e8e8;
-    width: 105%;
-    margin-left: -20px;
-
-    section {
-      margin-bottom: 50px;
-      padding: 50px;
-      h6 {
-        text-transform: uppercase;
-        text-align: center;
-        font: Bold 15px avenir-next-lt-pro-bold;
+  section {
+    margin-bottom: 50px;
+    padding: 50px;
+    .card {
+      border-radius: 10px;
+      box-shadow: 5px 5px 15px #3c80d116;
+      .card-header {
+        margin-top: 20px;
       }
-      .card {
-        border-radius: 10px;
-        box-shadow: 5px 5px 15px #3c80d116;
-        .card-header {
-          margin-top: 20px;
-        }
-        .card-header-title {
-          font: Bold 14px avenir-next-lt-pro-bold;
-        }
-        .card-content {
-          text-indent: 50px;
-        }
+      .card-header-title {
+        font: Bold 14px avenir-next-lt-pro-bold;
+      }
+      .card-content {
+        text-indent: 50px;
       }
     }
   }
