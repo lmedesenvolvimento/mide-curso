@@ -612,16 +612,708 @@
         </b-tab-item>
       </mide-tabs>
 
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Você gostou de conhecer esses recursos para serem explorados em
+              suas aulas de Língua Portuguesa?
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Você pode me ajudar em um desafio de relacionar um objetivo
+              descrito com o recurso visto nesta temática?
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Veja as cartas e relacione um objetivo ao recurso
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title is-2">~~COMPONENTE DE CARTAS~~</h2>
       <p>se matemática</p>
       <img src="~assets/images/capa-matematica.png" />
       <mide-tabs>
-        <b-tab-item label="1º RED"> </b-tab-item>
-        <b-tab-item label="2º RED"> </b-tab-item>
-        <b-tab-item label="3º RED"> </b-tab-item>
-        <b-tab-item label="4º RED"> </b-tab-item>
-        <b-tab-item label="5º RED"> </b-tab-item>
+        <b-tab-item label="1º RED">
+          <div class="title is-uppercase">Meu Álbum Geométrico</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Em algum período da nossa infância, fizemos uso ou vivenciamos
+                  a utilização de um álbum de figurinhas. O processo de
+                  colecionar figurinhas relacionadas a temáticas de interesse da
+                  própria criança fazia com que ela desenvolvesse a persistência
+                  e a motivação na busca por alcançar o objetivo de completar o
+                  álbum.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Assim, contar com a utilização de um álbum para realizar
+                  atividades que associam conceitos matemáticos relacionados ao
+                  agrupamento e ao desagrupamento de elementos, juntamente com o
+                  estabelecimento de critérios para classificar e seriar uma
+                  atividade é bastante significativo para as crianças, pois
+                  torna-se possível conciliar a motivação de complementar o
+                  álbum com a compreensão de conceitos matemáticos.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box">
+                  Quer saber mais sobre sobre como conciliar a motivação do
+                  preenchimento de um álbum com os conceitos matemáticos? Então,
+                  vem com a gente conhecer o recurso “Meu Álbum Geométrico”!
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure></figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">MEU ALBUM GEOMÉTRICO</h6>
+                O recurso “Meu Álbum Geométrico” foi desenvolvido para ser
+                utilizado no 1º ano do Ensino Fundamental, visando abordar
+                aspectos relacionados ao conceito do número. Usando a metáfora
+                de um álbum de figurinhas, as atividades planejadas neste
+                recurso tem como objetivo tratar agrupamento e desagrupamento de
+                elementos, comparação de quantidades, além da determinação de
+                critérios para classificar e seriar. A ideia é que ao utilizar o
+                recurso, os alunos identifiquem as características das formas
+                geométricas bidimensionais e tridimensionais, associando as
+                figuras espaciais às suas planificações e vice-versa.
+              </div>
+            </div>
+          </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title"></div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content"></div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
+          Galeria:
+          <div class="has-background-grey-dark">
+            imagens aqui
+          </div>
+
+          <p>
+            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+            https://plataformaintegrada.mec.gov.br/recurso?id=36735&name=Meu%20%C3%81lbum%20Geom%C3%A9trico
+          </p>
+        </b-tab-item>
+        <b-tab-item label="2º RED">
+          <div class="title is-uppercase">Brincando com as formas</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  A geometria está presente em nosso cotidiano nas mais diversas
+                  formas. A sua compreensão auxilia a criança a desenvolver o
+                  pensamento geométrico e, com ele, a capacidade de abstração,
+                  que é importante para que ela observe quão próxima é a sua
+                  relação com o mundo em que vive.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Esse pensamento geométrico é capaz de auxiliar o indivíduo a
+                  compreender, descrever e representar, de forma organizada, o
+                  mundo em que vive.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box">
+                  Quer saber mais sobre como desenvolver o pensamento geométrico
+                  com o uso de um recurso digital? Então, vem com a gente
+                  conhecer o recurso “Brincando com as Formas”!
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure></figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">BRINCANDO COM AS FORMAS</h6>
+                O recurso “Brincando com as Formas” é um jogo para ser utilizado
+                no 2º ano do Ensino Fundamental, visando contribuir de forma
+                específica com o processo de letramento matemático. O cenário de
+                um quarto infantil foi pensado para que os alunos reconhecessem
+                figuras geométricas com as quais possuem contato em seu dia a
+                dia. No quarto, haverá 3 objetos animados relacionados a
+                diferentes desafios que serão realizados pela criança. Cada um
+                destes objetos corresponderá à uma atividade diferente que uma
+                vez completada, possibilitará à criança receber as chaves de um
+                objeto parecido com uma nave em formato de tetraedro, que a
+                levará ao planeta TETRIX.
+              </div>
+            </div>
+          </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title"></div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content"></div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
+          Galeria:
+          <div class="has-background-grey-dark">
+            imagens aqui
+          </div>
+
+          <p>
+            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+            https://plataformaintegrada.mec.gov.br/recurso?id=34566&name=Brincando%20com%20a%20formas
+          </p>
+        </b-tab-item>
+        <b-tab-item label="3º RED">
+          <div class="title is-uppercase">É o Bicho 2.0</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Que a Matemática está presente no nosso dia a dia, isso você
+                  já sabia! Agora, você sabia que é possível usar temáticas
+                  relacionadas à biodiversidade e à preservação ambiental para
+                  tratar conceitos de número, álgebra, geometria e probabilidade
+                  e estatística?
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Existe uma estreita relação entre os conceitos matemáticos e o
+                  mundo real. Isso porque a Matemática está presente em nosso
+                  dia a dia, e é dessa maneira que ela deve ser apresentada para
+                  os estudantes.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box">
+                  Quer saber mais sobre essa estreita relação? Então, vem com a
+                  gente conhecer o recurso “É o Bicho 2.0”!
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure></figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">É O BICHO 2.0!</h6>
+                O recurso “É o Bicho 2.0” é um jogo para ser utilizado no 3º ano
+                do Ensino Fundamental, visando explorar habilidades presentes em
+                quatro unidades temáticas: número, álgebra, geometria e
+                probabilidade e estatística. Tais temáticas são abordadas por
+                meio de situações-problema e organizadas em quatro atividades
+                relacionadas à preservação da natureza e da biodiversidade. Cada
+                atividade foi nomeada com um animal ameaçado de extinção,
+                natural da Floresta Amazônica.
+              </div>
+            </div>
+          </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title"></div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content"></div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
+          Galeria:
+          <div class="has-background-grey-dark">
+            imagens aqui
+          </div>
+
+          <p>
+            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+            https://plataformaintegrada.mec.gov.br/recurso?id=36677&name=%C3%89%20o%20Bicho%202.0
+          </p>
+        </b-tab-item>
+        <b-tab-item label="4º RED">
+          <div class="title is-uppercase">Ilha das operações</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  O que acha de utilizarmos um jogo em que associamos contextos
+                  reais e fictícios para abordar conceitos matemáticos?
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  Ou quem sabe, compreender o campo das estruturas
+                  multiplicativas por meio de desafios relacionados às situações
+                  cotidianas?
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box">
+                  Quer saber como isso é possível? Então, vem com a gente
+                  conhecer o recurso “Ilha das operações”!
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure></figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">ILHA DAS OPERAÇÕES</h6>
+                O recurso “Ilha das operações” é um jogo para ser utilizado no
+                4º ano do Ensino Fundamental, visando explorar diferentes
+                situações quaternárias do campo conceitual multiplicativo, dos
+                eixos de proporção simples e proporção múltipla; da classe um
+                para muitos e muitos para muitos. O cenário utilizado consiste
+                de uma ilha localizada nas águas do mar Algebrius, denominada de
+                Ilha das operações. Essa ilha era habitada por quatro povos que,
+                por muito tempo, viveram em harmonia graças ao poder das quatro
+                pedras fundamentais pertencentes a cada um deles. No Norte,
+                havia a pedra Somartius; no Sul, a Menostart; o Oeste portava a
+                pedra Multiplis; e o povo do Leste, a Divisarions. No centro da
+                ilha, havia a Montanha da Paz, uma formação rochosa milenar que
+                reunia as quatro pedras com um grande poder capaz de sustentar o
+                equilíbrio da ilha. A montanha era sempre fortalecida pelas
+                quatro pedras, como um símbolo da cooperação entre os povos, e
+                protegida pelo sábio guardião conhecido como o Guardião
+                Matemágico. Tudo ia bem até que tempos difíceis assolaram a
+                ilha. Os povos do Norte e do Sul continuaram a se ajudar, mas o
+                medo de não sobreviver invadiu os corações dos habitantes do
+                Leste e do Oeste, dando início a várias disputas por alimentos e
+                por vantagens. Logo o equilíbrio e a harmonia que fortaleciam a
+                Montanha da Paz foram abalados. Com as disputas entre Leste e
+                Oeste, suas respectivas pedras enfraqueceram e se perderam com o
+                tempo, diminuindo a força da Montanha da Paz e dando início ao
+                processo de destruição da ilha. A missão no RED “Ilha das
+                operações” é achar as duas pedras fundamentais que estão
+                perdidas e reuni-las novamente na montanha para restaurar a paz
+                na Ilha. Para isso, o usuário deverá cumprir os quatro desafios
+                propostos no recurso. A cada desafio superado, o usuário ganhará
+                itens que serão usados na resolução das situações que envolvem o
+                campo das estruturas multiplicativas.
+              </div>
+            </div>
+          </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title"></div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content"></div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
+          Galeria:
+          <div class="has-background-grey-dark">
+            imagens aqui
+          </div>
+
+          <p>
+            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+            https://plataformaintegrada.mec.gov.br/recurso?id=338674&name=Ilha%20das%20Opera%C3%A7%C3%B5es
+          </p>
+        </b-tab-item>
+        <b-tab-item label="5º RED">
+          <div class="title is-uppercase">Divertix</div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <div class="dialog-box is-right">
+                  Sabia que é possível trabalhar conceitos estatísticos por meio
+                  de textos? Basta você relacionar o texto com outros recursos
+                  gráficos.
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box is-left">
+                  E você pode fazer isso por meio de textos, relacionando
+                  preferências, aptidões ou mesmo situações cotidianas.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="block-bordered">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
+              <div class="column">
+                <div class="dialog-box">
+                  Quer saber como isso é possível? Então, vem com a gente
+                  conhecer o recurso “Divertix”!
+                </div>
+              </div>
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/marcos-explicacao.png" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <figure></figure>
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <h6 class="titulos">DIVERTIX</h6>
+                O recurso “Divertix” é um jogo para ser utilizado no 5º ano do
+                Ensino Fundamental e apresenta o contexto da redação de uma
+                revista que teve o seu sistema de computadores invadido por um
+                vilão, com o intuito de impedir a publicação de sua última
+                edição. Os alunos são convidados a participar de diversas
+                atividades com o objetivo de restaurar os textos da revista
+                danificados durante a invasão e terminar as reportagens a tempo
+                para sua publicação. São propostas 3 atividades que correspondem
+                às habilidades exigidas para funções de revisor, redator e
+                designer, desempenhadas em uma revista. Ao final das três
+                atividades, o jogador poderá reunir as pistas para descobrir a
+                identidade do vilão invasor, e também publicar a versão final da
+                revista.
+              </div>
+            </div>
+          </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <b-collapse
+                v-for="(collapse, index) of collapses"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title"></div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content"></div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
+          Galeria:
+          <div class="has-background-grey-dark">
+            imagens aqui
+          </div>
+
+          <p>
+            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
+            https://plataformaintegrada.mec.gov.br/recurso?id=36040&name=Divertix
+          </p>
+        </b-tab-item>
       </mide-tabs>
 
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Você gostou de conhecer esses recursos para serem explorados em
+              suas aulas de Matemática?
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Já que falamos tanto em desafio, que tal agora você participar de
+              um? Você pode me ajudar a relacionar um objetivo descrito com o
+              recurso visto nesta temática?
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Você pode me ajudar a relacionar um objetivo descrito com o
+              recurso visto nesta temática?
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title is-2">~~COMPONENTE CARTAS~~</h2>
       <div class="block-bordered">
         <div class="columns is-vcentered">
           <div class="column is-3">
