@@ -337,6 +337,7 @@
                 <input
                   type="radio"
                   name="answer"
+                  :model_value="model"
                   :disabled="disabled"
                   @input="() => setModel(option)"
                 />

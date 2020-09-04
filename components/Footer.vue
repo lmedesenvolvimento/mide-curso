@@ -8,8 +8,10 @@
               <img src="~@/assets/images/logo-mide-branca.png" />
             </div>
             <div class="mide-footer-description">
-              Ex ex sunt minim laborum in reprehenderit esse amet deserunt.
-              Occaecat non labore ut cupidatat mollit aliqua sint mollit
+              Financiado pelo MEC, o projeto visa desenvolver um conjunto de
+              recursos educacionais digitais de Língua Portuguesa e Matemática
+              para os anos iniciais do ensino fundamental fundamentados nas
+              habilidades previstas na Base Nacional Curricular Comum - BNCC.
             </div>
           </div>
           <div class="mide-footer-vertical-line"></div>

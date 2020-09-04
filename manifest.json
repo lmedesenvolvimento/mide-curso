@@ -3,25 +3,25 @@
     {
       "id": "boas-vindas",
       "url": "images/card-unidade-1.png",
-      "titulo": "UNIDADE I",
+      "titulo": "UNIDADE 1",
       "descricao": "Ensinando em um mundo digital",
       "aulas": [
         {
           "id": "unidade-I-introducao",
           "next": "unidade-I-tematica-I",
           "titulo": "Introdução",
-          "descricao": "Unidade I",
+          "descricao": "Unidade 1",
           "initial": true
         },
         {
           "id": "unidade-I-tematica-I",
           "next": "unidade-I-tematica-II",
-          "titulo": "Temática I",
+          "titulo": "Temática 1",
           "descricao": "Cibercultura e a educação"
         },
         {
           "id": "unidade-I-tematica-II",
-          "titulo": "Temática II",
+          "titulo": "Temática 2",
           "descricao": "A cultura digital na BNCC"
         }
       ]
@@ -29,25 +29,25 @@
     {
       "id": "ementa",
       "url": "images/card-unidade-2.png",
-      "titulo": "UNIDADE II",
+      "titulo": "UNIDADE 2",
       "descricao": "Conhecendo recursos digitais educacionais",
       "aulas": [
         {
           "id": "unidade-II-introducao",
           "next": "unidade-II-tematica-I",
           "titulo": "Introdução",
-          "descricao": "Unidade II",
+          "descricao": "Unidade 2",
           "initial": true
         },
         {
           "id": "unidade-II-tematica-I",
           "next": "unidade-II-tematica-II",
-          "titulo": "Temática I",
+          "titulo": "Temática 1",
           "descricao": "O USO DE RECURSOS EDUCACIONAIS DIGITAIS (RED) COMO FERRAMENTA NO ENSINO DE LÍNGUA PORTUGUESA E  MATEMÁTICA"
         },
         {
           "id": "unidade-II-tematica-II",
-          "titulo": "Temática II",
+          "titulo": "Temática 2",
           "descricao": "RECURSOS NA PLATAFORMA INTEGRADA DE RECURSOS EDUCACIONAIS DIGITAIS"
         }
       ]
@@ -55,25 +55,25 @@
     {
       "id": "objetivos",
       "url": "images/card-unidade-3.png",
-      "titulo": "UNIDADE III",
+      "titulo": "UNIDADE 3",
       "descricao": "Planejando aulas com os RED",
       "aulas": [
         {
           "id": "unidade-III-introducao",
           "next": "unidade-III-tematica-I",
           "titulo": "Introdução",
-          "descricao": "Unidade III",
+          "descricao": "Unidade 3",
           "initial": true
         },
         {
           "id": "unidade-III-tematica-I",
           "next": "unidade-III-tematica-II",
-          "titulo": "Temática I",
+          "titulo": "Temática 1",
           "descricao": "PLANEJAMENTO DO PROCESSO DE ENSINO COM SUPORTE DE RED"
         },
         {
           "id": "unidade-III-tematica-II",
-          "titulo": "Temática II",
+          "titulo": "Temática 2",
           "descricao": "PROPOSTAS DE PLANOS DE AULAS COM SUPORTE DE RED"
         }
       ]
