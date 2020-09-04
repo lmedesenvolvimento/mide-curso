@@ -125,21 +125,19 @@
             <b>Podemos definir cultura como:</b>
           </center>
         </p>
-        <p>
-          “Todo aquele complexo que inclui o <strong>conhecimento</strong>, as
-          <strong>crenças</strong>, a <strong>arte</strong>, a
-          <strong>moral</strong>, a <strong>lei</strong>, os
-          <strong>costumes</strong> e todos os outros <strong>hábitos</strong> e
-          capacidades adquiridos pelo homem como membro da sociedade" (LARAIA,
-          2006).
-        </p>
-        <!-- 
-          REFACTOR
-          seen: inspire.vue
-          <center>
-            <quotes />
-          </center> 
-        -->
+        <div class="quotes">
+          <div class="quotes-box">
+            Todo aquele complexo que inclui o <strong>conhecimento</strong>, as
+            <strong>crenças</strong>, a <strong>arte</strong>, a
+            <strong>moral</strong>, a <strong>lei</strong>, os
+            <strong>costumes</strong> e todos os outros
+            <strong>hábitos</strong> e capacidades adquiridos pelo homem como
+            membro da sociedade.
+            <div class="quotes-author">
+              LARAIA, 2006
+            </div>
+          </div>
+        </div>
         <p>
           Assim, a cultura é o entendimento pelo qual fazemos da forma como uma
           sociedade vive e se comporta socialmente. Também é preciso lembrar que
@@ -151,9 +149,10 @@
           incorporadas na sociedade, como por exemplo, contingências ambientais,
           consciência social e invenção ou desenvolvimento de tecnologias.
         </p>
-        <!-- <center>
-          <question />
-        </center> -->
+        <p>
+          Compreendendo o conceito de cultura, vamos resgatar outros elementos
+          históricos para entender a cibercultura?
+        </p>
         <br />
         <hr class="questionhorizontalline" />
         <br />
@@ -235,41 +234,37 @@
         <img src="~assets/images/icone-contextualizacao.png" class="icones" />
         <div class="titulos">Características da Cibercultura</div>
         <p>A cibercultura é definida pelo filósofo Pierre Levy como:</p>
-        <p>
-          “Conjunto de <strong>técnicas</strong> (materiais e intelectuais), de
-          <strong>práticas</strong>, de <strong>atitudes</strong>, de
-          <strong>modos de pensamento</strong> e de <strong>valores</strong> que
-          se desenvolvem juntamente com o crescimento do ciberespaço” (LÉVY,
-          1999).
-        </p>
-        <!-- 
-          REFACTOR
-          seen: inspire.vue
-          <center>
-            <quotes />
-          </center> 
-        -->
+        <div class="quotes">
+          <div class="quotes-box">
+            Conjunto de <strong>técnicas</strong> (materiais e intelectuais), de
+            <strong>práticas</strong>, de <strong>atitudes</strong>, de
+            <strong>modos de pensamento</strong> e de
+            <strong>valores</strong> que se desenvolvem juntamente com o
+            crescimento do ciberespaço.
+            <div class="quotes-author">
+              LÉVY, 1999
+            </div>
+          </div>
+        </div>
         <p>
           Ele traduz em meio tecnológico avançado (daí o prefixo "ciber") as
           complexas conexões entre aqueles fenômenos históricos iniciados nos
           anos 1960, agora acrescidos de novas possibilidades, além de gerar
           outro fenômenos.
         </p>
-        <p>
-          Esse fenômeno acontece no “ciberespaço”, um “<strong
-            >espaço social</strong
-          >
-          constituído simultaneamente pelas <strong>redes sociais</strong> que
-          estabelecem culturas locais em seu interior e pelas redes técnicas que
-          possibilitam essas conexões” (GUIMARÃES JR., 2010).
-        </p>
-        <!-- 
-          REFACTOR
-          seen: inspire.vue
-          <center>
-            <quotes />
-          </center> 
-        -->
+        <div class="quotes">
+          <div class="quotes-box">
+            Esse fenômeno acontece no “ciberespaço”, um “<strong
+              >espaço social</strong
+            >
+            constituído simultaneamente pelas <strong>redes sociais</strong> que
+            estabelecem culturas locais em seu interior e pelas redes técnicas
+            que possibilitam essas conexões".
+            <div class="quotes-author">
+              GUIMARÃES JR, 2010
+            </div>
+          </div>
+        </div>
         <p>
           O espaço virtual que constitui o ciberespaço é um espaço real. Ele
           gera fenômenos culturais na vida das pessoas tão válidos quanto
@@ -342,8 +337,15 @@
         </p>
         <div class="block-bordered">
           <div class="columns is-vcentered">
-            <div class="column is-3">
-              VIDEO
+            <div class="column is-6">
+              <center>
+                <iframe
+                  src="https://www.youtube.com/watch?v=lLYD_-A_X5E"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </center>
             </div>
             <div class="column">
               <div class="is-left">

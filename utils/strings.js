@@ -11,7 +11,7 @@ export const INTRO_DIALOGS = [
   {
     avatar: require('assets/images/avatar-dialogo-carla.png'),
     text:
-      'É com satisfação que recebemos você no curso "Uso de recursos educativos digitais!"'
+      'É com satisfação que recebemos você no curso "Uso de recursos educacionais digitais!"'
   },
   {
     right: true,
