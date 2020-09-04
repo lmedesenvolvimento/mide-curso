@@ -1,7 +1,15 @@
 
 Todo:
+  @today 
   ☐ Criar formúlario respostas rádio
+  @low 
   ☐ Componente de Vídeo
   ☐ Comportamento Drag and Drop
-Fixes:  
+  ☐ Adicionar Biblioteca de Galeria de Imagem
+Fixes:
+  @today 
+  ☐ Card Início Clicavéis
+  ☐ Permitir que o usuário pule diálogo de introdução
+  @low 
   ☐ Permitir múltiplas imagens para b-carousel
+  ☐ Pular para próxima unidade
