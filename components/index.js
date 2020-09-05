@@ -21,6 +21,9 @@ import Challenge from './Challenge.vue'
 import ChatDialog from './ChatDialog'
 import ModalChatDialog from './ModalChatDialog'
 
+// Form
+import Radio from './Radio.vue'
+
 const Components = {
   install: (Vue) => {
     Vue.component('mide-footer', Footer)
@@ -30,6 +33,8 @@ const Components = {
 
     Vue.component('question', Question)
     Vue.component('challenge', Challenge)
+
+    Vue.component('mide-radio', Radio)
 
     Vue.component('mide-unidade-card', UnidadeCard)
 

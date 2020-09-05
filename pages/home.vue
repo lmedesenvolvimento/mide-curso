@@ -18,24 +18,24 @@
         <div class="column">
           <div class="columns is-multiline is-fill-vertical is-mobile">
             <div class="column is-3-desktop is-6-tablet is-12-mobile">
-              <div class="card mide-unidades-card">
-                <div class="card-image">
-                  <figure
-                    class="image is-2by1"
-                    :style="{
-                      'background-image': `url(${require('@/assets/images/card-sobre-o-curso.png')})`
-                    }"
-                  ></figure>
-                </div>
+              <nuxt-link to="sobre">
+                <div class="card mide-unidades-card">
+                  <div class="card-image">
+                    <figure
+                      class="image is-2by1"
+                      :style="{
+                        'background-image': `url(${require('@/assets/images/card-sobre-o-curso.png')})`
+                      }"
+                    ></figure>
+                  </div>
 
-                <nuxt-link to="sobre">
                   <p class="card-header-title">Sobre o curso</p>
-                </nuxt-link>
 
-                <div class="card-content has-text-left">
-                  Ementa e objetivos de aprendizagem
+                  <div class="card-content has-text-left">
+                    Ementa e objetivos de aprendizagem
+                  </div>
                 </div>
-              </div>
+              </nuxt-link>
             </div>
 
             <mide-unidade-card

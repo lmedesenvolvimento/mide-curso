@@ -5,7 +5,7 @@
     has-modal-card
     trap-focus
     :width="480"
-    :can-cancel="false"
+    :can-cancel="true"
     :destroy-on-hide="true"
     aria-role="dialog"
     aria-modal

@@ -286,28 +286,34 @@
           <challenge
             name="challege-1"
             :options="challenge"
+            :card="true"
             correct="capitalismo"
           >
-            <template slot="quesiton">
-              <div class="question-title">DESAFIO!</div>
-              <p>
-                Tempor dolor nostrud ex et incididunt labore aliqua
-                reprehenderit culpa occaecat amet id.
-              </p>
+            <template slot="question">
+              <center>
+                <div class="question-title">DESAFIO!</div>
+                <p>
+                  Tempor dolor nostrud ex et incididunt labore aliqua
+                  reprehenderit culpa occaecat amet id.
+                </p>
+              </center>
             </template>
           </challenge>
 
           <challenge
             name="challege-2"
+            :card="true"
             :options="challenge"
             correct="capitalismo"
           >
-            <template slot="quesiton">
-              <div class="question-title">DESAFIO!</div>
-              <p>
-                Tempor dolor nostrud ex et incididunt labore aliqua
-                reprehenderit culpa occaecat amet id.
-              </p>
+            <template slot="question">
+              <center>
+                <div class="question-title">DESAFIO!</div>
+                <p>
+                  Tempor dolor nostrud ex et incididunt labore aliqua
+                  reprehenderit culpa occaecat amet id.
+                </p>
+              </center>
             </template>
             <template #option="{option, disabled, active}">
               <b-button
@@ -324,25 +330,59 @@
             name="challege-3"
             :options="challenge"
             correct="capitalismo"
+            :hide-feedback="true"
           >
-            <template slot="quesiton">
+            <template slot="question">
+              <center>
+                <div class="question-title">DESAFIO!</div>
+                <p>
+                  Voluptate minim pariatur elit nisi mollit sunt voluptate
+                  reprehenderit.
+                </p>
+              </center>
+            </template>
+            <template #option="{option, model, setModel, tries, valid}">
+              <mide-radio
+                name="challege-3"
+                :input="model"
+                :value="option"
+                :valid="() => valid && model.split(',').includes(option.value)"
+                :disabled="
+                  () => valid || tries.some((t) => t.includes(option.value))
+                "
+                @input="() => setModel(option)"
+              >
+                {{ option.text }}
+              </mide-radio>
+            </template>
+          </challenge>
+
+          <challenge
+            name="challege-33"
+            :options="challenge"
+            correct="capitalismo,luta-de-classe"
+            :multiple="true"
+            :hide-feedback="true"
+          >
+            <template slot="question">
               <div class="question-title">DESAFIO!</div>
               <p>
                 Voluptate minim pariatur elit nisi mollit sunt voluptate
                 reprehenderit.
               </p>
             </template>
-            <template #option="{option, model, disabled, setModel}">
-              <label class="radio">
-                <input
-                  type="radio"
-                  name="answer"
-                  :model_value="model"
-                  :disabled="disabled"
-                  @input="() => setModel(option)"
-                />
+            <template #option="{option, model, setModel, tries, valid}">
+              <mide-radio
+                :input="model"
+                :value="option"
+                :valid="() => valid && model.split(',').includes(option.value)"
+                :disabled="
+                  () => valid || tries.some((t) => t.includes(option.value))
+                "
+                @input="() => setModel(option)"
+              >
                 {{ option.text }}
-              </label>
+              </mide-radio>
             </template>
           </challenge>
 
@@ -350,9 +390,10 @@
             name="challege-4"
             :options="challenge"
             :multiple="true"
+            :card="true"
             correct="capitalismo,comunismo"
           >
-            <template slot="quesiton">
+            <template slot="question">
               <div class="question-title">DESAFIO MULTIPLO!</div>
               <p>
                 Tempor dolor nostrud ex et incididunt labore aliqua
@@ -364,9 +405,10 @@
             name="challege-5"
             :options="challenge"
             :multiple="true"
+            :card="true"
             correct="capitalismo,comunismo"
           >
-            <template slot="quesiton">
+            <template slot="question">
               <div class="question-title">DESAFIO MÚLTIPLO!</div>
               <p>
                 Tempor dolor nostrud ex et incididunt labore aliqua

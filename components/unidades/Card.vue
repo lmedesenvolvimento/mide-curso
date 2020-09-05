@@ -1,27 +1,27 @@
 <template>
   <div class="column is-3-desktop is-6-tablet is-12-mobile">
-    <div class="card mide-unidades-card">
-      <div class="card-image">
-        <figure
-          class="image is-2by1"
-          :style="{
-            'background-image': `url(${unidade.url})`
-          }"
-        ></figure>
-      </div>
+    <nuxt-link :to="toLesson">
+      <div class="card mide-unidades-card">
+        <div class="card-image">
+          <figure
+            class="image is-2by1"
+            :style="{
+              'background-image': `url(${unidade.url})`
+            }"
+          ></figure>
+        </div>
 
-      <nuxt-link :to="toLesson">
         <p class="card-header-title">{{ unidade.titulo }}</p>
-      </nuxt-link>
 
-      <div class="card-content has-text-left">
-        <slot name="description" /> {{ unidade.descricao }}
-        <div class="mide-progress">
-          30%
-          <progress class="progress is-info" value="30" max="100"></progress>
+        <div class="card-content has-text-left">
+          <slot name="description" /> {{ unidade.descricao }}
+          <div class="mide-progress">
+            30%
+            <progress class="progress is-info" value="30" max="100"></progress>
+          </div>
         </div>
       </div>
-    </div>
+    </nuxt-link>
   </div>
 </template>
 

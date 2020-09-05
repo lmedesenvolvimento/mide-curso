@@ -1,8 +1,8 @@
 <template>
-  <div class="challenge">
+  <div class="challenge" :class="{ 'is-card': card }">
     <div class="challenge-box">
       <div class="challenge-question">
-        <slot name="quesiton" />
+        <slot name="question" />
       </div>
       <div class="challenge-options">
         <label
@@ -19,6 +19,8 @@
               :active="isSelected(option)"
               :disabled="valid"
               :setModel="select"
+              :valid="valid"
+              :tries="tries"
             >
               <b-button
                 tag="a"
@@ -37,15 +39,17 @@
           />
         </label>
       </div>
-      <button
-        name="challenge"
-        class="challenge-submit button is-rounded "
-        :disabled="valid"
-        @click="submit"
-      >
-        {{ submitBtnText }}
-      </button>
-      <div v-if="dirty" class="challenge-feedback">
+      <center>
+        <button
+          name="challenge"
+          class="challenge-submit button is-rounded "
+          :disabled="valid"
+          @click="submit"
+        >
+          {{ submitBtnText }}
+        </button>
+      </center>
+      <div v-if="!hideFeedback && dirty" class="challenge-feedback">
         <slot
           v-if="valid"
           name="success"
@@ -57,7 +61,7 @@
           Respota respondida corretamente.
         </slot>
         <slot
-          v-else
+          v-else-if="!valid"
           name="error"
           :valid="valid"
           :multiple="multiple"
@@ -80,7 +84,15 @@ export default {
       type: String,
       default: null
     },
+    card: {
+      type: Boolean,
+      default: false
+    },
     multiple: {
+      type: Boolean,
+      default: false
+    },
+    hideFeedback: {
       type: Boolean,
       default: false
     },
@@ -98,7 +110,8 @@ export default {
       selectedOption: undefined,
       disabled: false,
       valid: false,
-      dirty: false
+      dirty: false,
+      tries: []
     }
   },
   computed: {
@@ -108,10 +121,26 @@ export default {
       }
       return this.name
     },
+    $correct() {
+      return (
+        (this.selectedOption &&
+          this.selectedOption
+            .split(',')
+            .filter((o) => this.correct.split(',').includes(o))) ||
+        []
+      )
+    },
+    $incorrect() {
+      return (
+        (this.selectedOption &&
+          this.selectedOption
+            .split(',')
+            .filter((o) => !this.correct.split(',').includes(o))) ||
+        []
+      )
+    },
     totalCorrect() {
-      return this.selectedOption
-        .split(',')
-        .filter((o) => this.correct.split(',').includes(o)).length
+      return this.$correct.length
     }
   },
   methods: {
@@ -146,7 +175,7 @@ export default {
       })
     },
     submit() {
-      const options = this.selectedOption.split(',')
+      const options = this.selectedOption?.split(',') || []
 
       const validated = options.every((o) =>
         this.correct.split(',').includes(o)
@@ -155,7 +184,14 @@ export default {
       this.valid =
         validated && options.length === this.correct.split(',').length
 
+      if (!this.valid) {
+        this.tries.push(this.$incorrect.join(','))
+        this.selectedOption = undefined
+      }
+
       this.dirty = true
+
+      this.$emit('challenge:submit', true)
     }
   }
 }
@@ -165,18 +201,23 @@ export default {
 .challenge {
   user-select: none;
   margin-bottom: 1.5rem;
-  text-align: center;
+
+  &.is-card {
+    .challenge-box {
+      background: #e4e9f2;
+    }
+  }
 
   &-box {
     width: 100%;
     padding: $gap;
-    background: #e4e9f2;
     border-radius: $radius;
   }
 
   &-options {
     @include avenir;
     margin: $gap 0px;
+    text-align: center;
   }
 
   &-option {
@@ -184,7 +225,6 @@ export default {
   }
 
   &-question {
-    text-align: center;
     font-size: 14px;
     letter-spacing: 0px;
     color: #4b4b4b;
