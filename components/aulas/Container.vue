@@ -10,7 +10,7 @@
     <div class="card-content">
       <slot />
       <nuxt-link
-        v-if="next"
+        v-if="nextUrl"
         :to="nextUrl"
         tag="div"
         class="mide-lesson-next"
@@ -20,15 +20,31 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters, mapState } from 'vuex'
 export default {
   computed: {
     nextUrl() {
-      if (this.unidade && this.next) {
-        return `/${this.unidade.id}/${this.next.id}/artigos/${this.next.id}`
+      if (this.unidade) {
+        if (this.next) {
+          return `/${this.unidade.id}/${this.next.id}/artigos/${this.next.id}`
+        } else {
+          const unidadeIndex = this.unidades.findIndex(
+            ({ id }) => this.unidade.id === id
+          )
+          const unidadeNext = unidadeIndex + 1
+
+          if (this.unidades[unidadeNext]) {
+            const next = this.unidades[unidadeNext]
+            return `/${next.id}/${next.aulas[0].id}/artigos/${next.aulas[0].id}`
+          }
+          return null
+        }
       }
       return null
     },
+    ...mapState({
+      unidades: ({ unidades }) => unidades.data
+    }),
     ...mapGetters({
       unidade: 'getCurrentUnidade',
       aula: 'getCurrentAula',
