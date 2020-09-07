@@ -473,6 +473,80 @@
               </div>
             </template>
           </challenge>
+          <div class="title">Multimida</div>
+          <vue-plyr>
+            <video
+              poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+            ></video>
+          </vue-plyr>
+
+          <div class="title">Youtube</div>
+          <vue-plyr>
+            <div class="plyr__video-embed">
+              <iframe
+                src="https://www.youtube.com/embed/bTqVqk7FSmY?iv_load_policy=3&modestbranding=1&playsinline=1&showinfo=0&rel=0&enablejsapi=1"
+                allowfullscreen
+                allowtransparency
+                allow="autoplay"
+              >
+              </iframe>
+            </div>
+          </vue-plyr>
+
+          <div class="title">Galeria de Imagens</div>
+          <div class="columns is-multiline">
+            <div class="column is-3">
+              <a
+                href="https://placeimg.com/640/480/animals"
+                data-fancybox="gallery"
+                title="Sample Text"
+                name="gallery1"
+              >
+                <img src="https://placeimg.com/640/480/animals" />
+              </a>
+            </div>
+            <div class="column is-3">
+              <a
+                href="https://placeimg.com/640/480/animals"
+                data-fancybox="gallery"
+                title="Sample Text"
+                name="gallery1"
+              >
+                <img src="https://placeimg.com/640/480/arch" />
+              </a>
+            </div>
+            <div class="column is-3">
+              <a
+                href="https://placeimg.com/640/480/animals"
+                data-fancybox="gallery"
+                title="Sample Text"
+                name="gallery1"
+              >
+                <img src="https://placeimg.com/640/480/nature" />
+              </a>
+            </div>
+            <div class="column is-3">
+              <a
+                href="https://placeimg.com/640/480/animals"
+                data-fancybox="gallery"
+                title="Sample Text"
+                name="gallery1"
+              >
+                <img src="https://placeimg.com/640/480/people" />
+              </a>
+            </div>
+            <div class="column is-3">
+              <a
+                href="https://placeimg.com/640/480/animals"
+                data-fancybox="gallery"
+                title="Sample Text"
+                name="gallery1"
+              >
+                <img src="https://placeimg.com/640/480/tech" />
+              </a>
+            </div>
+          </div>
         </article>
       </mide-aulas-container>
     </div>

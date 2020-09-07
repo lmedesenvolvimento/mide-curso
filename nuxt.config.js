@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 const router =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
@@ -31,11 +33,19 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~assets/styles/_app.scss'],
+  css: [
+    'plyr/dist/plyr.css',
+    '@fancyapps/fancybox/dist/jquery.fancybox.css',
+    '~assets/styles/_app.scss'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~plugins/components.js'],
+  plugins: [
+    '~plugins/components.js',
+    '~plugins/plyr.js',
+    '~plugins/fancybox.js'
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -92,6 +102,13 @@ export default {
    ** Build configuration
    */
   build: {
+    vendor: ['jquery', 'fancybox'],
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery'
+      })
+    ],
     /*
      ** You can extend webpack config here
      */
