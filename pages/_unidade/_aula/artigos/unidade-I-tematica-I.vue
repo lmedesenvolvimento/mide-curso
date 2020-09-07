@@ -46,12 +46,18 @@
             :icon-prev="iconPrev"
             :icon-next="iconNext"
             :icon-size="iconSize"
+            :has-drag="false"
+            :pause-hover="false"
           >
-            <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-              <section :class="`hero is-medium is-${carousel.color}`">
+            <b-carousel-item>
+              <section class="hero is-medium">
                 <div class="hero-body has-text-centered">
                   <center>
-                    <div class="card-image-carrossel"></div>
+                    <div class="card-image-carrossel">
+                      <img
+                        src="~assets/images/unidade-I/imagem-1960-violao.png"
+                      />
+                    </div>
                     <h2>Mundo da música</h2>
                     <hr class="carrossel-horizontal-line" />
                     <p>
@@ -68,11 +74,15 @@
                 </div>
               </section>
             </b-carousel-item>
-            <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-              <section :class="`hero is-medium is-${carousel.color}`">
+            <b-carousel-item>
+              <section class="hero is-medium">
                 <div class="hero-body has-text-centered">
                   <center>
-                    <div class="card-image-carrossel"></div>
+                    <div class="card-image-carrossel">
+                      <img
+                        src="~assets/images/unidade-I/imagem-1960-violao.png"
+                      />
+                    </div>
                     <h2>Ciência e tecnologia</h2>
                     <hr class="carrossel-horizontal-line" />
                     <p>
@@ -93,11 +103,15 @@
                 </div>
               </section>
             </b-carousel-item>
-            <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-              <section :class="`hero is-medium is-${carousel.color}`">
+            <b-carousel-item>
+              <section class="hero is-medium">
                 <div class="hero-body has-text-centered">
                   <center>
-                    <div class="card-image-carrossel"></div>
+                    <div class="card-image-carrossel">
+                      <img
+                        src="~assets/images/unidade-I/imagem-1960-violao.png"
+                      />
+                    </div>
                     <h2>VESTIMENTAS</h2>
                     <hr class="carrossel-horizontal-line" />
                     <p>
@@ -431,8 +445,7 @@ export default {
       iconPack: 'mdi',
       iconPrev: 'arrow-left',
       iconNext: 'arrow-right',
-      iconSize: '',
-      carousels: [{ title: 'Slide 1' }]
+      iconSize: ''
     }
   }
 }
@@ -475,10 +488,19 @@ export default {
         text-align: left;
       }
       .card-image-carrossel {
-        background: url('~assets/images/unidade-I/imagem-1960-violao.png') 50%
-          0% no-repeat;
+        // background: url('~assets/images/unidade-I/imagem-1960-violao.png') 50%
+        //   0% no-repeat;
+        position: relative;
         border-radius: 25px 25px 0px 0px;
         height: 211px;
+        overflow: hidden;
+        img {
+          position: aboslute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
       }
 
       h2 {
