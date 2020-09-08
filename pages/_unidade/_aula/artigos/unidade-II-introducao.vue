@@ -8,35 +8,34 @@
           Também compreendemos como a cibercultura se torna um aspecto favorável
           para a ressignificação da prática docente. Além disso, conhecemos como
           a Base Nacional Comum Curricular (BNCC) apresenta as competências para
-          se pensar em uma cultura digital dentro da prática escolar.
+          se pensar uma cultura digital dentro da prática escolar.
         </p>
         <p>
-          Nesta unidade, teremos dois blocos temáticos. No bloco temático 1
-          discutiremos o uso de Recursos Educacionais Digitais (RED) como
-          ferramenta no ensino de Língua Portuguesa e Matemática. Os objetivos
-          deste bloco são:
+          Nesta unidade, teremos duas temáticas. Na temática I, discutiremos o
+          uso de Recursos Educacionais Digitais (RED) no ensino de Língua
+          Portuguesa e de Matemática. Os objetivos desta temática são:
         </p>
         <p>
           1. Estabelecer relações entre os saberes da cultura escolar e aqueles
           referentes à digital.
         </p>
         <p>
-          2. Mostrar como professores podem utilizar de forma efetiva recursos
-          educacionais digitais em sala de aula.
+          2. Mostrar como professores podem utilizar, de forma efetiva, Recursos
+          Educacionais Digitais em sala de aula.
         </p>
         <p>
-          No bloco temático 2, apresentaremos recursos disponíveis na Plataforma
-          Integrada de Recursos Educacionais Digitais. Os objetivos deste bloco
-          são:
+          Na temática II, apresentaremos recursos disponíveis na Plataforma
+          Integrada de Recursos Educacionais Digitais do Ministério da Educação
+          (MEC). Os objetivos desta temática são:
         </p>
         <p>
           1. Apresentar alguns recursos educacionais digitais disponíveis na
           Plataforma Integrada de Recursos Educacionais Digitais do Ministério
-          da Educação
+          da Educação.
         </p>
         <p>
-          2. Compreender sua utilização e suas contribuições nas práticas e sala
-          de aula.
+          2. Compreender a sua utilização e suas contribuições nas práticas de
+          sala de aula.
         </p>
       </div>
       <div class="columns">
@@ -44,7 +43,7 @@
           <img src="~assets/images/carla-explicacao.png" />
         </div>
         <div class="column">
-          “Convidamos vocês para essa reflexão tão importante para prática
+          “Convidamos vocês para essa reflexão tão importante para a prática
           docente.”
         </div>
         <div class="column">

@@ -2,8 +2,9 @@
   <mide-aulas-container>
     <div id="unidade-II-tematica-II">
       <h6 class="titulos">
-        Objetivos de aprendizagem:
+        Os objetivos desta temática são:
       </h6>
+      Objetivos:
       <li>
         Apresentar os recursos educacionais digitais disponíveis na Plataforma
         Integrada de Recursos Educacionais Digitais do Ministério da Educação.
@@ -111,7 +112,7 @@
             <div class="column is-6">
               <figure>
                 <img
-                  src="~assets/images/imagem-quadrada-de-olho-na-lista.png"
+                  src="~assets/images/unidade-II/imagem-quadrada-de-olho-na-lista.png"
                   class="icones"
                 />
               </figure>
@@ -170,6 +171,7 @@
           </div>
           Imagens para galeria:
           <div class="has-background-grey-dark">
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-1.png" />
             <img src="~assets/images/unidade-II/tela-de-olho-na-lista-2.png" />
             <img src="~assets/images/unidade-II/tela-de-olho-na-lista-3.png" />
             <img src="~assets/images/unidade-II/tela-de-olho-na-lista-4.png" />
@@ -180,7 +182,7 @@
             <img src="~assets/images/unidade-II/tela-de-olho-na-lista-9.png" />
           </div>
 
-          <img src="~assets/images/tela-de-olho-na-lista-1.png" />
+          <img src="~assets/images/unidade-II/tela-de-olho-na-lista-1.png" />
           <p>
             Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
             https://plataformaintegrada.mec.gov.br/recurso?id=34570&name=De%20olho%20na%20lista
@@ -188,7 +190,7 @@
         </b-tab-item>
 
         <b-tab-item label="2º RED">
-          <div class="title is-uppercase">qual seu pedido?</div>
+          <div class="title is-uppercase">qual o seu pedido?</div>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
@@ -243,7 +245,7 @@
             <div class="column is-6">
               <figure>
                 <img
-                  src="~assets/images/imagem-quadrada-qual-o-seu-pedido.png"
+                  src="~assets/images/unidade-II/imagem-quadrada-qual-o-seu-pedido.png"
                   class="icones"
                 />
               </figure>
@@ -310,6 +312,7 @@
             <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-5.png" />
             <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-6.png" />
             <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-7.png" />
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-8.png" />
           </div>
 
           Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
@@ -367,7 +370,7 @@
             <div class="column is-6">
               <figure>
                 <img
-                  src="~assets/images/imagem-quadrada-fabulas.png"
+                  src="~assets/images/unidade-II/imagem-quadrada-fabulas.png"
                   class="icones"
                 />
               </figure>
@@ -475,7 +478,7 @@
             <div class="column is-6">
               <figure>
                 <img
-                  src="~assets/images/imagem-quadrada-revista-digital.png"
+                  src="~assets/images/unidade-II/imagem-quadrada-revista-digital.png"
                   class="icones"
                 />
               </figure>
@@ -526,11 +529,18 @@
           <div class="title is-uppercase">AVENTURA NO MUNDO DOS QUADRINHOS</div>
           <div class="block-bordered">
             <div class="columns is-vcentered">
+              <div class="column is-3">
+                <figure>
+                  <img src="~assets/images/carla-explicacao.png" />
+                </figure>
+              </div>
               <div class="column">
-                <div class="dialog-box is-right">
+                <div class="dialog-box">
                   Já conhecemos recursos para trabalhar os gêneros lista,
                   cardápio, fábula e até um recurso que utiliza a estrutura de
-                  uma revista e os gêneros que a compõem.
+                  uma revista e os gêneros que a compõem. Vamos conhecer, agora,
+                  um recurso que explora um gênero muito conhecido e adorado
+                  tanto por crianças como por adultos? Os quadrinhos! Vamos lá?
                 </div>
               </div>
               <div class="column is-3">
@@ -540,28 +550,11 @@
               </div>
             </div>
           </div>
-          <div class="block-bordered">
-            <div class="columns is-vcentered">
-              <div class="column is-3">
-                <figure>
-                  <img src="~assets/images/carla-explicacao.png" />
-                </figure>
-              </div>
-              <div class="column">
-                <div class="dialog-box is-left">
-                  Vamos conhecer, agora, um recurso que explora um gênero muito
-                  conhecido e adorado tanto por crianças como por adultos? Os
-                  quadrinhos! Vamos lá?
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div class="columns is-vcentered">
             <div class="column is-6">
               <figure>
                 <img
-                  src="~assets/images/imagem-quadrada-aventura-no-mundo.png"
+                  src="~assets/images/unidade-II/imagem-quadrada-aventura-no-mundo.png"
                   class="icones"
                 />
               </figure>
@@ -575,24 +568,36 @@
                 e Vernáculo, que vivem no Mundo dos Quadrinhos. Albedo roubou
                 algumas páginas do livro o Mundo de Liz. Croma, com a ajuda do
                 senhor das palavras, Vernáculo, terá que resgatá-las. O primeiro
-                modo possui quatro fases, que são: Primeira fase: se passa na
-                Estrada de Requadros, trabalhando-se o fluxo de leitura dos
-                quadrinhos. Os alunos terão que organizar os quadrinhos em sua
-                ordem correta, conforme a lógica da narrativa. Segunda fase:
-                acontece na Ilha dos Balões. Aqui será trabalhada a relação
-                entre exemplos de balões de fala e o seu significado, além
-                daqueles usados dentro da narrativa para a criação de efeito de
-                sentido. Terceira fase: se passa no Bosque de Ícona, nos quais
-                serão trabalhados enigmas, por meio dos recursos gráficos
-                presentes nos quadrinhos, tais como expressões faciais e linhas
-                cinéticas. Quarta fase: se passa na chamada Montanha de Litera,
-                onde acontecerá uma batalha final, representada por meio dos
-                aspectos interpretativos dos quadrinhos. Estes incluem aspectos
-                textuais, gráficos e não verbais dos quadros. Após reunir todas
-                as páginas perdidas do livro o Mundo de Liz, o segundo modo de
-                jogo é ativado. Nele, serão apresentadas informações adicionais
-                sobre o Mundo de Liz, história em quadrinhos selecionada para o
-                desenvolvimento deste recurso educacional digital.
+                modo possui quatro fases, que são:
+                <li>
+                  Primeira fase: se passa na Estrada de Requadros,
+                  trabalhando-se o fluxo de leitura dos quadrinhos. Os alunos
+                  terão que organizar os quadrinhos em sua ordem correta,
+                  conforme a lógica da narrativa.
+                </li>
+                <li>
+                  Segunda fase: acontece na Ilha dos Balões. Aqui será
+                  trabalhada a relação entre exemplos de balões de fala e o seu
+                  significado, além daqueles usados dentro da narrativa para a
+                  criação de efeito de sentido.
+                </li>
+                <li>
+                  Terceira fase: se passa no Bosque de Ícona, nos quais serão
+                  trabalhados enigmas, por meio dos recursos gráficos presentes
+                  nos quadrinhos, tais como expressões faciais e linhas
+                  cinéticas.
+                </li>
+                <li>
+                  Quarta fase: se passa na chamada Montanha de Litera, onde
+                  acontecerá uma batalha final, representada por meio dos
+                  aspectos interpretativos dos quadrinhos. Estes incluem
+                  aspectos textuais, gráficos e não verbais dos quadros.
+                </li>
+                Após reunir todas as páginas perdidas do livro o Mundo de Liz, o
+                segundo modo de jogo é ativado. Nele, serão apresentadas
+                informações adicionais sobre o Mundo de Liz, história em
+                quadrinhos selecionada para o desenvolvimento deste recurso
+                educacional digital.
               </div>
             </div>
           </div>
@@ -725,7 +730,12 @@
           </div>
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <figure></figure>
+              <figure>
+                <img
+                  src="~assets/images/unidade-II/imagem-quadrada-meu-album-geometrico.png"
+                  class="icones"
+                />
+              </figure>
             </div>
             <div class="column">
               <div class="is-left">
@@ -746,6 +756,9 @@
           <div class="w-100 has-background-light">
             <section>
               <div class="title is-uppercase">atividades listadas na bncc</div>
+              O recurso “Meu Álbum Geométrico” possibilita trabalhar habilidades
+              tanto do campo da Matemática, quanto da Língua Portuguesa. No
+              campo da Matemática, as habilidades trabalhadas são as seguintes:
               <b-collapse
                 v-for="(collapse, index) of collapses"
                 :key="index"
@@ -770,11 +783,39 @@
                   <div class="content"></div>
                 </div>
               </b-collapse>
+              No campo da Língua Portuguesa, as habilidades trabalhadas são as
+              seguintes:
             </section>
           </div>
           Galeria:
           <div class="has-background-grey-dark">
-            imagens aqui
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-1.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-2.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-3.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-4.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-5.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-6.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-7.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-8.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-9.png"
+            />
           </div>
 
           <p>
@@ -842,7 +883,12 @@
           </div>
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <figure></figure>
+              <figure>
+                <img
+                  src="~assets/images/unidade-II/imagem-quadrada-brincando-com-as-formas.png"
+                  class="icones"
+                />
+              </figure>
             </div>
             <div class="column">
               <div class="is-left">
@@ -864,6 +910,10 @@
           <div class="w-100 has-background-light">
             <section>
               <div class="title is-uppercase">atividades listadas na bncc</div>
+              O recurso “Brincando com as Formas” possibilita trabalhar
+              habilidades tanto do campo da Matemática, quanto das Artes. No
+              campo da Matemática, as habilidades trabalhadas são as seguintes:
+
               <b-collapse
                 v-for="(collapse, index) of collapses"
                 :key="index"
@@ -888,11 +938,38 @@
                   <div class="content"></div>
                 </div>
               </b-collapse>
+              No campo das Artes, as habilidades trabalhadas são as seguintes:
             </section>
           </div>
           Galeria:
           <div class="has-background-grey-dark">
-            imagens aqui
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-1.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-2.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-3.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-4.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-5.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-6.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-7.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-8.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-9.png"
+            />
           </div>
 
           <p>
@@ -960,7 +1037,12 @@
           </div>
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <figure></figure>
+              <figure>
+                <img
+                  src="~assets/images/unidade-II/imagem-quadrada-e-o-bicho.png"
+                  class="icones"
+                />
+              </figure>
             </div>
             <div class="column">
               <div class="is-left">
@@ -979,6 +1061,8 @@
           <div class="w-100 has-background-light">
             <section>
               <div class="title is-uppercase">atividades listadas na bncc</div>
+              O recurso “É o Bicho 2.0” trabalha as seguintes habilidades
+              matemáticas:
               <b-collapse
                 v-for="(collapse, index) of collapses"
                 :key="index"
@@ -1007,7 +1091,15 @@
           </div>
           Galeria:
           <div class="has-background-grey-dark">
-            imagens aqui
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-1.png" />
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-2.png" />
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-3.png" />
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-4.png" />
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-5.png" />
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-6.png" />
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-7.png" />
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-8.png" />
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-9.png" />
           </div>
 
           <p>
@@ -1071,7 +1163,12 @@
           </div>
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <figure></figure>
+              <figure>
+                <img
+                  src="~assets/images/unidade-II/imagem-quadrada-ilha-das-operacoes.png"
+                  class="icones"
+                />
+              </figure>
             </div>
             <div class="column">
               <div class="is-left">
@@ -1113,6 +1210,9 @@
           <div class="w-100 has-background-light">
             <section>
               <div class="title is-uppercase">atividades listadas na bncc</div>
+              O recurso “Ilha das operações” trabalha as seguintes habilidades
+              matemáticas:
+
               <b-collapse
                 v-for="(collapse, index) of collapses"
                 :key="index"
@@ -1141,7 +1241,33 @@
           </div>
           Galeria:
           <div class="has-background-grey-dark">
-            imagens aqui
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-1.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-2.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-3.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-4.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-5.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-6.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-7.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-8.png"
+            />
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-9.png"
+            />
           </div>
 
           <p>
@@ -1205,7 +1331,12 @@
           </div>
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <figure></figure>
+              <figure>
+                <img
+                  src="~assets/images/unidade-II/imagem-quadrada-divertix.png"
+                  class="icones"
+                />
+              </figure>
             </div>
             <div class="column">
               <div class="is-left">
@@ -1229,6 +1360,8 @@
           <div class="w-100 has-background-light">
             <section>
               <div class="title is-uppercase">atividades listadas na bncc</div>
+              O recurso “Divertix” possibilita trabalhar habilidades tanto do
+              campo da Matemática, quanto da Língua Portuguesa:
               <b-collapse
                 v-for="(collapse, index) of collapses"
                 :key="index"
@@ -1253,11 +1386,21 @@
                   <div class="content"></div>
                 </div>
               </b-collapse>
+              No campo da Língua Portuguesa, as habilidades trabalhadas são as
+              seguintes:
             </section>
           </div>
           Galeria:
           <div class="has-background-grey-dark">
-            imagens aqui
+            <img src="~assets/images/unidade-II/tela-divertix-1.png" />
+            <img src="~assets/images/unidade-II/tela-divertix-2.png" />
+            <img src="~assets/images/unidade-II/tela-divertix-3.png" />
+            <img src="~assets/images/unidade-II/tela-divertix-4.png" />
+            <img src="~assets/images/unidade-II/tela-divertix-5.png" />
+            <img src="~assets/images/unidade-II/tela-divertix-6.png" />
+            <img src="~assets/images/unidade-II/tela-divertix-7.png" />
+            <img src="~assets/images/unidade-II/tela-divertix-8.png" />
+            <img src="~assets/images/unidade-II/tela-divertix-9.png" />
           </div>
 
           <p>
@@ -1287,8 +1430,7 @@
           <div class="column">
             <div class="dialog-box is-right">
               Já que falamos tanto em desafio, que tal agora você participar de
-              um? Você pode me ajudar a relacionar um objetivo descrito com o
-              recurso visto nesta temática?
+              um?
             </div>
           </div>
           <div class="column is-3">
@@ -1308,7 +1450,8 @@
           <div class="column">
             <div class="dialog-box is-left">
               Você pode me ajudar a relacionar um objetivo descrito com o
-              recurso visto nesta temática?
+              recurso visto nesta temática? Relacione cada um dos recursos aos
+              seus objetivos descritos.
             </div>
           </div>
         </div>
