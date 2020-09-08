@@ -18,10 +18,10 @@
         <div class="columns is-vcentered">
           <div class="column">
             <div class="dialog-box is-right">
-              Nesse módulo, vamos apresentar 5 RED de Língua Portuguesa e 5 de
-              Matemática desenvolvidos, com apoio do Ministério da Educação pela
-              Universidade Federal do Ceará, no projeto Mídias Digitais na
-              Educação (MIDE).
+              Nesse módulo, vamos apresentar <b>5 RED de Língua Portuguesa</b> e
+              <b>5 de Matemática</b> desenvolvidos, com apoio do Ministério da
+              Educação pela Universidade Federal do Ceará, no projeto Mídias
+              Digitais na Educação (MIDE).
             </div>
           </div>
           <div class="column is-3">
@@ -50,18 +50,20 @@
       <p>se portugues</p>
       <img src="~assets/images/capa-portugues.png" />
 
-      <div class="title">Língua Portuguesa</div>
+      <div class="title"><center>Língua Portuguesa</center></div>
       <mide-tabs>
-        <b-tab-item label="1º RED">
-          <div class="title is-uppercase">de olho na lista</div>
+        <b-tab-item label="1º RED"
+          ><center>
+            <div class="titulos is-uppercase">de olho na lista</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
                 <div class="dialog-box is-right">
-                  Diariamente, escrevemos e lemos listas de produtos que temos
-                  que comprar no supermercado, fazemos listas de convidados para
-                  um aniversário ou, até mesmo, listamos as atividades
-                  programadas para o dia.
+                  Diariamente, escrevemos e lemos <b>listas</b> de produtos que
+                  temos que comprar no supermercado, fazemos listas de
+                  convidados para um aniversário ou, até mesmo, listamos as
+                  atividades programadas para o dia.
                 </div>
               </div>
               <div class="column is-3">
@@ -80,10 +82,10 @@
               </div>
               <div class="column">
                 <div class="dialog-box is-left">
-                  Assim, realizar uma atividade que envolva criar listas é
-                  significativo para as crianças, pois tem uma função social não
-                  só na infância, já que este uso percorre, inclusive, a vida
-                  adulta.
+                  Assim, realizar uma <b>atividade</b> que envolva
+                  <b>criar listas</b> é <b>significativo para as crianças</b>,
+                  pois tem uma função social não só na infância, já que este uso
+                  percorre, inclusive, a vida adulta.
                 </div>
               </div>
             </div>
@@ -138,7 +140,9 @@
           </div>
           <div class="w-100 has-background-light">
             <section>
-              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <div class="titulos is-uppercase">
+                atividades listadas na bncc
+              </div>
               <b-collapse
                 v-for="(collapse, index) of collapses"
                 :key="index"
@@ -154,6 +158,7 @@
                   role="button"
                 >
                   <div class="card-header-title">
+                    <h6>{{ collapse.n }}.</h6>
                     {{ collapse.title }}
                   </div>
                   <a class="card-header-icon">
@@ -190,14 +195,16 @@
         </b-tab-item>
 
         <b-tab-item label="2º RED">
-          <div class="title is-uppercase">qual o seu pedido?</div>
+          <center>
+            <div class="titulos is-uppercase">qual o seu pedido?</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
                 <div class="dialog-box is-right">
-                  Você já reparou como nosso país tem uma cultura heterogênea?
-                  As músicas, as danças e a culinária se diferenciam bastante de
-                  uma região para outra.
+                  Você já reparou como nosso país tem uma
+                  <b>cultura heterogênea</b>? As músicas, as danças e a
+                  culinária se diferenciam bastante de uma região para outra.
                 </div>
               </div>
               <div class="column is-3">
@@ -216,10 +223,11 @@
               </div>
               <div class="column">
                 <div class="dialog-box is-left">
-                  Sim! A culinária de uma região pode mostrar muito sobre os
-                  costumes e a realidade sociocultural. Nesse sentido, os
-                  cardápios de restaurantes surgem como um texto informativo da
-                  vida cotidiana que mostra os hábitos de consumo.
+                  Sim! A <b>culinária</b> de uma região pode mostrar muito sobre
+                  os <b>costumes</b> e a <b>realidade sociocultural</b>. Nesse
+                  sentido, os cardápios de restaurantes surgem como um texto
+                  informativo da vida cotidiana que mostra os hábitos de
+                  consumo.
                 </div>
               </div>
             </div>
@@ -230,8 +238,8 @@
               <div class="column">
                 <div class="dialog-box is-right">
                   Pois é! Por isso, queremos mostrar para você um recurso que
-                  tem como objetivo trabalhar a leitura e a produção de
-                  cardápios.
+                  tem como objetivo trabalhar a <b>leitura</b> e a
+                  <b>produção de cardápios</b>.
                 </div>
               </div>
               <div class="column is-3">
@@ -320,7 +328,9 @@
         </b-tab-item>
 
         <b-tab-item label="3º RED">
-          <div class="title is-uppercase">fábulas animadas</div>
+          <center>
+            <div class="titulos is-uppercase">fábulas animadas</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column is-3">
@@ -330,7 +340,7 @@
               </div>
               <div class="column">
                 <div class="dialog-box is-left">
-                  Olá! Você gosta de ouvir histórias?
+                  Olá! Você gosta de ouvir <b>histórias</b>?
                 </div>
               </div>
             </div>
@@ -339,7 +349,8 @@
             <div class="columns is-vcentered">
               <div class="column">
                 <div class="dialog-box is-right">
-                  Sim! Quando eu era criança, meu gênero favorito era a fábula!
+                  Sim! Quando eu era criança, meu <b>gênero favorito</b> era a
+                  <b>fábula</b>!
                 </div>
               </div>
               <div class="column is-3">
@@ -358,10 +369,10 @@
               </div>
               <div class="column">
                 <div class="dialog-box is-left">
-                  O meu também! Além do mais, gosto muito desse gênero, pois
-                  apresenta uma narrativa que constrói um ensinamento ou uma
-                  moral. Vamos conhecer como o recurso “Fábulas animadas” pode
-                  apoiar as atividades desse gênero?
+                  O meu também! Além do mais, gosto muito desse <b>gênero</b>,
+                  pois apresenta uma <b>narrativa</b> que constrói um
+                  ensinamento ou uma <b>moral</b>. Vamos conhecer como o recurso
+                  “Fábulas animadas” pode apoiar as atividades desse gênero?
                 </div>
               </div>
             </div>
@@ -414,7 +425,9 @@
         </b-tab-item>
 
         <b-tab-item label="4º RED">
-          <div class="title is-uppercase">revista digital da criança</div>
+          <center>
+            <div class="titulos is-uppercase">revista digital da criança</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
@@ -486,27 +499,28 @@
             <div class="column">
               <div class="is-left">
                 <h6 class="titulos">REVISTA DIGITAL DA CRIANÇA</h6>
-                O RED é dividido em seções, simulando o formato de uma revista
-                convencional, tendo início com a capa, que é a tela inicial do
-                recurso. Em seguida, o RED traz um editorial, com uma breve
-                apresentação dos editores, e o sumário, que apresenta todo o seu
-                conteúdo. Aborda-se, na seção posterior, um infográfico
-                interativo sobre a evolução das brincadeiras infantis. Nele,
-                apresentam-se curiosidades (Quando começou? Como se brinca? Você
-                sabia?) sobre as brincadeiras: faz de conta, cabra-cega,
-                amarelinha e games. Em seguida, o recurso traz um caça-palavras
-                sobre as brincadeiras apresentadas no infográfico. Na seção
-                seguinte, o recurso apresenta uma entrevista com Maria Clara, de
-                nove anos, sobre a produção de conteúdo digital. Após a
-                entrevista, tem-se um jogo da memória, no qual o aluno deverá
+                O RED é dividido em <b>seções</b>, simulando o formato de uma
+                <b>revista convencional</b>, tendo início com a <b>capa</b>, que
+                é a tela inicial do recurso. Em seguida, o RED traz um
+                <b>editorial</b>, com uma breve apresentação dos editores, e o
+                <b>sumário</b>, que apresenta todo o seu conteúdo. Aborda-se, na
+                seção posterior, um <b>infográfico interativo</b> sobre a
+                evolução das brincadeiras infantis. Nele, apresentam-se
+                curiosidades (Quando começou? Como se brinca? Você sabia?) sobre
+                as brincadeiras: faz de conta, cabra-cega, amarelinha e games.
+                Em seguida, o recurso traz um <b>caça-palavras</b> sobre as
+                brincadeiras apresentadas no infográfico. Na seção seguinte, o
+                recurso apresenta uma <b>entrevista com Maria Clara</b>, de nove
+                anos, sobre a produção de conteúdo digital. Após a entrevista,
+                tem-se um <b>jogo da memória</b>, no qual o aluno deverá
                 relacionar cartas de baralho sobre as perguntas e as respostas
                 da entrevista. Por último, o recurso apresenta a seção das
-                cartas dos leitores, na qual é possível ter acesso às cartas de
-                Laura e Bernardo, duas crianças fictícias que discutem uma
-                reportagem sobre o uso de canudos descartáveis. O RED é
-                concluído com a produção de uma carta do leitor feita pelo
-                aluno, sobre algum tema de interesse tratado na revista que foi
-                lida.
+                <b>cartas dos leitores</b>, na qual é possível ter acesso às
+                cartas de Laura e Bernardo, duas crianças fictícias que discutem
+                uma reportagem sobre o uso de canudos descartáveis. O RED é
+                concluído com a <b>produção de uma carta do leitor</b> feita
+                pelo aluno, sobre algum tema de interesse tratado na revista que
+                foi lida.
               </div>
             </div>
           </div>
@@ -526,7 +540,11 @@
         </b-tab-item>
 
         <b-tab-item label="5º RED">
-          <div class="title is-uppercase">AVENTURA NO MUNDO DOS QUADRINHOS</div>
+          <center>
+            <div class="titulos is-uppercase">
+              AVENTURA NO MUNDO DOS QUADRINHOS
+            </div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column is-3">
@@ -536,11 +554,12 @@
               </div>
               <div class="column">
                 <div class="dialog-box">
-                  Já conhecemos recursos para trabalhar os gêneros lista,
-                  cardápio, fábula e até um recurso que utiliza a estrutura de
-                  uma revista e os gêneros que a compõem. Vamos conhecer, agora,
-                  um recurso que explora um gênero muito conhecido e adorado
-                  tanto por crianças como por adultos? Os quadrinhos! Vamos lá?
+                  Já conhecemos recursos para trabalhar os gêneros
+                  <b>lista, cardápio, fábula</b> e até um recurso que utiliza a
+                  estrutura de uma revista e os gêneros que a compõem. Vamos
+                  conhecer, agora, um recurso que explora um gênero muito
+                  conhecido e adorado tanto por crianças como por adultos?
+                  <b>Os quadrinhos!</b> Vamos lá?
                 </div>
               </div>
               <div class="column is-3">
@@ -563,41 +582,42 @@
               <div class="is-left">
                 <h6 class="titulos">AVENTURA NO MUNDO DOS QUADRINHOS</h6>
                 O recurso foi pensado em dois modos de jogo. O primeiro modo é
-                intitulado Iniciar Aventura e o segundo o Mundo de Liz. A ideia
-                é trabalhar uma narrativa que terá os personagens Croma, Albedo
-                e Vernáculo, que vivem no Mundo dos Quadrinhos. Albedo roubou
-                algumas páginas do livro o Mundo de Liz. Croma, com a ajuda do
-                senhor das palavras, Vernáculo, terá que resgatá-las. O primeiro
-                modo possui quatro fases, que são:
+                intitulado <b>Iniciar Aventura</b> e o segundo o
+                <b>Mundo de Liz</b>. A ideia é trabalhar uma narrativa que terá
+                os personagens Croma, Albedo e Vernáculo, que vivem no
+                <b>Mundo dos Quadrinhos</b>. Albedo roubou algumas páginas do
+                livro o Mundo de Liz. Croma, com a ajuda do senhor das palavras,
+                Vernáculo, terá que resgatá-las. O primeiro modo possui quatro
+                fases, que são:
                 <li>
-                  Primeira fase: se passa na Estrada de Requadros,
+                  <b>Primeira fase:</b> se passa na Estrada de Requadros,
                   trabalhando-se o fluxo de leitura dos quadrinhos. Os alunos
                   terão que organizar os quadrinhos em sua ordem correta,
                   conforme a lógica da narrativa.
                 </li>
                 <li>
-                  Segunda fase: acontece na Ilha dos Balões. Aqui será
+                  <b>Segunda fase:</b> acontece na Ilha dos Balões. Aqui será
                   trabalhada a relação entre exemplos de balões de fala e o seu
                   significado, além daqueles usados dentro da narrativa para a
                   criação de efeito de sentido.
                 </li>
                 <li>
-                  Terceira fase: se passa no Bosque de Ícona, nos quais serão
-                  trabalhados enigmas, por meio dos recursos gráficos presentes
-                  nos quadrinhos, tais como expressões faciais e linhas
-                  cinéticas.
+                  <b>Terceira fase:</b> se passa no Bosque de Ícona, nos quais
+                  serão trabalhados enigmas, por meio dos recursos gráficos
+                  presentes nos quadrinhos, tais como expressões faciais e
+                  linhas cinéticas.
                 </li>
                 <li>
-                  Quarta fase: se passa na chamada Montanha de Litera, onde
-                  acontecerá uma batalha final, representada por meio dos
+                  <b>Quarta fase:</b> se passa na chamada Montanha de Litera,
+                  onde acontecerá uma batalha final, representada por meio dos
                   aspectos interpretativos dos quadrinhos. Estes incluem
                   aspectos textuais, gráficos e não verbais dos quadros.
                 </li>
                 Após reunir todas as páginas perdidas do livro o Mundo de Liz, o
-                segundo modo de jogo é ativado. Nele, serão apresentadas
-                informações adicionais sobre o Mundo de Liz, história em
-                quadrinhos selecionada para o desenvolvimento deste recurso
-                educacional digital.
+                <b>segundo modo</b> de jogo é <b>ativado</b>. Nele, serão
+                apresentadas <b>informações</b> adicionais sobre o
+                <b>Mundo de Liz</b>, história em quadrinhos selecionada para o
+                desenvolvimento deste recurso educacional digital.
               </div>
             </div>
           </div>
@@ -627,7 +647,7 @@
           <div class="column">
             <div class="dialog-box is-left">
               Você gostou de conhecer esses recursos para serem explorados em
-              suas aulas de Língua Portuguesa?
+              suas aulas de <b>Língua Portuguesa</b>?
             </div>
           </div>
         </div>
@@ -666,13 +686,15 @@
       <img src="~assets/images/capa-matematica.png" />
       <mide-tabs>
         <b-tab-item label="1º RED">
-          <div class="title is-uppercase">Meu Álbum Geométrico</div>
+          <center>
+            <div class="titulos is-uppercase">Meu Álbum Geométrico</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
                 <div class="dialog-box is-right">
                   Em algum período da nossa infância, fizemos uso ou vivenciamos
-                  a utilização de um álbum de figurinhas. O processo de
+                  a utilização de um <b>álbum de figurinhas</b>. O processo de
                   colecionar figurinhas relacionadas a temáticas de interesse da
                   própria criança fazia com que ela desenvolvesse a persistência
                   e a motivação na busca por alcançar o objetivo de completar o
@@ -696,12 +718,14 @@
               <div class="column">
                 <div class="dialog-box is-left">
                   Assim, contar com a utilização de um álbum para realizar
-                  atividades que associam conceitos matemáticos relacionados ao
-                  agrupamento e ao desagrupamento de elementos, juntamente com o
-                  estabelecimento de critérios para classificar e seriar uma
-                  atividade é bastante significativo para as crianças, pois
-                  torna-se possível conciliar a motivação de complementar o
-                  álbum com a compreensão de conceitos matemáticos.
+                  atividades que associam
+                  <b>conceitos matemáticos</b> relacionados ao
+                  <b>agrupamento</b> e ao <b>desagrupamento</b> de elementos,
+                  juntamente com o estabelecimento de critérios para classificar
+                  e seriar uma atividade é bastante significativo para as
+                  crianças, pois torna-se possível conciliar a motivação de
+                  complementar o álbum com a compreensão de conceitos
+                  matemáticos.
                 </div>
               </div>
             </div>
@@ -755,7 +779,9 @@
           </div>
           <div class="w-100 has-background-light">
             <section>
-              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <div class="titulos is-uppercase">
+                atividades listadas na bncc
+              </div>
               O recurso “Meu Álbum Geométrico” possibilita trabalhar habilidades
               tanto do campo da Matemática, quanto da Língua Portuguesa. No
               campo da Matemática, as habilidades trabalhadas são as seguintes:
@@ -824,7 +850,9 @@
           </p>
         </b-tab-item>
         <b-tab-item label="2º RED">
-          <div class="title is-uppercase">Brincando com as formas</div>
+          <center>
+            <div class="titulos is-uppercase">Brincando com as formas</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
@@ -909,7 +937,9 @@
           </div>
           <div class="w-100 has-background-light">
             <section>
-              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <div class="titulos is-uppercase">
+                atividades listadas na bncc
+              </div>
               O recurso “Brincando com as Formas” possibilita trabalhar
               habilidades tanto do campo da Matemática, quanto das Artes. No
               campo da Matemática, as habilidades trabalhadas são as seguintes:
@@ -978,7 +1008,9 @@
           </p>
         </b-tab-item>
         <b-tab-item label="3º RED">
-          <div class="title is-uppercase">É o Bicho 2.0</div>
+          <center>
+            <div class="titulos is-uppercase">É o Bicho 2.0</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
@@ -1060,7 +1092,9 @@
           </div>
           <div class="w-100 has-background-light">
             <section>
-              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <div class="titulos is-uppercase">
+                atividades listadas na bncc
+              </div>
               O recurso “É o Bicho 2.0” trabalha as seguintes habilidades
               matemáticas:
               <b-collapse
@@ -1108,7 +1142,9 @@
           </p>
         </b-tab-item>
         <b-tab-item label="4º RED">
-          <div class="title is-uppercase">Ilha das operações</div>
+          <center>
+            <div class="titulos is-uppercase">Ilha das operações</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
@@ -1209,7 +1245,9 @@
           </div>
           <div class="w-100 has-background-light">
             <section>
-              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <div class="titulos is-uppercase">
+                atividades listadas na bncc
+              </div>
               O recurso “Ilha das operações” trabalha as seguintes habilidades
               matemáticas:
 
@@ -1276,7 +1314,9 @@
           </p>
         </b-tab-item>
         <b-tab-item label="5º RED">
-          <div class="title is-uppercase">Divertix</div>
+          <center>
+            <div class="titulos is-uppercase">Divertix</div>
+          </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
               <div class="column">
@@ -1359,7 +1399,9 @@
           </div>
           <div class="w-100 has-background-light">
             <section>
-              <div class="title is-uppercase">atividades listadas na bncc</div>
+              <div class="titulos is-uppercase">
+                atividades listadas na bncc
+              </div>
               O recurso “Divertix” possibilita trabalhar habilidades tanto do
               campo da Matemática, quanto da Língua Portuguesa:
               <b-collapse
@@ -1420,7 +1462,7 @@
           <div class="column">
             <div class="dialog-box is-left">
               Você gostou de conhecer esses recursos para serem explorados em
-              suas aulas de Matemática?
+              suas aulas de <b>Matemática</b>?
             </div>
           </div>
         </div>
@@ -1542,31 +1584,37 @@ export default {
       isOpen: 0,
       collapses: [
         {
+          n: 1,
           title: 'HABILIDADE (EF12LP01) ',
           text:
             'Ler palavras novas com precisão na decodificação, no caso de palavras de uso frequente, ler globalmente, por memorização.'
         },
         {
+          n: 2,
           title: 'HABILIDADE (EF12LP04)',
           text:
             'Ler e compreender, em colaboração com os colegas e com a ajuda do professor ou já com certa autonomia, listas [...] do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.'
         },
         {
+          n: 3,
           title: 'HABILIDADE (EF01LP02)',
           text:
             'Escrever, espontaneamente ou por ditado, palavras e frases de forma alfabética – usando letras/grafemas que representem fonemas.'
         },
         {
+          n: 4,
           title: 'HABILIDADE (EF01LP08)',
           text:
             'Relacionar elementos sonoros (sílabas, fonemas, partes de palavras) com sua representação escrita.'
         },
         {
+          n: 5,
           title: 'HABILIDADE (EF01LP17)',
           text:
             'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, listas [...] do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'
         },
         {
+          n: 6,
           title: 'HABILIDADE (EF01LP20)',
           text:
             'Identificar e reproduzir, em listas [...] a formatação e diagramação específica de cada um desses gêneros.'
@@ -1579,6 +1627,13 @@ export default {
 
 <style lang="scss">
 #unidade-II-tematica-II {
+  h6 {
+    color: #c0315f;
+  }
+  .titulos {
+    text-transform: uppercase;
+    font: Bold 16px avenir-next-lt-pro-bold;
+  }
   section {
     margin-bottom: 50px;
     padding: 50px;
