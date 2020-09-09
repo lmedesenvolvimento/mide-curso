@@ -89,3 +89,6 @@ sw.*
 
 # VSCode config
 .vscode
+
+# MEC
+configuracao_conteudo.json
