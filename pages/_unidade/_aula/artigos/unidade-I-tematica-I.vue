@@ -637,7 +637,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-10.png"
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-11.png"
                 width="160"
                 class="challenge-images"
               />
@@ -667,7 +667,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-11.png"
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-8.png"
                 width="160"
                 class="challenge-images"
               />
