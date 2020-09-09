@@ -80,21 +80,24 @@
                   <center>
                     <div class="card-image-carrossel">
                       <img
-                        src="~assets/images/unidade-I/imagem-1960-violao.png"
+                        src="~assets/images/unidade-I/imagem-1960-foguete.png"
                       />
                     </div>
                     <h2>Ciência e tecnologia</h2>
                     <hr class="carrossel-horizontal-line" />
                     <p>
-                      No campo da ciência e tecnologia, as grandes potências
-                      estavam preocupadas em conhecer o sistema solar,
-                      explorando a Lua e outros planetas.
+                      No campo da <strong>ciência e tecnologia</strong>, as
+                      grandes potências estavam preocupadas em
+                      <strong>conhecer o sistema solar</strong>, explorando a
+                      <strong>Lua</strong> e outros <strong>planetas</strong>.
                     </p>
                     <p>
-                      O piloto do Centro de Pesquisas de voo da NASA, Joseph A.
-                      Walker, voou no primeiro voo do foguete norte-americano
-                      X-15. Em 2 de março de 1060 alcançou no voo 48.630 pés do
-                      chão. Era o nono vôo do programa.
+                      O piloto do Centro de Pesquisas de voo da NASA,
+                      <strong>Joseph A. Walker</strong> , voou no
+                      <strong>primeiro voo</strong> do foguete norte-americano
+                      <strong>X-15</strong>. Em 2 de março de 1060 alcançou no
+                      voo <strong>48.630 pés</strong> do chão. Era o
+                      <strong>nono</strong> vôo do programa.
                     </p>
                     <img
                       src="~assets/images/unidade-I/imagem-ciencia-e-tecnologia.png"
@@ -109,7 +112,7 @@
                   <center>
                     <div class="card-image-carrossel">
                       <img
-                        src="~assets/images/unidade-I/imagem-1960-violao.png"
+                        src="~assets/images/unidade-I/imagem-1960-roupas.png"
                       />
                     </div>
                     <h2>VESTIMENTAS</h2>
@@ -193,13 +196,80 @@
           exercício da sexualidade e à vida em comunidade.
         </p>
 
-        <challenge name="challege-1" :options="challenge" correct="capitalismo">
+        <challenge
+          name="challege-1"
+          :options="challenge"
+          :multiple="true"
+          correct="capitalismo,comunismo,ditadura"
+          :card="true"
+        >
           <template slot="quesiton">
             <div class="question-title">DESAFIO!</div>
             <p>
               Quais dessas palavras você acha que o movimento da contracultura
               era contra?
             </p>
+          </template>
+          <template #success="{totalCorrect}">
+            <div class="container is-fluid">
+              <div class="columns">
+                <div class="column is-3">
+                  <figure>
+                    <img src="~assets/images/carla-explicacao.png" />
+                  </figure>
+                </div>
+                <div class="column">
+                  <p>
+                    <strong
+                      >Muito bem! <br />
+                      Você
+                      <span class="has-text-success"
+                        >Acertou {{ totalCorrect }}
+                      </span>
+                      palavras!
+                    </strong>
+                  </p>
+                  <p>
+                    O movimento era contra o capitalismo, o consumismo, as
+                    ditaduras e, principalmente, eram preocupados com a
+                    possibilidade de uma nova guerra. Esses jovens traziam as
+                    discussões principalmente sobre a os valores tradicionais
+                    das famílias e reivindicavam a necessidade de uma
+                    transformação das relações sociais.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </template>
+          <template #error>
+            <div class="container is-fluid">
+              <div class="columns">
+                <div class="column is-3">
+                  <figure>
+                    <img src="~assets/images/marcos-explicacao.png" />
+                  </figure>
+                </div>
+                <div class="column">
+                  <strong
+                    >Que pena!<br />
+                    Você
+                    <span class="has-text-danger">
+                      não acertou
+                    </span>
+                    tente novamente!
+                  </strong>
+                  <p>
+                    O movimento não era contra a luta de classes, mas também
+                    esse tema não era pauta do movimento. Ele foi formado por
+                    grupos de jovens brancos das camadas médias urbanas com os
+                    privilégios da cultura dominante. Esses jovens traziam as
+                    discussões principalmente sobre os valores tradicionais das
+                    famílias e reivindicavam a necessidade de uma transformação
+                    das relações sociais.
+                  </p>
+                </div>
+              </div>
+            </div>
           </template>
         </challenge>
 
@@ -288,6 +358,371 @@
           algumas características muito peculiares da cibercultura.
         </p>
         <div>Vejamos algumas destas principais características.</div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-1.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  1) Ausência de espaço (atopia) e a ausência de tempo (acronia)
+                </p>
+                <p>
+                  Ausência de espaço (atopia) e a ausência de tempo (acronia)
+                  são características fundamentais na forma como os conhecemos
+                  no mundo físico. Duas das bases da percepção do real no mundo
+                  físico são o tempo e o espaço. Nossas atitudes neste espaço
+                  são contextualizadas, em grande parte, por estas grandezas. A
+                  cibercultura, gerada no ciberespaço, altera esta percepção. O
+                  tempo não é medido em termos de passado, presente e futuro,
+                  mas de uma atualidade constante. Por sua vez, o ciberespaço
+                  não é um espaço físico, estável; trata-se de um espaço
+                  dinâmico, em constante transformação, portanto que somente
+                  pode ser compreendido em sua dinâmica própria.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-2.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  2) Ausência do corpo
+                </p>
+                <p>
+                  Ausência do corpo enquanto ser sensível e simbólico, reduzido
+                  a sinais. O corpo é uma das nossas maiores referências no
+                  mundo físico. Ele reflete boa parte de nossas ações e reações
+                  neste meio. Na cibercultura o corpo desaparece, dando lugar a
+                  sinais que não necessariamente representam um corpo físico.
+                  Assim, um avatar, por exemplo, ainda que represente uma figura
+                  física, pode significar apenas um perfil de um robô de
+                  software, não um ser humano. Um texto, uma foto, um vídeo, não
+                  representam necessariamente o mundo físico, podendo ser
+                  manipulados digitalmente por algoritmos, sem interferência
+                  humana direta.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-3.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  3) A conexão permanente em rede
+                </p>
+                <p>
+                  A rede, o “net”, de internet (rede das redes), é a sua própria
+                  definição. Assim, tudo o que se publica, tudo o que se
+                  inscreve na rede é instantaneamente distribuído de forma
+                  dinâmica. A rede não apenas “armazena”, mas também
+                  constantemente distribui os dados que recebe. Quando um dado
+                  “cai na rede” ele é automaticamente replicado - por isso não é
+                  mais possível apagá-lo em definitivo, no máximo ele pode
+                  tornar-se menos visível.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-4.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  4) A liberação do polo de emissão
+                </p>
+                <p>
+                  Nos meios de comunicação tradicionais, como rádio e televisão,
+                  há um polo que emite para muitos receptores - o chamado
+                  broadcast, de um para muitos. Na internet ocorre sobretudo o
+                  multicast, onde todos podem tornar-se broadcast. Assim,
+                  qualquer ponto (ou “nó”) da rede pode comunicar-se com os
+                  demais. A comunicação de massa, característica dos meios de
+                  mais antigos, passa à comunicação pós-massiva, que incorpora
+                  as características da comunicação anterior, mas a libera para
+                  todos que participam da rede.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-5.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  5) As múltiplas identidades e a fragmentação do sujeito
+                  (CASTELLS, 2010).
+                </p>
+                <p>
+                  Cada nó que compõem a internet não corresponde necessariamente
+                  a um identidade física. Na verdade, na maioria das vezes, isto
+                  não acontece. Nem sequer é criado majoritariamente por
+                  humanos, mas por algoritmos. Mesmo que sejam diretamente
+                  humanos, estes nós não têm como assumir a complexidade da
+                  personalidade humana. Daí, fragmentam-se e assumem “personas”
+                  próprias, que tornam-se progressivamente mais distantes de
+                  suas intenções iniciais, gerando uma “teatralização” do
+                  cotidiano no ciberespaço, onde todos são personagens dinâmicos
+                  de enredos momentâneos. Ao mesmo tempo em que as pessoas
+                  exibem-se teatralmente na rede, e até por isso mesmo, há uma
+                  busca de muitos pelo anonimato - ou pelo menos uma tentativa
+                  de preservação de alguns aspectos de sua vida privada (muitas
+                  vezes em vão) em meio a tanta exposição.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-6.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  6) As relações sociais crescentemente reguladas e controladas
+                  por corporações (BURCH, 2006)
+                </p>
+                <p>
+                  Como já explicamos, no tempo da ARPANET o governo
+                  norte-americano era o principal fiador da internet, sobretudo
+                  em sua infraestrutura. Como o decorrer das décadas, os estados
+                  nacionais passaram a controlar esta infraestrutura e
+                  progressivamente repassaram-na a corporações privadas,
+                  mantendo apenas a governança normativa. Porém, na duas últimas
+                  décadas, as corporações privadas passaram a controlar não
+                  apenas a infraestrutura física, mas também boa parte das
+                  relações sociais na internet, sobretudo pela captura
+                  permanente de dados, montando uma gigantesca quantidade de
+                  informações sobre cada pessoa no mundo. Esta base de dados é
+                  utilizada para propósitos diversos, de interesse corporativo
+                  ou governamental, estimulando as relações sociais que
+                  interessam a estes objetivos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-1.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  7) A cultura remix (“remixes”, “bootlegs”, “mashups”), memes e
+                  marketing viral
+                </p>
+                <p>
+                  Ao reinventar-se constantemente, a cibercultura gera produtos
+                  dinâmicos decorrentes das fusões das ideias em conexão. Assim,
+                  temos a criação de misturas imagéticas e textuais, decorrentes
+                  dos fenômenos efêmeros que circulam, e o aproveitamento
+                  comercial destes fenômenos. A consequência é um “culto do
+                  amador” (KEEN, 2009), uma vez que o polo de emissão liberado
+                  faz qualquer um acessível a todos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-2.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  8) O discurso não linear.
+                </p>
+                <p>
+                  Como o tempo não mais importa, a linearidade temporal do
+                  discurso também não é importante. Através do hipertexto, o
+                  discurso é lançado na rede em partes separadas, não
+                  necessariamente na ordem cronológica física. Isto pode
+                  ocasionar perdas de partes da argumentação, má informação e/ou
+                  desinformação.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-3.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  9) A aceleração do real e o culto à velocidade (VIRILIO,
+                  1996).
+                </p>
+                <p>
+                  Na internet tudo acontece muito mais rápido que no mundo
+                  físico. Não pela internet em si, mas pela comparação de um
+                  meio (físico) onde se está submetido ao tempo e outro meio
+                  (virtual), no qual o tempo físico não importa. As pessoas
+                  vivem em ambos, e isto é difícil de lidar no dia a dia. A
+                  informação na internet espalha-se em grande velocidade,
+                  gerando uma série de reações nas pessoas. De um lado, há uma
+                  dificuldade das pessoas em assimilar os efeitos desta
+                  aceleração; de outro, abrem-se possibilidades de uso desta
+                  característica da cibercultura para a criação de situações de
+                  interesse de grupos e corporações.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-4.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  10) A ressignificação da privacidade.
+                </p>
+                <p>
+                  No meio virtual a ideia de privacidade muda radicalmente.
+                  Conforme já explicamos, tudo o que é colocado na rede nela
+                  permanece - não há possibilidade de “apagar” (apenas a ilusão
+                  de que se conseguiu apagar). O controle corporativo dos dados,
+                  aliado às interpretações cada vez mais sofisticadas realizadas
+                  pelos algoritmos, torna transparente para estes detentores de
+                  dados até as informações que não foram explicitamente
+                  colocadas na internet. As inferências são cada vez mais
+                  precisas. Assim, a esfera do privado encontra-se em discussão
+                  profunda.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-5.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  11) A cultura do entretenimento.
+                </p>
+                <p>
+                  O fascínio da manipulação tecnológica de imagens e a grande
+                  interatividade proporcionada pela internet torna-a um ambiente
+                  essencialmente lúdico. Os avanços na sofisticação dos designs
+                  de interfaces gráficas levam as pessoas a passar horas
+                  hipnotizadas pelas telinhas de celulares e computadores. Os
+                  jogos, os vídeos, a música e, sobretudo, a mistura de todos
+                  estes e outros formatos de comunicação compõem um ambiente
+                  profundamente sedutor para pessoas de todas as idades.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-bordered">
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <img
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-6.png"
+                width="160"
+                class="challenge-images"
+              />
+            </div>
+            <div class="column">
+              <div class="is-left">
+                <p class="titulos">
+                  12) O “espírito” comunitário.
+                </p>
+                <p>
+                  Influenciada diretamente pela contracultura dos anos 1960, a
+                  internet desde o princípio revelou-se um ótimo espaço para o
+                  desenvolvimento de comunidades virtuais. Estas comunidades
+                  cresceram sob forte ênfase em valores como o compartilhamento
+                  e o livre debate de ideias, a partir de grupos reunidos sob
+                  características comuns. Com o passar dos anos, especialmente
+                  após a virada do século, a ideia de comunidades virtuais e
+                  seus valores foram capturados pelas corporações dominantes da
+                  internet e viraram “redes sociais” virtuais, um espaço
+                  propício tanto para os interesses de pessoas e grupos quanto
+                  para os interesses comerciais e corporativos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div>Vejamos algumas destas principais características.</div>
         <br />
         <challenge name="challege-2" :options="challenge" correct="capitalismo">
           <template slot="quesiton">
@@ -345,21 +780,24 @@
               {{ option.text }}
             </label>
           </template>
-        </challenge>
+        </challenge> -->
         <p>
           O seguinte Vídeo apresenta várias características da Cibercultura:
         </p>
         <div class="block-bordered">
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <center>
-                <iframe
-                  src="https://www.youtube.com/watch?v=lLYD_-A_X5E"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </center>
+              <vue-plyr>
+                <div class="plyr__video-embed">
+                  <iframe
+                    src="https://www.youtube.com/embed/lLYD_-A_X5E?iv_load_policy=3&modestbranding=1&playsinline=1&showinfo=0&rel=0&enablejsapi=1"
+                    allowfullscreen
+                    allowtransparency
+                    allow="autoplay"
+                  >
+                  </iframe>
+                </div>
+              </vue-plyr>
             </div>
             <div class="column">
               <div class="is-left">
