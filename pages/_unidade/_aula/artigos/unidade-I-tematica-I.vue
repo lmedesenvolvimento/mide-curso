@@ -80,21 +80,24 @@
                   <center>
                     <div class="card-image-carrossel">
                       <img
-                        src="~assets/images/unidade-I/imagem-1960-violao.png"
+                        src="~assets/images/unidade-I/imagem-1960-foguete.png"
                       />
                     </div>
                     <h2>Ciência e tecnologia</h2>
                     <hr class="carrossel-horizontal-line" />
                     <p>
-                      No campo da ciência e tecnologia, as grandes potências
-                      estavam preocupadas em conhecer o sistema solar,
-                      explorando a Lua e outros planetas.
+                      No campo da <strong>ciência e tecnologia</strong>, as
+                      grandes potências estavam preocupadas em
+                      <strong>conhecer o sistema solar</strong>, explorando a
+                      <strong>Lua</strong> e outros <strong>planetas</strong>.
                     </p>
                     <p>
-                      O piloto do Centro de Pesquisas de voo da NASA, Joseph A.
-                      Walker, voou no primeiro voo do foguete norte-americano
-                      X-15. Em 2 de março de 1060 alcançou no voo 48.630 pés do
-                      chão. Era o nono vôo do programa.
+                      O piloto do Centro de Pesquisas de voo da NASA,
+                      <strong>Joseph A. Walker</strong> , voou no
+                      <strong>primeiro voo</strong> do foguete norte-americano
+                      <strong>X-15</strong>. Em 2 de março de 1060 alcançou no
+                      voo <strong>48.630 pés</strong> do chão. Era o
+                      <strong>nono</strong> vôo do programa.
                     </p>
                     <img
                       src="~assets/images/unidade-I/imagem-ciencia-e-tecnologia.png"
@@ -109,7 +112,7 @@
                   <center>
                     <div class="card-image-carrossel">
                       <img
-                        src="~assets/images/unidade-I/imagem-1960-violao.png"
+                        src="~assets/images/unidade-I/imagem-1960-roupas.png"
                       />
                     </div>
                     <h2>VESTIMENTAS</h2>
@@ -193,13 +196,80 @@
           exercício da sexualidade e à vida em comunidade.
         </p>
 
-        <challenge name="challege-1" :options="challenge" correct="capitalismo">
+        <challenge
+          name="challege-1"
+          :options="challenge"
+          :multiple="true"
+          correct="capitalismo,comunismo,ditadura"
+          :card="true"
+        >
           <template slot="quesiton">
             <div class="question-title">DESAFIO!</div>
             <p>
               Quais dessas palavras você acha que o movimento da contracultura
               era contra?
             </p>
+          </template>
+          <template #success="{totalCorrect}">
+            <div class="container is-fluid">
+              <div class="columns">
+                <div class="column is-3">
+                  <figure>
+                    <img src="~assets/images/carla-explicacao.png" />
+                  </figure>
+                </div>
+                <div class="column">
+                  <p>
+                    <strong
+                      >Muito bem! <br />
+                      Você
+                      <span class="has-text-success"
+                        >Acertou {{ totalCorrect }}
+                      </span>
+                      palavras!
+                    </strong>
+                  </p>
+                  <p>
+                    O movimento era contra o capitalismo, o consumismo, as
+                    ditaduras e, principalmente, eram preocupados com a
+                    possibilidade de uma nova guerra. Esses jovens traziam as
+                    discussões principalmente sobre a os valores tradicionais
+                    das famílias e reivindicavam a necessidade de uma
+                    transformação das relações sociais.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </template>
+          <template #error>
+            <div class="container is-fluid">
+              <div class="columns">
+                <div class="column is-3">
+                  <figure>
+                    <img src="~assets/images/marcos-explicacao.png" />
+                  </figure>
+                </div>
+                <div class="column">
+                  <strong
+                    >Que pena!<br />
+                    Você
+                    <span class="has-text-danger">
+                      não acertou
+                    </span>
+                    tente novamente!
+                  </strong>
+                  <p>
+                    O movimento não era contra a luta de classes, mas também
+                    esse tema não era pauta do movimento. Ele foi formado por
+                    grupos de jovens brancos das camadas médias urbanas com os
+                    privilégios da cultura dominante. Esses jovens traziam as
+                    discussões principalmente sobre os valores tradicionais das
+                    famílias e reivindicavam a necessidade de uma transformação
+                    das relações sociais.
+                  </p>
+                </div>
+              </div>
+            </div>
           </template>
         </challenge>
 
@@ -287,7 +357,7 @@
           destes fenômenos culturais são diversas do espaço físico, devido a
           algumas características muito peculiares da cibercultura.
         </p>
-        <div>Vejamos algumas destas principais características.</div>
+        <!-- <div>Vejamos algumas destas principais características.</div>
         <br />
         <challenge name="challege-2" :options="challenge" correct="capitalismo">
           <template slot="quesiton">
@@ -345,21 +415,24 @@
               {{ option.text }}
             </label>
           </template>
-        </challenge>
+        </challenge> -->
         <p>
           O seguinte Vídeo apresenta várias características da Cibercultura:
         </p>
         <div class="block-bordered">
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <center>
-                <iframe
-                  src="https://www.youtube.com/watch?v=lLYD_-A_X5E"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </center>
+              <vue-plyr>
+                <div class="plyr__video-embed">
+                  <iframe
+                    src="https://www.youtube.com/embed/lLYD_-A_X5E?iv_load_policy=3&modestbranding=1&playsinline=1&showinfo=0&rel=0&enablejsapi=1"
+                    allowfullscreen
+                    allowtransparency
+                    allow="autoplay"
+                  >
+                  </iframe>
+                </div>
+              </vue-plyr>
             </div>
             <div class="column">
               <div class="is-left">
