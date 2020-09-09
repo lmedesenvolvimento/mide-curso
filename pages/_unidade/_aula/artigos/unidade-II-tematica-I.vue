@@ -1,7 +1,7 @@
 <template>
   <mide-aulas-container>
     <article id="unidade-II-tematica-I">
-      <h6 class="title is-6">Os objetivos desta temática são:</h6>
+      <h6 class="titulos">Os objetivos desta temática são:</h6>
 
       <li>
         Estabelecer relações entre os saberes da cultura escolar e aqueles
@@ -41,16 +41,17 @@
         <div class="column">
           <p>
             Como você acha que os professores no século XV lidaram com a
-            revolução da imprensa e com o uso de textos impressos para se
-            trabalhar em sala de aula? Ou mesmo com a possibilidade de se ter
-            acesso com mais facilidade aos textos da época?
+            <b>revolução da imprensa</b> e com o uso de
+            <b>textos impressos</b> para se trabalhar em sala de aula? Ou mesmo
+            com a possibilidade de se ter acesso com mais facilidade aos textos
+            da época?
           </p>
           <p>
-            Pense também na época em que o rádio trouxe possibilidades de levar
-            informações e conteúdos para diversas pessoas ao mesmo tempo,
-            quebrando a lógica de transmissão reduzida do século XVII. Este
-            aparelho foi um meio de informação das pessoas no começo do século
-            XX e, até hoje, continua sendo um dos maiores instrumentos de
+            Pense também na época em que o <b>rádio</b> trouxe possibilidades de
+            <b>levar informações e conteúdos</b> para diversas pessoas ao mesmo
+            tempo, quebrando a lógica de transmissão reduzida do século XVII.
+            Este aparelho foi um meio de informação das pessoas no começo do
+            século XX e, até hoje, continua sendo um dos maiores instrumentos de
             comunicação do mundo.
           </p>
           <p>
@@ -84,7 +85,8 @@
         </div>
         <div class="column">
           <p>
-            Parte do manuscrito do Manifesto dos Pioneiros da Educação Nacional
+            Parte do manuscrito do
+            <b>Manifesto dos Pioneiros da Educação Nacional</b>
             (1932), que já defendia o uso de meios de comunicação na educação.
           </p>
           <p>
@@ -101,13 +103,14 @@
             Ao longo da educação brasileira, também podemos ver grandes
             modificações na forma de ensinar e aprender com a televisão, vídeos,
             computadores, softwares, jogos digitais e objetos de aprendizagem e,
-            mais recentemente, com as redes sociais e os dispositivos móveis,
-            principalmente, os smartphones.
+            mais recentemente, com as <b>redes sociais</b> e os
+            <b>dispositivos móveis</b>, principalmente, os smartphones.
           </p>
           <p>
             Vivemos imersos na cultura digital. Nossa sociedade apresenta
-            múltiplas formas de comunicação e interação proporcionadas pelos
-            meios virtuais.
+            múltiplas formas de <b>comunicação e interação</b> proporcionadas
+            pelos
+            <b>meios virtuais.</b>
           </p>
         </div>
         <div class="column">
@@ -117,8 +120,8 @@
       <p>
         Toda aprendizagem, assim, vem sendo mediada pelas tecnologias de cada
         período, modificando algumas práticas pedagógicas. Conforme vimos no
-        módulo passado, atualmente, a cultura digital se constitui no uso dos
-        diferentes dispositivos digitais, como smartphones, tablets,
+        módulo passado, atualmente, a <b>cultura digital</b> se constitui no uso
+        dos <b>diferentes dispositivos digitais</b>, como smartphones, tablets,
         computadores, notebooks etc, em diversas formas e linguagens de se
         comunicar, como vídeos, áudios, animações, imagens. Essas linguagens
         podem aparecer em múltiplos contextos, sejam o das redes sociais, dos
@@ -131,9 +134,10 @@
         <div class="columns is-vcentered">
           <div class="column">
             <div class="dialog-box is-right">
-              Ok, mas como eu posso utilizar essas tecnologias durante as minhas
-              aulas? Como incorporar essas linguagens e tecnologias ao
-              planejamento? Quais recursos têm disponíveis?
+              Ok, mas como eu posso <b>utilizar</b> essas
+              <b>tecnologias</b> durante as <b>minhas aulas</b>? Como incorporar
+              essas linguagens e tecnologias ao planejamento? Quais
+              <b>recursos</b> têm <b>disponíveis</b>?
             </div>
           </div>
           <div class="column is-3">
@@ -154,7 +158,7 @@
           <div class="column">
             <div class="dialog-box is-left">
               Uma das ferramentas que estão sendo bastante utilizadas são os
-              Recursos Educacionais Digitais (RED).
+              <b>Recursos Educacionais Digitais</b> (RED).
               <br />
               Vamos conhecer mais sobre eles?
             </div>
@@ -169,7 +173,7 @@
       </p>
       <div class="highlighted">
         <p>
-          qualquer recurso digital que possa ser utilizado no cenário
+          Qualquer recurso digital que possa ser utilizado no cenário
           educacional, abrangendo, assim, um contexto bastante amplo e que
           contempla diversas terminologias comumente já estabelecidas (CIEB,
           2017)
@@ -200,9 +204,9 @@
             <div class="dialog-box is-left">
               <p>
                 Posso acrescentar que a maioria desses recursos são
-                desenvolvidos, essencialmente, pensando-se nas estratégias
-                pedagógicas e como professores e alunos poderão utilizá-los em
-                sala de aula.
+                <b>desenvolvidos</b>, essencialmente,
+                <b>pensando-se nas estratégias pedagógicas</b> e como
+                professores e alunos poderão utilizá-los em sala de aula.
               </p>
               <p>
                 Antes de mostrar alguns RED, vamos conhecer um pouco sobre a sua
@@ -283,8 +287,8 @@
       <br />
       <p>
         Com base nas diferentes perspectivas apresentadas, optou-se nesse
-        material, por adotar a classificação apresentada pelo Centro de Inovação
-        para a Educação Brasileira.
+        material, por adotar a classificação apresentada pelo
+        <b>Centro de Inovação para a Educação Brasileira</b>.
       </p>
 
       <div class="block-bordered">
@@ -297,7 +301,8 @@
           <div class="column">
             <div class="dialog-box is-left">
               Levando em consideração que já existe um entendimento sobre como
-              os RED podem ser classificados, vamos agora definir e exemplificar
+              os RED podem ser classificados, vamos agora <b>definir</b> e
+              <b>exemplificar</b>
               cada um dos tipos de recursos.
             </div>
           </div>
@@ -307,14 +312,15 @@
       <mide-tabs>
         <b-tab-item label="Animação">
           <p>
-            A palavra Animação vem do latim “Anima”, que significa “Alma” ou
-            “Sopro Vital”. Portanto, pode-se dizer que animação significa “dar
-            vida” a objetos estáticos, que podem ser imagens, textos etc. Braga
-            e Menezes, 2015.
+            A palavra <b>Animação</b> vem do latim “Anima”, que significa “Alma”
+            ou “Sopro Vital”. Portanto, pode-se dizer que animação significa “<b
+              >dar vida</b
+            >” a objetos estáticos, que podem ser imagens, textos etc. Braga e
+            Menezes, 2015.
           </p>
           <p>
-            Dessa forma, um RED do tipo animação busca a compreensão sobre um
-            determinado fato por meio de ações sequenciadas.
+            Dessa forma, um <b>RED do tipo animação</b> busca a compreensão
+            sobre um determinado fato por meio de <b>ações sequenciadas</b>.
           </p>
           <p>
             Para se ter uma melhor compreensão sobre RED do tipo animação,
@@ -335,17 +341,17 @@
 
         <b-tab-item label="Simulação">
           <p>
-            RED do tipo simulação baseiam-se em situações da vida real e
-            possibilitam sua compreensão por meio da manipulação de variáveis
-            disponíveis.
+            RED do tipo <b>simulação</b> baseiam-se em
+            <b>situações da vida real</b> e possibilitam sua compreensão por
+            meio da manipulação de variáveis disponíveis.
           </p>
           <p>
-            Temos como exemplo, o Zorelha, um recurso desenvolvido para
-            trabalhar a Educação Musical com crianças, por meio da simulação de
-            sons. Todas as instruções das atividades e as dicas dos elementos
-            interativos são fornecidas através de sons, pois o Zorelha foi
-            projetado para ser usado, principalmente, por crianças ainda não
-            plenamente alfabetizadas!
+            Temos como exemplo, o <b>Zorelha</b>, um recurso desenvolvido para
+            trabalhar a <b>Educação Musical</b> com crianças, por meio da
+            <b>simulação de sons</b>. Todas as instruções das atividades e as
+            dicas dos elementos interativos são fornecidas através de sons, pois
+            o Zorelha foi projetado para ser usado, principalmente, por crianças
+            ainda não plenamente alfabetizadas!
           </p>
           <center>
             <img src="~assets/images/imagem-simulacao.png" />
@@ -431,7 +437,7 @@
           </div>
           <div class="column">
             <div class="dialog-box is-left">
-              Vamos ver se você entendeu a classificação dos RED?
+              Vamos ver se você entendeu a <b>classificação</b> dos <b>RED</b>?
             </div>
           </div>
         </div>
@@ -614,7 +620,8 @@
           <div class="column">
             <div class="dialog-box is-left">
               Os RED podem ser encontrados em locais virtuais chamados de
-              repositórios educacionais digitais. A seguir, vamos listar alguns:
+              <b>repositórios educacionais digitais</b>. A seguir, vamos listar
+              alguns:
             </div>
           </div>
         </div>
@@ -644,11 +651,12 @@
             <p>Fonte: http://portal.mec.gov.br/dominio-publico</p>
           </center>
           <p>
-            Lançado em 2004, o Portal Domínio Público oferece acesso gratuito a
-            obras literárias, artísticas e científicas (na forma de textos,
-            sons, imagens e vídeos), já em domínio público ou que tenham a sua
-            divulgação autorizada. O portal também é um espaço que encaminha os
-            usuários para vários outros materiais do Ministério da Educação.
+            Lançado em 2004, o Portal Domínio Público oferece
+            <b>acesso gratuito a obras literárias, artísticas e científicas</b>
+            (na forma de textos, sons, imagens e vídeos), já em domínio público
+            ou que tenham a sua divulgação autorizada. O portal também é um
+            espaço que encaminha os usuários para vários outros materiais do
+            Ministério da Educação.
           </p>
         </b-tab-item>
 
@@ -710,11 +718,12 @@
         <div class="columns is-vcentered">
           <div class="column">
             <div class="dialog-box is-right">
-              Todos esses repositórios nos apresentam inúmeras possibilidades de
-              acesso às mídias. Em 2015, o MEC lançou uma plataforma que reúne e
-              disponibiliza, em um único lugar, os Recursos Educacionais
-              Digitais dos principais repositórios do Brasil. É a Plataforma
-              Integrada de Recursos Educacionais Digitais.
+              Todos esses <b>repositórios</b> nos apresentam inúmeras
+              possibilidades de <b>acesso às mídias</b>. Em 2015, o MEC lançou
+              uma plataforma que reúne e disponibiliza, em um único lugar, os
+              Recursos Educacionais Digitais dos principais repositórios do
+              Brasil. É a
+              <b>Plataforma Integrada de Recursos Educacionais Digitais</b>.
             </div>
           </div>
           <div class="column is-3">
@@ -729,13 +738,14 @@
         Fonte: https://plataformaintegrada.mec.gov.br/home
         <br />
         <p>
-          Com o objetivo de melhorar a experiência de busca por esses Recursos,
-          a Plataforma foi desenvolvida numa parceria coletiva entre:
-          Universidade Federal de Santa Catarina (UFSC), Universidade Federal do
-          Paraná (UFPR) e professoras(es) da Educação Básica de todo o Brasil.
-          Assim, a Plataforma pretende se tornar uma referência em Recursos
-          Educacionais Digitais, como um ambiente de busca, interação e
-          colaboração entre professoras(es)!
+          Com o objetivo de
+          <b>melhorar a experiência de busca por esses Recursos</b>, a
+          Plataforma foi desenvolvida numa parceria coletiva entre: Universidade
+          Federal de Santa Catarina (UFSC), Universidade Federal do Paraná
+          (UFPR) e professoras(es) da Educação Básica de todo o Brasil. Assim, a
+          Plataforma pretende se tornar uma referência em Recursos Educacionais
+          Digitais, como um ambiente de
+          <b>busca, interação e colaboração entre professoras(es)</b>!
         </p>
         Fonte: https://plataformaintegrada.mec.gov.br/sobre
       </div>
@@ -825,6 +835,13 @@ export default {
 
 <style lang="scss">
 #unidade-II-tematica-I {
+  h6 {
+    color: #c0315f;
+  }
+  .titulos {
+    text-transform: uppercase;
+    font: Bold 16px avenir-next-lt-pro-bold;
+  }
   .imgimprensa {
     position: absolute;
     padding: 0 55px 50px;
