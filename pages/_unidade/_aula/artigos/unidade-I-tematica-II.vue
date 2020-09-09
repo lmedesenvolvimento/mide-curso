@@ -283,8 +283,13 @@
           </h6>
           <img src="~assets/images/unidade-I/imagem-reportagem.png" />
           <p>
-            Veja mais em:
-            http://fundacaotelefonica.org.br/noticias/internet-segura-tres-estrategias-para-discutir-o-tema-na-escola/
+            Veja mais em: <br />
+            <a
+              href="http://fundacaotelefonica.org.br/noticias/internet-segura-tres-estrategias-para-discutir-o-tema-na-escola/"
+              target="_blank"
+            >
+              http://fundacaotelefonica.org.br/noticias/internet-segura-tres-estrategias-para-discutir-o-tema-na-escola/
+            </a>
           </p>
         </center>
       </div>
@@ -650,16 +655,40 @@
       <mide-tabs>
         <b-tab-item label="Questão 1">
           <p>
-            <challenge name="challege-1" :options="challenge1" correct="3">
-              <template slot="quesiton">
-                <div class="question-title">DESAFIO!</div>
-                <p>
-                  Segundo a BNCC, as atividades humanas realizam-se nas práticas
-                  sociais mediadas por diferentes linguagens: verbal, corporal,
-                  visual, sonora e digital. Marque a alternativa que melhor
-                  expressa como os professores e professoras podem estimular
-                  seus alunos a se comunicarem através dessas linguagens.
-                </p>
+            <challenge
+              name="challege-1"
+              :options="challenge1"
+              correct="3"
+              :hide-feedback="true"
+            >
+              <template slot="question">
+                <center>
+                  <div class="question-title">DESAFIO!</div>
+                  <p>
+                    Segundo a BNCC, as atividades humanas realizam-se nas
+                    práticas sociais mediadas por diferentes linguagens: verbal,
+                    corporal, visual, sonora e digital. Marque a alternativa que
+                    melhor expressa como os professores e professoras podem
+                    estimular seus alunos a se comunicarem através dessas
+                    linguagens.
+                  </p>
+                </center>
+              </template>
+              <template #option="{option, model, setModel, tries, valid}">
+                <mide-radio
+                  name="challege-3"
+                  :input="model"
+                  :value="option"
+                  :valid="
+                    () => valid && model.split(',').includes(option.value)
+                  "
+                  :disabled="
+                    () => valid || tries.some((t) => t.includes(option.value))
+                  "
+                  @input="() => setModel(option)"
+                >
+                  {{ option.text }}
+                </mide-radio>
               </template>
             </challenge>
           </p>
@@ -667,14 +696,37 @@
 
         <b-tab-item label="Questão 2">
           <p>
-            <challenge name="challege-1" :options="challenge2" correct="3">
-              <template slot="quesiton">
-                <div class="question-title">DESAFIO!</div>
-                <p>
-                  Assinale a alternativa que melhor aponta como os professores e
-                  professoras podem utilizar as tecnologias digitais de
-                  informação e comunicação:
-                </p>
+            <challenge
+              name="challege-2"
+              :options="challenge2"
+              correct="4"
+              :hide-feedback="true"
+            >
+              <template slot="question">
+                <center>
+                  <div class="question-title">DESAFIO!</div>
+                  <p>
+                    Assinale a alternativa que melhor aponta como os professores
+                    e professoras podem utilizar as tecnologias digitais de
+                    informação e comunicação:
+                  </p>
+                </center>
+              </template>
+              <template #option="{option, model, setModel, tries, valid}">
+                <mide-radio
+                  name="challege-2"
+                  :input="model"
+                  :value="option"
+                  :valid="
+                    () => valid && model.split(',').includes(option.value)
+                  "
+                  :disabled="
+                    () => valid || tries.some((t) => t.includes(option.value))
+                  "
+                  @input="() => setModel(option)"
+                >
+                  {{ option.text }}
+                </mide-radio>
               </template>
             </challenge>
           </p>
@@ -682,13 +734,34 @@
 
         <b-tab-item label="Questão 3">
           <p>
-            <challenge name="challege-1" :options="challenge3" correct="3">
-              <template slot="quesiton">
+            <challenge
+              name="challege-33"
+              :options="challenge3"
+              correct="2,4,6"
+              :multiple="true"
+              :hide-feedback="true"
+            >
+              <template slot="question">
                 <div class="question-title">DESAFIO!</div>
                 <p>
                   Marque os três ítens mais importantes para incentivar a
                   cultura digital na escola
                 </p>
+              </template>
+              <template #option="{option, model, setModel, tries, valid}">
+                <mide-radio
+                  :input="model"
+                  :value="option"
+                  :valid="
+                    () => valid && model.split(',').includes(option.value)
+                  "
+                  :disabled="
+                    () => valid || tries.some((t) => t.includes(option.value))
+                  "
+                  @input="() => setModel(option)"
+                >
+                  {{ option.text }}
+                </mide-radio>
               </template>
             </challenge>
           </p>
@@ -870,7 +943,7 @@ export default {
         },
         {
           text: 'Conexão Wireless na escola.',
-          value: '4'
+          value: '6'
         }
       ]
     }
