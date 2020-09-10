@@ -246,7 +246,9 @@
               <div class="columns">
                 <div class="column is-3">
                   <figure>
-                    <img src="~assets/images/feedback-marcos-errou-todas.png" />
+                    <img
+                      src="~assets/images/unidade-I/feedback-marcos-errou-todas.png"
+                    />
                   </figure>
                 </div>
                 <div class="column">
@@ -423,7 +425,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/3.png"
+                src="~assets/images/unidade-I/3.png"
                 width="160"
                 class="challenge-images"
               />
