@@ -1,12 +1,13 @@
 const webpack = require('webpack')
 
-const router =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        base: '/mide-curso/',
-        middleware: 'before-route-change'
-      }
-    : { middleware: 'before-route-change' }
+const router = {
+  middleware: 'before-route-change',
+  mode: 'hash'
+}
+
+if (process.env.DEPLOY_ENV === 'GH_PAGES') {
+  router.base = '/mide-curso/'
+}
 
 export default {
   mode: 'spa',
