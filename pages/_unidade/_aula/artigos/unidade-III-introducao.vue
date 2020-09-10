@@ -7,22 +7,29 @@
       />
       <div class="mide-texto-inicial">
         <p>
-          O mundo mudou significativamente nossa maneira de interagir, de
-          consumir, de aprender e, também de ensinar! Nesta unidade, iremos
-          compreender como a cultura digital pode modificar a prática docente.
-          Trataremos de duas temáticas.
+          Na unidade passada, aprendemos que os Recursos Educacionais Digitais
+          são qualquer recurso digital que pode ser utilizado no cenário
+          educacional. Vimos que eles podem ser uma animação, simulação,
+          tutorial, áudio e jogo. Também conhecemos alguns RED de Língua
+          Portuguesa e de Matemática disponíveis na Plataforma MEC/RED.
         </p>
         <p>
-          Na <strong>temática 1</strong>, Cibercultura e Educação,discutiremos o
-          conceito de cibercultura e como a mesma implica em mudanças nas
-          práticas desenvolvidas na sociedade e na escola.
+          Para esta unidade, teremos duas temáticas. Na <b>Temática I</b>,
+          discutiremos a importância de um planejamento.
         </p>
+        Os objetivos desta temática são:
+        <li>Destacar a importância da organização do processo de ensino.</li>
+        <li>Compreender os elementos de um planejamento de aula.</li>
         <p>
-          Na <strong>temática 2</strong>, A cultura digital na BNCC, abordaremos
-          as competências gerais relacionadas à cultura digital apresentadas
-          pela Base Nacional Comum Curricular (BNCC) e suas implicações para o
-          trabalho docente.
+          Depois de perceber os elementos de um plano de aula, vamos mostrar
+          dois planejamentos utilizando os recursos educacionais digitais.
         </p>
+        <p>Portanto, os objetivos da <b>Temática II</b> são:</p>
+        <li>
+          onhecer planos de aula usando um RED de Língua Portuguesa e outro de
+          Matemática.
+        </li>
+        <li>Planejar uma aula com suporte de um RED.</li>
       </div>
     </div>
   </mide-aulas-container>

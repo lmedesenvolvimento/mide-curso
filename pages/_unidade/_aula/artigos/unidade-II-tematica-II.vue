@@ -174,17 +174,118 @@
               </b-collapse>
             </section>
           </div>
-          Imagens para galeria:
           <div class="has-background-grey-dark">
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-1.png" />
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-2.png" />
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-3.png" />
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-4.png" />
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-5.png" />
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-6.png" />
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-7.png" />
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-8.png" />
-            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-9.png" />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-1.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-2.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-3.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-4.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-5.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-6.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-7.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-8.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-de-olho-na-lista-9.png"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
 
           <img src="~assets/images/unidade-II/tela-de-olho-na-lista-1.png" />
@@ -311,18 +412,108 @@
             </section>
           </div>
 
-          Imagens para galeria:
           <div class="has-background-grey-dark">
-            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-1.png" />
-            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-2.png" />
-            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-3.png" />
-            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-4.png" />
-            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-5.png" />
-            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-6.png" />
-            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-7.png" />
-            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-8.png" />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-qual-o-seu-pedido-1.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-qual-o-seu-pedido-2.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-qual-o-seu-pedido-3.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-qual-o-seu-pedido-4.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-qual-o-seu-pedido-5.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-qual-o-seu-pedido-6.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-qual-o-seu-pedido-7.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-qual-o-seu-pedido-8.png"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
-
+          <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-8.png" />
           Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
           https://plataformaintegrada.mec.gov.br/recurso?id=35899&name=Qual%20%C3%A9%20o%20
         </b-tab-item>
@@ -408,18 +599,102 @@
             </div>
           </div>
 
-          Imagens para galeria:
           <div class="has-background-grey-dark">
-            <img src="~assets/images/unidade-II/tela-fabulas-1.png" />
-            <img src="~assets/images/unidade-II/tela-fabulas-2.png" />
-            <img src="~assets/images/unidade-II/tela-fabulas-3.png" />
-            <img src="~assets/images/unidade-II/tela-fabulas-4.png" />
-            <img src="~assets/images/unidade-II/tela-fabulas-5.png" />
-            <img src="~assets/images/unidade-II/tela-fabulas-6.png" />
-            <img src="~assets/images/unidade-II/tela-fabulas-7.png" />
-            <img src="~assets/images/unidade-II/tela-fabulas-8.png" />
-            <img src="~assets/images/unidade-II/tela-fabulas-9.png" />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-1.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-2.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-3.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-4.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-5.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-6.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-7.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-8.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-fabulas-9.png" />
+                </a>
+              </div>
+            </div>
           </div>
+
           Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
           https://plataformaintegrada.mec.gov.br/recurso?id=34568&name=F%C3%A1bulas%20Animadas
         </b-tab-item>
@@ -524,17 +799,109 @@
               </div>
             </div>
           </div>
-          Imagens para galeria:
+
           <div class="has-background-grey-dark">
-            <img src="~assets/images/unidade-II/tela-revista-digital-2.png" />
-            <img src="~assets/images/unidade-II/tela-revista-digital-3.png" />
-            <img src="~assets/images/unidade-II/tela-revista-digital-4.png" />
-            <img src="~assets/images/unidade-II/tela-revista-digital-5.png" />
-            <img src="~assets/images/unidade-II/tela-revista-digital-6.png" />
-            <img src="~assets/images/unidade-II/tela-revista-digital-7.png" />
-            <img src="~assets/images/unidade-II/tela-revista-digital-8.png" />
-            <img src="~assets/images/unidade-II/tela-revista-digital-9.png" />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-revista-digital-2.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-revista-digital-3.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-revista-digital-4.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-revista-digital-5.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-revista-digital-6.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-revista-digital-7.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-revista-digital-8.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-revista-digital-9.png"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
+
           Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
           https://plataformaintegrada.mec.gov.br/recurso?id=35900&name=Revista%20Digital%20da%20Crian%C3%A7a
         </b-tab-item>
@@ -621,16 +988,106 @@
               </div>
             </div>
           </div>
-          Imagens para galeria:
           <div class="has-background-grey-dark">
-            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-2.png" />
-            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-3.png" />
-            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-4.png" />
-            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-5.png" />
-            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-6.png" />
-            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-7.png" />
-            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-8.png" />
-            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-9.png" />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-aventura-no-mundo-2.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-aventura-no-mundo-3.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-aventura-no-mundo-4.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-aventura-no-mundo-5.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-aventura-no-mundo-6.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-aventura-no-mundo-7.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-aventura-no-mundo-8.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-aventura-no-mundo-9.png"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
           Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
           https://plataformaintegrada.mec.gov.br/recurso?id=36041&name=Aventura%20no%20Mundo%20dos%20Quadrinhos
@@ -813,35 +1270,118 @@
               seguintes:
             </section>
           </div>
-          Galeria:
           <div class="has-background-grey-dark">
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-1.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-2.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-3.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-4.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-5.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-6.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-7.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-8.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-meu-album-geometrico-9.png"
-            />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-1.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-2.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-3.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-4.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-5.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-6.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-7.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-8.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-meu-album-geometrico-9.png"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
 
           <p>
@@ -971,35 +1511,119 @@
               No campo das Artes, as habilidades trabalhadas são as seguintes:
             </section>
           </div>
-          Galeria:
+
           <div class="has-background-grey-dark">
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-1.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-2.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-3.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-4.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-5.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-6.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-7.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-8.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-brincando-com-as-formas-9.png"
-            />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-1.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-2.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-3.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-4.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-5.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-6.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-7.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-8.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-brincando-com-as-formas-9.png"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
 
           <p>
@@ -1123,19 +1747,102 @@
               </b-collapse>
             </section>
           </div>
-          Galeria:
-          <div class="has-background-grey-dark">
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-1.png" />
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-2.png" />
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-3.png" />
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-4.png" />
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-5.png" />
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-6.png" />
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-7.png" />
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-8.png" />
-            <img src="~assets/images/unidade-II/tela-e-o-bicho-9.png" />
-          </div>
 
+          <div class="has-background-grey-dark">
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-1.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-2.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-3.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-4.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-5.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-6.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-7.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-8.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-e-o-bicho-9.png" />
+                </a>
+              </div>
+            </div>
+          </div>
           <p>
             Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
             https://plataformaintegrada.mec.gov.br/recurso?id=36677&name=%C3%89%20o%20Bicho%202.0
@@ -1277,37 +1984,119 @@
               </b-collapse>
             </section>
           </div>
-          Galeria:
           <div class="has-background-grey-dark">
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-1.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-2.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-3.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-4.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-5.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-6.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-7.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-8.png"
-            />
-            <img
-              src="~assets/images/unidade-II/tela-ilha-das-operacoes-9.png"
-            />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-1.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-2.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-3.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-4.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-5.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-6.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-7.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-8.png"
+                  />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img
+                    src="~assets/images/unidade-II/tela-ilha-das-operacoes-9.png"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
-
           <p>
             Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
             https://plataformaintegrada.mec.gov.br/recurso?id=338674&name=Ilha%20das%20Opera%C3%A7%C3%B5es
@@ -1432,17 +2221,100 @@
               seguintes:
             </section>
           </div>
-          Galeria:
           <div class="has-background-grey-dark">
-            <img src="~assets/images/unidade-II/tela-divertix-1.png" />
-            <img src="~assets/images/unidade-II/tela-divertix-2.png" />
-            <img src="~assets/images/unidade-II/tela-divertix-3.png" />
-            <img src="~assets/images/unidade-II/tela-divertix-4.png" />
-            <img src="~assets/images/unidade-II/tela-divertix-5.png" />
-            <img src="~assets/images/unidade-II/tela-divertix-6.png" />
-            <img src="~assets/images/unidade-II/tela-divertix-7.png" />
-            <img src="~assets/images/unidade-II/tela-divertix-8.png" />
-            <img src="~assets/images/unidade-II/tela-divertix-9.png" />
+            <div class="title">Confira algumas imagens do jogo:</div>
+            <div class="columns is-multiline">
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-1.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-2.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-3.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-4.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-5.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-6.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-7.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-8.png" />
+                </a>
+              </div>
+              <div class="column is-3">
+                <a
+                  href="https://placeimg.com/640/480/animals"
+                  data-fancybox="gallery"
+                  title="Sample Text"
+                  name="gallery1"
+                >
+                  <img src="~assets/images/unidade-II/tela-divertix-9.png" />
+                </a>
+              </div>
+            </div>
           </div>
 
           <p>
