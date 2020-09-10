@@ -8,114 +8,153 @@
         planejar festas de aniversário. Portanto, não poderia ser diferente nas
         atividades docentes.
       </p>
-      <div class="columns">
-        <div class="column is-4">
-          <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
-        </div>
 
-        <div class="column fala-marcos">
-          Quando você vai viajar, como organiza e planeja a viagem?
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Quando você vai viajar, como <b>organiza</b> e <b>planeja</b> a
+              viagem?
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
         </div>
       </div>
-      <div class="columns">
-        <div class="column is-7 fala-carla">
-          Geralmente, primeiro decido qual lugar desejo conhecer, os dias que
-          quero chegar e partir. Depois, o local que vou me hospedar e o que
-          quero conhecer como atração turística. São muitos elementos
-          importantes para que a viagem tenha sucesso e possa aproveitar ao
-          máximo o momento.
-        </div>
-        <div class="column is-1"></div>
 
-        <div class="column is-one-third">
-          <img src="~assets/images/carla-explicacao.png" />
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Geralmente, primeiro decido qual lugar desejo conhecer, os dias
+              que quero chegar e partir. Depois, o local que vou me hospedar e o
+              que quero conhecer como atração turística. São muitos elementos
+              importantes para que a viagem tenha sucesso e possa aproveitar ao
+              máximo o momento.
+            </div>
+          </div>
         </div>
       </div>
-      <div class="columns">
-        <div class="column is-4">
-          <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
-        </div>
 
-        <div class="column fala-marcos">
-          Planejar uma aula, não é diferente. Dessa forma, é importante
-          conhecermos os principais pontos do planejamento de aula.
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Planejar uma aula, não é diferente. Dessa forma, é importante
+              conhecermos os principais pontos do planejamento de aula.
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
         </div>
       </div>
+
       <p>
         Para Passos (2016, p. 372):
       </p>
-      <p>
-        “[...] planejar é dar sentido à ação, é questionar sobre a importância
-        das práticas pedagógicas, do conteúdo ensinado, das exigências feitas
-        ao(a) aluno(a), do tipo de avaliação empregado, das atividades
-        propostas.”
-      </p>
+
+      <div class="quotes">
+        <div class="quotes-box">
+          “[...] <b>planejar</b> é dar <b>sentido à ação</b>, é
+          <b>questionar</b> sobre a importância das práticas pedagógicas, do
+          conteúdo ensinado, das exigências feitas ao(a) aluno(a), do tipo de
+          avaliação empregado, das atividades propostas.”
+          <div class="quotes-author">
+            LARAIA, 2006
+          </div>
+        </div>
+      </div>
+
       <center>
         <quotes />
       </center>
 
       <div class="block-bordered">
         <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
           <div class="column">
-            <div class="dialog-box is-right">
+            <div class="dialog-box is-left">
               Como você organiza as atividades de um componente curricular?
             </div>
           </div>
-          <div class="column is-3">
-            <figure>
-              <img src="~assets/images/carla-explicacao.png" />
-            </figure>
-          </div>
         </div>
       </div>
-      <div class="columns">
-        <div class="column is-4">
-          <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
-        </div>
 
-        <div class="column fala-marcos">
-          Não existe um modelo rígido a ser seguido, mas todo plano deve
-          apresentar uma sequência lógica que ajude na orientação das
-          atividades.
-          <br />
-          Vamos apresentar aqui um modelo baseado no que é utilizado no
-          <b>Portal do Professor</b>, para indicar como podem ser organizados um
-          plano de aula com seus componentes.
-          <br />
-          <a>ACESSAR PORTAL</a>
-        </div>
-      </div>
       <div class="block-bordered">
         <div class="columns is-vcentered">
           <div class="column">
             <div class="dialog-box is-right">
-              É importante destacar que o plano de aula não deve ser um simples
-              preenchimento de formulário.
+              Não existe um modelo rígido a ser seguido, mas todo plano deve
+              apresentar uma sequência lógica que ajude na orientação das
+              atividades.
+              <br />
+              Vamos apresentar aqui um modelo baseado no que é utilizado no
+              <b>Portal do Professor</b>, para indicar como podem ser
+              organizados um plano de aula com seus componentes.
             </div>
           </div>
-          <div class="column is-3">
-            <figure>
-              <img src="~assets/images/carla-explicacao.png" />
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="block-bordered">
-        <div class="columns is-vcentered">
           <div class="column is-3">
             <figure>
               <img src="~assets/images/marcos-explicacao.png" />
             </figure>
           </div>
+        </div>
+      </div>
+
+      <br />
+      <center>
+        <a>PORTAL DO PROFESSOR</a>
+        <img src="~assets/images/unidade-III/portal-do-professor.png" />
+      </center>
+      Veja mais em:<b><a>http://portaldoprofessor.mec.gov.br/index.html</a></b>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
           <div class="column">
             <div class="dialog-box is-left">
-              O Planejamento deve ser uma atividade consciente que orienta
-              professores e estudantes sobre os caminhos a serem percorridos
-              durante os processos de ensino e de aprendizagem.
+              É importante destacar que o plano de aula não deve ser um simples
+              preenchimento de formulário.
             </div>
           </div>
         </div>
       </div>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              O planejamento deve ser uma atividade consciente que orienta
+              professores e estudantes sobre os caminhos a serem percorridos
+              durante os processos de ensino e de aprendizagem.
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+
       <p>
         Vejamos, agora, os principais componentes de uma plano de aula.
       </p>
@@ -353,16 +392,38 @@
         Esses são alguns questionamentos que podem ajudá-los a compreender o
         processo de avaliação da sua aula e da aprendizagem da turma.
       </p>
-      <p>
-        Personagem Mulher: Estamos chegando ao final deste bloco temático,
-        esperamos que vocês tenham apreciado as características de um plano de
-        aula alinhados aos elementos da BNCC.
-      </p>
-      <p>
-        Personagens Homem: No próximo bloco, vamos mostrar duas sugestões de
-        planos de aula com suporte de RED: um de Língua Portuguesa e outro de
-        Matemática.
-      </p>
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Estamos chegando ao final deste bloco temático, esperamos que
+              vocês tenham apreciado as características de um plano de aula
+              alinhados aos elementos da BNCC.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              No próximo bloco, vamos mostrar duas sugestões de planos de aula
+              com suporte de RED: um de Língua Portuguesa e outro de Matemática.
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
     </article>
   </mide-aulas-container>
 </template>
