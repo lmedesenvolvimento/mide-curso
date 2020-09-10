@@ -5,7 +5,16 @@ const router = {
   mode: 'hash'
 }
 
-router.base = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/mide-curso/' : ''
+switch (process.env.DEPLOY_ENV) {
+  case 'GH_PAGES':
+    router.base = '/mide-curso/'
+    break
+  case 'MEC':
+    router.base = './'
+    break
+  default:
+    router.base = ''
+}
 
 export default {
   mode: 'spa',
@@ -23,7 +32,14 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href:
+          'http://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css'
+      }
+    ],
     script: [
       {
         src:
@@ -117,12 +133,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
-      if (!ctx.isDev) {
-        // relative links, please.
-        config.output.publicPath = './_nuxt/'
-      }
-      return config
-    }
+    extend(config, ctx) {}
   }
 }
