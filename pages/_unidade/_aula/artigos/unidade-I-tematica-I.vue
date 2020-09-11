@@ -263,6 +263,21 @@
                     </span>
                     palavras!
                   </strong>
+
+                  <strong
+                    v-else-if="isIncluded('luta-de-classe') && totalCorrect"
+                  >
+                    Muito bem, mas fique atento!<br />
+                    Você
+                    <span class="has-text-success">
+                      acertou {{ totalCorrect }}
+                    </span>
+                    {{ totalCorrect === 1 ? 'palavra' : 'palavras' }} e
+                    <span class="has-text-danger">
+                      errou 1
+                    </span>
+                    palavra!
+                  </strong>
                   <strong v-else>
                     Que pena!<br />
                     Você não acertou
@@ -270,6 +285,7 @@
                       todas as palavras!
                     </span>
                   </strong>
+
                   <p v-if="!isIncluded('luta-de-classe') && totalCorrect">
                     O movimento não era contra a luta de classes, mas também
                     esse tema não era pauta do movimento. Ele foi formado por

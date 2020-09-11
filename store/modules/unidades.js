@@ -27,7 +27,7 @@ const mutations = {
     const unidadeIndex = state.data.findIndex(
       (u) => u?.id === state.current?.id
     )
-    if (unidadeIndex) {
+    if (unidadeIndex > 0) {
       state.data[unidadeIndex].completed = true
     }
   }
