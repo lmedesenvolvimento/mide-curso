@@ -1,6 +1,6 @@
 <template>
   <div class="mide-lesson card">
-    <div class="card-image">
+    <div class="card-image" :style="{ 'background-image': `url('${image}')` }">
       <figure class="mide-lesson-image"></figure>
       <div class="header">
         <h3>{{ getTitle }}</h3>
@@ -30,6 +30,10 @@ export default {
     description: {
       type: String,
       default: null
+    },
+    image: {
+      type: String,
+      default: require('@/assets/images/bannerunit.png')
     }
   },
   computed: {
@@ -85,8 +89,8 @@ export default {
     max-width: $tablet;
   }
   .card-image {
-    background: transparent url('~assets/images/bannerunit.png') 0% 0% no-repeat
-      padding-box;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
     background-size: cover;
     border-radius: 25px 25px 0px 0px;
     height: $lesson-card-height;
