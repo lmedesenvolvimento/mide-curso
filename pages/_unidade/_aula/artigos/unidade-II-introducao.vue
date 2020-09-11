@@ -14,7 +14,7 @@
           Nesta unidade, teremos duas temáticas.
         </p>
         <p>
-          Na <b>temática</b> I, discutiremos o uso de Recursos Educacionais
+          Na <b>temática</b> 1, discutiremos o uso de Recursos Educacionais
           Digitais (RED) no ensino de Língua Portuguesa e de Matemática. Os
           objetivos desta temática são:
         </p>
@@ -30,7 +30,7 @@
         </ol>
         <br />
         <p>
-          Na <b>temática II</b>, apresentaremos recursos disponíveis na
+          Na <b>temática 2</b>, apresentaremos recursos disponíveis na
           Plataforma Integrada de Recursos Educacionais Digitais do Ministério
           da Educação (MEC). Os objetivos desta temática são:
         </p>

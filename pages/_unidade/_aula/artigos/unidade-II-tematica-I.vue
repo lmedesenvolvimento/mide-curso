@@ -14,17 +14,17 @@
       <hr />
       <div class="block-bordered">
         <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-unidade-2.png" />
+            </figure>
+          </div>
           <div class="column">
             <div class="dialog-box is-right">
               Você sabia que as <b>tecnologias</b> disponíveis em cada época
               <b>transformaram</b> radicalmente as formas de
               <b>ensinar e aprender</b>?
             </div>
-          </div>
-          <div class="column is-3">
-            <figure>
-              <img src="~assets/images/marcos-unidade-2.png" />
-            </figure>
           </div>
         </div>
       </div>
@@ -249,9 +249,11 @@
         </div>
       </div>
 
-      <div class="classificacao">
-        Conforme CIEB (2017), esses recursos podem:
+      <div class="fundo">
         <section>
+          <h6 class="title is-6">
+            Conforme CIEB (2017), esses recursos podem:
+          </h6>
           <b-collapse
             v-for="(collapse, index) of collapses"
             :key="index"
@@ -393,6 +395,7 @@
           </p>
 
           <center>
+            <img src="~assets/images/unidade-II/imagem-audio.png" />
             <p>
               Fonte: Histórias Infantis, Contos e Fábulas para Crianças <br />
               Recursos disponíveis em: Histórias Infantis em Áudio
@@ -421,6 +424,7 @@
             mensagem de parabéns.
           </p>
           <center>
+            <img src="~assets/images/unidade-II/imagem-jogo.png" />
             <p>
               Fonte: Iguinho <br />
               Disponível em https://iguinho.com.br/jogo-mapa-brasil.html
@@ -442,167 +446,152 @@
           </div>
         </div>
       </div>
-      <div class="block-bordered">
-        <div class="columns is-vcentered">
-          <div class="column">
-            <div class="dialog-box is-right">
-              Indique as características de cada um dos RED abaixo.
-            </div>
-          </div>
-          <div class="column is-3">
-            <figure>
-              <img src="~assets/images/marcos-explicacao.png" />
-            </figure>
-          </div>
-        </div>
-      </div>
-      <b>INDIQUE AS CARACTERÍSTICAS DE CADA RED ABAIXO:</b>
+      <center>
+        <b>INDIQUE AS CARACTERÍSTICAS DE CADA RED ABAIXO:</b>
+      </center>
       <mide-tabs>
         <b-tab-item label="1º RED">
-          <center><img src="~assets/images/imagem-primeiro-red.png" /></center>
-
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Animação, porque com ele fui capaz de compreender sobre um
-            determinado fato a partir de uma sequência de ações.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Simulação, porque com ele fui capaz de compreender situações da vida
-            real por meio da manipulação de variáveis disponíveis.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Tutorial, porque fui capaz de entender o passo a passo das ações que
-            preciso executar, sem me preocupar com o formato dos recursos.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Áudio, porque fui capaz de entender, sem nenhum estímulo visual e
-            somente com o auxílio sonoro, informações de cunho literário ou
-            jornalístico.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Jogo, porque fui capaz de observar o uso de regras, estratégias de
-            estímulos ou elementos motivacionais.
-          </label>
+          <challenge
+            name="challege-1"
+            :options="challenge1"
+            correct="1"
+            :hide-feedback="true"
+          >
+            <template slot="question">
+              <center>
+                <img src="~assets/images/unidade-II/imagem-primeiro-red.png" />
+              </center>
+            </template>
+            <template #option="{option, model, setModel, tries, valid}">
+              <mide-radio
+                name="challege-1"
+                :input="model"
+                :value="option"
+                :valid="() => valid && model.split(',').includes(option.value)"
+                :disabled="
+                  () => valid || tries.some((t) => t.includes(option.value))
+                "
+                @input="() => setModel(option)"
+              >
+                {{ option.text }}
+              </mide-radio>
+            </template>
+          </challenge>
         </b-tab-item>
-
         <b-tab-item label="2º RED">
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Animação, porque com ele fui capaz de compreender sobre um
-            determinado fato a partir de uma sequência de ações.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Simulação, porque com ele fui capaz de compreender situações da vida
-            real por meio da manipulação de variáveis disponíveis.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Tutorial, porque fui capaz de entender o passo a passo das ações que
-            preciso executar, sem me preocupar com o formato dos recursos.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Áudio, porque fui capaz de entender, sem nenhum estímulo visual e
-            somente com o auxílio sonoro, informações de cunho literário ou
-            jornalístico.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Jogo, porque fui capaz de observar o uso de regras, estratégias de
-            estímulos ou elementos motivacionais.
-          </label>
+          <challenge
+            name="challege-2"
+            :options="challenge2"
+            correct="2"
+            :hide-feedback="true"
+          >
+            <template slot="question">
+              <center>
+                <img src="~assets/images/unidade-II/imagem-segundo-red.png" />
+              </center>
+            </template>
+            <template #option="{option, model, setModel, tries, valid}">
+              <mide-radio
+                name="challege-2"
+                :input="model"
+                :value="option"
+                :valid="() => valid && model.split(',').includes(option.value)"
+                :disabled="
+                  () => valid || tries.some((t) => t.includes(option.value))
+                "
+                @input="() => setModel(option)"
+              >
+                {{ option.text }}
+              </mide-radio>
+            </template>
+          </challenge>
         </b-tab-item>
 
         <b-tab-item label="3º RED">
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Animação, porque com ele fui capaz de compreender sobre um
-            determinado fato a partir de uma sequência de ações.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Simulação, porque com ele fui capaz de compreender situações da vida
-            real por meio da manipulação de variáveis disponíveis.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Tutorial, porque fui capaz de entender o passo a passo das ações que
-            preciso executar, sem me preocupar com o formato dos recursos.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Áudio, porque fui capaz de entender, sem nenhum estímulo visual e
-            somente com o auxílio sonoro, informações de cunho literário ou
-            jornalístico.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Jogo, porque fui capaz de observar o uso de regras, estratégias de
-            estímulos ou elementos motivacionais.
-          </label>
+          <challenge
+            name="challege-3"
+            :options="challenge3"
+            correct="3"
+            :hide-feedback="true"
+          >
+            <template slot="question">
+              <center>
+                <img src="~assets/images/unidade-II/imagem-terceiro-red.png" />
+              </center>
+            </template>
+            <template #option="{option, model, setModel, tries, valid}">
+              <mide-radio
+                name="challege-3"
+                :input="model"
+                :value="option"
+                :valid="() => valid && model.split(',').includes(option.value)"
+                :disabled="
+                  () => valid || tries.some((t) => t.includes(option.value))
+                "
+                @input="() => setModel(option)"
+              >
+                {{ option.text }}
+              </mide-radio>
+            </template>
+          </challenge>
         </b-tab-item>
 
         <b-tab-item label="4º RED">
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Animação, porque com ele fui capaz de compreender sobre um
-            determinado fato a partir de uma sequência de ações.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Simulação, porque com ele fui capaz de compreender situações da vida
-            real por meio da manipulação de variáveis disponíveis.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Tutorial, porque fui capaz de entender o passo a passo das ações que
-            preciso executar, sem me preocupar com o formato dos recursos.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Áudio, porque fui capaz de entender, sem nenhum estímulo visual e
-            somente com o auxílio sonoro, informações de cunho literário ou
-            jornalístico.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Jogo, porque fui capaz de observar o uso de regras, estratégias de
-            estímulos ou elementos motivacionais.
-          </label>
+          <challenge
+            name="challege-4"
+            :options="challenge4"
+            correct="5"
+            :hide-feedback="true"
+          >
+            <template slot="question">
+              <center>
+                <img src="~assets/images/unidade-II/imagem-quarto-red.png" />
+              </center>
+            </template>
+            <template #option="{option, model, setModel, tries, valid}">
+              <mide-radio
+                name="challege-4"
+                :input="model"
+                :value="option"
+                :valid="() => valid && model.split(',').includes(option.value)"
+                :disabled="
+                  () => valid || tries.some((t) => t.includes(option.value))
+                "
+                @input="() => setModel(option)"
+              >
+                {{ option.text }}
+              </mide-radio>
+            </template>
+          </challenge>
         </b-tab-item>
 
         <b-tab-item label="5º RED">
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Animação, porque com ele fui capaz de compreender sobre um
-            determinado fato a partir de uma sequência de ações.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Simulação, porque com ele fui capaz de compreender situações da vida
-            real por meio da manipulação de variáveis disponíveis.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Tutorial, porque fui capaz de entender o passo a passo das ações que
-            preciso executar, sem me preocupar com o formato dos recursos.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Áudio, porque fui capaz de entender, sem nenhum estímulo visual e
-            somente com o auxílio sonoro, informações de cunho literário ou
-            jornalístico.
-          </label>
-          <label class="radio">
-            <input type="radio" name="answer" :disabled="disabled" />
-            Jogo, porque fui capaz de observar o uso de regras, estratégias de
-            estímulos ou elementos motivacionais.
-          </label>
+          <challenge
+            name="challege-5"
+            :options="challenge4"
+            correct="3"
+            :hide-feedback="true"
+          >
+            <template slot="question">
+              <center>
+                <img src="~assets/images/unidade-II/imagem-quinto-red.png" />
+              </center>
+            </template>
+            <template #option="{option, model, setModel, tries, valid}">
+              <mide-radio
+                name="challege-5"
+                :input="model"
+                :value="option"
+                :valid="() => valid && model.split(',').includes(option.value)"
+                :disabled="
+                  () => valid || tries.some((t) => t.includes(option.value))
+                "
+                @input="() => setModel(option)"
+              >
+                {{ option.text }}
+              </mide-radio>
+            </template>
+          </challenge>
         </b-tab-item>
       </mide-tabs>
       <hr />
@@ -631,7 +620,7 @@
         <b-tab-item label="1º REPOSITÓRIO">
           <center>
             <h6 class="title is-5">PORTAL DO PROFESSOR</h6>
-            <img src="~assets/images/imagem-1-repositorio.png" />
+            <img src="~assets/images/unidade-II/imagem-1-repositorio.png" />
             <p>Fonte: http://portaldoprofessor.mec.gov.br/index.html</p>
           </center>
 
@@ -648,6 +637,9 @@
         <b-tab-item label="2º REPOSITÓRIO">
           <center>
             <h6 class="title is-5">PORTAL DOMÍNIO PÚBLICO</h6>
+            <img
+              src="~assets/images/unidade-II/imagem-segundo-repositorio.png"
+            />
             <p>Fonte: http://portal.mec.gov.br/dominio-publico</p>
           </center>
           <p>
@@ -663,6 +655,7 @@
         <b-tab-item label="3º REPOSITÓRIO">
           <center>
             <h6 class="title is-5">TV ESCOLA</h6>
+            <img src="~assets/images/unidade-II/imagem-3-repositorio.png" />
             <p>Fonte: https://tvescola.org.br/</p>
           </center>
           <p>
@@ -699,6 +692,7 @@
             <h6 class="title is-5">
               BANCO INTERNACIONAL DE OBJETOS EDUCACIONAIS (BIOE)
             </h6>
+            <img src="~assets/images/unidade-II/imagem-4-repositorio.png" />
             <p>Fonte: http://objetoseducacionais2.mec.gov.br/</p>
           </center>
           <p>
@@ -827,6 +821,141 @@ export default {
         {
           title: 'Abordar diferentes temáticas ou disciplinas.'
         }
+      ],
+      challenge1: [
+        {
+          text:
+            'Animação, porque com ele fui capaz de compreender sobre um determinado fato a partir de uma sequência de ações.',
+          value: '1'
+        },
+        {
+          text:
+            'Simulação, porque com ele fui capaz de compreender situações da vida real por meio da manipulação de variáveis disponíveis.',
+          value: '2'
+        },
+        {
+          text:
+            'Tutorial, porque fui capaz de entender o passo a passo das ações que preciso executar, sem me preocupar com o formato dos recursos.',
+          value: '3'
+        },
+        {
+          text:
+            'Áudio, porque fui capaz de entender, sem nenhum estímulo visual e somente com o auxílio sonoro, informações de cunho literário ou jornalístico.',
+          value: '4'
+        },
+        {
+          text:
+            'Jogo, porque fui capaz de observar o uso de regras, estratégias de estímulos ou elementos motivacionais.',
+          value: '5'
+        }
+      ],
+      challenge2: [
+        {
+          text:
+            'Animação, porque com ele fui capaz de compreender sobre um determinado fato a partir de uma sequência de ações.',
+          value: '1'
+        },
+        {
+          text:
+            'Simulação, porque com ele fui capaz de compreender situações da vida real por meio da manipulação de variáveis disponíveis.',
+          value: '2'
+        },
+        {
+          text:
+            'Tutorial, porque fui capaz de entender o passo a passo das ações que preciso executar, sem me preocupar com o formato dos recursos.',
+          value: '3'
+        },
+        {
+          text:
+            'Áudio, porque fui capaz de entender, sem nenhum estímulo visual e somente com o auxílio sonoro, informações de cunho literário ou            jornalístico.',
+          value: '4'
+        },
+        {
+          text:
+            'Jogo, porque fui capaz de observar o uso de regras, estratégias de estímulos ou elementos motivacionais.',
+          value: '5'
+        }
+      ],
+      challenge3: [
+        {
+          text:
+            'Animação, porque com ele fui capaz de compreender sobre um determinado fato a partir de uma sequência de ações.',
+          value: '1'
+        },
+        {
+          text:
+            'Simulação, porque com ele fui capaz de compreender situações da vida real por meio da manipulação de variáveis disponíveis.',
+          value: '2'
+        },
+        {
+          text:
+            'Tutorial, porque fui capaz de entender o passo a passo das ações que preciso executar, sem me preocupar com o formato dos recursos.',
+          value: '3'
+        },
+        {
+          text:
+            'Áudio, porque fui capaz de entender, sem nenhum estímulo visual e somente com o auxílio sonoro, informações de cunho literário ou            jornalístico.',
+          value: '4'
+        },
+        {
+          text:
+            'Jogo, porque fui capaz de observar o uso de regras, estratégias de estímulos ou elementos motivacionais.',
+          value: '5'
+        }
+      ],
+      challenge4: [
+        {
+          text:
+            'Animação, porque com ele fui capaz de compreender sobre um determinado fato a partir de uma sequência de ações.',
+          value: '1'
+        },
+        {
+          text:
+            'Simulação, porque com ele fui capaz de compreender situações da vida real por meio da manipulação de variáveis disponíveis.',
+          value: '2'
+        },
+        {
+          text:
+            'Tutorial, porque fui capaz de entender o passo a passo das ações que preciso executar, sem me preocupar com o formato dos recursos.',
+          value: '3'
+        },
+        {
+          text:
+            'Áudio, porque fui capaz de entender, sem nenhum estímulo visual e somente com o auxílio sonoro, informações de cunho literário ou            jornalístico.',
+          value: '4'
+        },
+        {
+          text:
+            'Jogo, porque fui capaz de observar o uso de regras, estratégias de estímulos ou elementos motivacionais.',
+          value: '5'
+        }
+      ],
+      challenge5: [
+        {
+          text:
+            'Animação, porque com ele fui capaz de compreender sobre um determinado fato a partir de uma sequência de ações.',
+          value: '1'
+        },
+        {
+          text:
+            'Simulação, porque com ele fui capaz de compreender situações da vida real por meio da manipulação de variáveis disponíveis.',
+          value: '2'
+        },
+        {
+          text:
+            'Tutorial, porque fui capaz de entender o passo a passo das ações que preciso executar, sem me preocupar com o formato dos recursos.',
+          value: '3'
+        },
+        {
+          text:
+            'Áudio, porque fui capaz de entender, sem nenhum estímulo visual e somente com o auxílio sonoro, informações de cunho literário ou            jornalístico.',
+          value: '4'
+        },
+        {
+          text:
+            'Jogo, porque fui capaz de observar o uso de regras, estratégias de estímulos ou elementos motivacionais.',
+          value: '5'
+        }
       ]
     }
   }
@@ -862,6 +991,29 @@ export default {
   }
   .icones {
     float: left;
+  }
+  .fundo {
+    background-color: #e8e8e8;
+    width: 105%;
+    margin-left: -20px;
+
+    section {
+      margin-bottom: 50px;
+      padding: 50px;
+      .card {
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #3c80d116;
+        .card-header {
+          margin-top: 20px;
+        }
+        .card-header-title {
+          font: Bold 14px avenir-next-lt-pro-bold;
+        }
+        .card-content {
+          text-indent: 50px;
+        }
+      }
+    }
   }
 }
 </style>
