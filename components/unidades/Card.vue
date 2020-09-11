@@ -16,8 +16,8 @@
         <div class="card-content has-text-left">
           <slot name="description" /> {{ unidade.descricao }}
           <div class="mide-progress">
-            30%
-            <progress class="progress is-info" value="30" max="100"></progress>
+            0%
+            <progress class="progress is-info" value="0" max="100"></progress>
           </div>
         </div>
       </div>
