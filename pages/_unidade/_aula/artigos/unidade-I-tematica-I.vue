@@ -245,7 +245,10 @@
             <div class="container is-fluid">
               <div class="columns">
                 <div class="column is-3">
-                  <figure>
+                  <figure v-if="!isIncluded('luta-de-classe') && totalCorrect">
+                    <img src="~assets/images/carla-explicacao.png" />
+                  </figure>
+                  <figure v-else>
                     <img
                       src="~assets/images/unidade-I/feedback-marcos-errou-todas.png"
                     />
@@ -262,12 +265,12 @@
                   </strong>
                   <strong v-else>
                     Que pena!<br />
-                    Você
+                    Você não acertou
                     <span class="has-text-danger">
                       todas as palavras!
                     </span>
                   </strong>
-                  <p>
+                  <p v-if="!isIncluded('luta-de-classe') && totalCorrect">
                     O movimento não era contra a luta de classes, mas também
                     esse tema não era pauta do movimento. Ele foi formado por
                     grupos de jovens brancos das camadas médias urbanas com os
@@ -275,6 +278,14 @@
                     discussões principalmente sobre os valores tradicionais das
                     famílias e reivindicavam a necessidade de uma transformação
                     das relações sociais.
+                  </p>
+                  <p v-else>
+                    O movimento era contra o capitalismo, o consumismo, as
+                    ditaduras e, principalmente, eram preocupados com a
+                    possibilidade de uma nova guerra. Esses jovens traziam as
+                    discussões principalmente sobre a os valores tradicionais
+                    das famílias e reivindicavam a necessidade de uma
+                    transformação das relações sociais.
                   </p>
                 </div>
               </div>
