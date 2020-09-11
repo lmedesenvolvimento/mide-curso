@@ -39,7 +39,7 @@
             </div>
 
             <mide-unidade-card
-              v-for="(unidade, index) in $manifest.unidades"
+              v-for="(unidade, index) in unidades"
               :key="index"
               :unidade="unidade"
             />
@@ -49,6 +49,15 @@
     </div>
   </section>
 </template>
+
+<script>
+import { mapState } from 'vuex'
+export default {
+  computed: mapState({
+    unidades: ({ unidades }) => unidades.data
+  })
+}
+</script>
 
 <style lang="scss">
 .mide-home-page {

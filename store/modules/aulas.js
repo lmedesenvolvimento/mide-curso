@@ -20,9 +20,10 @@ const state = {
 }
 
 const actions = {
-  setCurrent({ commit, getters }, payload) {
+  setCurrent({ commit, dispatch }, payload) {
     commit('SET_CURRENT', payload)
     commit('COMPLETE_AULA')
+    dispatch('calcPercentage')
 
     const aulasCompleted = this.getters.getCurrentAulas.every(
       ({ completed }) => completed
@@ -31,6 +32,23 @@ const actions = {
     if (aulasCompleted) {
       commit('unidades/COMPLETE_UNIDADE', null, { root: true })
     }
+  },
+  calcPercentage({ state, commit }) {
+    const aula = state.data.find((a) => a.id === state.current.id)
+    const aulasByUnidade = state.data.filter((a) => {
+      return a.unidadeId === aula.unidadeId
+    })
+
+    const aulasCompleted = aulasByUnidade.filter((a) => a.completed)
+    const percentage = Math.round(
+      (aulasCompleted.length / aulasByUnidade.length) * 100
+    )
+
+    commit(
+      'unidades/UPDATE_PERCENTAGE',
+      { percentage, unidadeId: aula.unidadeId },
+      { root: true }
+    )
   }
 }
 

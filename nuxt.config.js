@@ -64,6 +64,7 @@ export default {
    */
   plugins: [
     '~plugins/components.js',
+    '~plugins/vuex-persistedstate.js',
     '~plugins/plyr.js',
     '~plugins/fancybox.js'
   ],
