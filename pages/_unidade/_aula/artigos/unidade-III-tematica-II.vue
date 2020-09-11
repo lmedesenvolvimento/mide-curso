@@ -1,38 +1,67 @@
 <template>
   <mide-aulas-container>
     <div id="unidade-III-tematica-II">
-      <div class="columns">
-        <div class="column is-4">
-          <img src="~assets/images/unidade-I/marcos-unidade-1.png" />
-        </div>
-
-        <div class="column fala-marcos">
-          Neste bloco temático, vamos ver exemplos de planos de aula usando um
-          RED de Língua Portuguesa e outro de Matemática
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="dialog-box is-right">
+              Neste bloco temático, vamos ver exemplos de planos de aula usando
+              um RED de Língua Portuguesa e outro de Matemática
+            </div>
+          </div>
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/marcos-explicacao.png" />
+            </figure>
+          </div>
         </div>
       </div>
-      <div class="columns">
-        <div class="column is-7 fala-carla">
-          Qual plano você quer conhecer primeiro?
-        </div>
 
-        <div class="column is-one-third">
-          <img src="~assets/images/carla-explicacao.png" />
+      <div class="block-bordered">
+        <div class="columns is-vcentered">
+          <div class="column is-3">
+            <figure>
+              <img src="~assets/images/carla-explicacao.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <div class="dialog-box is-left">
+              Qual plano você quer conhecer primeiro?
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <p>
       PORTUGUÊS
     </p>
-    <p>
-      Personagens juntos: Olá, vamos conhecer agora uma proposta de plano usando
-      o RED Revista Digital da Criança. Conforme vimos na Unidade 2, este
-      recurso tem como objetivo trabalhar a leitura e a interpretação textual,
-      por meio de diferentes gêneros discursivos, dentre eles o editorial, o
-      infográfico, a entrevista e a carta do leitor. É muito interessante que
-      você possa conhecer bem o recurso antes de ler o plano. Para isso você
-      pode baixá-lo aqui.
-    </p>
+
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/carla-explicacao.png" />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="dialog-box">
+            Olá, vamos conhecer agora uma <b>proposta de plano</b> usando o RED
+            <b>Revista Digital da Criança</b>. Conforme vimos na Unidade 2, este
+            recurso tem como objetivo trabalhar a leitura e a interpretação
+            textual, por meio de diferentes gêneros discursivos, dentre eles o
+            editorial, o infográfico, a entrevista e a carta do leitor. É muito
+            interessante que você possa conhecer bem o recurso antes de ler o
+            plano. Para isso você pode baixá-lo <b><a>aqui</a></b
+            >.
+          </div>
+        </div>
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/marcos-explicacao.png" />
+          </figure>
+        </div>
+      </div>
+    </div>
     <p>
       1. ESTRUTURA CURRICULAR <br />
       1.1 Modalidade / nível de ensino: <br />
@@ -330,15 +359,32 @@
     <p>
       MATEMÁTICA
     </p>
-    <p>
-      Personagens juntos: Olá, vamos conhecer uma proposta de plano usando o RED
-      É o Bicho 2.0. Conforme vimos na Unidade 2, O REG possui 4 atividades. Em
-      nosso plano, vamos usar somente a atividade do Peixe-Boi que tem por
-      objetivo possibilitar que os(as) alunos(as) desenvolvam o pensamento
-      numérico e a habilidade de quantificar objetos e interpretar informações
-      através da quantificação. É muito importante que você possa conhecer bem o
-      recurso antes de ler o plano. Para isso, basta acessá-lo aqui.
-    </p>
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/carla-explicacao.png" />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="dialog-box">
+            Olá, vamos conhecer uma proposta de plano usando o RED É o Bicho
+            2.0. Conforme vimos na Unidade 2, O REG possui 4 atividades. Em
+            nosso plano, vamos usar somente a atividade do Peixe-Boi que tem por
+            objetivo possibilitar que os(as) alunos(as) desenvolvam o pensamento
+            numérico e a habilidade de quantificar objetos e interpretar
+            informações através da quantificação. É muito importante que você
+            possa conhecer bem o recurso antes de ler o plano. Para isso, basta
+            acessá-lo aqui.
+          </div>
+        </div>
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/marcos-explicacao.png" />
+          </figure>
+        </div>
+      </div>
+    </div>
     <p>
       1. ESTRUTURA CURRICULAR <br />
       1.1 Modalidade / nível de ensino: <br />
@@ -580,14 +626,36 @@
       dificuldades e, a partir disso, propor meios para que consigam superar as
       dificuldades na construção desse conhecimento.
     </p>
-    <p>
-      Personagens Homem: Apresentamos dois exemplos de plano de aula com suporte
-      de recursos educacionais digitais.
-    </p>
-    <p>
-      Personagem Mulher: No último bloco do nosso curso, você vai realizar o seu
-      planejamento de uma aula uso de RED. Vamos lá?
-    </p>
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column">
+          <div class="dialog-box is-right">
+            Apresentamos dois exemplos de plano de aula com suporte de recursos
+            educacionais digitais.
+          </div>
+        </div>
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/marcos-explicacao.png" />
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/carla-explicacao.png" />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="dialog-box is-left">
+            No último bloco do nosso curso, você vai realizar o seu planejamento
+            de uma aula uso de RED. Vamos lá?
+          </div>
+        </div>
+      </div>
+    </div>
     <p>
       1. ESTRUTURA CURRICULAR <br />
       1.1 Modalidade / nível de ensino: <br />
@@ -626,30 +694,88 @@
       2.5 Avaliação<br />
       [Entre 1000 e 5000 caracteres]
     </p>
-    <p>
-      Personagem Mulher: Parabéns pelo preenchimento do Plano.
-    </p>
-    <p>
-      Personagens Homem: Você pode imprimir ou salvar seu plano clicando no
-      botão imprimir.
-    </p>
-    <p>
-      Personagem mulher: Nessa unidade, conhecemos um modelo de planejamento de
-      aula com suporte de RED.
-    </p>
-    <p>
-      Personagem Homem: Vimos dois exemplos de planos, sendo um com de Língua
-      Portuguesa e outro de Matemática com RED disponíveis na Plataforma
-      RED/MEC.
-    </p>
-    <p>
-      Personagem Homem: Por último, fizemos nosso próprio planejamento.
-    </p>
-    <p>
-      Dois personagens juntos. Chegamos assim ao final do nosso curso. Esperamos
-      que você tenha aprendido bastante e possa colocar em prática tudo que
-      estudou.
-    </p>
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/carla-explicacao.png" />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="dialog-box is-left">
+            Parabéns pelo preenchimento do Plano.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column">
+          <div class="dialog-box is-right">
+            Você pode imprimir ou salvar seu plano clicando no botão imprimir.
+          </div>
+        </div>
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/marcos-explicacao.png" />
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/carla-explicacao.png" />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="dialog-box is-left">
+            Nessa unidade, conhecemos um modelo de planejamento de aula com
+            suporte de RED.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column">
+          <div class="dialog-box is-right">
+            Vimos dois exemplos de planos, sendo um com de Língua Portuguesa e
+            outro de Matemática com RED disponíveis na Plataforma RED/MEC. Por
+            último, fizemos nosso próprio planejamento.
+          </div>
+        </div>
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/marcos-explicacao.png" />
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="block-bordered">
+      <div class="columns is-vcentered">
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/carla-explicacao.png" />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="dialog-box">
+            Chegamos assim ao final do nosso curso. Esperamos que você tenha
+            aprendido bastante e possa colocar em prática tudo que estudou.
+          </div>
+        </div>
+        <div class="column is-3">
+          <figure>
+            <img src="~assets/images/marcos-explicacao.png" />
+          </figure>
+        </div>
+      </div>
+    </div>
   </mide-aulas-container>
 </template>
 
