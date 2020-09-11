@@ -1,7 +1,10 @@
 <template>
   <div id="aula">
     <div class="mide-lesson-container is-full">
-      <mide-aulas-container>
+      <mide-aulas-container
+        title="Título"
+        description="Dolor tempor dolor dolor."
+      >
         <article id="componentes">
           <div class="title">Tipográfia</div>
           <p>

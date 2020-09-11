@@ -3,8 +3,8 @@
     <div class="card-image">
       <figure class="mide-lesson-image"></figure>
       <div class="header">
-        <h3>{{ unidade && unidade.titulo }}</h3>
-        <h1>{{ unidade && unidade.descricao }}</h1>
+        <h3>{{ getTitle }}</h3>
+        <h1>{{ getDescription }}</h1>
       </div>
     </div>
     <div class="card-content">
@@ -22,7 +22,23 @@
 <script>
 import { mapGetters, mapState } from 'vuex'
 export default {
+  props: {
+    title: {
+      type: String,
+      default: null
+    },
+    description: {
+      type: String,
+      default: null
+    }
+  },
   computed: {
+    getTitle() {
+      return this.title || this.unidade?.titulo
+    },
+    getDescription() {
+      return this.description || this.unidade?.descricao
+    },
     nextUrl() {
       if (this.unidade) {
         if (this.next) {
