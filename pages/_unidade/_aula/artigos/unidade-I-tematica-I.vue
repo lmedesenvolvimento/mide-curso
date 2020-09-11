@@ -246,7 +246,9 @@
               <div class="columns">
                 <div class="column is-3">
                   <figure>
-                    <img src="~assets/images/marcos-explicacao.png" />
+                    <img
+                      src="~assets/images/unidade-I/feedback-marcos-errou-todas.png"
+                    />
                   </figure>
                 </div>
                 <div class="column">
@@ -262,9 +264,8 @@
                     Que pena!<br />
                     Você
                     <span class="has-text-danger">
-                      não acertou
+                      todas as palavras!
                     </span>
-                    tente novamente!
                   </strong>
                   <p>
                     O movimento não era contra a luta de classes, mas também
@@ -370,7 +371,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-1.png"
+                src="~assets/images/unidade-I/1.png"
                 width="160"
                 class="challenge-images"
               />
@@ -401,7 +402,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-2.png"
+                src="~assets/images/unidade-I/2.png"
                 width="160"
                 class="challenge-images"
               />
@@ -432,7 +433,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-3.png"
+                src="~assets/images/unidade-I/3.png"
                 width="160"
                 class="challenge-images"
               />
@@ -460,7 +461,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-4.png"
+                src="~assets/images/unidade-I/4.png"
                 width="160"
                 class="challenge-images"
               />
@@ -489,7 +490,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-5.png"
+                src="~assets/images/unidade-I/5.png"
                 width="160"
                 class="challenge-images"
               />
@@ -524,7 +525,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-9.png"
+                src="~assets/images/unidade-I/6.png"
                 width="160"
                 class="challenge-images"
               />
@@ -559,7 +560,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-6.png"
+                src="~assets/images/unidade-I/7.png"
                 width="160"
                 class="challenge-images"
               />
@@ -587,7 +588,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-10.png"
+                src="~assets/images/unidade-I/8.png"
                 width="160"
                 class="challenge-images"
               />
@@ -613,7 +614,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-7.png"
+                src="~assets/images/unidade-I/desafio-cibercultura-imagem-9.png"
                 width="160"
                 class="challenge-images"
               />
@@ -645,7 +646,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-11.png"
+                src="~assets/images/unidade-I/10.png"
                 width="160"
                 class="challenge-images"
               />
@@ -675,7 +676,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-8.png"
+                src="~assets/images/unidade-I/11.png"
                 width="160"
                 class="challenge-images"
               />
@@ -703,7 +704,7 @@
           <div class="columns is-vcentered">
             <div class="column is-3">
               <img
-                src="~assets/images/unidade-I/desafio-cibercultura-imagem-12.png"
+                src="~assets/images/unidade-I/12.png"
                 width="160"
                 class="challenge-images"
               />

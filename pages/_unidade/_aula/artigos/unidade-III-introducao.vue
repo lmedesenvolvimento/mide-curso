@@ -26,7 +26,7 @@
         </p>
         <p>Portanto, os objetivos da <b>Temática II</b> são:</p>
         <li>
-          onhecer planos de aula usando um RED de Língua Portuguesa e outro de
+          Conhecer planos de aula usando um RED de Língua Portuguesa e outro de
           Matemática.
         </li>
         <li>Planejar uma aula com suporte de um RED.</li>
