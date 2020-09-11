@@ -54,8 +54,10 @@
           v-if="valid"
           name="success"
           :valid="valid"
+          :model="selectedOption"
           :multiple="multiple"
           :totalCorrect="totalCorrect"
+          :isIncluded="isSelected"
         >
           <strong class="has-text-success">Muito bem!</strong> <br />
           Respota respondida corretamente.
@@ -64,8 +66,10 @@
           v-else-if="!valid"
           name="error"
           :valid="valid"
+          :model="selectedOption"
           :multiple="multiple"
           :totalCorrect="totalCorrect"
+          :isIncluded="isSelected"
         >
           <strong class="has-text-danger">Que pena!</strong> <br />
           Tente novamente.
@@ -145,17 +149,24 @@ export default {
   },
   methods: {
     isSelected(option) {
+      const value = typeof option === 'object' ? option.value : option
+
       if (!this.selectedOption) return false
 
       if (this.multiple) {
         const options = this.selectedOption.split(',')
-        return options.includes(option.value)
+        return options.includes(value)
       }
 
-      return this.selectedOption === option.value
+      return this.selectedOption === value
     },
     select(option) {
       this.$nextTick(() => {
+        if (this.dirty) {
+          this.dirty = false
+          this.selectedOption = undefined
+        }
+
         if (this.multiple) {
           if (this.isSelected(option)) {
             const options = this.selectedOption.split(',')
@@ -186,7 +197,6 @@ export default {
 
       if (!this.valid) {
         this.tries.push(this.$incorrect.join(','))
-        this.selectedOption = undefined
       }
 
       this.dirty = true

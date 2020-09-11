@@ -220,8 +220,8 @@
                 </div>
                 <div class="column">
                   <p>
-                    <strong
-                      >Muito bem! <br />
+                    <strong>
+                      Muito bem! <br />
                       Você
                       <span class="has-text-success"
                         >Acertou {{ totalCorrect }}
@@ -241,7 +241,7 @@
               </div>
             </div>
           </template>
-          <template #error>
+          <template #error="{isIncluded, totalCorrect}">
             <div class="container is-fluid">
               <div class="columns">
                 <div class="column is-3">
@@ -250,8 +250,16 @@
                   </figure>
                 </div>
                 <div class="column">
-                  <strong
-                    >Que pena!<br />
+                  <strong v-if="!isIncluded('luta-de-classe') && totalCorrect">
+                    Muito bem! <br />
+                    Você
+                    <span class="has-text-success"
+                      >Acertou {{ totalCorrect }}
+                    </span>
+                    palavras!
+                  </strong>
+                  <strong v-else>
+                    Que pena!<br />
                     Você
                     <span class="has-text-danger">
                       não acertou
