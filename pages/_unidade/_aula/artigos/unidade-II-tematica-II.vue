@@ -4,7 +4,6 @@
       <h6 class="titulos">
         Os objetivos desta temática são:
       </h6>
-      Objetivos:
       <li>
         Apresentar os recursos educacionais digitais disponíveis na Plataforma
         Integrada de Recursos Educacionais Digitais do Ministério da Educação.
