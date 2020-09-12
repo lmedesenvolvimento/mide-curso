@@ -1,5 +1,5 @@
 <template>
-  <mide-aulas-container>
+  <mide-aulas-container description="Temática 1 - Cibercultura e a educação">
     <div id="unidade-I-tematica-I">
       <article>
         <h6 class="titulos">

@@ -1,5 +1,7 @@
 <template>
-  <mide-aulas-container>
+  <mide-aulas-container
+    description="Temática 1 - O USO DE RECURSOS EDUCACIONAIS DIGITAIS (RED) COMO FERRAMENTA NO ENSINO DE LÍNGUA PORTUGUESA E  MATEMÁTICA"
+  >
     <article id="unidade-II-tematica-I">
       <h6 class="titulos">Os objetivos desta temática são:</h6>
 

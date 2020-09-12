@@ -1,5 +1,5 @@
 <template>
-  <mide-aulas-container>
+  <mide-aulas-container description="Temática 2 - A cultura digital na BNCC">
     <div id="unidade-I-tematica-II">
       <article>
         <h6 class="titulos">

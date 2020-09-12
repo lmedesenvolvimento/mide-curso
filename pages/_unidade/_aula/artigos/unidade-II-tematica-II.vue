@@ -1,5 +1,7 @@
 <template>
-  <mide-aulas-container>
+  <mide-aulas-container
+    description="Temática 2 - RECURSOS NA PLATAFORMA INTEGRADA DE RECURSOS EDUCACIONAIS DIGITAIS"
+  >
     <div id="unidade-II-tematica-II">
       <h6 class="titulos">
         Os objetivos desta temática são:
@@ -40,13 +42,11 @@
           </div>
           <div class="column">
             <div class="dialog-box is-left">
-              Qual componente curricular você quer conhecer primeiro?
+              Vamos lá conhecer os componentes curricularres.
             </div>
           </div>
         </div>
       </div>
-      LINGUA PORTUGUESA OU MATEMÁTICA (botões)
-      <p>se portugues</p>
       <img src="~assets/images/capa-portugues.png" />
 
       <div class="title"><center>Língua Portuguesa</center></div>
@@ -178,10 +178,10 @@
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-1.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-1.png"
@@ -190,10 +190,10 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-2.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-2.png"
@@ -202,10 +202,10 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-3.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-3.png"
@@ -214,10 +214,10 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-4.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-4.png"
@@ -226,10 +226,10 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-5.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-5.png"
@@ -238,10 +238,10 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-6.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-6.png"
@@ -250,10 +250,10 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-7.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-7.png"
@@ -262,10 +262,10 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-8.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-8.png"
@@ -274,10 +274,10 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-9.png"
+                  data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-de-olho-na-lista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-de-olho-na-lista-9.png"
@@ -286,11 +286,31 @@
               </div>
             </div>
           </div>
-
-          <img src="~assets/images/unidade-II/tela-de-olho-na-lista-1.png" />
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <!-- <iframe
+            src="https://mide-de-olho-na-lista.netlify.app"
+            frameborder="0"
+            width="100%"
+            height="600px"
+            class="zoom"
+          ></iframe> -->
+          <a href="https://mide-de-olho-na-lista.netlify.app" target="_blank">
+            <img src="~assets/images/unidade-II/tela-de-olho-na-lista-1.png" />
+          </a>
           <p>
-            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-            https://plataformaintegrada.mec.gov.br/recurso?id=34570&name=De%20olho%20na%20lista
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=34570&name=De%20olho%20na%20lista"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=34570&name=De%20olho%20na%20lista
+            </a>
           </p>
         </b-tab-item>
 
@@ -2500,6 +2520,21 @@ export default {
 #unidade-II-tematica-II {
   h6 {
     color: #c0315f;
+  }
+  #frame {
+    -ms-zoom: 0.55;
+    -moz-transform: scale(0.55);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.55);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.55);
+    -webkit-transform-origin: 0 0;
+  }
+  .title {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
   }
   .titulos {
     text-transform: uppercase;
