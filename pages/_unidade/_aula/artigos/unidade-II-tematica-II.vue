@@ -143,7 +143,7 @@
                 atividades listadas na bncc
               </div>
               <b-collapse
-                v-for="(collapse, index) of collapses"
+                v-for="(collapse, index) of collapses_p1"
                 :key="index"
                 class="card"
                 animation="slide"
@@ -178,7 +178,9 @@
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-1.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-1.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -190,7 +192,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-2.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-2.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -202,7 +206,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-3.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-3.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -214,7 +220,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-4.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-4.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -226,7 +234,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-5.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-5.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -238,7 +248,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-6.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-6.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -250,7 +262,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-7.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-7.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -262,7 +276,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-8.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-8.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -274,7 +290,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="/_nuxt/assets/images/unidade-II/tela-de-olho-na-lista-9.png"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-de-olho-na-lista-9.png')
+                  "
                   data-fancybox="gallery-de-olho-na-lista"
                   title="Sample Text"
                   name="gallery-de-olho-na-lista"
@@ -401,7 +419,7 @@
           <div class="w-100 has-background-light">
             <section>
               <b-collapse
-                v-for="(collapse, index) of collapses"
+                v-for="(collapse, index) of collapses_p2"
                 :key="index"
                 class="card"
                 animation="slide"
@@ -436,10 +454,12 @@
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-qual-o-seu-pedido-1.png')
+                  "
+                  data-fancybox="gallery-pedido"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-pedido"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-qual-o-seu-pedido-1.png"
@@ -448,10 +468,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-qual-o-seu-pedido-2.png')
+                  "
+                  data-fancybox="gallery-pedido"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-pedido"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-qual-o-seu-pedido-2.png"
@@ -460,10 +482,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-qual-o-seu-pedido-3.png')
+                  "
+                  data-fancybox="gallery-pedido"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-pedido"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-qual-o-seu-pedido-3.png"
@@ -472,10 +496,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-qual-o-seu-pedido-4.png')
+                  "
+                  data-fancybox="gallery-pedido"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-pedido"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-qual-o-seu-pedido-4.png"
@@ -484,10 +510,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-qual-o-seu-pedido-5.png')
+                  "
+                  data-fancybox="gallery-pedido"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-pedido"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-qual-o-seu-pedido-5.png"
@@ -496,10 +524,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-qual-o-seu-pedido-6.png')
+                  "
+                  data-fancybox="gallery-pedido"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-pedido"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-qual-o-seu-pedido-6.png"
@@ -508,10 +538,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-qual-o-seu-pedido-7.png')
+                  "
+                  data-fancybox="gallery-pedido"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-pedido"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-qual-o-seu-pedido-7.png"
@@ -520,10 +552,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-qual-o-seu-pedido-8.png')
+                  "
+                  data-fancybox="gallery-pedido"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-pedido"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-qual-o-seu-pedido-8.png"
@@ -532,9 +566,28 @@
               </div>
             </div>
           </div>
-          <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-8.png" />
-          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-          https://plataformaintegrada.mec.gov.br/recurso?id=35899&name=Qual%20%C3%A9%20o%20
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a
+            href="https://mide-qual-e-o-seu-pedido.netlify.app"
+            target="_blank"
+          >
+            <img src="~assets/images/unidade-II/tela-qual-o-seu-pedido-8.png" />
+          </a>
+          <p>
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=35899&name=Qual%20%C3%A9%20o%20"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=35899&name=Qual%20%C3%A9%20o%20
+            </a>
+          </p>
         </b-tab-item>
 
         <b-tab-item label="3º RED">
@@ -617,105 +670,171 @@
               </div>
             </div>
           </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <b-collapse
+                v-for="(collapse, index) of collapses_p3"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
 
           <div class="has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-1.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-1.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-2.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-2.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-3.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-3.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-4.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-4.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-5.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-5.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-6.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-6.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-7.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-7.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-8.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-8.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-fabulas-9.png')
+                  "
+                  data-fancybox="gallery-fabulas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-fabulas"
                 >
                   <img src="~assets/images/unidade-II/tela-fabulas-9.png" />
                 </a>
               </div>
             </div>
           </div>
-
-          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-          https://plataformaintegrada.mec.gov.br/recurso?id=34568&name=F%C3%A1bulas%20Animadas
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a href="https://mide-fabulas-animadas.netlify.app/" target="_blank">
+            <img src="~assets/images/unidade-II/tela-fabulas-1.png" />
+          </a>
+          <p>
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=34568&name=F%C3%A1bulas%20Animadas"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=34568&name=F%C3%A1bulas%20Animadas
+            </a>
+          </p>
         </b-tab-item>
 
         <b-tab-item label="4º RED">
@@ -818,16 +937,50 @@
               </div>
             </div>
           </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <b-collapse
+                v-for="(collapse, index) of collapses_p4"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
 
           <div class="has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-revista-digital-2.png')
+                  "
+                  data-fancybox="gallery-revista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-revista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-revista-digital-2.png"
@@ -836,10 +989,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-revista-digital-3.png')
+                  "
+                  data-fancybox="gallery-revista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-revista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-revista-digital-3.png"
@@ -848,10 +1003,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-revista-digital-4.png')
+                  "
+                  data-fancybox="gallery-revista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-revista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-revista-digital-4.png"
@@ -860,10 +1017,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-revista-digital-5.png')
+                  "
+                  data-fancybox="gallery-revista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-revista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-revista-digital-5.png"
@@ -872,10 +1031,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-revista-digital-6.png')
+                  "
+                  data-fancybox="gallery-revista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-revista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-revista-digital-6.png"
@@ -884,10 +1045,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-revista-digital-7.png')
+                  "
+                  data-fancybox="gallery-revista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-revista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-revista-digital-7.png"
@@ -896,10 +1059,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-revista-digital-8.png')
+                  "
+                  data-fancybox="gallery-revista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-revista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-revista-digital-8.png"
@@ -908,10 +1073,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-revista-digital-9.png')
+                  "
+                  data-fancybox="gallery-revista"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-revista"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-revista-digital-9.png"
@@ -920,9 +1087,28 @@
               </div>
             </div>
           </div>
-
-          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-          https://plataformaintegrada.mec.gov.br/recurso?id=35900&name=Revista%20Digital%20da%20Crian%C3%A7a
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a
+            href="http://mide-revista-digital-da-crianca.netlify.app"
+            target="_blank"
+          >
+            <img src="~assets/images/unidade-II/tela-revista-digital-2.png" />
+          </a>
+          <p>
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=35900&name=Revista%20Digital%20da%20Crian%C3%A7a"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=35900&name=Revista%20Digital%20da%20Crian%C3%A7a
+            </a>
+          </p>
         </b-tab-item>
 
         <b-tab-item label="5º RED">
@@ -1007,15 +1193,49 @@
               </div>
             </div>
           </div>
+          <div class="w-100 has-background-light">
+            <section>
+              <b-collapse
+                v-for="(collapse, index) of collapses_p5"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
+            </section>
+          </div>
           <div class="has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-aventura-no-mundo-2.png')
+                  "
+                  data-fancybox="gallery-quadrinhos"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-quadrinhos"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-aventura-no-mundo-2.png"
@@ -1024,10 +1244,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-aventura-no-mundo-3.png')
+                  "
+                  data-fancybox="gallery-quadrinhos"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-quadrinhos"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-aventura-no-mundo-3.png"
@@ -1036,10 +1258,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-aventura-no-mundo-4.png')
+                  "
+                  data-fancybox="gallery-quadrinhos"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-quadrinhos"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-aventura-no-mundo-4.png"
@@ -1048,10 +1272,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-aventura-no-mundo-5.png')
+                  "
+                  data-fancybox="gallery-quadrinhos"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-quadrinhos"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-aventura-no-mundo-5.png"
@@ -1060,10 +1286,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-aventura-no-mundo-6.png')
+                  "
+                  data-fancybox="gallery-quadrinhos"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-quadrinhos"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-aventura-no-mundo-6.png"
@@ -1072,10 +1300,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-aventura-no-mundo-7.png')
+                  "
+                  data-fancybox="gallery-quadrinhos"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-quadrinhos"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-aventura-no-mundo-7.png"
@@ -1084,10 +1314,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-aventura-no-mundo-8.png')
+                  "
+                  data-fancybox="gallery-quadrinhos"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-quadrinhos"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-aventura-no-mundo-8.png"
@@ -1096,10 +1328,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-aventura-no-mundo-9.png')
+                  "
+                  data-fancybox="gallery-quadrinhos"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-quadrinhos"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-aventura-no-mundo-9.png"
@@ -1108,8 +1342,28 @@
               </div>
             </div>
           </div>
-          Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-          https://plataformaintegrada.mec.gov.br/recurso?id=36041&name=Aventura%20no%20Mundo%20dos%20Quadrinhos
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a
+            href="http://mide-aventura-no-mundo-dos-quadrinhos.netlify.app"
+            target="_blank"
+          >
+            <img src="~assets/images/unidade-II/tela-aventura-no-mundo-2.png" />
+          </a>
+          <p>
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=36041&name=Aventura%20no%20Mundo%20dos%20Quadrinhos"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=36041&name=Aventura%20no%20Mundo%20dos%20Quadrinhos
+            </a>
+          </p>
         </b-tab-item>
       </mide-tabs>
 
@@ -1158,7 +1412,6 @@
         </div>
       </div>
       <h2 class="title is-2">~~COMPONENTE DE CARTAS~~</h2>
-      <p>se matemática</p>
       <img src="~assets/images/capa-matematica.png" />
       <mide-tabs>
         <b-tab-item label="1º RED">
@@ -1258,11 +1511,15 @@
               <div class="titulos is-uppercase">
                 atividades listadas na bncc
               </div>
-              O recurso “Meu Álbum Geométrico” possibilita trabalhar habilidades
-              tanto do campo da Matemática, quanto da Língua Portuguesa. No
-              campo da Matemática, as habilidades trabalhadas são as seguintes:
+              <p>
+                O recurso “Meu Álbum Geométrico” possibilita trabalhar
+                habilidades tanto do campo da Matemática, quanto da Língua
+                Portuguesa. No campo da Matemática, as habilidades trabalhadas
+                são as seguintes:
+              </p>
+
               <b-collapse
-                v-for="(collapse, index) of collapses"
+                v-for="(collapse, index) of collapses_m1"
                 :key="index"
                 class="card"
                 animation="slide"
@@ -1275,18 +1532,53 @@
                   class="card-header"
                   role="button"
                 >
-                  <div class="card-header-title"></div>
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
                   <a class="card-header-icon">
                     <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
                     </b-icon>
                   </a>
                 </div>
                 <div class="card-content">
-                  <div class="content"></div>
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
                 </div>
               </b-collapse>
-              No campo da Língua Portuguesa, as habilidades trabalhadas são as
-              seguintes:
+              <br />
+              <p>
+                No campo da Língua Portuguesa, as habilidades trabalhadas são as
+                seguintes:
+              </p>
+              <b-collapse
+                v-for="(collapse, index) of collapses_m1_p"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
             </section>
           </div>
           <div class="has-background-grey-dark">
@@ -1294,10 +1586,12 @@
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-1.png')
+                  "
+                  data-fancybox="gallery-geometrico"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-geometrico"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-meu-album-geometrico-1.png"
@@ -1306,10 +1600,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-2.png')
+                  "
+                  data-fancybox="gallery-geometrico"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-geometrico"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-meu-album-geometrico-2.png"
@@ -1318,10 +1614,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-3.png')
+                  "
+                  data-fancybox="gallery-geometrico"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-geometrico"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-meu-album-geometrico-3.png"
@@ -1330,10 +1628,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-4.png')
+                  "
+                  data-fancybox="gallery-geometrico"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-geometrico"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-meu-album-geometrico-4.png"
@@ -1342,7 +1642,9 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-5.png')
+                  "
                   data-fancybox="gallery"
                   title="Sample Text"
                   name="gallery1"
@@ -1354,10 +1656,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-6.png')
+                  "
+                  data-fancybox="gallery-geometrico"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-geometrico"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-meu-album-geometrico-6.png"
@@ -1366,10 +1670,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-7.png')
+                  "
+                  data-fancybox="gallery-geometrico"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-geometrico"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-meu-album-geometrico-7.png"
@@ -1378,10 +1684,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-8.png')
+                  "
+                  data-fancybox="gallery-geometrico"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-geometrico"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-meu-album-geometrico-8.png"
@@ -1390,10 +1698,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-meu-album-geometrico-9.png')
+                  "
+                  data-fancybox="gallery-geometrico"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-geometrico"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-meu-album-geometrico-9.png"
@@ -1402,10 +1712,29 @@
               </div>
             </div>
           </div>
-
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a
+            href="http://mide-meu-album-geometrico.netlify.app"
+            target="_blank"
+          >
+            <img
+              src="~assets/images/unidade-II/tela-meu-album-geometrico-1.png"
+            />
+          </a>
           <p>
-            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-            https://plataformaintegrada.mec.gov.br/recurso?id=36735&name=Meu%20%C3%81lbum%20Geom%C3%A9trico
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=36735&name=Meu%20%C3%81lbum%20Geom%C3%A9trico"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=36735&name=Meu%20%C3%81lbum%20Geom%C3%A9trico
+            </a>
           </p>
         </b-tab-item>
         <b-tab-item label="2º RED">
@@ -1504,7 +1833,7 @@
               campo da Matemática, as habilidades trabalhadas são as seguintes:
 
               <b-collapse
-                v-for="(collapse, index) of collapses"
+                v-for="(collapse, index) of collapses_m2"
                 :key="index"
                 class="card"
                 animation="slide"
@@ -1517,17 +1846,52 @@
                   class="card-header"
                   role="button"
                 >
-                  <div class="card-header-title"></div>
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
                   <a class="card-header-icon">
                     <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
                     </b-icon>
                   </a>
                 </div>
                 <div class="card-content">
-                  <div class="content"></div>
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
                 </div>
               </b-collapse>
-              No campo das Artes, as habilidades trabalhadas são as seguintes:
+              <br />
+              <p>
+                No campo das Artes, as habilidades trabalhadas são as seguintes:
+              </p>
+              <b-collapse
+                v-for="(collapse, index) of collapses_m2_p"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
             </section>
           </div>
 
@@ -1536,10 +1900,12 @@
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-1.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-1.png"
@@ -1548,10 +1914,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-2.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-2.png"
@@ -1560,10 +1928,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-3.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-3.png"
@@ -1572,10 +1942,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-4.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-4.png"
@@ -1584,10 +1956,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-5.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-5.png"
@@ -1596,10 +1970,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-6.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-6.png"
@@ -1608,10 +1984,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-7.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-7.png"
@@ -1620,10 +1998,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-8.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-8.png"
@@ -1632,10 +2012,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-brincando-com-as-formas-9.png')
+                  "
+                  data-fancybox="gallery-formas"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-formas"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-brincando-com-as-formas-9.png"
@@ -1644,10 +2026,29 @@
               </div>
             </div>
           </div>
-
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a
+            href="http://mide-brincando-com-as-formas.netlify.app"
+            target="_blank"
+          >
+            <img
+              src="~assets/images/unidade-II/tela-brincando-com-as-formas-1.png"
+            />
+          </a>
           <p>
-            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-            https://plataformaintegrada.mec.gov.br/recurso?id=34566&name=Brincando%20com%20a%20formas
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=34566&name=Brincando%20com%20a%20formas"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=34566&name=Brincando%20com%20a%20formas
+            </a>
           </p>
         </b-tab-item>
         <b-tab-item label="3º RED">
@@ -1738,10 +2139,12 @@
               <div class="titulos is-uppercase">
                 atividades listadas na bncc
               </div>
-              O recurso “É o Bicho 2.0” trabalha as seguintes habilidades
-              matemáticas:
+              <p>
+                O recurso “É o Bicho 2.0” trabalha as seguintes habilidades
+                matemáticas:
+              </p>
               <b-collapse
-                v-for="(collapse, index) of collapses"
+                v-for="(collapse, index) of collapses_m3"
                 :key="index"
                 class="card"
                 animation="slide"
@@ -1754,14 +2157,18 @@
                   class="card-header"
                   role="button"
                 >
-                  <div class="card-header-title"></div>
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
                   <a class="card-header-icon">
                     <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
                     </b-icon>
                   </a>
                 </div>
                 <div class="card-content">
-                  <div class="content"></div>
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
                 </div>
               </b-collapse>
             </section>
@@ -1772,99 +2179,132 @@
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-1.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-1.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-2.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-2.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-3.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-3.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-4.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-4.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-5.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-5.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-6.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-6.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-7.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-7.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-8.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-8.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-e-o-bicho-9.png')
+                  "
+                  data-fancybox="gallery-bicho"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-bicho"
                 >
                   <img src="~assets/images/unidade-II/tela-e-o-bicho-9.png" />
                 </a>
               </div>
             </div>
           </div>
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a href="http://mide-e-o-bicho.netlify.app" target="_blank">
+            <img src="~assets/images/unidade-II/tela-e-o-bicho-1.png" />
+          </a>
           <p>
-            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-            https://plataformaintegrada.mec.gov.br/recurso?id=36677&name=%C3%89%20o%20Bicho%202.0
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=36677&name=%C3%89%20o%20Bicho%202.0"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=36677&name=%C3%89%20o%20Bicho%202.0
+            </a>
           </p>
         </b-tab-item>
         <b-tab-item label="4º RED">
@@ -1974,11 +2414,13 @@
               <div class="titulos is-uppercase">
                 atividades listadas na bncc
               </div>
-              O recurso “Ilha das operações” trabalha as seguintes habilidades
-              matemáticas:
+              <p>
+                O recurso “Ilha das operações” trabalha as seguintes habilidades
+                matemáticas:
+              </p>
 
               <b-collapse
-                v-for="(collapse, index) of collapses"
+                v-for="(collapse, index) of collapses_m4"
                 :key="index"
                 class="card"
                 animation="slide"
@@ -1991,14 +2433,18 @@
                   class="card-header"
                   role="button"
                 >
-                  <div class="card-header-title"></div>
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
                   <a class="card-header-icon">
                     <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
                     </b-icon>
                   </a>
                 </div>
                 <div class="card-content">
-                  <div class="content"></div>
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
                 </div>
               </b-collapse>
             </section>
@@ -2008,10 +2454,12 @@
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-1.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-1.png"
@@ -2020,10 +2468,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-2.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-2.png"
@@ -2032,10 +2482,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-3.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-3.png"
@@ -2044,10 +2496,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-4.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-4.png"
@@ -2056,10 +2510,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-5.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-5.png"
@@ -2068,10 +2524,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-6.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-6.png"
@@ -2080,10 +2538,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-7.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-7.png"
@@ -2092,10 +2552,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-8.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-8.png"
@@ -2104,10 +2566,12 @@
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-ilha-das-operacoes-9.png')
+                  "
+                  data-fancybox="gallery-operacoes"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-operacoes"
                 >
                   <img
                     src="~assets/images/unidade-II/tela-ilha-das-operacoes-9.png"
@@ -2116,9 +2580,26 @@
               </div>
             </div>
           </div>
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a href="http://mide-ilha-das-operacoes.netlify.app" target="_blank">
+            <img
+              src="~assets/images/unidade-II/tela-ilha-das-operacoes-1.png"
+            />
+          </a>
           <p>
-            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-            https://plataformaintegrada.mec.gov.br/recurso?id=338674&name=Ilha%20das%20Opera%C3%A7%C3%B5es
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=338674&name=Ilha%20das%20Opera%C3%A7%C3%B5es"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=338674&name=Ilha%20das%20Opera%C3%A7%C3%B5es
+            </a>
           </p>
         </b-tab-item>
         <b-tab-item label="5º RED">
@@ -2210,10 +2691,12 @@
               <div class="titulos is-uppercase">
                 atividades listadas na bncc
               </div>
-              O recurso “Divertix” possibilita trabalhar habilidades tanto do
-              campo da Matemática, quanto da Língua Portuguesa:
+              <p>
+                O recurso “Divertix” possibilita trabalhar habilidades tanto do
+                campo da Matemática, quanto da Língua Portuguesa:
+              </p>
               <b-collapse
-                v-for="(collapse, index) of collapses"
+                v-for="(collapse, index) of collapses_m5"
                 :key="index"
                 class="card"
                 animation="slide"
@@ -2226,18 +2709,53 @@
                   class="card-header"
                   role="button"
                 >
-                  <div class="card-header-title"></div>
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
                   <a class="card-header-icon">
                     <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
                     </b-icon>
                   </a>
                 </div>
                 <div class="card-content">
-                  <div class="content"></div>
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
                 </div>
               </b-collapse>
-              No campo da Língua Portuguesa, as habilidades trabalhadas são as
-              seguintes:
+              <br />
+              <p>
+                No campo da Língua Portuguesa, as habilidades trabalhadas são as
+                seguintes:
+              </p>
+              <b-collapse
+                v-for="(collapse, index) of collapses_m5_p"
+                :key="index"
+                class="card"
+                animation="slide"
+                :open="isOpen == index"
+                @open="isOpen = index"
+              >
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                >
+                  <div class="card-header-title">
+                    {{ collapse.title }}
+                  </div>
+                  <a class="card-header-icon">
+                    <b-icon :icon="props.open ? 'menu-up' : 'menu-down'">
+                    </b-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    {{ collapse.text }}
+                  </div>
+                </div>
+              </b-collapse>
             </section>
           </div>
           <div class="has-background-grey-dark">
@@ -2245,100 +2763,132 @@
             <div class="columns is-multiline">
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-1.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-1.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-2.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-2.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-3.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-3.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-4.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-4.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-5.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-5.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-6.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-6.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-7.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-7.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-8.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-8.png" />
                 </a>
               </div>
               <div class="column is-3">
                 <a
-                  href="https://placeimg.com/640/480/animals"
-                  data-fancybox="gallery"
+                  :href="
+                    require('@/assets/images/unidade-II/tela-divertix-9.png')
+                  "
+                  data-fancybox="gallery-divertix"
                   title="Sample Text"
-                  name="gallery1"
+                  name="gallery-divertix"
                 >
                   <img src="~assets/images/unidade-II/tela-divertix-9.png" />
                 </a>
               </div>
             </div>
           </div>
-
+          <br />
+          <center>
+            <h6 class="titulos">
+              Ficou curioso para conhecer esse recurso? <br />
+              Explore o jogo abaixo ou baixe diretamente do site do MEC.
+            </h6>
+          </center>
+          <a href="http://mide-divertix.netlify.app" target="_blank">
+            <img src="~assets/images/unidade-II/tela-divertix-1.png" />
+          </a>
           <p>
-            Ficou curioso para conhecer esse recurso? Você pode encontrá-lo em:
-            https://plataformaintegrada.mec.gov.br/recurso?id=36040&name=Divertix
+            Baixe do site do MEC em: <br />
+            <a
+              href="https://plataformaintegrada.mec.gov.br/recurso?id=36040&name=Divertix"
+              target="_blank"
+            >
+              https://plataformaintegrada.mec.gov.br/recurso?id=36040&name=Divertix
+            </a>
           </p>
         </b-tab-item>
       </mide-tabs>
@@ -2473,7 +3023,7 @@ export default {
   data() {
     return {
       isOpen: 0,
-      collapses: [
+      collapses_p1: [
         {
           n: 1,
           title: 'HABILIDADE (EF12LP01) ',
@@ -2510,6 +3060,298 @@ export default {
           text:
             'Identificar e reproduzir, em listas [...] a formatação e diagramação específica de cada um desses gêneros.'
         }
+      ],
+      collapses_p2: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF12LP01) ',
+          text:
+            'Ler palavras novas com precisão na decodificação, no caso de palavras de uso frequente, ler globalmente, por memorização.'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF12LP04)',
+          text:
+            'Ler e compreender, em colaboração com os colegas e com a ajuda do professor ou já com certa autonomia, listas [...] do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.'
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF02LP13)',
+          text:
+            'Planejar e produzir bilhetes e cartas, em meio impresso e/ou digital, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'
+        },
+        {
+          n: 4,
+          title: 'HABILIDADE (EF02LP04)',
+          text:
+            'Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, identificando que existem vogais em todas as sílabas.'
+        },
+        {
+          n: 5,
+          title: 'HABILIDADE (EF15LP01)',
+          text:
+            'Identificar a função social de textos que circulam em campos da vida social dos quais participa cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam.'
+        },
+        {
+          n: 6,
+          title: 'HABILIDADE (EF15LP03)',
+          text: 'Localizar informações explícitas em textos.'
+        }
+      ],
+      collapses_p3: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF35LP21) ',
+          text:
+            'Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores.'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF15LP03)',
+          text: 'Localizar informações explícitas em textos.'
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF15LP15)',
+          text:
+            'Reconhecer que os textos literários fazem parte do mundo do imaginário e apresentam uma dimensão lúdica, de encantamento, valorizando-os, em sua diversidade cultural, como patrimônio artístico da humanidade.'
+        },
+        {
+          n: 4,
+          title: 'HABILIDADE (EF15LP18)',
+          text: 'Relacionar texto com ilustrações e outros recursos gráficos.'
+        },
+        {
+          n: 5,
+          title: 'HABILIDADE (EF01LP07)',
+          text: 'Identificar fonemas e sua representação por letras.'
+        },
+        {
+          n: 6,
+          title: 'HABILIDADE (EF35LP03)',
+          text:
+            'Identificar a ideia central do texto, demonstrando compreensão global.'
+        },
+        {
+          n: 7,
+          title: 'HABILIDADE (EF35LP04)',
+          text: 'Inferir informações implícitas nos textos lidos.'
+        }
+      ],
+      collapses_p4: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF03LP18) ',
+          text:
+            'Ler e compreender, com autonomia, cartas dirigidas a veículos da mídia impressa ou digital (cartas de leitor e de reclamação a jornais, revistas) e notícias, dentre outros gêneros do campo jornalístico, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto.'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF04LP14)',
+          text:
+            'Identificar, em notícias, fatos, participantes, local e momento/tempo da ocorrência do fato noticiado.'
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF05LP15)',
+          text:
+            'Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando a situação comunicativa e o tema/assunto do texto.'
+        },
+        {
+          n: 4,
+          title: 'HABILIDADE (EF03LP20)',
+          text:
+            'Produzir cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou revistas), dentre outros gêneros do campo político-cidadão, com opiniões e críticas, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto.'
+        }
+      ],
+      collapses_p5: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF15LP01) ',
+          text:
+            'Identificar a função social de textos que circulam em campos da vida social dos quais participam cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam.'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF15LP04)',
+          text:
+            'Identificar o efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais em textos multissemióticos. '
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF15LP14)',
+          text:
+            'Construir o sentido de histórias em quadrinhos e tirinhas, relacionando imagens e palavras e interpretando recursos gráficos (tipos de balões, de letras, onomatopeias).'
+        },
+        {
+          n: 4,
+          title: 'HABILIDADE (EF15LP18)',
+          text: 'Relacionar texto com ilustrações e outros recursos gráficos.'
+        }
+      ],
+      collapses_m1: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF01MA02) ',
+          text:
+            'Contar de maneira exata ou aproximada, utilizando diferentes estratégias como o pareamento e outros agrupamentos.'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF01MA03)',
+          text:
+            'Estimar e comparar quantidades de objetos de dois conjuntos (em torno de 20 elementos), por estimativa e/ou por correspondência (um a um, dois a dois) para indicar “tem mais”, “tem menos” ou “tem a mesma quantidade”.'
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF01MA09)',
+          text:
+            'Organizar e ordenar objetos familiares ou representações por figuras, por meio de atributos, tais como cor, forma e medida.'
+        },
+        {
+          n: 4,
+          title: 'HABILIDADE (EF01MA14)',
+          text:
+            'Identificar e nomear figuras planas (círculo, quadrado, retângulo e triângulo) em desenhos apresentados em diferentes disposições ou em contornos de faces de sólidos geométricos.'
+        }
+      ],
+      collapses_m1_p: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF01LP17) ',
+          text:
+            'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, listas, agendas, calendários, avisos, convites, receitas, instruções de montagem e legendas para álbuns, fotos ou ilustrações (digitais ou impressos), dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'
+        }
+      ],
+      collapses_m2: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF02MA10) ',
+          text:
+            'Descrever um padrão (ou regularidade) de sequências repetitivas e de sequências recursivas, por meio de palavras, símbolos ou desenhos. '
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF02MA14)',
+          text:
+            'Reconhecer, nomear e comparar figuras geométricas espaciais (cubo, bloco retangular, pirâmide, cone, cilindro e esfera), relacionando-as com objetos do mundo físico.'
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF02MA15)',
+          text:
+            'Reconhecer, comparar e nomear figuras planas (círculo, quadrado, retângulo e triângulo), por meio de características comuns, em desenhos apresentados em diferentes disposições ou em sólidos geométricos.'
+        }
+      ],
+      collapses_m2_p: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF15AR26) ',
+          text:
+            'Explorar diferentes tecnologias e recursos digitais (multimeios, animações, jogos eletrônicos, gravações em áudio e vídeo, fotografia, softwares etc.) nos processos de criação artística.'
+        }
+      ],
+      collapses_m3: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF03MA03) ',
+          text:
+            'Construir e utilizar fatos básicos da adição e da multiplicação para o cálculo mental ou escrito;'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF03MA05) ',
+          text:
+            'Utilizar diferentes procedimentos de cálculo mental e escrito para resolver problemas significativos envolvendo adição e subtração com números naturais;'
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF03MA06) ',
+          text:
+            'Resolver e elaborar problemas de adição e subtração com os significados de juntar, acrescentar, separar, retirar, comparar e completar quantidades, utilizando diferentes estratégias de cálculo exato ou aproximado, incluindo cálculo mental;'
+        },
+        {
+          n: 4,
+          title: 'HABILIDADE (EF03MA10) ',
+          text:
+            'Identificar regularidades em sequências ordenadas de números naturais, resultantes da realização de adições ou subtrações sucessivas por um mesmo número, descrever uma regra de formação da sequência e determinar elementos faltantes ou seguintes;'
+        },
+        {
+          n: 5,
+          title: 'HABILIDADE (EF03MA12) ',
+          text:
+            'Descrever e representar, por meio de esboços de trajetos ou utilizando croquis e maquetes, a movimentação de pessoas ou de objetos no espaço, incluindo mudanças de direção e sentido, com base em diferentes pontos de referência;'
+        },
+        {
+          n: 6,
+          title: 'HABILIDADE (EF03MA26) ',
+          text:
+            'Resolver problemas cujos dados estão apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas;'
+        },
+        {
+          n: 7,
+          title: 'HABILIDADE (EF03MA27) ',
+          text:
+            'Ler, interpretar e comparar dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas, utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos.'
+        }
+      ],
+      collapses_m4: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF04MA04) ',
+          text:
+            'Utilizar as relações entre adição e subtração, bem como entre multiplicação e divisão, para ampliar as estratégias de cálculo;'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF04MA05) ',
+          text:
+            'Utilizar as propriedades das operações para desenvolver estratégias de cálculo;'
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF04MA06) ',
+          text:
+            'Resolver e elaborar problemas envolvendo diferentes significados da multiplicação (adição de parcelas iguais, organização retangular e proporcionalidade), utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos;'
+        },
+        {
+          n: 4,
+          title: 'HABILIDADE (EF04MA07) ',
+          text:
+            'Resolver e elaborar problemas de divisão cujo divisor tenha no máximo dois algarismos, envolvendo os significados de repartição equitativa e de medida, utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.'
+        }
+      ],
+      collapses_m5: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF05MA07) ',
+          text:
+            'Resolver e elaborar problemas de adição e subtração com números naturais e com números racionais, cuja representação decimal seja finita, utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos;'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF05MA08) ',
+          text:
+            'Resolver e elaborar problemas de multiplicação e divisão com números naturais e com números racionais cuja representação decimal é finita (com multiplicador natural e divisor natural e diferente de zero), utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos;'
+        },
+        {
+          n: 3,
+          title: 'HABILIDADE (EF05MA24) ',
+          text:
+            'Interpretar dados estatísticos apresentados em textos, tabelas e gráficos (colunas ou linhas), referentes a outras áreas do conhecimento ou a outros contextos, como saúde e trânsito, e produzir textos com o objetivo de sintetizar conclusões.'
+        }
+      ],
+      collapses_m5_p: [
+        {
+          n: 1,
+          title: 'HABILIDADE (EF15LP18) ',
+          text: 'Relacionar texto com ilustrações e outros recursos gráficos;'
+        },
+        {
+          n: 2,
+          title: 'HABILIDADE (EF05LP23) ',
+          text: 'Comparar informações apresentadas em gráficos ou tabelas.'
+        }
       ]
     }
   }
@@ -2520,15 +3362,6 @@ export default {
 #unidade-II-tematica-II {
   h6 {
     color: #c0315f;
-  }
-  #frame {
-    -ms-zoom: 0.55;
-    -moz-transform: scale(0.55);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.55);
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.55);
-    -webkit-transform-origin: 0 0;
   }
   .title {
     color: white;
