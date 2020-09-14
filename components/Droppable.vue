@@ -48,6 +48,10 @@ export default {
     onValidate(d) {
       this.dirty = true
 
+      if (!d) {
+        return false
+      }
+
       if (this.validate) {
         switch (typeof this.validate) {
           case 'string':
@@ -62,8 +66,8 @@ export default {
       return true
     },
     onDrop(event) {
-      this.validated = true
       this.dataTransfer = event.data
+      this.validated = true
 
       this.$nextTick(() => {
         if (this.copy) {
@@ -72,6 +76,7 @@ export default {
         }
         this.$eventHub.$emit('dragged', this.validated)
       })
+      this.$emit('dragend', this.validated)
     }
   }
 }

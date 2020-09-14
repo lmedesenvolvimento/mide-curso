@@ -333,6 +333,7 @@
           </div>
 
           <div class="title">Drag and Drop Cards</div>
+          <mide-game-play-card v-model="cards"></mide-game-play-card>
 
           <div class="title">Forms</div>
 
@@ -616,6 +617,42 @@ export default {
         { text: 'Capitalismo', value: 'capitalismo' },
         { text: 'Luta de Classe', value: 'luta-de-classe' },
         { text: 'Ditadura', value: 'ditadura' }
+      ],
+      cards: [
+        {
+          title: 'De olho na lista',
+          value: 'de-olho-na-lista',
+          pic: require('@/assets/images/card-icons/de-olho-lista.png'),
+          description:
+            'Relacionar pessoas ou coisas, obedecendo uma sequência alfabética, numérica, cronológica, que tem como função organizar as palavras e facilitar sua localização.'
+        },
+        {
+          title: 'FÁBULAS ANIMADAS',
+          value: 'fabulas-animadas',
+          pic: require('@/assets/images/card-icons/fabulas-animadas.png'),
+          description:
+            'Lorem id mollit do exercitation sit commodo aliqua laborum officia pariatur labore.'
+        },
+        {
+          title: 'Revista digital da criança',
+          value: 'revista-digital-da-crianca',
+          pic: require('@/assets/images/card-icons/revista-digital-da-crianca.png'),
+          description: 'Anim duis ipsum ut aliquip id do cillum velit aute qui.'
+        },
+        {
+          title: 'Qual o pedido?',
+          value: 'qual-o-pedido',
+          pic: require('@/assets/images/card-icons/qual-o-pedido.png'),
+          description:
+            'Eiusmod excepteur ipsum nostrud exercitation nostrud tempor voluptate mollit laborum incididunt.'
+        },
+        {
+          title: 'Aventura no mundo dos quadrinhos',
+          value: 'aventura-no-mundo-dos-quadrinhos',
+          pic: require('@/assets/images/card-icons/aventura-no-mundo-dos-quadrinhos.png'),
+          description:
+            'Dolore aliquip non aliquip velit cupidatat tempor cillum.'
+        }
       ]
     }
   }

@@ -28,6 +28,9 @@ import Radio from './Radio.vue'
 import Droppable from './Droppable.vue'
 import Draggable from './Draggable.vue'
 
+// Jogos
+import GamePlayCard from './GamePlayCard.vue'
+
 const Components = {
   install: (Vue) => {
     Vue.component('mide-footer', Footer)
@@ -51,6 +54,9 @@ const Components = {
     // Events
     Vue.component('mide-draggable', Draggable)
     Vue.component('mide-droppable', Droppable)
+
+    // Jogos
+    Vue.component('mide-game-play-card', GamePlayCard)
 
     // plugins
     Vue.component('mide-radial-progress', RadialProgressBar)
