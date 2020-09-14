@@ -24,6 +24,10 @@ import ModalChatDialog from './ModalChatDialog'
 // Form
 import Radio from './Radio.vue'
 
+// Eventos
+import Droppable from './Droppable.vue'
+import Draggable from './Draggable.vue'
+
 const Components = {
   install: (Vue) => {
     Vue.component('mide-footer', Footer)
@@ -43,6 +47,10 @@ const Components = {
 
     Vue.component('mide-chat-dialog', ChatDialog)
     Vue.component('mide-modal-chat-dialog', ModalChatDialog)
+
+    // Events
+    Vue.component('mide-draggable', Draggable)
+    Vue.component('mide-droppable', Droppable)
 
     // plugins
     Vue.component('mide-radial-progress', RadialProgressBar)

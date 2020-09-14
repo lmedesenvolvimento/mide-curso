@@ -284,6 +284,56 @@
             </b-tab-item>
           </mide-tabs>
 
+          <div class="title">Drag and Drop</div>
+          <div class="container is-fluid">
+            <div class="columns is-multiline is-fill-vertical">
+              <div class="column is-6">
+                <mide-draggable :data-transfer="{ text: 'Drag', value: 'a' }">
+                  <div class="card is-grey">
+                    <div class="card-tag is-purple">5</div>
+                    <div class="card-header">
+                      <div class="card-header-title">Lorem ipsum</div>
+                    </div>
+                    <div class="card-content">
+                      Laborum fugiat in anim irure cillum anim ea velit mollit
+                      deserunt nostrud quis. Nulla ipsum dolore commodo elit
+                      ipsum do esse ex. Id aute magna dolore do. In duis
+                      deserunt magna esse culpa magna exercitation.
+                    </div>
+                  </div>
+                </mide-draggable>
+              </div>
+              <div class="column is-6">
+                <mide-droppable :validate="(d) => d.value === 'a'" :copy="true">
+                  <h4>Drop me!</h4>
+                </mide-droppable>
+              </div>
+              <div class="column is-6">
+                <mide-draggable :data-transfer="{ text: 'Drag', value: 'b' }">
+                  <div class="card is-grey">
+                    <div class="card-tag is-cyan">4</div>
+                    <div class="card-header">
+                      <div class="card-header-title">Lorem ipsum</div>
+                    </div>
+                    <div class="card-content">
+                      Laborum fugiat in anim irure cillum anim ea velit mollit
+                      deserunt nostrud quis. Nulla ipsum dolore commodo elit
+                      ipsum do esse ex. Id aute magna dolore do. In duis
+                      deserunt magna esse culpa magna exercitation.
+                    </div>
+                  </div>
+                </mide-draggable>
+              </div>
+              <div class="column is-6">
+                <mide-droppable :validate="(d) => d.value === 'b'" :copy="true">
+                  <h4>Drop me!</h4>
+                </mide-droppable>
+              </div>
+            </div>
+          </div>
+
+          <div class="title">Drag and Drop Cards</div>
+
           <div class="title">Forms</div>
 
           <challenge

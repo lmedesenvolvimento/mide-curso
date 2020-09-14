@@ -1,8 +1,9 @@
 
 Todo:
   @today 
-  @low 
   ☐ Comportamento Drag and Drop
+  ☐ Implementar Componente Jogo de Cartas
+  @low 
   Fixes:
   @today   
   Permitir múltiplas imagens para b-carousel unidade I
