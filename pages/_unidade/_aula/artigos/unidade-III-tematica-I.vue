@@ -175,23 +175,19 @@
         2.4 Estratégias e recursos da aula <br />
         2.5 Avaliação <br />
       </p>
-      <p>
+      <p class="title is-6 is-uppercase">
         1.2 Áreas do conhecimento:
       </p>
       <p>
         Segundo a BNCC as <strong>áreas do conhecimento</strong> favorecem a
         <strong>comunicação</strong> entre os conhecimentos e saberes de
-        diferentes componentes curriculares.Sendo elas:
+        diferentes componentes curriculares. Sendo elas:
       </p>
       <p>
         <strong>
           Linguagens, Matemática, Ciências da Natureza, Ciências Humanas, Ensino
-          Religioso As áreas de Linguagens e Ciências Humanas abrigam mais de um
-          componente curricular. A área de Linguagem possui 04 (quatro)
-          componente curriculares, sendo eles: Língua Portuguesa, Arte, Educação
-          Física, Língua Inglesa. Já o componente de Ciências Humanas possui o
-          componente: Geografia e História.
-        </strong>
+          Religioso.</strong
+        >
       </p>
       <p>
         As áreas de Linguagens e Ciências Humanas abrigam mais de um componente
@@ -200,43 +196,46 @@
         Língua Inglesa. Já o componente de Ciências Humanas possui o componente:
         Geografia e História.
       </p>
-      <p>
+      <img src="~assets/images/unidade-III/areas-do-conhecimento.png" />
+      <p class="title is-6 is-uppercase">
         1.3. Componente curricular:
       </p>
       <p>Para a BNCC os componentes curriculares são os seguintes: <br /></p>
-      <ul>
-        <li>
-          Língua Portuguesa
-        </li>
-        <li>
-          Arte
-        </li>
-        <li>
-          Educação Física
-        </li>
-        <li>
-          Língua inglesa
-        </li>
-        <li>
-          Língua Portuguesa
-        </li>
-        <li>
-          Matemática
-        </li>
-        <li>
-          Ciências
-        </li>
-        <li>
-          Geografia
-        </li>
-        <li>
-          História
-        </li>
-        <li>
-          Ensino Religioso.
-        </li>
-      </ul>
-      <p>
+      <center>
+        <div class="boxcurricular">
+          <p class="title is-5">01.</p>
+          <p class="subtitle is-6">Língua Portuguesa</p>
+          <br />
+          <p class="title is-5">02.</p>
+          <p class="subtitle is-6">Arte</p>
+          <br />
+          <p class="title is-5">03.</p>
+          <p class="subtitle is-6">Educação Física</p>
+          <br />
+          <p class="title is-5">04.</p>
+          <p class="subtitle is-6">Língua inglesa</p>
+          <br />
+          <p class="title is-5">05.</p>
+          <p class="subtitle is-6">Matemática</p>
+          <br />
+          <p class="title is-5">06.</p>
+          <p class="subtitle is-6">Ciências</p>
+          <br />
+          <p class="title is-5">07.</p>
+          <p class="subtitle is-6">Geografia</p>
+          <br />
+          <p class="title is-5">08.</p>
+          <p class="subtitle is-6">História</p>
+          <br />
+          <p class="title is-5">09.</p>
+          <p class="subtitle is-6">Ensino Religioso</p>
+        </div>
+      </center>
+      <img
+        src="~assets/images/unidade-III/componente-curricular-caixa.png"
+        width="400"
+      />
+      <p class="title is-6 is-uppercase">
         1.4 Unidade temática:
       </p>
       <p>
@@ -250,12 +249,14 @@
         como exemplo na Unidade 2 e no Bloco Temático 3 (propostas de planos de
         aulas com suporte de RED).
       </p>
-      <p>
-        Língua Portuguesa <br />
+      <div class="areas column is-5">
+        <strong>Língua Portuguesa</strong> <br />
+        <img
+          src="~assets/images/unidade-III/unidade-tematica-detalhe-card.png"
+        /><br />
         Especificamente, o componente curricular de Língua Portuguesa, conceitua
-        suas unidades temáticas em Práticas de linguagem, sendo divididas em:<br />
-      </p>
-      <ul>
+        suas unidades temáticas em Práticas de linguagem, sendo divididas em:<br /><br />
+
         <li>
           oralidade
         </li>
@@ -268,13 +269,19 @@
         <li>
           análise linguística/semiótica
         </li>
-      </ul>
-      <p>
-        Matemática <br />
+      </div>
+      <img
+        src="~assets/images/unidade-III/unidade-tematica-card.png"
+        width="400"
+      /><br /><br />
+      <div class="areas column is-5">
+        <strong>Matemática</strong><br />
+        <img
+          src="~assets/images/unidade-III/unidade-tematica-detalhe-card.png"
+        /><br />
         O componente curricular de Matemática divide suas unidades temáticas
-        em:<br />
-      </p>
-      <ul>
+        em:<br /><br />
+
         <li>
           números
         </li>
@@ -290,33 +297,67 @@
         <li>
           Probabilidade e estatística
         </li>
-      </ul>
-      <p>
-        1.5 Objeto do conhecimento: <br />
-        São entendidos como conteúdos, conceitos e processos. Segundo a BNCC,
-        respeitando as muitas possibilidades de organização do conhecimento
-        escolar, as unidades temáticas definem um arranjo dos objetos de
-        conhecimento, ao longo do Ensino Fundamental, adequado às
-        especificidades dos diferentes componentes curriculares.
+      </div>
+      <img
+        src="~assets/images/unidade-III/unidade-tematica-card.png"
+        width="400"
+      />
+      <p class="title is-6 is-uppercase">
+        1.5 Objeto do conhecimento:
       </p>
       <p>
-        Portanto, cada unidade temática define seus objetos de conhecimento,
-        assim como cada objeto de conhecimento se relaciona a um número variável
-        de habilidades, conforme será explicado em dados da aula.
+        São entendidos como:
+      </p>
+      <div class="columns">
+        <div class="column">
+          <h6 class="title-objetos is-uppercase has-text-white">conteúdos</h6>
+          <img src="~assets/images/unidade-III/objeto-do-conhecimento.png" />
+        </div>
+        <div class="column">
+          <h6 class="title-objetos is-uppercase has-text-white">conceitos</h6>
+          <img src="~assets/images/unidade-III/objeto-do-conhecimento.png" />
+        </div>
+        <div class="column">
+          <h6 class="title-objetos is-uppercase has-text-white">processos</h6>
+          <img src="~assets/images/unidade-III/objeto-do-conhecimento.png" />
+        </div>
+      </div>
+      <p>
+        Segundo a BNCC, respeitando as muitas possibilidades de organização do
+        conhecimento escolar, as <b>unidades temáticas definem</b> um arranjo
+        dos <b>objetos de conhecimento</b>, ao longo do Ensino Fundamental,
+        adequado às especificidades dos diferentes componentes curriculares.
+      </p>
+      <p>
+        Portanto, cada <b>unidade temática define</b> seus
+        <b>objetos de conhecimento</b>, assim como cada
+        <b>objeto de conhecimento</b> se <b>relaciona</b> a um número variável
+        de <b>habilidades</b>, conforme será explicado em dados da aula.
       </p>
       <p>
         2. DADOS DA AULA
       </p>
-      <p>
+      <p class="title is-6 is-uppercase">
         2.1 O que o(a) aluno(a) poderá aprender com esta aula
       </p>
-      <p>
+      <p class="areas column is-5">
+        <img
+          src="~assets/images/unidade-III/o-que-o-aluno-podera-numero-1.png"
+        /><br />
         Neste subitem, defina os objetivos de aprendizagem. Na BNCC, esses
         objetivos são definidos por habilidades que expressam as aprendizagens
         essenciais a serem asseguradas aos(as) alunos(as) nos diferentes
         contextos escolares.
       </p>
-      <p>
+      <img
+        src="~assets/images/unidade-III/unidade-tematica-card.png"
+        width="400"
+      />
+      <br />
+      <p class="areas column is-5">
+        <img
+          src="~assets/images/unidade-III/o-que-o-aluno-podera-numero-2.png"
+        /><br />
         É preciso destacar que os critérios de organização das habilidades
         descritos na BNCC expressam uma indicação e não devem ser tomados como
         modelo obrigatório. A forma de apresentação adotada na BNCC “tem por
@@ -325,7 +366,11 @@
         orientações para a elaboração de currículos em todo o País, adequados
         aos diferentes contextos.” (BRASIL, 2017, p. 31).
       </p>
-      <p>
+      <img
+        src="~assets/images/unidade-III/o-que-o-aluno-podera-card-maior.png"
+        width="400"
+      />
+      <p class="title is-6 is-uppercase">
         2.2 Duração da atividade
       </p>
       <p>
@@ -333,7 +378,7 @@
         de aprendizagem. A duração deve ser descrita em aulas (Exs: uma aula de
         45 minutos, 3 aulas de 45 135 minutos etc).
       </p>
-      <p>
+      <p class="title is-6 is-uppercase">
         2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)
       </p>
       <p>
@@ -356,7 +401,7 @@
         os(as) alunos(as) já conhecem sobre o tema, como também, o que cada um
         já ouviu falar sobre ele.
       </p>
-      <p>
+      <p class="title is-6 is-uppercase">
         2.4 Estratégias e recursos da aula
       </p>
       <p>
@@ -376,7 +421,7 @@
         tangram, material dourado, Internet, áudios, vídeos, fotografias ou
         outras imagens).
       </p>
-      <p>
+      <p class="title is-6 is-uppercase">
         2.5 Avaliação
       </p>
       <p>
@@ -469,6 +514,18 @@ export default {
 
 <style lang="scss">
 #unidade-III-tematica-I {
+  .boxcurricular {
+    position: absolute;
+    padding: 80px 0 0 120px;
+  }
+  .areas {
+    position: absolute;
+    padding: 40px 20px 0 40px;
+  }
+  .title-objetos {
+    padding: 50px 0 0 28px;
+    position: absolute;
+  }
   .imgimprensa {
     position: absolute;
     padding: 0 55px 50px;
