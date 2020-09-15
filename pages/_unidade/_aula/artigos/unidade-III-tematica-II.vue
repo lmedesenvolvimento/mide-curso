@@ -32,9 +32,9 @@
         </div>
       </div>
     </div>
-    <p>
-      PORTUGUÊS
-    </p>
+    <h6 class="title is-6">
+      LÍNGUA PORTUGUESA
+    </h6>
 
     <div class="block-bordered">
       <div class="columns is-vcentered">
@@ -62,54 +62,73 @@
         </div>
       </div>
     </div>
-    <p>
-      1. ESTRUTURA CURRICULAR <br />
-      1.1 Modalidade / nível de ensino: <br />
-      4o ano do Ensino Fundamental <br />
 
-      1.2. Áreas do conhecimento: <br />
-      Linguagem <br />
-
-      1.3 Componente curricular: <br />
-      Língua Portuguesa <br />
-
-      1.4 Unidade Temática (prática de linguagem): <br />
-      Leitura/escuta (compartilhada e autônoma) <br />
-
-      1.5 Objeto do conhecimento: <br />
-      Compreensão em leitura<br />
+    1. ESTRUTURA CURRICULAR <br />
+    <p class="title is-6 is-uppercase">
+      1.1 Modalidade / nível de ensino:
     </p>
-    <p>
-      2. DADOS DA AULA <br />
-      2.1 O que o(a) aluno(a) poderá aprender com esta aula <br />
+    <p>O plano do RED Revista Digital da Criança foi proposto para:</p>
+    <br />
+    <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
+    <br />
+    <p class="title is-6 is-uppercase">1.2. Áreas do conhecimento:</p>
+    <p>A área de conhecimentodo RED Revista Digital da Criança é:</p>
+    Linguagem <br />
+    <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
+    <br />
+    <p class="title is-6 is-uppercase">1.3 Componente curricular:</p>
+    <p>O Componente curricular do RED Revista Digital da Criança é:</p>
+    Língua Portuguesa <br />
+    <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
+    <br />
+    <p class="title is-6 is-uppercase">1.4 Unidade Temática: <br /></p>
+    <p>A unidade temática utilizada pelo RED Revista Digital da Criança é:</p>
+    Leitura/escuta (compartilhada e autônoma) <br />
+    <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
+    <br />
+    <p class="title is-6 is-uppercase">1.5 Objeto do conhecimento:</p>
+    Compreensão em leitura<br />
+    <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
 
-      Identificar as características de uma revista, tais como capa e seções,
-      por exemplo; <br />
-      Perceber as especificidades das revistas e dos gêneros que a compõem a
-      partir de seus conteúdos. <br />
+    2. DADOS DA AULA
+    <p class="title is-6 is-uppercase">
+      2.1 O que o(a) aluno(a) poderá aprender com esta aula
+    </p>
+    <img
+      src="~assets/images/unidade-III/duracao-da-atividade-caixa.png"
+      width="600"
+    />
+    Identificar as características de uma revista, tais como capa e seções, por
+    exemplo; <br />
+    Perceber as especificidades das revistas e dos gêneros que a compõem a
+    partir de seus conteúdos. <br />
 
-      Habilidade da BNCC: <br />
-      Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos
-      em vlogs argumentativos, dentre outros gêneros do campo político-cidadão,
-      de acordo com as convenções dos gêneros e considerando a situação
-      comunicativa e o tema/assunto do texto.
-    </p>
-    <p>
-      2.2 Duração da atividade <br />
-      Duas aulas de 50 minutos cada
-    </p>
-    <p>
+    Habilidade da BNCC: <br />
+    Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em
+    vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de
+    acordo com as convenções dos gêneros e considerando a situação comunicativa
+    e o tema/assunto do texto.
+
+    <p class="title is-6 is-uppercase">2.2 Duração da atividade</p>
+    Duas aulas de 50 minutos cada
+    <img
+      src="~assets/images/unidade-III/duracao-da-atividade-caixa.png"
+      width="600"
+    />
+    <br />
+    <p class="title is-6 is-uppercase">
       2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)
     </p>
     <p>
       Para a utilização do RED, é necessário que os(as) alunos(as) já consigam
-      compreender e generalizar as características apresentadas por uma revista,
-      por meio da leitura dos textos de cada seção, intercalando a linguagem
-      verbal e não verbal, bem como por meio da escrita de uma carta do leitor,
-      que tem a argumentação como enfoque principal. Por esse motivo, é
-      importante verificar o nível de conhecimento da turma em relação às
-      habilidades que serão trabalhadas, principalmente em relação ao domínio da
-      leitura e da escrita por parte dos(as) alunos(as).
+      <b>compreender</b> e <b>generalizar</b> as características apresentadas
+      por uma <b>revista</b>, por meio da leitura dos textos de cada seção,
+      intercalando a linguagem verbal e não verbal, bem como por meio da
+      <b>escrita</b> de uma <b>carta do leitor</b>, que tem a
+      <b>argumentação</b> como enfoque principal. Por esse motivo, é importante
+      verificar o nível de conhecimento da turma em relação às habilidades que
+      serão trabalhadas, principalmente em relação ao domínio da leitura e da
+      escrita por parte dos(as) alunos(as).
     </p>
     <p>
       Para que o(a) aluno(a) se aproprie da percepção das revistas como suporte
@@ -117,26 +136,54 @@
       social desses textos que a compõem e de suas utilidades no cotidiano,
       espera-se que ele(a) já tenha se apropriado dos seguintes conhecimentos:
     </p>
-    <ul>
-      <li>
-        Navegação básica na Web: o(a) aluno(a) deve ser capaz de usar, com
-        relativa autonomia, um computador equipado com mouse e teclado.
-      </li>
-      <li>
-        Leitura autônoma: Ao ler palavras isoladas e textos curtos, espera-se
-        que os(as) alunos(as) demonstrem capacidade de ler autonomamente, ainda
-        que empregando diferentes estratégias de leitura, por exemplo,
-        analisando letras iniciais e finais, lendo incidentalmente ou
-        reconhecendo palavras memorizadas.
-      </li>
-      <li>
-        Reconhecimento de gêneros do campo jornalístico-midiático: Ao ler uma
-        revista, espera-se que os(as) alunos(as) consigam reconhecer alguns
-        gêneros, tais como editoria, entrevista, carta ao leitor ou outros, que
-        circulam tipicamente nesse suporte, a partir de suas características
-        gerais.
-      </li>
-    </ul>
+    <div class="container is-fluid mb-4">
+      <div class="columns is-multiline is-fill-vertical">
+        <div class="column is-7 mb-2">
+          <div class="card is-grey">
+            <div class="card-tag is-amber">1</div>
+            <div class="card-header">
+              <div class="card-header-title">Navegação básica na Web:</div>
+            </div>
+            <div class="card-content">
+              O(A) aluno(a) deve ser capaz de usar, com relativa autonomia, um
+              computador equipado com mouse e teclado.
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-7 mb-2">
+          <div class="card is-grey">
+            <div class="card-tag is-green">2</div>
+            <div class="card-header">
+              <div class="card-header-title">Leitura autônoma:</div>
+            </div>
+            <div class="card-content">
+              Ao ler palavras isoladas e textos curtos, espera-se que os(as)
+              alunos(as) demonstrem capacidade de ler autonomamente, ainda que
+              empregando diferentes estratégias de leitura, por exemplo,
+              analisando letras iniciais e finais, lendo incidentalmente ou
+              reconhecendo palavras memorizadas.
+            </div>
+          </div>
+        </div>
+        <div class="column is-7 mb-2">
+          <div class="card is-grey">
+            <div class="card-tag is-blue">3</div>
+            <div class="card-header">
+              <div class="card-header-title">
+                Reconhecimento de gêneros do campo jornalístico-midiático:
+              </div>
+            </div>
+            <div class="card-content">
+              Ao ler uma revista, espera-se que os(as) alunos(as) consigam
+              reconhecer alguns gêneros, tais como editoria, entrevista, carta
+              ao leitor ou outros, que circulam tipicamente nesse suporte, a
+              partir de suas características gerais.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <p>
       2.4 Estratégias e recursos da aula
     </p>
