@@ -48,8 +48,8 @@
         </div>
       </div>
       <img src="~assets/images/capa-portugues.png" />
-
-      <div class="title"><center>Língua Portuguesa</center></div>
+      <div class="titulos is-uppercase"><center>Língua Portuguesa</center></div>
+      <br />
       <mide-tabs>
         <b-tab-item label="1º RED"
           ><center>
@@ -1413,6 +1413,8 @@
       </div>
       <mide-game-play-card v-model="cards"></mide-game-play-card>
       <img src="~assets/images/capa-matematica.png" />
+      <div class="titulos is-uppercase"><center>Matemática</center></div>
+      <br />
       <mide-tabs>
         <b-tab-item label="1º RED">
           <center>
@@ -3439,6 +3441,12 @@ export default {
   }
   .title {
     color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .title-intro {
+    color: black bold;
     text-align: center;
     padding: 10px;
     padding-top: 30px;
