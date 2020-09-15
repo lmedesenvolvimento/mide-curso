@@ -370,14 +370,30 @@
         src="~assets/images/unidade-III/o-que-o-aluno-podera-card-maior.png"
         width="400"
       />
+      <br />
       <p class="title is-6 is-uppercase">
         2.2 Duração da atividade
       </p>
       <p>
         Tempo médio necessário para que os(as) alunos(as) atinjam os objetivos
-        de aprendizagem. A duração deve ser descrita em aulas (Exs: uma aula de
-        45 minutos, 3 aulas de 45 135 minutos etc).
+        de aprendizagem. A duração deve ser descrita em aulas. Exemplo:
       </p>
+      <div class="areas column is-5">
+        <center>
+          <b>Quantas aulas:</b> <br />
+          <h1 class="title is-1">3</h1>
+          <h3 class="subtitle is- is-uppercase">aulas</h3>
+          <br />
+          <br />
+          <br />
+          <br />
+          <b>Quantos minutos duram cada aula:</b><br />
+          <h1 class="title is-1">45</h1>
+          <h3 class="subtitle is- is-uppercase">minutos</h3>
+        </center>
+      </div>
+      <img src="~assets/images/unidade-III/duracao-da-atividade-caixa.png" />
+
       <p class="title is-6 is-uppercase">
         2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)
       </p>
