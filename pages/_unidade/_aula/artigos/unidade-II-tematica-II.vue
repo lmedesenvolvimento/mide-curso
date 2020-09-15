@@ -1411,7 +1411,7 @@
           </div>
         </div>
       </div>
-      <h2 class="title is-2">~~COMPONENTE DE CARTAS~~</h2>
+      <mide-game-play-card v-model="cards"></mide-game-play-card>
       <img src="~assets/images/capa-matematica.png" />
       <mide-tabs>
         <b-tab-item label="1º RED">
@@ -2939,7 +2939,7 @@
           </div>
         </div>
       </div>
-      <h2 class="title is-2">~~COMPONENTE CARTAS~~</h2>
+      <mide-game-play-card v-model="cards_mat"></mide-game-play-card>
       <div class="block-bordered">
         <div class="columns is-vcentered">
           <div class="column is-3">
@@ -3351,6 +3351,80 @@ export default {
           n: 2,
           title: 'HABILIDADE (EF05LP23) ',
           text: 'Comparar informações apresentadas em gráficos ou tabelas.'
+        }
+      ],
+      cards: [
+        {
+          title: 'De olho na lista',
+          value: 'de-olho-na-lista',
+          pic: require('@/assets/images/card-icons/de-olho-lista.png'),
+          description:
+            'Relacionar pessoas ou coisas, obedecendo uma sequência alfabética, numérica, cronológica, que tem como função organizar as palavras e facilitar a sua localização.'
+        },
+        {
+          title: 'FÁBULAS ANIMADAS',
+          value: 'fabulas-animadas',
+          pic: require('@/assets/images/card-icons/fabulas-animadas.png'),
+          description:
+            'Identificar a ideia central do texto, demonstrando compreensão global e Inferir informações implícitas nos textos lidos.'
+        },
+        {
+          title: 'Revista digital da criança',
+          value: 'revista-digital-da-crianca',
+          pic: require('@/assets/images/card-icons/revista-digital-da-crianca.png'),
+          description:
+            'Ler, produzir e compreender cartas dirigidas a veículos da mídia impressa ou digital, notícias, reportagens, dentre outros gêneros do campo jornalístico e político-cidadão.'
+        },
+        {
+          title: 'Qual o pedido?',
+          value: 'qual-o-pedido',
+          pic: require('@/assets/images/card-icons/qual-o-pedido.png'),
+          description:
+            'Manipular textos e participar de situações de escuta, para ampliar o seu contato com diferentes gêneros textuais.'
+        },
+        {
+          title: 'Aventura no mundo dos quadrinhos',
+          value: 'aventura-no-mundo-dos-quadrinhos',
+          pic: require('@/assets/images/card-icons/aventura-no-mundo-dos-quadrinhos.png'),
+          description:
+            'Identificar o efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais em textos multissemióticos.'
+        }
+      ],
+      cards_mat: [
+        {
+          title: 'Meu Álbum Geométrico',
+          value: 'meu-album-geometrico',
+          pic: require('@/assets/images/card-icons/meu-album-geometrico.png'),
+          description:
+            'Identificar agrupamento e desagrupamento de elementos, comparação de quantidades além da determinação de critérios para classificar e seriar.'
+        },
+        {
+          title: 'Brincando com as Formas',
+          value: 'brincando-com-as-formasBrincando com as Formas',
+          pic: require('@/assets/images/card-icons/brincando-com-as-formas.png'),
+          description:
+            'Reconhecer figuras geométricas com as quais possuem contato em seu dia a dia.'
+        },
+        {
+          title: 'É o Bicho 2.0',
+          value: 'e-o-bicho',
+          pic: require('@/assets/images/card-icons/e-o-bicho-2.png'),
+          description:
+            'Explorar habilidades presentes em quatro unidades temáticas (número, álgebra, geometria e probabilidade e estatística) por meio de situações-problema.'
+        },
+        {
+          title: 'Ilha das operações',
+          value: 'ilha-das-operacoes',
+          pic: require('@/assets/images/card-icons/ilha-operacao.png'),
+          description:
+            'Explorar diferentes situações quaternárias do campo conceitual multiplicativo, dos eixos de proporção simples e proporção múltipla; da classe um para muitos e muitos para muitos. '
+        },
+        {
+          title: 'Divertix',
+          value: 'divertix',
+          pic: require('@/assets/images/card-icons/divertix.png'),
+          description:
+            'Elaborar, Revisar e Construir gráficos a partir de textos.'
         }
       ]
     }
