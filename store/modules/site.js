@@ -1,5 +1,5 @@
 const state = {
-  lessonNavIsVisible: false
+  lessonNavIsVisible: true
 }
 
 const actions = {
