@@ -184,77 +184,125 @@
         </div>
       </div>
     </div>
-    <p>
+    <p class="title is-6 is-uppercase">
       2.4 Estratégias e recursos da aula
     </p>
-    <p>
-      1a aula:
-    </p>
-    <p>
-      Na primeira aula sugere-se que os(as) alunos(as) explorem as seções da
-      Revista Digital e o seu formato. É importante deixar os (as) alunos(as)
-      livres para conhecer como é o seu funcionamento.
-    </p>
-    <p>
-      Dependendo do nível da sua turma, pode ser interessante propor a
-      utilização do recurso em duplas ou em trios, de modo que os(as) alunos(as)
-      possam trocar informações e discutir sobre as seções e atividades da
-      revista. É interessante observar como ocorrem as inferências, o fluxo de
-      leitura e as negociações entre as duplas ou trios para a resolução das
-      atividades. Verifique se alguma dupla ou trio demonstra dificuldade de
-      leitura ou de escrita e intervenha quando necessário, por exemplo,
-      ajudando os(as) alunos(as) na leitura dos conteúdos das seções ou dos
-      comandos.
-    </p>
-    <p>
-      Ao conhecer o recurso você deve ter percebido que ele é dividido em
-      seções, simulando o formato de uma revista convencional, tendo início com
-      a capa, que é a tela inicial do recurso.
-    </p>
-    <p>
-      FIGURA
-    </p>
-    <p>
-      O RED traz um editorial, com uma breve apresentação dos editores, e o
-      sumário, que apresenta todo o seu conteúdo.
-    </p>
-    <p>
-      FIGURA
-    </p>
-    <p>
-      FIGURA
-    </p>
-    <p>
-      Aborda-se, na seção posterior, um infográfico interativo sobre a evolução
-      das brincadeiras infantis. Nele, apresentam-se curiosidades (Quando
-      começou? Como se brinca? Você sabia?) sobre as brincadeiras: faz de conta,
-      cabra-cega, amarelinha e games.
-    </p>
-    <p>
-      FIGURA
-    </p>
-    <p>
-      Em seguida, o recurso traz um caça-palavras sobre as brincadeiras
-      apresentadas no infográfico.
-    </p>
-    <p>
-      FIGURA
-    </p>
-    <p>
-      Na seção seguinte, o recurso apresenta uma entrevista com Maria Clara, de
-      nove anos, sobre a produção de conteúdo digital.
-    </p>
-    <p>
-      FIGURA
-    </p>
-    <p>
-      Após a entrevista, tem-se um jogo da memória, no qual o(a) aluno(a) deverá
-      relacionar cartas de baralho sobre as perguntas e as respostas da
-      entrevista.
-    </p>
-    <p>
-      FIGURA
-    </p>
+    <center>
+      <p class="title is-6 is-uppercase">
+        1ª aula:<br />
+        <img
+          src="~assets/images/unidade-III/unidade-tematica-detalhe-card.png"
+        />
+      </p>
+    </center>
+
+    <div class="container is-fluid mb-4">
+      <div class="columns is-multiline is-fill-vertical">
+        <div class="column is-6 mb-2">
+          <div class="card is-grey">
+            <div class="card-tag is-amber">1</div>
+            <div class="card-header">
+              <div class="card-header-title">Explorar o recurso</div>
+            </div>
+            <div class="card-content">
+              Na primeira aula sugere-se que os(as) alunos(as) explorem as
+              seções da Revista Digital e o seu formato. É importante deixar os
+              (as) alunos(as) livres para conhecer como é o seu funcionamento.
+            </div>
+          </div>
+        </div>
+        <div class="column is-6 mb-2">
+          <div class="card is-grey">
+            <div class="card-tag is-green">2</div>
+            <div class="card-header">
+              <div class="card-header-title">Formar duplas ou trios</div>
+            </div>
+            <div class="card-content">
+              Dependendo do nível da sua turma, pode ser interessante propor a
+              utilização do recurso em duplas ou em trios, de modo que os(as)
+              alunos(as) possam trocar informações e discutir sobre as seções e
+              atividades da revista.
+            </div>
+          </div>
+        </div>
+        <div class="column is-6 mb-2">
+          <div class="card is-grey">
+            <div class="card-tag is-blue">3</div>
+            <div class="card-header">
+              <div class="card-header-title">Observar duplas ou trios</div>
+            </div>
+            <div class="card-content">
+              É interessante observar como ocorrem as inferências, o fluxo de
+              leitura e as negociações entre as duplas ou trios para a resolução
+              das atividades.
+            </div>
+          </div>
+        </div>
+        <div class="column is-6 mb-2">
+          <div class="card is-grey">
+            <div class="card-tag is-cyan">4</div>
+            <div class="card-header">
+              <div class="card-header-title">Intervir quando necessário</div>
+            </div>
+            <div class="card-content">
+              Verifique se alguma dupla ou trio demonstra dificuldade de leitura
+              ou de escrita e intervenha quando necessário, por exemplo,
+              ajudando os(as) alunos(as) na leitura dos conteúdos das seções ou
+              dos comandos.
+            </div>
+          </div>
+        </div>
+        <div class="column is-6 mb-2">
+          <div class="card is-grey">
+            <div class="card-tag is-purple">5</div>
+            <div class="card-header">
+              <div class="card-header-title">Identificar características</div>
+            </div>
+            <div class="card-content">
+              Ao conhecer o recurso você deve ter percebido que ele é dividido
+              em seções, simulando o formato de uma revista convencional, tendo
+              início com a capa, que é a tela inicial do recurso.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-100 has-background-light">
+      <section>
+        <h6 class="title is-6">
+          Clique nas opções abaixo para ver mais sobre cada seção:
+        </h6>
+
+        <b-collapse
+          v-for="(collapse, index) of collapses"
+          :key="index"
+          class="card"
+          animation="slide"
+          :open="isOpen == index"
+          @open="isOpen = index"
+        >
+          <div
+            slot="trigger"
+            slot-scope="props"
+            class="card-header"
+            role="button"
+          >
+            <div class="card-header-title">
+              {{ collapse.title }}
+            </div>
+            <a class="card-header-icon">
+              <b-icon :icon="props.open ? 'menu-up' : 'menu-down'"> </b-icon>
+            </a>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              {{ collapse.image }}
+              {{ collapse.text }}
+            </div>
+          </div>
+        </b-collapse>
+      </section>
+    </div>
     <p>
       Por se tratar de uma revista em formato digital, as linguagens verbal e
       não verbal, sejam elas estáticas ou animadas, apresentam-se interligadas e
@@ -833,54 +881,37 @@ export default {
       isOpen: 0,
       collapses: [
         {
-          title: '1. CONHECIMENTO',
+          title: '1. TELA INICIAL',
           text:
-            'Valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo físico, social, cultural e digital para entender e explicar a realidade, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.'
+            'Na capa do RED consta o título da revista e algumas informações sobre o conteúdo.'
         },
         {
-          title: '2. PENSAMENTO CIENTÍFICO, CRÍTICO E CRIATIVO',
-          text:
-            'Exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica, a imaginação e a criatividade, para investigar causas, elaborar e testar hipóteses, formular e resolver problemas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das diferentes áreas.'
+          title: '2. EDITORIAL',
+          text: 'O editorial traz uma breve apresentação dos editores.'
         },
         {
-          title: '3. REPERTÓRIO CULTURAL',
-          text:
-            ' Valorizar e fruir as diversas manifestações artísticas e culturais, das locais às mundiais, e também participar de práticas diversificadas da produção artístico-cultural.'
+          title: '3. SUMÁRIO',
+          text: ' O sumário lista todo seu conteúdo.'
         },
         {
-          title: '4. COMUNICAÇÃO',
+          title: '4. INFOGRÁFICO – EVOLUÇÃO DAS BRINCADEIRAS',
           text:
-            'Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, bem como conhecimentos das linguagens artística, matemática e científica, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao entendimento mútuo.'
+            '       Aborda-se, na seção posterior, um infográfico interativo sobre a evolução das brincadeiras infantis. Nele, apresentam-se curiosidades        (Quando começou? Como se brinca? Você sabia?) sobre as brincadeiras: faz       de conta, cabra-cega, amarelinha e games.'
         },
         {
-          title: '5. CULTURA DIGITAL',
+          title: '5. ATIVIDADES – CAÇA–PALAVRAS',
           text:
-            'Compreender, utilizar e criar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares) para se comunicar, acessar e disseminar informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva.'
+            'Em seguida, o recurso traz um caça-palavras sobre as brincadeiras apresentadas no infográfico.'
         },
         {
-          title: '6. TRABALHO E PROJETO DE VIDA',
+          title: '6. ENTREVISTA',
           text:
-            'Valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências que lhe possibilitem entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.'
+            ' Na seção seguinte, o recurso apresenta uma entrevista com Maria Clara, de nove anos, sobre a produção de conteúdo digital.'
         },
         {
-          title: '7. ARGUMENTAÇÃO',
+          title: '7. ATIVIDADE – ENTREVISTA',
           text:
-            'Argumentar com base em fatos, dados e informações confiáveis, para formular, negociar e defender ideias, pontos de vista e decisões comuns que respeitem e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, com posicionamento ético em relação ao cuidado de si mesmo, dos outros e do planeta.'
-        },
-        {
-          title: '8. AUTOCONHECIMENTO E AUTOCUIDADO',
-          text:
-            'Conhecer-se, apreciar-se e cuidar de sua saúde física e emocional, compreendendo-se na diversidade humana e reconhecendo suas emoções e as dos outros, com autocrítica e capacidade para lidar com elas.'
-        },
-        {
-          title: '9. EMPATIA E COOPERAÇÃO',
-          text:
-            'Exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação, fazendo-se respeitar e promovendo o respeito ao outro e aos direitos humanos, com acolhimento e valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.'
-        },
-        {
-          title: '10. RESPONSABILIDADE E CIDADANIA',
-          text:
-            'Agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação, tomando decisões com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários.'
+            ' Após a entrevista, tem-se um jogo da memória, no qual o(a) aluno(a)         deverá relacionar cartas de baralho sobre as perguntas e as respostas da entrevista.'
         }
       ]
     }
@@ -894,58 +925,36 @@ export default {
     font: 15px avenir-next-lt-pro-regular;
     padding-right: 5px;
   }
-  .colchete1 {
-    margin-top: 40px;
-    margin-left: -30px;
-  }
-  .fala-marcos {
-    margin-top: 52px;
-    margin-left: -60px;
-    margin-right: 10px;
-  }
-  .fala-carla {
-    text-align: right;
-    margin-top: 55px;
-  }
-  .colchete2 {
-    margin-top: 50px;
-  }
-  .textobncc {
-    // background: url('~assets/images/highlighted-default.png') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
+}
+.textobncc {
+  // background: url('~assets/images/highlighted-default.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  text-align: center;
+  padding: $gap $gap * 1.5;
+  margin: 40px 0 0 60px;
+  font-size: 14px;
+}
+section {
+  margin-bottom: 50px;
+  padding: 50px;
+  h6 {
+    text-transform: uppercase;
     text-align: center;
-    padding: $gap $gap * 1.5;
-    margin: 40px 0 0 60px;
-    font-size: 14px;
+    font: Bold 15px avenir-next-lt-pro-bold;
   }
-  .fundo {
-    background-color: #e8e8e8;
-    width: 105%;
-    margin-left: -20px;
-
-    section {
-      margin-bottom: 50px;
-      padding: 50px;
-      h6 {
-        text-transform: uppercase;
-        text-align: center;
-        font: Bold 15px avenir-next-lt-pro-bold;
-      }
-      .card {
-        border-radius: 10px;
-        box-shadow: 5px 5px 15px #3c80d116;
-        .card-header {
-          margin-top: 20px;
-        }
-        .card-header-title {
-          font: Bold 14px avenir-next-lt-pro-bold;
-        }
-        .card-content {
-          text-indent: 50px;
-        }
-      }
+  .card {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #3c80d116;
+    .card-header {
+      margin-top: 20px;
+    }
+    .card-header-title {
+      font: Bold 14px avenir-next-lt-pro-bold;
+    }
+    .card-content {
+      text-indent: 50px;
     }
   }
 }
