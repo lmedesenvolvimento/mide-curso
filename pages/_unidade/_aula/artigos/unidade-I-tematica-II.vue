@@ -10,10 +10,10 @@
           Base Nacional Comum Curricular (BNCC);
         </li>
         <li>
-          Incentivar o contato dos professores com as tecnologias da informação
-          e comunicação para se comunicar, acessar e disseminar informações,
-          produzir conhecimentos, resolver problemas e exercer protagonismo e
-          autoria na vida pessoal e coletiva.
+          Incentivar o contato dos professores com as Tecnologias da Informação
+          e Comunicação(TIC) para se comunicar, acessar e disseminar
+          informações, produzir conhecimentos, resolver problemas e exercer
+          protagonismo e autoria na vida pessoal e coletiva.
         </li>
 
         <div class="block-bordered">
@@ -37,16 +37,18 @@
         </div>
         <p>
           Diante das <strong>características</strong> da
-          <strong>cibercultura</strong> e tendo em vista sua ampla presença no
-          cotidiano de alunos e professores, sobretudo pela disseminação massiva
-          dos smartphones, fica evidente a necessidade de todos compreenderem de
-          que maneira a cultura digital atua em nossas vidas e como utilizá-la
-          em nosso favor no processo pedagógico.
+          <strong>cibercultura</strong> e tendo em vista a sua ampla presença no
+          cotidiano de alunos e professores, sobretudo, pela disseminação
+          massiva dos smartphones, fica evidente a necessidade de todos
+          compreenderem de que maneira a cultura digital atua em nossas vidas e
+          como utilizá-la em nosso favor no processo pedagógico.
         </p>
         <p>
           Sabendo da importância de se compreender como podemos usar a cultura
-          digital ao nosso favor, vamos nos apoiar na Base Nacional Comum
-          Curricular (BNCC).
+          digital em nosso favor, vamos nos apoiar na
+          <a href="http://basenacionalcomum.mec.gov.br/">
+            Base Nacional Comum Curricular (BNCC)</a
+          >.
         </p>
         <p>Lembrando que:</p>
 
@@ -92,11 +94,11 @@
             </div>
             <div class="column">
               <div class="dialog-box is-left">
-                Portanto, ao longo da <b>Educação Básica</b>, as aprendizagens
-                essenciais definidas na <b>BNCC</b> devem concorrer para
-                <b>assegurar</b> aos estudantes o desenvolvimento de
-                <b>dez competências gerais</b>, que apoiem os direitos de
-                aprendizagem e desenvolvimento.
+                Portanto, ao longo da <b>Educação Básica</b>, as
+                <b>aprendizagens essenciais</b> definidas na <b>BNCC</b> devem
+                concorrer para <b>assegurar</b> aos estudantes o desenvolvimento
+                de <b>dez competências gerais</b>, que apoiem os direitos de
+                aprendizagem.
               </div>
             </div>
           </div>
@@ -138,22 +140,22 @@
         </div>
 
         <p>
-          Para a BNCC as práticas pedagógicas devem se basear dentro de um
+          Para a BNCC, as práticas pedagógicas devem se basear dentro de um
           contexto histórico e cultural.
         </p>
 
         <p>
           É muito importante que possamos refletir novas formas de se comunicar
-          ao invés de apenas pensar em acúmulo de informações. Por isso, podemos
-          refletir sobre como a cultura digital nos ajuda a:
+          ao invés de apenas pensar em um acúmulo de informações. Por isso,
+          podemos refletir sobre como a cultura digital nos ajuda a:
         </p>
 
         <center>
           <img src="~assets/images/unidade-I/infografico-cultura-digital.png" />
         </center>
         <p>
-          Nós, professores, precisamos pensar que essas competências nos ajudam
-          e, como também, ajudam nossos alunos a:
+          Nós, professores(as), precisamos pensar que essas competências nos
+          ajudam, como também, ajudam nossos alunos a:
         </p>
         <p>
           <i>
@@ -213,9 +215,9 @@
             <div class="column">
               <div class="dialog-box is-left">
                 Percebam que essa <strong>competência</strong> fala sobre saber
-                se comunicar utilizando <strong>diferentes linguagem</strong>.
-                Como você poderia estimular seus alunos a se comunicarem através
-                dessas linguagens?
+                se comunicar utilizando <strong>diferentes linguagens</strong>.
+                Como você poderia estimular os seus alunos a se comunicarem
+                através dessas linguagens?
               </div>
             </div>
           </div>
@@ -225,7 +227,7 @@
           <div class="columns is-vcentered">
             <div class="column">
               <div class="dialog-box is-right">
-                Agora vamos ver o que diz a <strong>competência 5</strong>.
+                Agora, vamos ver o que diz a <strong>competência 5</strong>.
               </div>
             </div>
             <div class="column is-3">
@@ -297,12 +299,12 @@
         </div>
         <div class="title has-icon heading">
           Saberes necessários para a construção das competências de inclusão e
-          letramento digitais
+          letramentos digitais
         </div>
         <p>
           A construção destas competências encontra-se em três elementos que
-          definem, hoje, a inclusão e o letramento digitais: saber <b>LER</b>,
-          saber <b>ESCREVER</b> e saber <b>PARTICIPAR</b> na internet (OCHS,
+          definem, hoje, a inclusão e os letramentos digitais: saber <b>LER</b>,
+          saber <b>ESCREVER</b> e saber <b>PARTICIPAR</b> na Internet (OCHS,
           2019).
         </p>
 
@@ -318,7 +320,7 @@
           <div class="column">
             <div class="is-left">
               <h6 class="titulos">SABER LER</h6>
-              Saber <strong>LER</strong> na internet significa
+              Saber <strong>LER</strong> na Internet significa
               <strong>realizar a leitura crítica</strong> dos textos de mídia em
               qualquer formato, utilizando-se de habilidades no domínio das
               técnicas de busca, organização e produção do conhecimento. Esta
@@ -326,7 +328,7 @@
               mídia na sociedade e a importância da liberdade de expressão.
               Também fazem parte da leitura competente o entendimento sobre como
               circulam as informações na grande mídia e nos diversos ambientes
-              que compõem a internet, como as mídias sociais, bem como a
+              que compõem a Internet, como as mídias sociais, bem como a
               comunicação de conteúdo patrocinado e influenciadores.
             </div>
           </div>
@@ -342,7 +344,7 @@
             </div>
             <div class="column">
               <div class="dialog-box is-left">
-                Saber <strong>ler na internet</strong> envolve saber conferir a
+                Saber <strong>ler na Internet</strong> envolve saber conferir a
                 <strong>qualidade da informação</strong> encontrada. Você
                 confere as informações que recebe? Em que sites você costuma
                 buscar as informações?
@@ -362,13 +364,13 @@
           <div class="column">
             <div class="is-left">
               <h6 class="titulos">SABER ESCREVER</h6>
-              Saber <strong>ESCREVER</strong> na internet significa
+              Saber <strong>ESCREVER</strong> na Internet significa
               <strong>produzir mídias</strong> desenvolvidas
               <strong>de forma técnica e criativa</strong> , utilizando-se de
               ferramentas digitais adequadas, adaptando-se continuamente a novos
               recursos para produção e compartilhamento de conhecimento. Para
               tanto, é necessário necessário utilizar adequadamente textos,
-              imagens, dados e áudio, entendendo e adequando as suas linguagens
+              imagens, dados e áudios, entendendo e adequando as suas linguagens
               a cada formato de mídia.
             </div>
           </div>
@@ -403,16 +405,16 @@
           <div class="column">
             <div class="is-left">
               <h6 class="titulos">SABER PARTICIPAR NA INTERNET?</h6>
-              Saber <strong>PARTICIPAR</strong> na internet envolve
-              <strong>utilizar a internet</strong> de forma
+              Saber <strong>PARTICIPAR</strong> na Internet envolve
+              <strong>utilizá-la</strong> de forma
               <strong> segura, responsável e consciente</strong>, em função da
               interação com outras pessoas. Isto envolve habilidades de
               compreensão dos efeitos da participação em redes sociais virtuais,
-              combatendo a desinformação, o bullying e o discurso de ódio, bem
-              como os mecanismos de denúncia destes eventos. A participação na
-              internet envolve ainda o próprio uso equilibrado da rede,
-              entendendo-a como uma das perspectivas da vida social e da
-              construção da consciência crítica, não como o centro das
+              combatendo a desinformação, o <i>bullying</i> e o discurso de
+              ódio, bem como os mecanismos de denúncia destes eventos. A
+              participação na Internet envolve, ainda, o próprio uso equilibrado
+              da rede, entendendo-a como uma das perspectivas da vida social e
+              da construção da consciência crítica, não como o centro das
               atividades cotidianas. A preservação da privacidade e a
               compreensão de sua importância fazem parte deste processo
               participativo.
@@ -428,8 +430,8 @@
             </div>
             <div class="column">
               <div class="dialog-box is-left">
-                Como seus os <strong>alunos</strong> estão acessando e
-                <strong>participando das mídias</strong> ? Como seria
+                Como os seus <strong>alunos</strong> estão acessando e
+                <strong>participando das mídias</strong> ? Não seria
                 interessante saber como eles se percebem e são críticos em
                 relação a isso?
               </div>
@@ -444,7 +446,7 @@
                 que <strong>competência</strong> podemos
                 <strong>desenvolver</strong> para
                 <strong>discutir</strong> todas essas
-                <strong>temáticas</strong> com nossos alunos?
+                <strong>temáticas</strong> com os nossos alunos?
               </div>
             </div>
             <div class="column is-3">
@@ -479,8 +481,8 @@
                 </div>
                 <div class="card-content">
                   Utilização das tecnologias digitais pelo professor para
-                  comunicação, colaboração e seu próprio desenvolvimento
-                  profissional. O uso da internet e das mídias digitais pelo
+                  comunicação, colaboração e para o seu próprio desenvolvimento
+                  profissional. O uso da Internet e das mídias digitais pelo
                   professor interfere em sua própria evolução profissional;
                 </div>
               </div>
@@ -528,9 +530,9 @@
                   <div class="card-header-title">Capacitar os alunos</div>
                 </div>
                 <div class="card-content">
-                  O professor utiliza estratégias de ensino e aprendizagem
-                  centradas no aluno, buscando a inclusão, personalização e
-                  engajamento através das mídias digitais;
+                  O professor utiliza estratégias de ensino e de aprendizagem
+                  centradas no aluno, buscando a inclusão, a personalização e o
+                  engajamento por meio das mídias digitais;
                 </div>
               </div>
             </div>
@@ -544,7 +546,7 @@
                 </div>
                 <div class="card-content">
                   O professor cria condições para a utilização criativa, crítica
-                  e responsável da internet para informação, comunicação,
+                  e responsável da Internet para informação, comunicação,
                   produção de conteúdos, bem-estar e resolução de problemas.
                 </div>
               </div>
@@ -556,13 +558,13 @@
           constituindo um processo contínuo de evolução do professor.
         </p>
         <p>
-          O <strong>framework</strong> prevê uma evolução contínua onde o
+          O <strong>framework</strong> prevê uma evolução contínua, na qual o
           professor inicia como Novato/Explorador, desenvolvendo algumas
-          habilidades digitais básicas. Em seguida atinge o estágio de
-          Integrador/Especialista, onde expande, estrutura suas práticas
+          habilidades digitais básicas. Em seguida, atinge o estágio de
+          Integrador/Especialista, onde expande, estrutura as suas práticas
           pedagógicas on-line. Por fim, na fase mais elevada, de Líder/Pioneiro,
-          ele sente-se apto a compartilhar suas práticas, além de criticar suas
-          próprias práticas.
+          ele sente-se apto a compartilhar as suas práticas, além de tecer
+          críticas sobre elas.
         </p>
         <hr />
         <div class="title has-icon heading">
@@ -575,7 +577,7 @@
           determinadas posturas e consequentes atitudes pedagógicas que buscam
           efetivar a construção das competências e dos saberes já descritos.
           Assim, em seu cotidiano escolar, o professor deve buscar o
-          <strong>uso transversal dos recursos e ferramentas da internet</strong
+          <strong>uso transversal dos recursos e ferramentas da Internet</strong
           >, sempre tendo em vista estes elementos educativos.
         </p>
         <p>
@@ -588,18 +590,18 @@
           nesta construção.
         </p>
         <p>
-          <strong>Incluir memes, vídeos, jogos digitai</strong>s e situações
-          típicas de redes sociais virtuais nas discussões e recursos didáticos
-          dos conteúdos abordados é um bom começo. Porém é necessário abrir
-          espaço para a discussão e a compreensão do cotidiano dos alunos, onde
-          as tecnologias digitais inserem-se em contextos e situações diversas
-          daquelas do professor.
+          <strong>Incluir memes, vídeos, jogos digitais</strong> e situações
+          típicas das redes sociais virtuais nas discussões e nos recursos
+          didáticos dos conteúdos abordados é um bom começo. Porém é necessário
+          abrir espaço para a discussão e para a compreensão do cotidiano dos
+          alunos, onde as tecnologias digitais inserem-se em contextos e
+          situações diversas daquelas do professor.
         </p>
         <p>
-          A aprendizagem significativa deve ser perseguida pelos docentes,
+          A aprendizagem relevante deve ser perseguida pelos docentes,
           utilizando em aula, sempre que possível, dispositivos como o
-          smartphone e ferramentas de uso cotidiano do aluno, especialmente as
-          redes sociais, fóruns de discussão da internet, blogs, jornais e
+          smartphone e ferramentas de uso do cotidiano do aluno, especialmente
+          as redes sociais, fóruns de discussão da Internet, blogs, jornais e
           revistas digitais.
         </p>
         <div class="w-100 has-background-light">
@@ -607,26 +609,26 @@
             <h6 class="title is-6">Cuidados que devem ser tomados</h6>
           </center>
           <p>
-            Cuidado especial deve ser tomado quanto a uma postura responsável e
-            crítica do aluno em relação à rede. Neste sentido, o professor deve
-            promover atividades que ponham em debate aspectos éticos das
-            relações sociais na internet: respeitar opiniões diversas, evitar o
-            cyberbullying (e denunciar a sua prática), identificação de
-            situações de desinformação, ao mesmo tempo em que estimula
+            Um cuidado especial deve ser tomado quanto a uma postura responsável
+            e crítica do aluno em relação à rede. Neste sentido, o professor
+            deve promover atividades que ponham em debate aspectos éticos das
+            relações sociais na Internet: respeitar opiniões diversas, evitar o
+            <i>cyberbullying</i> (e denunciar a sua prática), identificação de
+            situações de desinformação, ao mesmo tempo em que se deve estimular
             experiências de engajamento que fortaleçam essas posturas no aluno.
           </p>
           <p>
-            Cuidados na exposição do aluno na internet. Os alunos realizam na
-            internet muitas de suas atividades cotidianas, inclusive aquelas
+            Cuidados na exposição do aluno na Internet. Os alunos realizam na
+            Internet muitas de suas atividades cotidianas, inclusive, aquelas
             ligadas à aprendizagem escolar. Eles estão, portanto, bastante
-            expostos a diversas situações de assédio e uso indevido de dados,
-            dentre outros. É importante, então debater com eles as
-            possibilidades e os riscos dessa exposição, sobretudo comentários,
-            mensagens de texto e áudio, fotografias e vídeos. É importante que
-            saibam: uma vez que algo foi publicado, ficará na rede de forma
-            permanente, mesmo que seja aparentemente apagado pelo autor. Toda
-            publicação é automaticamente replicada e espelhada em múltiplas
-            cópias em servidores mundo afora.
+            expostos as diversas situações de assédio e uso indevido de dados,
+            dentre outros. É importante, então, debater com eles as
+            possibilidades e os riscos dessa exposição, sobretudo, acerca de
+            comentários, mensagens de texto e áudios, fotografias e vídeos. É
+            importante que saibam: uma vez que algo foi publicado, ficará na
+            rede de forma permanente, mesmo que seja aparentemente apagado pelo
+            autor. Toda publicação é automaticamente replicada e espelhada em
+            múltiplas cópias em servidores mundo afora.
           </p>
         </div>
         <div class="block-bordered">
@@ -639,7 +641,7 @@
             <div class="column">
               <div class="dialog-box is-left">
                 Que tal você verificar se conseguiu compreender algumas das
-                ideias apresentadas aqui nessa temática?
+                ideias apresentadas aqui nesta temática?
               </div>
             </div>
           </div>
@@ -677,8 +679,8 @@
                       práticas sociais mediadas por diferentes linguagens:
                       verbal, corporal, visual, sonora e digital. Marque a
                       alternativa que melhor expressa como os professores e
-                      professoras podem estimular seus alunos a se comunicarem
-                      através dessas linguagens.
+                      professoras podem estimular os seus alunos a se
+                      comunicarem através dessas linguagens.
                     </p>
                   </center>
                 </template>
@@ -752,8 +754,8 @@
                 <template slot="question">
                   <div class="question-title">DESAFIO!</div>
                   <p>
-                    Marque os três ítens mais importantes para incentivar a
-                    cultura digital na escola
+                    Marque os três itens mais importantes para incentivar a
+                    cultura digital na escola.
                   </p>
                 </template>
                 <template #option="{option, model, setModel, tries, valid}">
@@ -786,7 +788,8 @@
             <div class="column">
               <div class="dialog-box is-left">
                 Nesta unidade, conhecemos o conceito de cibercultura, em que
-                contexto ele surgiu e como influencia as práticas na sociedade.
+                contexto ele surgiu e como este conceito influencia as práticas
+                na sociedade.
               </div>
             </div>
           </div>
@@ -818,7 +821,7 @@
             <div class="column">
               <div class="dialog-box is-left">
                 Na próxima unidade, vamos apresentar o conceito de Recursos
-                Educacionais Digitais e sua classificação.
+                Educacionais Digitais e a sua classificação.
               </div>
             </div>
           </div>
@@ -915,17 +918,17 @@ export default {
         },
         {
           text:
-            'Explicando que as tecnologias digitais da informação e comunicação trazem possibilidades de reflexões, mas o livro didático é a fonte primária de informação. O que sai nas demais mídias deve servir apenas para lazer ou distração.',
+            'Explicando que as tecnologias digitais de informação e comunicação trazem possibilidades de reflexões, mas o livro didático é a fonte primária de informação. O que sai nas demais mídias deve servir apenas para lazer ou distração.',
           value: '2'
         },
         {
           text:
-            'Orientando os alunos a não desenvolverem projetos autorais e coletivos e não possuírem perfis em redes sociais. O importante é  não perder o foco dos estudos escolares. ',
+            'Orientando os alunos a não desenvolverem projetos autorais e coletivos e a não possuírem perfis em redes sociais. O importante é  não perder o foco dos estudos escolares. ',
           value: '3'
         },
         {
           text:
-            'Utilizando as tecnologias de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares). É importante a comunicação por meio das diferentes linguagens e mídias, produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.',
+            'Utilizando as tecnologias de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares). É importante a comunicação por meio das diferentes linguagens e mídias, para produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.',
           value: '4'
         }
       ],
@@ -939,7 +942,7 @@ export default {
           value: '2'
         },
         {
-          text: 'Laboratórios de ciências bem equipados;',
+          text: 'Laboratórios de ciências bem equipados.',
           value: '3'
         },
         {
