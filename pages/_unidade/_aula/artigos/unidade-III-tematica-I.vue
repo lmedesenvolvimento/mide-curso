@@ -382,7 +382,7 @@
         <center>
           <b>Quantas aulas:</b> <br />
           <h1 class="title is-1">3</h1>
-          <h3 class="subtitle is- is-uppercase">aulas</h3>
+          <h3 class="subtitle is-uppercase">aulas</h3>
           <br />
           <br />
           <br />
