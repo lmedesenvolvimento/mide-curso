@@ -376,6 +376,12 @@
             ou mesmo áudio. Para facilitar a compreensão, podemos citar como
             exemplo no formato de vídeo, um tutorial para aprender a desenhar.
           </p>
+          <p>
+            O recurso mostra o passo a passo de como aprender a desenhar
+            começando do zero. Como exemplo de tutorial no formato de texto, é
+            possível citar a produção textual utilizando uma receita de bolo, de
+            salada, dentre outros.
+          </p>
           <center>
             <img src="~assets/images/imagem-tutorial.png" />
             <p>
@@ -383,10 +389,6 @@
               Link para o recurso: https://youtu.be/9nb8rFU7iVs
             </p>
           </center>
-          O recurso mostra o passo a passo de como aprender a desenhar começando
-          do zero. Como exemplo de tutorial no formato de texto, é possível
-          citar a produção textual utilizando uma receita de bolo, de salada,
-          dentre outros.
         </b-tab-item>
 
         <b-tab-item label="Áudio">

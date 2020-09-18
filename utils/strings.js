@@ -8,7 +8,7 @@ export const INTRO_DIALOGS = [
     right: true,
     avatar: require('assets/images/avatar-dialogo-marcos.png'),
     text:
-      'Oi! Meu nome é <strong>Marcos</strong>. Sou professor de Língua Português.'
+      'Oi! Meu nome é <strong>Marcos</strong>. Sou professor de Língua Portuguesa.'
   },
   {
     avatar: require('assets/images/avatar-dialogo-carla.png'),
@@ -68,8 +68,7 @@ export const INTRO_DIALOGS = [
       },
       {
         avatar: require('assets/images/avatar-dialogo-carla.png'),
-        text:
-          'Agora, veja a estrutura abaixo para entender a estrutura do curso:'
+        text: 'Agora, veja a imagem abaixo para entender a estrutura do curso:'
       },
       {
         type: 'text',
