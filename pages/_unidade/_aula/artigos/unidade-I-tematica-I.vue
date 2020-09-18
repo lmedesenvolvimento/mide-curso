@@ -1,5 +1,5 @@
 <template>
-  <mide-aulas-container description="Temática 1 - Cibercultura e a educação">
+  <mide-aulas-container description="Temática 1 - Cibercultura e educação">
     <div id="unidade-I-tematica-I">
       <article>
         <h6 class="titulos">
@@ -195,20 +195,21 @@
           nos direitos humanos, sobretudo, quanto aos direitos das mulheres, ao
           exercício da sexualidade e à vida em comunidade.
         </p>
-
         <challenge
           name="challege-1"
           :options="challenge"
           :multiple="true"
-          correct="capitalismo,comunismo,ditadura"
           :card="true"
+          correct="capitalismo,comunismo,ditadura"
         >
-          <template slot="quesiton">
-            <div class="question-title">DESAFIO!</div>
-            <p>
-              Quais dessas palavras você acha que o movimento da contracultura
-              era contra?
-            </p>
+          <template slot="question">
+            <center>
+              <div class="question-title">DESAFIO!</div>
+              <p>
+                Quais dessas palavras você acha que o movimento da contracultura
+                era contra?
+              </p>
+            </center>
           </template>
           <template #success="{totalCorrect}">
             <div class="container is-fluid">
@@ -226,7 +227,7 @@
                       <span class="has-text-success"
                         >Acertou {{ totalCorrect }}
                       </span>
-                      palavras!
+                      palavra(s)!
                     </strong>
                   </p>
                   <p>
@@ -261,7 +262,7 @@
                     <span class="has-text-success"
                       >Acertou {{ totalCorrect }}
                     </span>
-                    palavras!
+                    palavra(s)!
                   </strong>
 
                   <strong

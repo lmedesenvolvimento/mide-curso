@@ -6,9 +6,9 @@
       <h3>Curso de Formação</h3>
       <h1 class="title is-1">Uso de Recursos Educacionais Digitais</h1>
       <p>
-        O curso irá lhe ajudar a entender como a cultura digital pode mudar
-        algumas práticas de sala de aula e conhecer Recursos Educacionais
-        Digitais (RED) de Língua Portuguesa e Matemática.
+        O curso ajudará você a entender como a cultura digital pode mudar
+        algumas práticas de sala de aula e a conhecer Recursos Educacionais
+        Digitais (RED) de Língua Portuguesa e de Matemática.
       </p>
       <br />
       <button>

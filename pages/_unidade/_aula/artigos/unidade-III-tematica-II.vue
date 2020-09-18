@@ -1,5 +1,7 @@
 <template>
-  <mide-aulas-container>
+  <mide-aulas-container
+    description="Temática 2 - PROPOSTAS DE PLANOS DE AULAS COM SUPORTE DE RED"
+  >
     <div id="unidade-III-tematica-II">
       <div class="block-bordered">
         <div class="columns is-vcentered">

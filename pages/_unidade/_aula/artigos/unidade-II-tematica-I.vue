@@ -4,7 +4,7 @@
   >
     <article id="unidade-II-tematica-I">
       <h6 class="titulos">Os objetivos desta temática são:</h6>
-
+      <br />
       <li>
         Estabelecer relações entre os saberes da cultura escolar e aqueles
         referentes à digital.

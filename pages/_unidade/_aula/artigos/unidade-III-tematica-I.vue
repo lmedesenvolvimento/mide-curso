@@ -1,5 +1,7 @@
 <template>
-  <mide-aulas-container>
+  <mide-aulas-container
+    description="Temática 1 - PLANEJAMENTO DO PROCESSO DE ENSINO COM SUPORTE DE RED"
+  >
     <article id="unidade-III-tematica-I">
       <p>
         Fazer planos é um tarefa essencial em nosso cotidiano. Ele é utilizado

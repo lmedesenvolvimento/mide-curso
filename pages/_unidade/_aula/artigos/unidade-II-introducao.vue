@@ -56,8 +56,8 @@
           </div>
           <div class="column">
             <div class="dialog-box">
-              “Convidamos vocês para essa reflexão tão importante para a prática
-              docente.”
+              Convidamos vocês para essa reflexão tão importante para a prática
+              docente.
             </div>
           </div>
           <div class="column is-3">

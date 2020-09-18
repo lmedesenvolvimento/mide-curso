@@ -6,6 +6,7 @@
       <h6 class="titulos">
         Os objetivos desta temática são:
       </h6>
+      <br />
       <li>
         Apresentar os recursos educacionais digitais disponíveis na Plataforma
         Integrada de Recursos Educacionais Digitais do Ministério da Educação.
@@ -307,7 +308,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -334,7 +335,7 @@
 
         <b-tab-item label="2º RED">
           <center>
-            <div class="titulos is-uppercase">qual o seu pedido?</div>
+            <div class="titulos is-uppercase">qual é o seu pedido?</div>
           </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
@@ -398,7 +399,7 @@
             </div>
             <div class="column">
               <div class="is-left">
-                <h6 class="titulos">QUAL O SEU PEDIDO?</h6>
+                <h6 class="titulos">QUAL É O SEU PEDIDO?</h6>
                 O recurso "Qual é o seu pedido?" busca trabalhar a leitura e a
                 produção de cardápios, por meio da apresentação de situações de
                 interação com esse gênero, contextualizadas nas funções de
@@ -569,7 +570,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -819,7 +820,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -1090,7 +1091,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -1345,7 +1346,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -1717,7 +1718,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -2031,7 +2032,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -2292,7 +2293,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -2585,7 +2586,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -2876,7 +2877,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -3378,7 +3379,7 @@ export default {
             'Ler, produzir e compreender cartas dirigidas a veículos da mídia impressa ou digital, notícias, reportagens, dentre outros gêneros do campo jornalístico e político-cidadão.'
         },
         {
-          title: 'Qual o pedido?',
+          title: 'Qual é o seu pedido?',
           value: 'qual-o-pedido',
           pic: require('@/assets/images/card-icons/qual-o-pedido.png'),
           description:

@@ -6,10 +6,10 @@
         <h3 class="has-text-left">Aproveite os estudos!</h3>
         <h1>Uso de Recursos Educacionais Digitais</h1>
         <p>
-          Com este curso, você vai poder desenvolver seus conhecimentos acerca
-          do uso de Recursos Educacionais Digitais como instrumentos de ensino
-          de aprendizagem. Além disso, ele auxiliará no seu planejamento de
-          aulas com suporte de Recursos Educacionais Digitais.
+          Com este curso, você vai poder desenvolver os seus conhecimentos
+          acerca do uso de Recursos Educacionais Digitais como instrumentos de
+          ensino e de aprendizagem. Além disso, ele auxiliará no seu
+          planejamento de aulas com suporte de Recursos Educacionais Digitais.
         </p>
       </div>
       <hr class="mide-horizontal-line" />
