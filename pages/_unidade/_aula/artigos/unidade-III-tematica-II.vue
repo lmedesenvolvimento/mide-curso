@@ -79,10 +79,12 @@
           </h3>
         </div>
 
-        <img
-          src="~assets/images/unidade-III/caixa-modalidade.png"
-          width="600"
-        />
+        <figure>
+          <img
+            src="~assets/images/unidade-III/caixa-modalidade.png"
+            class="quadro"
+          />
+        </figure>
         <br />
       </center>
       <p class="title is-6 is-uppercase">1.2. Áreas do conhecimento:</p>
@@ -92,10 +94,7 @@
           <h2 class="title is-4 is-uppercase">Linguagem</h2>
         </div>
 
-        <img
-          src="~assets/images/unidade-III/caixa-modalidade.png"
-          width="600"
-        />
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
         <br />
       </center>
       <p class="title is-6 is-uppercase">1.3 Componente curricular:</p>
@@ -105,10 +104,7 @@
           <h2 class="title is-4 is-uppercase">Língua Portuguesa</h2>
         </div>
 
-        <img
-          src="~assets/images/unidade-III/caixa-modalidade.png"
-          width="600"
-        />
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
         <br />
       </center>
       <p class="title is-6 is-uppercase">1.4 Unidade Temática: <br /></p>
@@ -119,10 +115,7 @@
           (compartilhada e autônoma)
         </div>
         <br />
-        <img
-          src="~assets/images/unidade-III/caixa-modalidade.png"
-          width="600"
-        />
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
         <br />
       </center>
       <p class="title is-6 is-uppercase">1.5 Objeto do conhecimento:</p>
@@ -130,10 +123,7 @@
         <div class="contentbox">
           <h2 class="title is-4 is-uppercase">Compreensão em leitura</h2>
         </div>
-        <img
-          src="~assets/images/unidade-III/caixa-modalidade.png"
-          width="600"
-        />
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
       </center>
       2. DADOS DA AULA
       <p class="title is-6 is-uppercase">
@@ -156,19 +146,28 @@
             considerando a situação comunicativa e o tema/assunto do texto.
           </p>
         </div>
-        <img
-          src="~assets/images/unidade-III/duracao-da-atividade-caixa.png"
-          width="600"
-        />
+        <img src="~assets/images/unidade-III/duracao-da-atividade-caixa.png" />
       </center>
 
       <p class="title is-6 is-uppercase">2.2 Duração da atividade</p>
       <center>
-        Duas aulas de 50 minutos cada
-        <img
-          src="~assets/images/unidade-III/duracao-da-atividade-caixa.png"
-          width="600"
-        />
+        <div class="contentbox">
+          <b>Quantidade de aulas:</b>
+          <h1 class="title is-1">2</h1>
+          <h3 class="subtitle is-uppercase">
+            aulas
+          </h3>
+          <br />
+          <br />
+          <br />
+          <br />
+          <b>Quantos minutos duram cada aula:</b>
+          <h1 class="title is-1">50</h1>
+          <h3 class="subtitle is-uppercase">
+            minutos
+          </h3>
+        </div>
+        <img src="~assets/images/unidade-III/duracao-da-atividade-caixa.png" />
       </center>
       <br />
       <p class="title is-6 is-uppercase">
@@ -331,7 +330,7 @@
           </h6>
 
           <b-collapse
-            v-for="(collapse, index) of collapses"
+            v-for="(collapse, index) of collapses_p1"
             :key="index"
             class="card"
             animation="slide"
@@ -345,6 +344,7 @@
               role="button"
             >
               <div class="card-header-title">
+                <h5>{{ collapse.n }}.</h5>
                 {{ collapse.title }}
               </div>
               <a class="card-header-icon">
@@ -623,40 +623,81 @@
       1. ESTRUTURA CURRICULAR <br />
       <p class="title is-6 is-uppercase">1.1 Modalidade / nível de ensino:</p>
       O plano de RED É o Bicho foi proposto para:<br />
-      3o ano do Ensino Fundamental
-      <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
+      <center>
+        <div class="contentbox">
+          <h1 class="title is-1">3º</h1>
+          <h3 class="subtitle is-uppercase">
+            ano
+            <br />
+            Ensino fundamental
+          </h3>
+        </div>
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
+      </center>
       <br /><br />
 
       <p class="title is-6 is-uppercase">1.2. Áreas do conhecimento:</p>
-      Matemática <br />
-      <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
-      <br /><br />
+      <center>
+        <div class="contentbox">
+          <h2 class="title is-4 is-uppercase">
+            Matemática
+          </h2>
+        </div>
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
+        <br /><br />
+      </center>
 
       <p class="title is-6 is-uppercase">1.3 Componente curricular:</p>
-      Matemática <br />
-      <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
+      <center>
+        <div class="contentbox">
+          <h2 class="title is-4 is-uppercase">
+            Matemática
+          </h2>
+        </div>
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
+      </center>
       <br /><br />
 
       <p class="title is-6 is-uppercase">1.4 Unidade Temática:</p>
-      Números <br />
-      <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
+      <center>
+        <div class="contentbox">
+          <h2 class="title is-4 is-uppercase">
+            Números
+          </h2>
+        </div>
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
+      </center>
       <br /><br />
       <p class="title is-6 is-uppercase">1.5 Objeto do conhecimento:</p>
-      Contar, Quantificar, Julgar e interpretar argumentos baseados em
-      quantidades
-      <img src="~assets/images/unidade-III/caixa-modalidade.png" width="600" />
-      <br /><br />
+      <center>
+        <div class="contentbox">
+          <h2 class="title is-4 is-uppercase">
+            Contar, Quantificar, Julgar e interpretar argumentos baseados em
+            quantidades
+          </h2>
+        </div>
+
+        <img src="~assets/images/unidade-III/caixa-modalidade.png" />
+        <br /><br />
+      </center>
       <p>
         2. DADOS DA AULA
       </p>
       <p class="title is-6 is-uppercase">
         2.1 O que o(a) aluno(a) poderá aprender com esta aula
       </p>
-      <p>
-        Na atividade do Peixe-boi, o(a) aluno(a) poderá aprender a formar
-        agrupamentos (conjuntos), contar, quantificar e a trabalhar as operações
-        de adição e subtração através da resolução de problemas de comparação.
-      </p>
+      <center>
+        <div class="contentbox">
+          Na atividade do Peixe-boi, o(a) aluno(a) poderá aprender a formar
+          agrupamentos (conjuntos), contar, quantificar e a trabalhar as
+          operações de adição e subtração através da resolução de problemas de
+          comparação.
+        </div>
+        <img
+          src="~assets/images/unidade-III/caixa-modalidade.png"
+          width="600"
+        />
+      </center>
       <p class="title is-6 is-uppercase">
         2.2 Duração da atividade
       </p>
@@ -672,24 +713,68 @@
         juntar e comparar, espera-se que ele já tenha se apropriado dos
         seguintes conhecimentos:
       </p>
-      <ul>
-        <li>
-          Navegação básica na Web: o(a) aluno(a) deve ser capaz de usar, com
-          relativa autonomia, um computador equipado com mouse e teclado.
-        </li>
-        <li>
-          Realizar operações com números inteiros;
-        </li>
-        <li>
-          Ter noção intuitiva de quantificação;
-        </li>
-        <li>
-          Saber orientar-se na resolução de problemas simples;
-        </li>
-        <li>
-          Compreender o que são números e numerais e saber relacioná-los.
-        </li>
-      </ul>
+
+      <div class="container is-fluid mb-4">
+        <div class="columns is-multiline is-fill-vertical">
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-amber">1</div>
+              <div class="card-header">
+                <div class="card-header-title">Navegação básica na Web:</div>
+              </div>
+              <div class="card-content">
+                O(a) aluno(a) deve ser capaz de usar, com relativa autonomia, um
+                computador equipado com mouse e teclado.
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-green">2</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Realizar operações com números inteiros;
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-blue">3</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Ter noção intuitiva de quantificação;
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-cyan">4</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Saber orientar-se na resolução de problemas simples;
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-purple">5</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Compreender o que são números e numerais e saber relacioná-los.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <p class="title is-6 is-uppercase">
         2.4 Estratégias e recursos da aula
       </p>
@@ -709,7 +794,8 @@
         poema. Sugerimos o poema Animais em extinção, de Claudia Pehrsson
         Tambasco.
       </p>
-      <pre>
+      <div class="linhavertical">
+        <pre>
       Animais em Extinção
       Tem bicho em extinção
       Que deveria ter de montão
@@ -733,35 +819,38 @@
       De que bichinho e bichão
       Podem ficar em extinção…
     </pre
-      >
+        >
+      </div>
+      <br />
       <p>
         Após a leitura do poema, converse com seus alunos(as) sobre a extinção,
         falando especificamentes sobre:
       </p>
-      <ul>
-        <li>
-          O que é extinção?
-        </li>
-        <li>
-          Por que acontece a extinção?
-        </li>
-        <li>
-          Onde acontece a extinção?
-        </li>
-      </ul>
+      <p>
+        <b>1.</b>
+        O que é extinção?
+      </p>
+      <p>
+        <b>2.</b>
+        Por que acontece a extinção?
+      </p>
+      <p>
+        <b>3.</b>
+        Onde acontece a extinção?
+      </p>
       <p>
         Sugere-se ainda que sejam levantados as seguintes questões com sua
         turma:
       </p>
-      <ul>
-        <li>
-          Que outros problemas a intervenção humana causa à natureza?
-        </li>
-        <li>
-          O que o homem pode fazer para resolver problemas relacionados a
-          extinção, desmatamento e poluição?
-        </li>
-      </ul>
+      <p>
+        <b>1.</b>
+        Que outros problemas a intervenção humana causa à natureza?
+      </p>
+      <p>
+        <b>2.</b>
+        O que o homem pode fazer para resolver problemas relacionados a
+        extinção, desmatamento e poluição?
+      </p>
       <p>
         Para finalizar, monte com sua turma cartazes explicando como é possível
         ajudar na preservação dos animais e cole-os em sua sala de aula.
@@ -784,75 +873,123 @@
         Na primeira atividade, os(as) alunos(as) deverão agrupar os filhotes,
         conforme a referência dada para cada uma das espécies.
       </p>
-      <p>
-        FIGURA
-      </p>
-      <p>
-        Na tela de agrupamento, os(as) alunos(as) deverão clicar no filhote e
-        arrastá-lo até o animal adulto
-      </p>
-      <p>
-        FIGURA
-      </p>
-      <p>
-        Após realizar o agrupamento, os(as) alunos(as) serão conduzidos a
-        atividade de contar e quantificar as espécies.
-      </p>
-      <p>
-        FIGURA
-      </p>
-      <p>
-        Após a realização da atividade de contagem e quantificação, o(a)
-        aluno(a) deve responder desafios envolvendo comparação e adição através
-        de resolução problemas.
-      </p>
-      <p>
-        FIGURA
-      </p>
-      <p>
-        Ao finalizarem a atividade, os(as) alunos(as) serão condecorados com a
-        medalha de Defensor dos Filhotes.
-      </p>
-      <p>
-        FIGURA
-      </p>
-      <p>
-        Como sugestão, imprima a medalha de defensor dos filhotes e ao final,
-        entregue-as aos seus alunos.
-      </p>
-      <p>
-        Enquanto os(as) alunos(as) realizam a atividade, circule pela sala e
-        observe se eles(as) utilizam de alguma estratégia específica para
-        realizar a atividade (cálculo mental, contagem nos dedos, desenhos, uso
-        de calculadora etc.). Verifique se há alguma dificuldade de compreensão
-        da atividade no que se refere à leitura ou aos conceitos matemáticos.
-        Identifique também que tipos de erros foram evidenciados pelos(as)
-        alunos(as). Veja se as duplas ou trios conversam entre si ou se um(a)
-        dos(das) alunos(as) está monopolizando a realização das atividades. Caso
-        isso esteja ocorrendo, sugira o revezamento do mouse, ou seja, cada
-        aluno(a) irá usar o mouse alternadamente para responder cada uma das
-        questões apresentadas no RED.
-      </p>
-      <p>
-        Ao final da utilização do recurso, peça aos(às) alunos(as) para
-        relatarem, em voz alta, as estratégias adotadas para responder as
-        perguntas do RED em sala de aula.
-      </p>
-      <p>
-        Você poderá registrar o processo de resolução no quadro e perguntar se
-        alguém resolveu de forma diferente ou se todos resolveram da mesma
-        forma. Valorize a diversidade de respostas e estratégias adotadas
-        pelos(as) aluno(as).
-      </p>
-      <p>
-        Ao final do trabalho com o recurso, verifique se os(as) alunos(as)
-        entenderam a finalidade e a estrutura da atividade.
-      </p>
-      <p>
-        Concluída a discussão da atividade, é importante frisar a relação da
-        preservação do meio ambiente com a matemática e como essa ciência está
-        presente em nosso dia a dia.
-      </p>
+
+      <div class="w-100 has-background-light">
+        <section>
+          <h6 class="title is-6">
+            Clique nas opções abaixo para ver mais sobre cada seção:
+          </h6>
+
+          <b-collapse
+            v-for="(collapse, index) of collapses_p2"
+            :key="index"
+            class="card"
+            animation="slide"
+            :open="isOpen == index"
+            @open="isOpen = index"
+          >
+            <div
+              slot="trigger"
+              slot-scope="props"
+              class="card-header"
+              role="button"
+            >
+              <div class="card-header-title">
+                <h5>{{ collapse.n }}.</h5>
+                {{ collapse.title }}
+              </div>
+              <a class="card-header-icon">
+                <b-icon :icon="props.open ? 'menu-up' : 'menu-down'"> </b-icon>
+              </a>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                {{ collapse.pic }}
+                {{ collapse.text }}
+              </div>
+            </div>
+          </b-collapse>
+        </section>
+      </div>
+      <div class="container is-fluid mb-4">
+        <div class="columns is-multiline is-fill-vertical">
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-amber">1</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Enquanto os(as) alunos(as) realizam a atividade, circule pela
+                sala e observe se eles(as) utilizam de alguma estratégia
+                específica para realizar a atividade (cálculo mental, contagem
+                nos dedos, desenhos, uso de calculadora etc.).
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-green">2</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Verifique se há alguma dificuldade de compreensão da atividade
+                no que se refere à leitura ou aos conceitos matemáticos.
+                Identifique também que tipos de erros foram evidenciados
+                pelos(as) alunos(as).
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-blue">3</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Veja se as duplas ou trios conversam entre si ou se um(a)
+                dos(das) alunos(as) está monopolizando a realização das
+                atividades. Caso isso esteja ocorrendo, sugira o revezamento do
+                mouse, ou seja, cada aluno(a) irá usar o mouse alternadamente
+                para responder cada uma das questões apresentadas no RED.
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-cyan">4</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Ao final da utilização do recurso, peça aos(às) alunos(as) para
+                relatarem, em voz alta, as estratégias adotadas para responder
+                as perguntas do RED em sala de aula. Você poderá registrar o
+                processo de resolução no quadro e perguntar se alguém resolveu
+                de forma diferente ou se todos resolveram da mesma forma.
+                Valorize a diversidade de respostas e estratégias adotadas
+                pelos(as) aluno(as).
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 mb-2">
+            <div class="card is-grey">
+              <div class="card-tag is-purple">5</div>
+              <div class="card-header">
+                <div class="card-header-title"></div>
+              </div>
+              <div class="card-content">
+                Ao final do trabalho com o recurso, verifique se os(as)
+                alunos(as) entenderam a finalidade e a estrutura da atividade.
+                Concluída a discussão da atividade, é importante frisar a
+                relação da preservação do meio ambiente com a matemática e como
+                essa ciência está presente em nosso dia a dia.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <p class="title is-6 is-uppercase">
         2.5 Avaliação
       </p>
@@ -912,6 +1049,7 @@
           </div>
         </div>
       </div>
+      ~~elemento faltando~~
       <p>
         1. ESTRUTURA CURRICULAR <br />
         1.1 Modalidade / nível de ensino: <br />
@@ -1042,39 +1180,79 @@ export default {
   data() {
     return {
       isOpen: 0,
-      collapses: [
+      collapses_p1: [
         {
-          title: '1. TELA INICIAL',
+          n: '1',
+          title: 'TELA INICIAL',
           text:
             'Na capa do RED consta o título da revista e algumas informações sobre o conteúdo.'
         },
         {
-          title: '2. EDITORIAL',
+          n: '2',
+          title: 'EDITORIAL',
           text: 'O editorial traz uma breve apresentação dos editores.'
         },
         {
-          title: '3. SUMÁRIO',
+          n: '3',
+          title: 'SUMÁRIO',
           text: ' O sumário lista todo seu conteúdo.'
         },
         {
-          title: '4. INFOGRÁFICO – EVOLUÇÃO DAS BRINCADEIRAS',
+          n: '4',
+          title: 'INFOGRÁFICO – EVOLUÇÃO DAS BRINCADEIRAS',
           text:
             '       Aborda-se, na seção posterior, um infográfico interativo sobre a evolução das brincadeiras infantis. Nele, apresentam-se curiosidades        (Quando começou? Como se brinca? Você sabia?) sobre as brincadeiras: faz       de conta, cabra-cega, amarelinha e games.'
         },
         {
-          title: '5. ATIVIDADES – CAÇA–PALAVRAS',
+          n: '5',
+          title: 'ATIVIDADES – CAÇA–PALAVRAS',
           text:
             'Em seguida, o recurso traz um caça-palavras sobre as brincadeiras apresentadas no infográfico.'
         },
         {
-          title: '6. ENTREVISTA',
+          n: '6',
+          title: 'ENTREVISTA',
           text:
             ' Na seção seguinte, o recurso apresenta uma entrevista com Maria Clara, de nove anos, sobre a produção de conteúdo digital.'
         },
         {
-          title: '7. ATIVIDADE – ENTREVISTA',
+          n: '7',
+          title: 'ATIVIDADE – ENTREVISTA',
           text:
             ' Após a entrevista, tem-se um jogo da memória, no qual o(a) aluno(a)         deverá relacionar cartas de baralho sobre as perguntas e as respostas da entrevista.'
+        }
+      ],
+      collapses_p2: [
+        {
+          n: '1',
+          title: 'ATIVIDADE DE AGRUPAMENTO',
+          pic: require('@/assets/images/unidade-III/imagem-e-o-bicho-1.png'),
+          text:
+            'Na tela de agrupamento, os(as) alunos(as) deverão clicar no filhote e arrastá-lo até o animal adulto.'
+        },
+        {
+          n: '2',
+          title: 'ATIVIDADE DE AGRUPAMENTO FEITO',
+          text:
+            'Após realizar o agrupamento, os(as) alunos(as) serão conduzidos a atividade de contar e quantificar as espécies.'
+        },
+        {
+          n: '3',
+          title: 'ATIVIDADE DE CONTAR E QUANTIFICAR AS ESPÉCIES',
+          text:
+            ' Após a realização da atividade de contagem e quantificação, o(a) aluno(a) deve responder desafios envolvendo comparação e adição através de resolução problemas.'
+        },
+        {
+          n: '4',
+          title: 'ATIVIDADES DE COMPARAÇÃO E ADIÇÃO',
+          text:
+            ' Ao finalizarem a atividade, os(as) alunos(as) serão condecorados com a medalha de Defensor dos Filhotes.'
+        },
+        {
+          n: '5',
+          title: 'MEDALHA "DEFENSOR DOS FILHOTES"',
+          text:
+            'Como sugestão, imprima a medalha de defensor dos filhotes e ao final, entregue-as aos seus alunos.'
         }
       ]
     }
@@ -1091,9 +1269,12 @@ export default {
   p {
     text-indent: 50px;
   }
+  h5 {
+    color: #c0315f;
+  }
   .contentbox {
     position: absolute;
-    padding: 150px 50px 50px 280px;
+    padding: 8% 30% 30% 30%;
   }
   section {
     margin-bottom: 50px;
@@ -1116,6 +1297,11 @@ export default {
         text-indent: 50px;
       }
     }
+  }
+  .linhavertical {
+    height: 523px;
+    border-left: 3px solid #c0315f;
+    margin-left: 50px;
   }
 }
 </style>
