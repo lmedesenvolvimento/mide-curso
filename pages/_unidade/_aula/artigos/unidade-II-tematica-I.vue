@@ -338,7 +338,10 @@
             <img src="~assets/images/imagem-animacao.png" />
             <p>
               Fonte: Ministério da Saúde em parceria com o Ministério da
-              Educação. Recurso disponível em: https://youtu.be/OsnorIgJWbM
+              Educação. Recurso disponível em:
+              <a href="https://youtu.be/OsnorIgJWbM" target="_blank">
+                https://youtu.be/OsnorIgJWbM
+              </a>
             </p>
           </center>
         </b-tab-item>
@@ -361,7 +364,10 @@
             <img src="~assets/images/imagem-simulacao.png" />
             <p>
               Fonte: LITE <br />
-              Recurso disponível em: http://lite.acad.univali.br/zorelha/
+              Recurso disponível em:
+              <a href="http://lite.acad.univali.br/zorelha/" target="_blank">
+                http://lite.acad.univali.br/zorelha/
+              </a>
             </p>
           </center>
         </b-tab-item>
@@ -386,7 +392,10 @@
             <img src="~assets/images/imagem-tutorial.png" />
             <p>
               Fonte: VCdesenhos World <br />
-              Link para o recurso: https://youtu.be/9nb8rFU7iVs
+              Link para o recurso:
+              <a href="https://youtu.be/9nb8rFU7iVs" target="_blank">
+                https://youtu.be/9nb8rFU7iVs
+              </a>
             </p>
           </center>
         </b-tab-item>
@@ -402,7 +411,13 @@
             <img src="~assets/images/unidade-II/imagem-audio.png" />
             <p>
               Fonte: Histórias Infantis, Contos e Fábulas para Crianças <br />
-              Recursos disponíveis em: Histórias Infantis em Áudio
+              Recursos disponíveis em:
+              <a
+                href="https://www.historiasinfantis.com.br/historinhas-em-audio/"
+                target="_blank"
+              >
+                Histórias Infantis em Áudio
+              </a>
             </p>
           </center>
         </b-tab-item>
@@ -431,7 +446,13 @@
             <img src="~assets/images/unidade-II/imagem-jogo.png" />
             <p>
               Fonte: Iguinho <br />
-              Disponível em https://iguinho.com.br/jogo-mapa-brasil.html
+              Disponível em
+              <a
+                href="https://iguinho.com.br/jogo-mapa-brasil.html"
+                target="_blank"
+              >
+                https://iguinho.com.br/jogo-mapa-brasil.html
+              </a>
             </p>
           </center>
         </b-tab-item>
@@ -515,7 +536,7 @@
           <challenge
             name="challege-3"
             :options="challenge3"
-            correct="3"
+            correct="4"
             :hide-feedback="true"
           >
             <template slot="question">
@@ -625,7 +646,15 @@
           <center>
             <h6 class="title is-5">PORTAL DO PROFESSOR</h6>
             <img src="~assets/images/unidade-II/imagem-1-repositorio.png" />
-            <p>Fonte: http://portaldoprofessor.mec.gov.br/index.html</p>
+            <p>
+              Fonte:
+              <a
+                href="http://portaldoprofessor.mec.gov.br/index.html"
+                target="_blank"
+              >
+                http://portaldoprofessor.mec.gov.br/index.html
+              </a>
+            </p>
           </center>
 
           <P>
@@ -644,7 +673,15 @@
             <img
               src="~assets/images/unidade-II/imagem-segundo-repositorio.png"
             />
-            <p>Fonte: http://portal.mec.gov.br/dominio-publico</p>
+            <p>
+              Fonte:
+              <a
+                href="http://portal.mec.gov.br/dominio-publico"
+                target="_blank"
+              >
+                http://portal.mec.gov.br/dominio-publico
+              </a>
+            </p>
           </center>
           <p>
             Lançado em 2004, o Portal Domínio Público oferece
@@ -660,7 +697,12 @@
           <center>
             <h6 class="title is-5">TV ESCOLA</h6>
             <img src="~assets/images/unidade-II/imagem-3-repositorio.png" />
-            <p>Fonte: https://tvescola.org.br/</p>
+            <p>
+              Fonte:
+              <a href="https://tvescola.org.br/" target="_blank">
+                https://tvescola.org.br/
+              </a>
+            </p>
           </center>
           <p>
             A TV Escola é um canal de televisão gerido pela Associação de
@@ -688,7 +730,14 @@
             vídeos para trabalhos de avaliação do aluno e de grupos de alunos;
             revitalização da biblioteca e aproximação escola-comunidade.
           </p>
-          Fonte: http://portal.mec.gov.br/tv-escola
+          <center>
+            Fonte:
+            <a href="http://portal.mec.gov.br/tv-escola" target="_blank">
+              http://portal.mec.gov.br/tv-escola
+            </a>
+          </center>
+          <br />
+          <br />
         </b-tab-item>
 
         <b-tab-item label="4º REPOSITÓRIO">
@@ -697,7 +746,12 @@
               BANCO INTERNACIONAL DE OBJETOS EDUCACIONAIS (BIOE)
             </h6>
             <img src="~assets/images/unidade-II/imagem-4-repositorio.png" />
-            <p>Fonte: http://objetoseducacionais2.mec.gov.br/</p>
+            <p>
+              Fonte:
+              <a href="http://objetoseducacionais2.mec.gov.br/" target="_blank">
+                http://objetoseducacionais2.mec.gov.br/
+              </a>
+            </p>
           </center>
           <p>
             O Banco Internacional de Objetos Educacionais é um portal para
@@ -707,8 +761,17 @@
             atendem desde a Educação Básica até o Ensino Superior, nas diversas
             áreas do conhecimento.
           </p>
-          Fonte:
-          http://portal.mec.gov.br/seed-banco-internacional-de-objetos-educacionais
+          <center>
+            Fonte:
+            <a
+              href="http://portal.mec.gov.br/seed-banco-internacional-de-objetos-educacionais"
+              target="_blank"
+            >
+              http://portal.mec.gov.br/seed-banco-internacional-de-objetos-educacionais
+            </a>
+          </center>
+          <br />
+          <br />
         </b-tab-item>
       </mide-tabs>
 
@@ -732,8 +795,13 @@
         </div>
       </div>
       <div class="w-100 has-background-light">
-        <img src="~assets/images/imagem-portal-mec-red.png" />
-        Fonte: https://plataformaintegrada.mec.gov.br/home
+        <center>
+          <img src="~assets/images/imagem-portal-mec-red.png" />
+          Fonte:
+          <a href="https://plataformaintegrada.mec.gov.br/home" target="_blank">
+            https://plataformaintegrada.mec.gov.br/home
+          </a>
+        </center>
         <br />
         <p>
           Com o objetivo de
@@ -745,7 +813,6 @@
           Digitais, como um ambiente de
           <b>busca, interação e colaboração entre professoras(es)</b>!
         </p>
-        Fonte: https://plataformaintegrada.mec.gov.br/sobre
       </div>
       <div class="block-bordered">
         <div class="columns is-vcentered">

@@ -825,7 +825,7 @@
         </p>
         <div class="block-bordered">
           <div class="columns is-vcentered">
-            <div class="column is-6">
+            <div class="column is-5">
               <vue-plyr>
                 <div class="plyr__video-embed">
                   <iframe
@@ -854,21 +854,22 @@
                   mesmo assim, ela faz sentido. As jovens cobrem o rosto e usam
                   o corpo para apresentar a letra, dando a ideia de múltipla
                   identidade e fragmentação. Além disso, fazem um remix, pois
-                  apresentam a música sem o clipe original. Aparentemente, o
-                  objetivo principal da gravação é o entretenimento. A música
-                  popularizou-se e teve inúmeros vídeos publicados no
-                  <i>YouTube</i>, indicando a cultura remix e o espírito
-                  comunitário.
-                </p>
-                <p>
-                  E você ,conseguiu perceber outras características da
-                  cibercultura no Vídeo? Se tiver curiosidade, pesquise mais
-                  sobre o vídeo original e suas diferentes versões. Todas são
-                  facilmente encontradas na Internet.
+                  apresentam a música sem o clipe original.
                 </p>
               </div>
             </div>
           </div>
+          <p>
+            Aparentemente, o objetivo principal da gravação é o entretenimento.
+            A música popularizou-se e teve inúmeros vídeos publicados no
+            <i>YouTube</i>, indicando a cultura remix e o espírito comunitário.
+          </p>
+          <p>
+            E você ,conseguiu perceber outras características da cibercultura no
+            Vídeo? Se tiver curiosidade, pesquise mais sobre o vídeo original e
+            suas diferentes versões. Todas são facilmente encontradas na
+            Internet.
+          </p>
         </div>
         <div class="block-bordered">
           <div class="columns is-vcentered">
@@ -934,7 +935,7 @@ export default {
   article {
     margin-top: 50px;
     section {
-      padding-bottom: 80px;
+      // padding-bottom: 80px;
       .carla-1 {
         float: left;
       }

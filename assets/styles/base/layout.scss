@@ -23,8 +23,9 @@
 .block-bordered {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: $gap 1.5rem;
-  margin: $gap * 1.5 -1.5rem;
+  padding: 20px 1.5rem;
+  margin: 15px * 1.5 -1.5rem;
+  // margin: $gap * 1.5 -1.5rem;
 }
 .block-bordered ~ .block-bordered {
   border-top: none !important;

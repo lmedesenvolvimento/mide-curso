@@ -3440,6 +3440,11 @@ export default {
   h6 {
     color: #c0315f;
   }
+  .mide-texto-inicial {
+    margin-top: 32px;
+    font-size: 14px;
+    text-indent: 50px;
+  }
   .title {
     color: white;
     text-align: center;
