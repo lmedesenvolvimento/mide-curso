@@ -167,7 +167,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -435,7 +435,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -683,7 +683,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -944,7 +944,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -1193,7 +1193,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -1545,7 +1545,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -1853,7 +1853,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -2126,7 +2126,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -2394,7 +2394,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -2696,7 +2696,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
