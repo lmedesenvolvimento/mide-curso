@@ -140,8 +140,8 @@ export default {
     font-weight: bold;
     font-family: avenir-next-lt-pro-bold;
     background-image: url('~assets/images/botao-prosseguir.png');
-    width: 145px;
-    height: 37px;
+    width: 165px;
+    height: 43px;
     margin: $gap auto;
     &:hover,
     &:active {

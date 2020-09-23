@@ -258,6 +258,7 @@
           </h6>
           <b-collapse
             v-for="(collapse, index) of collapses"
+            id="cardeffect"
             :key="index"
             class="card"
           >
@@ -1071,6 +1072,13 @@ export default {
     section {
       margin-bottom: 50px;
       padding: 50px;
+      #cardeffect:hover {
+        border-left: 5px solid #3153b2;
+        margin-left: 50px;
+        .card-header-title {
+          color: #3153b2;
+        }
+      }
       .card {
         border-radius: 10px;
         box-shadow: 5px 5px 15px #3c80d116;

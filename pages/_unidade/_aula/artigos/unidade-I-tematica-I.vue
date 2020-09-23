@@ -289,9 +289,9 @@
 
                   <p v-if="!isIncluded('luta-de-classe') && totalCorrect">
                     O movimento era contra o capitalismo, o consumismo, as
-                    ditaduras e, principalmente, eram preocupados com a
-                    possibilidade de uma nova guerra. Esses jovens traziam as
-                    discussões principalmente sobre a os valores tradicionais
+                    ditaduras e, principalmente, era preocupado com a
+                    possibilidade de uma nova guerra. Os jovens traziam as
+                    discussões, principalmente, sobre os valores tradicionais
                     das famílias e reivindicavam a necessidade de uma
                     transformação das relações sociais.
                   </p>
@@ -300,9 +300,9 @@
                     esse tema não era pauta do movimento. Ele foi formado por
                     grupos de jovens brancos das camadas médias urbanas com os
                     privilégios da cultura dominante. Esses jovens traziam as
-                    discussões principalmente sobre os valores tradicionais das
-                    famílias e reivindicavam a necessidade de uma transformação
-                    das relações sociais.
+                    discussões, principalmente, sobre os valores tradicionais
+                    das famílias e reivindicavam a necessidade de uma
+                    transformação das relações sociais.
                   </p>
                 </div>
               </div>
