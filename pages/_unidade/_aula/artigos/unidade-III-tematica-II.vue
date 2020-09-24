@@ -1051,46 +1051,70 @@
           </div>
         </div>
       </div>
-      ~~elemento faltando~~
-      <p>
-        1. ESTRUTURA CURRICULAR <br />
-        1.1 Modalidade / nível de ensino: <br />
-        [Entre 20 e 60 caracteres]<br />
+      <mide-tabs>
+        <b-tab-item label="1. Estrutura Curricular">
+          <h4>1.1 Modalidade / nível de ensino:</h4>
+          <b-input placeholder="Escreva aqui" type="text"></b-input>
+          <br />
+          <h4>1.2. Áreas do conhecimento:</h4>
+          <b-input placeholder="Escreva aqui" type="text"></b-input>
+          <br />
+          <h4>1.3 Componente curricular:</h4>
+          <b-input placeholder="Escreva aqui" type="text"></b-input>
+          <br />
+          <h4>1.4 Unidade Temática:</h4>
+          <b-input placeholder="Escreva aqui" type="text"></b-input>
+          <br />
+          <h4>1.5 Objeto de conhecimento:</h4>
+          <b-input placeholder="Escreva aqui" type="text"></b-input>
+        </b-tab-item>
 
-        1.2. Áreas do conhecimento: <br />
-        [Entre 10 e 20 caracteres]<br />
+        <b-tab-item label="2. Dados da aula">
+          <h4>2.1 O que o(a) aluno(a) poderá aprender com esta aula</h4>
+          <b-input
+            type="textarea"
+            minlength="150"
+            maxlength="600"
+            placeholder="Escreva aqui"
+          >
+          </b-input>
+          <br />
+          <h4>2.2 Duração da atividade</h4>
+          <b-input placeholder="Escreva aqui" type="text"></b-input>
 
-        1.3 Componente curricular: <br />
-        [Entre 20 e 60 caracteres]<br />
-
-        1.4 Unidade Temática (prática de linguagem): <br />
-        [Entre 30 e 100 caracteres]<br />
-
-        1.5 Objeto do conhecimento: <br />
-        [Entre 20 e 60 caracteres]<br />
-      </p>
-      <p>
-        2. DADOS DA AULA<br />
-        2.1 O que o(a) aluno(a) poderá aprender com esta aula<br />
-        [Entre 150 e 600 caracteres]<br />
-      </p>
-      <p>
-        2.2 Duração da atividade<br />
-        [Entre 20 e 60 caracteres]<br />
-      </p>
-      <p>
-        2.3 Conhecimentos prévios trabalhados pelo professor com o(a)
-        aluno(a)<br />
-        [Entre 1000 e 5000 caracteres]
-      </p>
-      <p>
-        2.4 Estratégias e recursos da aula<br />
-        [Entre 1000 e 5000 caracteres]
-      </p>
-      <p>
-        2.5 Avaliação<br />
-        [Entre 1000 e 5000 caracteres]
-      </p>
+          <br />
+          <h4>
+            2.3 Conhecimentos prévios trabalhados pelo professor com o(a)
+            aluno(a)
+          </h4>
+          <b-input
+            type="textarea"
+            minlength="1000"
+            maxlength="5000"
+            placeholder="Escreva aqui"
+          >
+          </b-input>
+          <br />
+          <h4>2.4 Estratégias e recursos da aula</h4>
+          <b-input
+            type="textarea"
+            minlength="1000"
+            maxlength="5000"
+            placeholder="Escreva aqui"
+          >
+          </b-input>
+          <br />
+          <h4>2.5 Avaliação</h4>
+          <b-input
+            type="textarea"
+            minlength="1000"
+            maxlength="5000"
+            placeholder="Escreva aqui"
+          >
+          </b-input>
+          <b-button type="is-info is-light">IMPRIMIR PLANO</b-button>
+        </b-tab-item>
+      </mide-tabs>
       <div class="block-bordered">
         <div class="columns is-vcentered">
           <div class="column is-3">
@@ -1270,6 +1294,9 @@ export default {
   }
   p {
     text-indent: 50px;
+  }
+  h4 {
+    font-weight: bold;
   }
   h5 {
     color: #c0315f;
