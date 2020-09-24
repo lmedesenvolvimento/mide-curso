@@ -6,6 +6,7 @@
       <h6 class="titulos">
         Os objetivos desta temática são:
       </h6>
+      <br />
       <li>
         Apresentar os recursos educacionais digitais disponíveis na Plataforma
         Integrada de Recursos Educacionais Digitais do Ministério da Educação.
@@ -110,31 +111,24 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-de-olho-na-lista.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">DE OLHO NA LISTA</h6>
-                O recurso “De olho na lista” busca trabalhar com a leitura e a
-                produção de listas, por meio da apresentação de situações nas
-                quais três personagens deverão utilizar listas para realizar
-                atividades planejadas para o cotidiano, tais como compras e
-                organização de tarefas. Logo, o RED em questão foi pensado para
-                proporcionar a compreensão acerca do gênero lista, além de sua
-                organização composicional. Intenta-se que o aluno consiga
-                relacionar as características do gênero às situações-problema
-                que se apresentam ao longo do recurso. O RED apresenta um
-                repertório de palavras diversificado, de maneira que os alunos
-                em processo de alfabetização e de letramento trabalhem a
-                competência leitora e a classificação de palavras com base em
-                seu campo semântico.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-de-olho-na-lista.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">DE OLHO NA LISTA</h6>
+              O recurso “De olho na lista” busca trabalhar com a leitura e a
+              produção de listas, por meio da apresentação de situações nas
+              quais três personagens deverão utilizar listas para realizar
+              atividades planejadas para o cotidiano, tais como compras e
+              organização de tarefas. Logo, o RED em questão foi pensado para
+              proporcionar a compreensão acerca do gênero lista, além de sua
+              organização composicional. Intenta-se que o aluno consiga
+              relacionar as características do gênero às situações-problema que
+              se apresentam ao longo do recurso. O RED apresenta um repertório
+              de palavras diversificado, de maneira que os alunos em processo de
+              alfabetização e de letramento trabalhem a competência leitora e a
+              classificação de palavras com base em seu campo semântico.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -173,7 +167,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -307,7 +301,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -334,7 +328,7 @@
 
         <b-tab-item label="2º RED">
           <center>
-            <div class="titulos is-uppercase">qual o seu pedido?</div>
+            <div class="titulos is-uppercase">qual é o seu pedido?</div>
           </center>
           <div class="block-bordered">
             <div class="columns is-vcentered">
@@ -388,34 +382,26 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-qual-o-seu-pedido.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">QUAL O SEU PEDIDO?</h6>
-                O recurso "Qual é o seu pedido?" busca trabalhar a leitura e a
-                produção de cardápios, por meio da apresentação de situações de
-                interação com esse gênero, contextualizadas nas funções de
-                cliente, de garçom/garçonete e de chef. Assim, pretende-se
-                explorar a compreensão sobre o gênero a partir de sua
-                funcionalidade. Este recurso explora elementos de jogos, como
-                avatares e recompensas, para que o aluno consiga relacionar as
-                características do gênero às situações-problema que se
-                apresentam ao longo do recurso. Ainda, busca-se trazer um
-                repertório de pratos diversificados, de maneira que os alunos em
-                processo de alfabetização e de letramento possam observar
-                diferentes ortografias e ampliar seu vocabulário e conhecimento
-                de mundo.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-qual-o-seu-pedido.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">QUAL É O SEU PEDIDO?</h6>
+              O recurso "Qual é o seu pedido?" busca trabalhar a leitura e a
+              produção de cardápios, por meio da apresentação de situações de
+              interação com esse gênero, contextualizadas nas funções de
+              cliente, de garçom/garçonete e de chef. Assim, pretende-se
+              explorar a compreensão sobre o gênero a partir de sua
+              funcionalidade. Este recurso explora elementos de jogos, como
+              avatares e recompensas, para que o aluno consiga relacionar as
+              características do gênero às situações-problema que se apresentam
+              ao longo do recurso. Ainda, busca-se trazer um repertório de
+              pratos diversificados, de maneira que os alunos em processo de
+              alfabetização e de letramento possam observar diferentes
+              ortografias e ampliar seu vocabulário e conhecimento de mundo.
             </div>
           </div>
-
           <div class="w-100 has-background-light">
             <section>
               <b-collapse
@@ -449,7 +435,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -569,7 +555,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -641,33 +627,27 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-fabulas.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">FÁBULAS ANIMADAS</h6>
-                O recurso apresenta duas fábulas, que são “O Galo e a Raposa” e
-                “O Ratinho, o Gato e o Galo”. Cada uma destas fábulas contém
-                atividades específicas, apresentadas em uma sequência didática
-                linear. Durante a leitura da primeira fábula, "O Galo e a
-                Raposa", o alunos é convidado a identificar elementos que faltam
-                e que fazem parte da construção de sentido do texto, passando
-                por reflexões ortográficas. As atividades contêm questões de
-                interpretação referentes à estrutura da fábula e suas principais
-                características. Em cada atividade, o aluno recebe adesivos que
-                serão usados nas ilustrações da segunda fábula. Na segunda
-                fábula, "O Ratinho, o Gato e o Galo", o aluno realiza a leitura
-                da história, devendo completar as ilustrações com os adesivos
-                que foram recebidos na etapa anterior. Ao final, o aluno deverá
-                elaborar uma moral de acordo com a fábula lida, de modo que ele
-                escreva a sua percepção acerca do desfecho da história.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-fabulas.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">FÁBULAS ANIMADAS</h6>
+              O recurso apresenta duas fábulas, que são “O Galo e a Raposa” e “O
+              Ratinho, o Gato e o Galo”. Cada uma destas fábulas contém
+              atividades específicas, apresentadas em uma sequência didática
+              linear. Durante a leitura da primeira fábula, "O Galo e a Raposa",
+              o alunos é convidado a identificar elementos que faltam e que
+              fazem parte da construção de sentido do texto, passando por
+              reflexões ortográficas. As atividades contêm questões de
+              interpretação referentes à estrutura da fábula e suas principais
+              características. Em cada atividade, o aluno recebe adesivos que
+              serão usados nas ilustrações da segunda fábula. Na segunda fábula,
+              "O Ratinho, o Gato e o Galo", o aluno realiza a leitura da
+              história, devendo completar as ilustrações com os adesivos que
+              foram recebidos na etapa anterior. Ao final, o aluno deverá
+              elaborar uma moral de acordo com a fábula lida, de modo que ele
+              escreva a sua percepção acerca do desfecho da história.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -703,7 +683,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -819,7 +799,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -901,40 +881,34 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-revista-digital.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">REVISTA DIGITAL DA CRIANÇA</h6>
-                O RED é dividido em <b>seções</b>, simulando o formato de uma
-                <b>revista convencional</b>, tendo início com a <b>capa</b>, que
-                é a tela inicial do recurso. Em seguida, o RED traz um
-                <b>editorial</b>, com uma breve apresentação dos editores, e o
-                <b>sumário</b>, que apresenta todo o seu conteúdo. Aborda-se, na
-                seção posterior, um <b>infográfico interativo</b> sobre a
-                evolução das brincadeiras infantis. Nele, apresentam-se
-                curiosidades (Quando começou? Como se brinca? Você sabia?) sobre
-                as brincadeiras: faz de conta, cabra-cega, amarelinha e games.
-                Em seguida, o recurso traz um <b>caça-palavras</b> sobre as
-                brincadeiras apresentadas no infográfico. Na seção seguinte, o
-                recurso apresenta uma <b>entrevista com Maria Clara</b>, de nove
-                anos, sobre a produção de conteúdo digital. Após a entrevista,
-                tem-se um <b>jogo da memória</b>, no qual o aluno deverá
-                relacionar cartas de baralho sobre as perguntas e as respostas
-                da entrevista. Por último, o recurso apresenta a seção das
-                <b>cartas dos leitores</b>, na qual é possível ter acesso às
-                cartas de Laura e Bernardo, duas crianças fictícias que discutem
-                uma reportagem sobre o uso de canudos descartáveis. O RED é
-                concluído com a <b>produção de uma carta do leitor</b> feita
-                pelo aluno, sobre algum tema de interesse tratado na revista que
-                foi lida.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-revista-digital.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">REVISTA DIGITAL DA CRIANÇA</h6>
+              O RED é dividido em <b>seções</b>, simulando o formato de uma
+              <b>revista convencional</b>, tendo início com a <b>capa</b>, que é
+              a tela inicial do recurso. Em seguida, o RED traz um
+              <b>editorial</b>, com uma breve apresentação dos editores, e o
+              <b>sumário</b>, que apresenta todo o seu conteúdo. Aborda-se, na
+              seção posterior, um <b>infográfico interativo</b> sobre a evolução
+              das brincadeiras infantis. Nele, apresentam-se curiosidades
+              (Quando começou? Como se brinca? Você sabia?) sobre as
+              brincadeiras: faz de conta, cabra-cega, amarelinha e games. Em
+              seguida, o recurso traz um <b>caça-palavras</b> sobre as
+              brincadeiras apresentadas no infográfico. Na seção seguinte, o
+              recurso apresenta uma <b>entrevista com Maria Clara</b>, de nove
+              anos, sobre a produção de conteúdo digital. Após a entrevista,
+              tem-se um <b>jogo da memória</b>, no qual o aluno deverá
+              relacionar cartas de baralho sobre as perguntas e as respostas da
+              entrevista. Por último, o recurso apresenta a seção das
+              <b>cartas dos leitores</b>, na qual é possível ter acesso às
+              cartas de Laura e Bernardo, duas crianças fictícias que discutem
+              uma reportagem sobre o uso de canudos descartáveis. O RED é
+              concluído com a <b>produção de uma carta do leitor</b> feita pelo
+              aluno, sobre algum tema de interesse tratado na revista que foi
+              lida.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -970,7 +944,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -1090,7 +1064,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -1141,56 +1115,50 @@
               </div>
             </div>
           </div>
-          <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-aventura-no-mundo.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">AVENTURA NO MUNDO DOS QUADRINHOS</h6>
-                O recurso foi pensado em dois modos de jogo. O primeiro modo é
-                intitulado <b>Iniciar Aventura</b> e o segundo o
-                <b>Mundo de Liz</b>. A ideia é trabalhar uma narrativa que terá
-                os personagens Croma, Albedo e Vernáculo, que vivem no
-                <b>Mundo dos Quadrinhos</b>. Albedo roubou algumas páginas do
-                livro o Mundo de Liz. Croma, com a ajuda do senhor das palavras,
-                Vernáculo, terá que resgatá-las. O primeiro modo possui quatro
-                fases, que são:
-                <li>
-                  <b>Primeira fase:</b> se passa na Estrada de Requadros,
-                  trabalhando-se o fluxo de leitura dos quadrinhos. Os alunos
-                  terão que organizar os quadrinhos em sua ordem correta,
-                  conforme a lógica da narrativa.
-                </li>
-                <li>
-                  <b>Segunda fase:</b> acontece na Ilha dos Balões. Aqui será
-                  trabalhada a relação entre exemplos de balões de fala e o seu
-                  significado, além daqueles usados dentro da narrativa para a
-                  criação de efeito de sentido.
-                </li>
-                <li>
-                  <b>Terceira fase:</b> se passa no Bosque de Ícona, nos quais
-                  serão trabalhados enigmas, por meio dos recursos gráficos
-                  presentes nos quadrinhos, tais como expressões faciais e
-                  linhas cinéticas.
-                </li>
-                <li>
-                  <b>Quarta fase:</b> se passa na chamada Montanha de Litera,
-                  onde acontecerá uma batalha final, representada por meio dos
-                  aspectos interpretativos dos quadrinhos. Estes incluem
-                  aspectos textuais, gráficos e não verbais dos quadros.
-                </li>
-                Após reunir todas as páginas perdidas do livro o Mundo de Liz, o
-                <b>segundo modo</b> de jogo é <b>ativado</b>. Nele, serão
-                apresentadas <b>informações</b> adicionais sobre o
-                <b>Mundo de Liz</b>, história em quadrinhos selecionada para o
-                desenvolvimento deste recurso educacional digital.
-              </div>
+          <div class="column">
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-aventura-no-mundo.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">AVENTURA NO MUNDO DOS QUADRINHOS</h6>
+              O recurso foi pensado em dois modos de jogo. O primeiro modo é
+              intitulado <b>Iniciar Aventura</b> e o segundo o
+              <b>Mundo de Liz</b>. A ideia é trabalhar uma narrativa que terá os
+              personagens Croma, Albedo e Vernáculo, que vivem no
+              <b>Mundo dos Quadrinhos</b>. Albedo roubou algumas páginas do
+              livro o Mundo de Liz. Croma, com a ajuda do senhor das palavras,
+              Vernáculo, terá que resgatá-las. O primeiro modo possui quatro
+              fases, que são:
+              <li>
+                <b>Primeira fase:</b> se passa na Estrada de Requadros,
+                trabalhando-se o fluxo de leitura dos quadrinhos. Os alunos
+                terão que organizar os quadrinhos em sua ordem correta, conforme
+                a lógica da narrativa.
+              </li>
+              <li>
+                <b>Segunda fase:</b> acontece na Ilha dos Balões. Aqui será
+                trabalhada a relação entre exemplos de balões de fala e o seu
+                significado, além daqueles usados dentro da narrativa para a
+                criação de efeito de sentido.
+              </li>
+              <li>
+                <b>Terceira fase:</b> se passa no Bosque de Ícona, nos quais
+                serão trabalhados enigmas, por meio dos recursos gráficos
+                presentes nos quadrinhos, tais como expressões faciais e linhas
+                cinéticas.
+              </li>
+              <li>
+                <b>Quarta fase:</b> se passa na chamada Montanha de Litera, onde
+                acontecerá uma batalha final, representada por meio dos aspectos
+                interpretativos dos quadrinhos. Estes incluem aspectos textuais,
+                gráficos e não verbais dos quadros.
+              </li>
+              Após reunir todas as páginas perdidas do livro o Mundo de Liz, o
+              <b>segundo modo</b> de jogo é <b>ativado</b>. Nele, serão
+              apresentadas <b>informações</b> adicionais sobre o
+              <b>Mundo de Liz</b>, história em quadrinhos selecionada para o
+              desenvolvimento deste recurso educacional digital.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -1225,7 +1193,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -1345,7 +1313,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -1484,28 +1452,22 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-meu-album-geometrico.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">MEU ALBUM GEOMÉTRICO</h6>
-                O recurso “Meu Álbum Geométrico” foi desenvolvido para ser
-                utilizado no 1º ano do Ensino Fundamental, visando abordar
-                aspectos relacionados ao conceito do número. Usando a metáfora
-                de um álbum de figurinhas, as atividades planejadas neste
-                recurso tem como objetivo tratar agrupamento e desagrupamento de
-                elementos, comparação de quantidades, além da determinação de
-                critérios para classificar e seriar. A ideia é que ao utilizar o
-                recurso, os alunos identifiquem as características das formas
-                geométricas bidimensionais e tridimensionais, associando as
-                figuras espaciais às suas planificações e vice-versa.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-meu-album-geometrico.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">MEU ALBUM GEOMÉTRICO</h6>
+              O recurso “Meu Álbum Geométrico” foi desenvolvido para ser
+              utilizado no 1º ano do Ensino Fundamental, visando abordar
+              aspectos relacionados ao conceito do número. Usando a metáfora de
+              um álbum de figurinhas, as atividades planejadas neste recurso tem
+              como objetivo tratar agrupamento e desagrupamento de elementos,
+              comparação de quantidades, além da determinação de critérios para
+              classificar e seriar. A ideia é que ao utilizar o recurso, os
+              alunos identifiquem as características das formas geométricas
+              bidimensionais e tridimensionais, associando as figuras espaciais
+              às suas planificações e vice-versa.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -1583,7 +1545,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -1717,7 +1679,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -1800,29 +1762,23 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-brincando-com-as-formas.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">BRINCANDO COM AS FORMAS</h6>
-                O recurso “Brincando com as Formas” é um jogo para ser utilizado
-                no 2º ano do Ensino Fundamental, visando contribuir de forma
-                específica com o processo de letramento matemático. O cenário de
-                um quarto infantil foi pensado para que os alunos reconhecessem
-                figuras geométricas com as quais possuem contato em seu dia a
-                dia. No quarto, haverá 3 objetos animados relacionados a
-                diferentes desafios que serão realizados pela criança. Cada um
-                destes objetos corresponderá à uma atividade diferente que uma
-                vez completada, possibilitará à criança receber as chaves de um
-                objeto parecido com uma nave em formato de tetraedro, que a
-                levará ao planeta TETRIX.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-brincando-com-as-formas.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">BRINCANDO COM AS FORMAS</h6>
+              O recurso “Brincando com as Formas” é um jogo para ser utilizado
+              no 2º ano do Ensino Fundamental, visando contribuir de forma
+              específica com o processo de letramento matemático. O cenário de
+              um quarto infantil foi pensado para que os alunos reconhecessem
+              figuras geométricas com as quais possuem contato em seu dia a dia.
+              No quarto, haverá 3 objetos animados relacionados a diferentes
+              desafios que serão realizados pela criança. Cada um destes objetos
+              corresponderá à uma atividade diferente que uma vez completada,
+              possibilitará à criança receber as chaves de um objeto parecido
+              com uma nave em formato de tetraedro, que a levará ao planeta
+              TETRIX.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -1897,7 +1853,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -2031,7 +1987,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -2114,26 +2070,20 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-e-o-bicho.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">É O BICHO 2.0!</h6>
-                O recurso “É o Bicho 2.0” é um jogo para ser utilizado no 3º ano
-                do Ensino Fundamental, visando explorar habilidades presentes em
-                quatro unidades temáticas: número, álgebra, geometria e
-                probabilidade e estatística. Tais temáticas são abordadas por
-                meio de situações-problema e organizadas em quatro atividades
-                relacionadas à preservação da natureza e da biodiversidade. Cada
-                atividade foi nomeada com um animal ameaçado de extinção,
-                natural da Floresta Amazônica.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-e-o-bicho.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">É O BICHO 2.0!</h6>
+              O recurso “É o Bicho 2.0” é um jogo para ser utilizado no 3º ano
+              do Ensino Fundamental, visando explorar habilidades presentes em
+              quatro unidades temáticas: número, álgebra, geometria e
+              probabilidade e estatística. Tais temáticas são abordadas por meio
+              de situações-problema e organizadas em quatro atividades
+              relacionadas à preservação da natureza e da biodiversidade. Cada
+              atividade foi nomeada com um animal ameaçado de extinção, natural
+              da Floresta Amazônica.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -2176,7 +2126,7 @@
             </section>
           </div>
 
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -2292,7 +2242,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -2366,49 +2316,42 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-ilha-das-operacoes.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">ILHA DAS OPERAÇÕES</h6>
-                O recurso “Ilha das operações” é um jogo para ser utilizado no
-                4º ano do Ensino Fundamental, visando explorar diferentes
-                situações quaternárias do campo conceitual multiplicativo, dos
-                eixos de proporção simples e proporção múltipla; da classe um
-                para muitos e muitos para muitos. O cenário utilizado consiste
-                de uma ilha localizada nas águas do mar Algebrius, denominada de
-                Ilha das operações. Essa ilha era habitada por quatro povos que,
-                por muito tempo, viveram em harmonia graças ao poder das quatro
-                pedras fundamentais pertencentes a cada um deles. No Norte,
-                havia a pedra Somartius; no Sul, a Menostart; o Oeste portava a
-                pedra Multiplis; e o povo do Leste, a Divisarions. No centro da
-                ilha, havia a Montanha da Paz, uma formação rochosa milenar que
-                reunia as quatro pedras com um grande poder capaz de sustentar o
-                equilíbrio da ilha. A montanha era sempre fortalecida pelas
-                quatro pedras, como um símbolo da cooperação entre os povos, e
-                protegida pelo sábio guardião conhecido como o Guardião
-                Matemágico. Tudo ia bem até que tempos difíceis assolaram a
-                ilha. Os povos do Norte e do Sul continuaram a se ajudar, mas o
-                medo de não sobreviver invadiu os corações dos habitantes do
-                Leste e do Oeste, dando início a várias disputas por alimentos e
-                por vantagens. Logo o equilíbrio e a harmonia que fortaleciam a
-                Montanha da Paz foram abalados. Com as disputas entre Leste e
-                Oeste, suas respectivas pedras enfraqueceram e se perderam com o
-                tempo, diminuindo a força da Montanha da Paz e dando início ao
-                processo de destruição da ilha. A missão no RED “Ilha das
-                operações” é achar as duas pedras fundamentais que estão
-                perdidas e reuni-las novamente na montanha para restaurar a paz
-                na Ilha. Para isso, o usuário deverá cumprir os quatro desafios
-                propostos no recurso. A cada desafio superado, o usuário ganhará
-                itens que serão usados na resolução das situações que envolvem o
-                campo das estruturas multiplicativas.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-ilha-das-operacoes.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">ILHA DAS OPERAÇÕES</h6>
+              O recurso “Ilha das operações” é um jogo para ser utilizado no 4º
+              ano do Ensino Fundamental, visando explorar diferentes situações
+              quaternárias do campo conceitual multiplicativo, dos eixos de
+              proporção simples e proporção múltipla; da classe um para muitos e
+              muitos para muitos. O cenário utilizado consiste de uma ilha
+              localizada nas águas do mar Algebrius, denominada de Ilha das
+              operações. Essa ilha era habitada por quatro povos que, por muito
+              tempo, viveram em harmonia graças ao poder das quatro pedras
+              fundamentais pertencentes a cada um deles. No Norte, havia a pedra
+              Somartius; no Sul, a Menostart; o Oeste portava a pedra Multiplis;
+              e o povo do Leste, a Divisarions. No centro da ilha, havia a
+              Montanha da Paz, uma formação rochosa milenar que reunia as quatro
+              pedras com um grande poder capaz de sustentar o equilíbrio da
+              ilha. A montanha era sempre fortalecida pelas quatro pedras, como
+              um símbolo da cooperação entre os povos, e protegida pelo sábio
+              guardião conhecido como o Guardião Matemágico. Tudo ia bem até que
+              tempos difíceis assolaram a ilha. Os povos do Norte e do Sul
+              continuaram a se ajudar, mas o medo de não sobreviver invadiu os
+              corações dos habitantes do Leste e do Oeste, dando início a várias
+              disputas por alimentos e por vantagens. Logo o equilíbrio e a
+              harmonia que fortaleciam a Montanha da Paz foram abalados. Com as
+              disputas entre Leste e Oeste, suas respectivas pedras
+              enfraqueceram e se perderam com o tempo, diminuindo a força da
+              Montanha da Paz e dando início ao processo de destruição da ilha.
+              A missão no RED “Ilha das operações” é achar as duas pedras
+              fundamentais que estão perdidas e reuni-las novamente na montanha
+              para restaurar a paz na Ilha. Para isso, o usuário deverá cumprir
+              os quatro desafios propostos no recurso. A cada desafio superado,
+              o usuário ganhará itens que serão usados na resolução das
+              situações que envolvem o campo das estruturas multiplicativas.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -2451,7 +2394,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -2585,7 +2528,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -2661,31 +2604,24 @@
             </div>
           </div>
           <div class="columns is-vcentered">
-            <div class="column is-6">
-              <figure>
-                <img
-                  src="~assets/images/unidade-II/imagem-quadrada-divertix.png"
-                  class="icones"
-                />
-              </figure>
-            </div>
-            <div class="column">
-              <div class="is-left">
-                <h6 class="titulos">DIVERTIX</h6>
-                O recurso “Divertix” é um jogo para ser utilizado no 5º ano do
-                Ensino Fundamental e apresenta o contexto da redação de uma
-                revista que teve o seu sistema de computadores invadido por um
-                vilão, com o intuito de impedir a publicação de sua última
-                edição. Os alunos são convidados a participar de diversas
-                atividades com o objetivo de restaurar os textos da revista
-                danificados durante a invasão e terminar as reportagens a tempo
-                para sua publicação. São propostas 3 atividades que correspondem
-                às habilidades exigidas para funções de revisor, redator e
-                designer, desempenhadas em uma revista. Ao final das três
-                atividades, o jogador poderá reunir as pistas para descobrir a
-                identidade do vilão invasor, e também publicar a versão final da
-                revista.
-              </div>
+            <img
+              src="~assets/images/unidade-II/imagem-quadrada-divertix.png"
+              class="mide-explicacao"
+            />
+            <div class="mide-texto-inicial">
+              <h6 class="titulos">DIVERTIX</h6>
+              O recurso “Divertix” é um jogo para ser utilizado no 5º ano do
+              Ensino Fundamental e apresenta o contexto da redação de uma
+              revista que teve o seu sistema de computadores invadido por um
+              vilão, com o intuito de impedir a publicação de sua última edição.
+              Os alunos são convidados a participar de diversas atividades com o
+              objetivo de restaurar os textos da revista danificados durante a
+              invasão e terminar as reportagens a tempo para sua publicação. São
+              propostas 3 atividades que correspondem às habilidades exigidas
+              para funções de revisor, redator e designer, desempenhadas em uma
+              revista. Ao final das três atividades, o jogador poderá reunir as
+              pistas para descobrir a identidade do vilão invasor, e também
+              publicar a versão final da revista.
             </div>
           </div>
           <div class="w-100 has-background-light">
@@ -2760,7 +2696,7 @@
               </b-collapse>
             </section>
           </div>
-          <div class="has-background-grey-dark">
+          <div class="w-100 has-background-grey-dark">
             <div class="title">Confira algumas imagens do jogo:</div>
             <div class="columns is-multiline">
               <div class="column is-3">
@@ -2876,7 +2812,7 @@
           <br />
           <center>
             <h6 class="titulos">
-              Ficou curioso para conhecer esse recurso? <br />
+              Ficou curioso(a) para conhecer esse recurso? <br />
               Explore o jogo abaixo ou baixe diretamente do site do MEC.
             </h6>
           </center>
@@ -3378,7 +3314,7 @@ export default {
             'Ler, produzir e compreender cartas dirigidas a veículos da mídia impressa ou digital, notícias, reportagens, dentre outros gêneros do campo jornalístico e político-cidadão.'
         },
         {
-          title: 'Qual o pedido?',
+          title: 'Qual é o seu pedido?',
           value: 'qual-o-pedido',
           pic: require('@/assets/images/card-icons/qual-o-pedido.png'),
           description:
@@ -3438,6 +3374,15 @@ export default {
 #unidade-II-tematica-II {
   h6 {
     color: #c0315f;
+  }
+  .mide-explicacao {
+    float: left;
+    margin-right: 15px;
+  }
+  .mide-texto-inicial {
+    margin-top: 32px;
+    font-size: 14px;
+    text-indent: 50px;
   }
   .title {
     color: white;

@@ -1,12 +1,14 @@
 export const INTRO_DIALOGS = [
   {
     avatar: require('assets/images/avatar-dialogo-carla.png'),
-    text: 'Olá meu nome é <strong>Carla</strong>. Sou professora de Matemática.'
+    text:
+      'Olá! Meu nome é <strong>Carla</strong>. Sou professora de Matemática.'
   },
   {
     right: true,
     avatar: require('assets/images/avatar-dialogo-marcos.png'),
-    text: 'Oi meu nome é <strong>Marcos</strong>. Sou professor de Português.'
+    text:
+      'Oi! Meu nome é <strong>Marcos</strong>. Sou professor de Língua Portuguesa.'
   },
   {
     avatar: require('assets/images/avatar-dialogo-carla.png'),
@@ -17,19 +19,19 @@ export const INTRO_DIALOGS = [
     right: true,
     avatar: require('assets/images/avatar-dialogo-marcos.png'),
     text:
-      'Neste curso vamos entender como a <strong>cultura digital</strong> pode mudar algumas práticas de sala de aula. Vamos <strong>conhecer</strong> alguns  Recursos Educacionais Digitais ou, simplesmente, <strong>RED</strong>.'
+      'Neste curso, vamos entender como a <strong>cultura digital</strong> pode mudar algumas práticas de sala de aula. Vamos <strong>conhecer</strong> alguns  Recursos Educacionais Digitais ou, simplesmente, <strong>RED</strong>.'
   },
   {
     avatar: require('assets/images/avatar-dialogo-carla.png'),
     text:
-      'Sim! Vamos ver como esses recursos podem ser instrumentos de ensino e aprendizagem na Língua Portuguesa e na Matemática nos anos iniciais do Ensino Fundamental.'
+      'Sim! Vamos ver como esses recursos podem ser instrumentos de ensino e de aprendizagem na Língua Portuguesa e na Matemática nos anos iniciais do Ensino Fundamental.'
   },
 
   {
     right: true,
     avatar: require('assets/images/avatar-dialogo-marcos.png'),
     text:
-      'Ao final do curso vamos conhecer alguns <strong>planejamentos</strong> e também <strong>planejar</strong> aulas com suporte de Recursos Educacionais Digitais.'
+      'Ao final do curso, vamos conhecer alguns <strong>planejamentos</strong> e também <strong>planejar</strong> aulas com suporte de Recursos Educacionais Digitais.'
   },
   {
     avatar: require('assets/images/avatar-dialogo-carla.png'),
@@ -39,8 +41,8 @@ export const INTRO_DIALOGS = [
     type: 'text',
     text: `
         <ol>
-          <li>Desenvolver conhecimento sobre o ensino e aprendizagem na cultura digital</li>
-          <li>Conhecer Recursos Educacionais Digitais (RED) como instrumentos de ensino e aprendizagem.</li>
+          <li>Desenvolver conhecimento sobre o ensino e a aprendizagem na cultura digital.</li>
+          <li>Conhecer Recursos Educacionais Digitais (RED) como instrumentos de ensino e de aprendizagem.</li>
           <li>Planejar aulas com suporte dos RED.</li>
         </ol>
       `
@@ -49,7 +51,7 @@ export const INTRO_DIALOGS = [
     right: true,
     avatar: require('assets/images/avatar-dialogo-marcos.png'),
     text:
-      ' Vamos entender um pouco da estrutura do curso. Você deseja ver a <strong>ementa</strong> agora?'
+      'Vamos entender um pouco a estrutura do curso. Você deseja ver a <strong>ementa</strong> agora?'
   },
   {
     type: 'bool',
@@ -62,12 +64,11 @@ export const INTRO_DIALOGS = [
       {
         type: 'text',
         text:
-          'A cultura digital e o mundo contemporâneo. Recursos Educacionais Digitais como instrumentos de ensino e aprendizagem. Possibilidades do uso de RED de Língua Portuguesa e Matemática nos anos iniciais do Ensino Fundamental.  Planejamento de aulas com suporte de Recursos Educacionais Digitais'
+          'A cultura digital e o mundo contemporâneo. Recursos Educacionais Digitais como instrumentos de ensino e de aprendizagem. Possibilidades do uso de RED de Língua Portuguesa e de Matemática nos anos iniciais do Ensino Fundamental.  Planejamento de aulas com suporte de Recursos Educacionais Digitais'
       },
       {
         avatar: require('assets/images/avatar-dialogo-carla.png'),
-        text:
-          'Agora veja a estrutura abaixo para entender a estrutura do curso:'
+        text: 'Agora, veja a imagem abaixo para entender a estrutura do curso:'
       },
       {
         type: 'text',
@@ -86,7 +87,7 @@ export const INTRO_DIALOGS = [
       },
       {
         avatar: require('assets/images/avatar-dialogo-carla.png'),
-        text: 'Agora veja a imagem abaixo para entender a estrutura do curso:'
+        text: 'Agora, veja a imagem abaixo para entender a estrutura do curso:'
       },
       {
         type: 'text',

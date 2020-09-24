@@ -14,7 +14,7 @@
           Portuguesa e de Matemática disponíveis na Plataforma MEC/RED.
         </p>
         <p>
-          Para esta unidade, teremos duas temáticas. Na <b>Temática I</b>,
+          Para esta unidade, teremos duas temáticas. Na <b>Temática 1</b>,
           discutiremos a importância de um planejamento.
         </p>
         Os objetivos desta temática são:
@@ -24,7 +24,7 @@
           Depois de perceber os elementos de um plano de aula, vamos mostrar
           dois planejamentos utilizando os recursos educacionais digitais.
         </p>
-        <p>Portanto, os objetivos da <b>Temática II</b> são:</p>
+        <p>Portanto, os objetivos da <b>Temática 2</b> são:</p>
         <li>
           Conhecer planos de aula usando um RED de Língua Portuguesa e outro de
           Matemática.

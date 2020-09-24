@@ -8,10 +8,10 @@
           <h4 class="title is-4">Ementa do curso</h4>
           <p>
             A cultura digital e o mundo contemporâneo. Recursos Educacionais
-            Digitais como instrumentos de ensino e aprendizagem. Possibilidades
-            do uso de RED de Língua Portuguesa e Matemática nos anos iniciais do
-            Ensino Fundamental. Planejamento de aulas com suporte de Recursos
-            Educacionais Digitais.
+            Digitais como instrumentos de ensino e de aprendizagem.
+            Possibilidades do uso de RED de Língua Portuguesa e de Matemática
+            nos anos iniciais do Ensino Fundamental. Planejamento de aulas com
+            suporte de Recursos Educacionais Digitais.
           </p>
         </div>
         <!-- REFACTOR -->
@@ -32,12 +32,12 @@
           <h4 class="title is-4">Objetivos de aprendizagem</h4>
 
           <ol>
-            1.Desenvolver conhecimento sobre o ensino e aprendizagem na cultura
-            digital.
+            1. Desenvolver conhecimento sobre o ensino e a aprendizagem na
+            cultura digital.
           </ol>
           <ol>
             2. Conhecer Recursos Educacionais Digitais (RED) como instrumentos
-            de ensinos e aprendizagem.
+            de ensino e de aprendizagem.
           </ol>
           <ol>
             3. Planejar aulas com suporte dos RED.
@@ -55,21 +55,21 @@
           <h4 class="title is-4">Metodologia</h4>
           <p>
             O curso está voltado para a prática de professores dos anos iniciais
-            do ensino fundamental. O conteúdo irá focar na inserção dos Recursos
-            Educacionais Digitais no cotidiano escolar, focando os aspectos de
-            planejamento e avaliação. O conteúdo será apresentado através de
-            aulas web que incluem hipertextos, animações, imagens e vídeos. O
-            material do curso poderá ser realizado de modo autoinstrucional (sem
-            mediação de um tutor) ou em um ambiente virtual de aprendizagem (com
-            mediação de um tutor).
+            do Ensino Fundamental. O conteúdo compreenderá a inserção dos
+            Recursos Educacionais Digitais no cotidiano escolar, envolvendo os
+            aspectos de planejamento e avaliação. O conteúdo será apresentado
+            através de aulas web que incluem hipertextos, animações, imagens e
+            vídeos. O material do curso poderá ser realizado de modo
+            autoinstrucional (sem mediação de um tutor) ou em um ambiente
+            virtual de aprendizagem (com mediação de um tutor).
           </p>
           As atividades do curso envolvem:
           <ol>
-            1) Reflexões acerca da cultura digital e das contribuições das
-            tecnologias digitais RED no ensino.
+            1) Reflexões acerca da cultura digital e sobre as contribuições das
+            tecnologias digitais no ensino.
           </ol>
           <ol>
-            2) Exposição em linguagem d3ialógica na forma de textos, animações e
+            2) Exposição em linguagem dialógica na forma de textos, animações e
             vídeos.
           </ol>
           <ol>
@@ -93,14 +93,13 @@
         <div class="text column is-6">
           <h4 class="title is-4">Avaliação</h4>
           <p>
-            A avaliação do aluno irá considerar os seguintes instrumentos de
-            avaliação:
+            A avaliação do aluno irá considerar os seguintes instrumentos:
           </p>
           <ol>
-            1) Discussão a distância
+            1) Discussão à distância.
           </ol>
           <ol>
-            2) Planejamento de uma aula com o uso de tecnologia
+            2) Planejamento de uma aula com o uso de tecnologia.
           </ol>
         </div>
         <!-- REFACTOR -->

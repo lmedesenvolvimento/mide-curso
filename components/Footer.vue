@@ -4,14 +4,16 @@
       <div class="container is-fluid">
         <div class="columns is-vcentered">
           <div class="column is-4">
+            <br />
             <div class="mide-footer-mide-logo">
               <img src="~@/assets/images/logo-mide-branca.png" />
             </div>
             <div class="mide-footer-description">
-              Financiado pelo MEC, o projeto visa desenvolver um conjunto de
-              recursos educacionais digitais de Língua Portuguesa e Matemática
-              para os anos iniciais do ensino fundamental fundamentados nas
-              habilidades previstas na Base Nacional Curricular Comum - BNCC.
+              Financiado pelo Ministério da Educação - MEC, o projeto visa
+              desenvolver um conjunto de Recursos Educacionais Digitais de
+              Língua Portuguesa e de Matemática para os anos iniciais do Ensino
+              Fundamental, concebidos a partir das habilidades previstas na Base
+              Nacional Comum Curricular - BNCC.
             </div>
           </div>
           <div class="mide-footer-vertical-line"></div>

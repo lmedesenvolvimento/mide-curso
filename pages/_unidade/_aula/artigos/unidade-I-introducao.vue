@@ -8,13 +8,13 @@
       <div class="mide-texto-inicial">
         <p>
           O mundo mudou significativamente nossa maneira de interagir, de
-          consumir, de aprender e, também de ensinar! Nesta unidade, iremos
+          consumir, de aprender e também de ensinar! Nesta unidade, iremos
           compreender como a cultura digital pode modificar a prática docente.
           Trataremos de duas temáticas.
         </p>
         <p>
           Na <strong>temática 1</strong>, Cibercultura e Educação,discutiremos o
-          conceito de cibercultura e como a mesma implica em mudanças nas
+          conceito de cibercultura e como esta discussão implica em mudanças nas
           práticas desenvolvidas na sociedade e na escola.
         </p>
         <p>

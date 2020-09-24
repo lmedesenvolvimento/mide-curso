@@ -1,5 +1,5 @@
 <template>
-  <mide-aulas-container description="Temática 1 - Cibercultura e a educação">
+  <mide-aulas-container description="Temática 1 - Cibercultura e educação">
     <div id="unidade-I-tematica-I">
       <article>
         <h6 class="titulos">
@@ -63,9 +63,9 @@
                     <p>
                       No mundo na música, a banda “Os Beatles” fazia sucesso e
                       estava nas paradas das rádios. Aqui no Brasil, surgia um
-                      fenômeno musical chamado MPB (Música Popular Brasileira)
-                      lançando cantores como Elis Regina, Vinicius de Moraes,
-                      Edu Lobo, Nara Leão e Chico Buarque.
+                      fenômeno musical chamado "MPB" (Música Popular
+                      Brasileira), lançando cantores como Elis Regina, Vinicius
+                      de Moraes, Edu Lobo, Nara Leão e Chico Buarque.
                     </p>
                     <img
                       src="~assets/images/unidade-I/imagem-mundo-da-musica.png"
@@ -120,9 +120,9 @@
                     <p>
                       Vamos observar também que as roupas, as discussões e a
                       maneira de pensar e agir eram bem diferentes da nossa
-                      época. Enfim, muitas as atividades humanas como a forma de
-                      se comunicar, a arquitetura, as comidas e músicas são bem
-                      diferentes das que temos hoje.
+                      época. Enfim, muitas as atividades humanas, como a forma
+                      de se comunicar, a arquitetura, as comidas e as músicas
+                      são bem diferentes das que temos hoje.
                     </p>
                     <img
                       src="~assets/images/unidade-I/imagem-vestimentas.png"
@@ -137,7 +137,7 @@
         <p>
           <br />
           <center>
-            Todos esses aspectos acima chamamos de cultura.
+            Todos esses aspectos acima chamamos de "cultura".
             <br />
             <b>Podemos definir cultura como:</b>
           </center>
@@ -158,8 +158,8 @@
         <p>
           Assim, a cultura é o entendimento pelo qual fazemos da forma como uma
           sociedade vive e se comporta socialmente. Também é preciso lembrar que
-          a cultura é dinâmica. Portanto, ela muda com o tempo, algumas
-          características sociais são adquiridas, outras deixada de lado.
+          a cultura é dinâmica. Portanto, ela muda com o tempo. Algumas
+          características sociais são adquiridas, outras deixadas de lado.
         </p>
         <p>
           Alguns aspectos permitem que essas mudanças culturais sejam
@@ -184,31 +184,32 @@
           reconstrução da cidadania e do relacionamento entre os povos, após o
           trauma da Segunda Guerra Mundial e do nazismo; de outro lado, a
           chamada “Guerra Fria” continuava a lembrar às pessoas que tudo poderia
-          acontecer novamente, e desta vez de maneira ainda mais catastrófica.
+          acontecer novamente, e desta vez, de maneira ainda mais catastrófica.
         </p>
         <p>
-          Momentos assim costumam gerar grandes discussões e consequentemente
+          Momentos assim costumam gerar grandes discussões e, consequentemente,
           tentativas de solução. Um destes debates, no nível cultural, foi a
           chamada “contracultura”, no qual principalmente jovens e artistas
-          rebelavam-se contra as políticas belicistas, especialmente aquelas de
+          rebelavam-se contra as políticas belicistas, especialmente àquelas de
           cunho nuclear. Ao mesmo tempo, defendiam uma abertura nos costumes e
-          nos direitos humanos, sobretudo quanto aos direitos das mulheres, ao
+          nos direitos humanos, sobretudo, quanto aos direitos das mulheres, ao
           exercício da sexualidade e à vida em comunidade.
         </p>
-
         <challenge
           name="challege-1"
           :options="challenge"
           :multiple="true"
-          correct="capitalismo,comunismo,ditadura"
           :card="true"
+          correct="capitalismo,comunismo,ditadura"
         >
-          <template slot="quesiton">
-            <div class="question-title">DESAFIO!</div>
-            <p>
-              Quais dessas palavras você acha que o movimento da contracultura
-              era contra?
-            </p>
+          <template slot="question">
+            <center>
+              <div class="question-title">DESAFIO!</div>
+              <p>
+                Quais dessas palavras você acha que o movimento da contracultura
+                era contra?
+              </p>
+            </center>
           </template>
           <template #success="{totalCorrect}">
             <div class="container is-fluid">
@@ -226,14 +227,14 @@
                       <span class="has-text-success"
                         >Acertou {{ totalCorrect }}
                       </span>
-                      palavras!
+                      palavra(s)!
                     </strong>
                   </p>
                   <p>
                     O movimento era contra o capitalismo, o consumismo, as
-                    ditaduras e, principalmente, eram preocupados com a
-                    possibilidade de uma nova guerra. Esses jovens traziam as
-                    discussões principalmente sobre a os valores tradicionais
+                    ditaduras e, principalmente, era preocupado com a
+                    possibilidade de uma nova guerra. Os jovens traziam as
+                    discussões, principalmente, sobre os valores tradicionais
                     das famílias e reivindicavam a necessidade de uma
                     transformação das relações sociais.
                   </p>
@@ -261,7 +262,7 @@
                     <span class="has-text-success"
                       >Acertou {{ totalCorrect }}
                     </span>
-                    palavras!
+                    {{ totalCorrect === 1 ? 'palavra' : 'palavras' }}!
                   </strong>
 
                   <strong
@@ -287,19 +288,19 @@
                   </strong>
 
                   <p v-if="!isIncluded('luta-de-classe') && totalCorrect">
+                    O movimento era contra o capitalismo, o consumismo, as
+                    ditaduras e, principalmente, era preocupado com a
+                    possibilidade de uma nova guerra. Os jovens traziam as
+                    discussões, principalmente, sobre os valores tradicionais
+                    das famílias e reivindicavam a necessidade de uma
+                    transformação das relações sociais.
+                  </p>
+                  <p v-else>
                     O movimento não era contra a luta de classes, mas também
                     esse tema não era pauta do movimento. Ele foi formado por
                     grupos de jovens brancos das camadas médias urbanas com os
                     privilégios da cultura dominante. Esses jovens traziam as
-                    discussões principalmente sobre os valores tradicionais das
-                    famílias e reivindicavam a necessidade de uma transformação
-                    das relações sociais.
-                  </p>
-                  <p v-else>
-                    O movimento era contra o capitalismo, o consumismo, as
-                    ditaduras e, principalmente, eram preocupados com a
-                    possibilidade de uma nova guerra. Esses jovens traziam as
-                    discussões principalmente sobre a os valores tradicionais
+                    discussões, principalmente, sobre os valores tradicionais
                     das famílias e reivindicavam a necessidade de uma
                     transformação das relações sociais.
                   </p>
@@ -315,13 +316,13 @@
           Uma destas tecnologias foi desenvolvida nos Estados Unidos pela ARPA -
           Advanced Research Projects Agency, pertencente ao Departamento de
           Defesa. Denominada ARPANET, constituía uma rede de troca de pacotes de
-          dados utilizando dois protocolos inovadores - o TCP (Transmission
+          dados, utilizando dois protocolos inovadores: o TCP (Transmission
           Control Protocol) e o IP (Internet Protocol), que possibilitavam uma
           descentralização sem precedentes na comunicação. Isto dificultava a
           destruição de uma base de dados pelo inimigo. Com a redução das
-          tensões da Guerra Fria, nas duas décadas seguintes a tecnologia da
+          tensões da Guerra Fria, nas duas décadas seguintes, a tecnologia da
           ARPANET foi aperfeiçoada e ampliada, inicialmente para a área
-          científica e posteriormente para a área comercial.
+          científica e, posteriormente, para a área comercial.
         </p>
         <p>
           A tecnologia TCP/IP propiciou também um grande avanço para a economia
@@ -339,7 +340,8 @@
         </p>
         <center>
           <div class="frase">
-            Assim, a Internet nasce sob esta múltipla composição:
+            Assim, a <strong>Internet</strong> nasce sob esta múltipla
+            composição:
           </div>
 
           <img src="~assets/images/unidade-I/quadro-cibercultura.png" />
@@ -367,10 +369,10 @@
           </div>
         </div>
         <p>
-          Ele traduz em meio tecnológico avançado (daí o prefixo "ciber") as
-          complexas conexões entre aqueles fenômenos históricos iniciados nos
-          anos 1960, agora acrescidos de novas possibilidades, além de gerar
-          outro fenômenos.
+          A cibercultura traduz-se em meio tecnológico avançado (daí o prefixo
+          "ciber") as complexas conexões entre aqueles fenômenos históricos
+          iniciados nos anos 1960, agora acrescidos de novas possibilidades,
+          além de gerar outro fenômenos.
         </p>
         <div class="quotes">
           <div class="quotes-box">
@@ -406,20 +408,20 @@
             <div class="column">
               <div class="is-left">
                 <p class="titulos">
-                  1) Ausência de espaço (atopia) e a ausência de tempo (acronia)
+                  1) Ausência de espaço (atopia) e ausência de tempo (acronia)
                 </p>
                 <p>
-                  Ausência de espaço (atopia) e a ausência de tempo (acronia)
-                  são características fundamentais na forma como os conhecemos
-                  no mundo físico. Duas das bases da percepção do real no mundo
+                  Ausência de espaço (atopia) e ausência de tempo (acronia) são
+                  características fundamentais na forma como as conhecemos no
+                  mundo físico. Duas das bases da percepção do real no mundo
                   físico são o tempo e o espaço. Nossas atitudes neste espaço
                   são contextualizadas, em grande parte, por estas grandezas. A
                   cibercultura, gerada no ciberespaço, altera esta percepção. O
                   tempo não é medido em termos de passado, presente e futuro,
-                  mas de uma atualidade constante. Por sua vez, o ciberespaço
-                  não é um espaço físico, estável; trata-se de um espaço
-                  dinâmico, em constante transformação, portanto que somente
-                  pode ser compreendido em sua dinâmica própria.
+                  mas a partir de uma atualidade constante. Por sua vez, o
+                  ciberespaço não é um espaço físico, estável; trata-se de um
+                  espaço dinâmico, em constante transformação, portanto, que
+                  somente pode ser compreendido em sua dinâmica própria.
                 </p>
               </div>
             </div>
@@ -443,13 +445,13 @@
                   Ausência do corpo enquanto ser sensível e simbólico, reduzido
                   a sinais. O corpo é uma das nossas maiores referências no
                   mundo físico. Ele reflete boa parte de nossas ações e reações
-                  neste meio. Na cibercultura o corpo desaparece, dando lugar a
+                  neste meio. Na cibercultura, o corpo desaparece, dando lugar a
                   sinais que não necessariamente representam um corpo físico.
                   Assim, um avatar, por exemplo, ainda que represente uma figura
                   física, pode significar apenas um perfil de um robô de
-                  software, não um ser humano. Um texto, uma foto, um vídeo, não
-                  representam necessariamente o mundo físico, podendo ser
-                  manipulados digitalmente por algoritmos, sem interferência
+                  <i>software</i>, não um ser humano. Um texto, uma foto, um
+                  vídeo, não representam necessariamente o mundo físico, podendo
+                  ser manipulados digitalmente por algoritmos, sem interferência
                   humana direta.
                 </p>
               </div>
@@ -471,13 +473,13 @@
                   3) A conexão permanente em rede
                 </p>
                 <p>
-                  A rede, o “net”, de internet (rede das redes), é a sua própria
+                  A rede, o “net”, de Internet (rede das redes), é a sua própria
                   definição. Assim, tudo o que se publica, tudo o que se
                   inscreve na rede é instantaneamente distribuído de forma
                   dinâmica. A rede não apenas “armazena”, mas também
                   constantemente distribui os dados que recebe. Quando um dado
-                  “cai na rede” ele é automaticamente replicado - por isso não é
-                  mais possível apagá-lo em definitivo, no máximo ele pode
+                  “cai na rede”, ele é automaticamente replicado, por isso não é
+                  mais possível apagá-lo em definitivo, no máximo, ele pode
                   tornar-se menos visível.
                 </p>
               </div>
@@ -501,7 +503,7 @@
                 <p>
                   Nos meios de comunicação tradicionais, como rádio e televisão,
                   há um polo que emite para muitos receptores - o chamado
-                  broadcast, de um para muitos. Na internet ocorre sobretudo o
+                  broadcast, de um para muitos. Na Internet ocorre, sobretudo, o
                   multicast, onde todos podem tornar-se broadcast. Assim,
                   qualquer ponto (ou “nó”) da rede pode comunicar-se com os
                   demais. A comunicação de massa, característica dos meios de
@@ -529,20 +531,20 @@
                   (CASTELLS, 2010).
                 </p>
                 <p>
-                  Cada nó que compõem a internet não corresponde necessariamente
-                  a um identidade física. Na verdade, na maioria das vezes, isto
-                  não acontece. Nem sequer é criado majoritariamente por
-                  humanos, mas por algoritmos. Mesmo que sejam diretamente
-                  humanos, estes nós não têm como assumir a complexidade da
-                  personalidade humana. Daí, fragmentam-se e assumem “personas”
-                  próprias, que tornam-se progressivamente mais distantes de
-                  suas intenções iniciais, gerando uma “teatralização” do
-                  cotidiano no ciberespaço, onde todos são personagens dinâmicos
-                  de enredos momentâneos. Ao mesmo tempo em que as pessoas
-                  exibem-se teatralmente na rede, e até por isso mesmo, há uma
-                  busca de muitos pelo anonimato - ou pelo menos uma tentativa
-                  de preservação de alguns aspectos de sua vida privada (muitas
-                  vezes em vão) em meio a tanta exposição.
+                  Cada nó que compõe a Internet não corresponde necessariamente
+                  a uma identidade física. Na verdade, na maioria das vezes,
+                  isto não acontece. Nem sequer os nós são criados
+                  majoritariamente por humanos, mas por algoritmos. Mesmo que
+                  sejam diretamente humanos, estes nós não têm como assumir a
+                  complexidade da personalidade humana. Daí, fragmentam-se e
+                  assumem “personas” próprias, que tornam-se progressivamente
+                  mais distantes de suas intenções iniciais, gerando uma
+                  “teatralização” do cotidiano no ciberespaço, onde todos são
+                  personagens dinâmicos de enredos momentâneos. Ao mesmo tempo
+                  em que as pessoas exibem-se teatralmente na rede, e até por
+                  isso mesmo, há uma busca de muitos pelo anonimato - ou, pelo
+                  menos, uma tentativa de preservação de alguns aspectos de sua
+                  vida privada (muitas vezes em vão) em meio a tanta exposição.
                 </p>
               </div>
             </div>
@@ -564,15 +566,15 @@
                   por corporações (BURCH, 2006)
                 </p>
                 <p>
-                  Como já explicamos, no tempo da ARPANET o governo
-                  norte-americano era o principal fiador da internet, sobretudo
-                  em sua infraestrutura. Como o decorrer das décadas, os estados
-                  nacionais passaram a controlar esta infraestrutura e
-                  progressivamente repassaram-na a corporações privadas,
-                  mantendo apenas a governança normativa. Porém, na duas últimas
-                  décadas, as corporações privadas passaram a controlar não
-                  apenas a infraestrutura física, mas também boa parte das
-                  relações sociais na internet, sobretudo pela captura
+                  Como já explicamos, no tempo da ARPANET, o governo
+                  norte-americano era o principal fiador da Internet, sobretudo
+                  em sua infraestrutura. Com o decorrer das décadas, os estados
+                  nacionais passaram a controlar esta infraestrutura e,
+                  progressivamente, repassaram-na a corporações privadas,
+                  mantendo apenas a governança normativa. Porém, nas duas
+                  últimas décadas, as corporações privadas passaram a controlar
+                  não apenas a infraestrutura física, mas também boa parte das
+                  relações sociais na Internet, especialmente, pela captura
                   permanente de dados, montando uma gigantesca quantidade de
                   informações sobre cada pessoa no mundo. Esta base de dados é
                   utilizada para propósitos diversos, de interesse corporativo
@@ -623,7 +625,7 @@
             <div class="column">
               <div class="is-left">
                 <p class="titulos">
-                  8) O discurso não linear.
+                  8) O discurso não linear
                 </p>
                 <p>
                   Como o tempo não mais importa, a linearidade temporal do
@@ -653,17 +655,17 @@
                   1996).
                 </p>
                 <p>
-                  Na internet tudo acontece muito mais rápido que no mundo
-                  físico. Não pela internet em si, mas pela comparação de um
-                  meio (físico) onde se está submetido ao tempo e outro meio
+                  Na Internet, tudo acontece muito mais rápido do que no mundo
+                  físico. Não pela Internet em si, mas pela comparação de um
+                  meio (físico) que está submetido ao tempo e outro meio
                   (virtual), no qual o tempo físico não importa. As pessoas
-                  vivem em ambos, e isto é difícil de lidar no dia a dia. A
-                  informação na internet espalha-se em grande velocidade,
+                  vivem em ambos e isto é difícil de lidar no dia a dia. A
+                  informação na Internet espalha-se em grande velocidade,
                   gerando uma série de reações nas pessoas. De um lado, há uma
-                  dificuldade das pessoas em assimilar os efeitos desta
-                  aceleração; de outro, abrem-se possibilidades de uso desta
-                  característica da cibercultura para a criação de situações de
-                  interesse de grupos e corporações.
+                  dificuldade delas em assimilar os efeitos desta aceleração; de
+                  outro, abrem-se possibilidades de uso desta característica da
+                  cibercultura para a criação de situações de interesse de
+                  grupos e corporações.
                 </p>
               </div>
             </div>
@@ -681,19 +683,19 @@
             <div class="column">
               <div class="is-left">
                 <p class="titulos">
-                  10) A ressignificação da privacidade.
+                  10) A ressignificação da privacidade
                 </p>
                 <p>
-                  No meio virtual a ideia de privacidade muda radicalmente.
-                  Conforme já explicamos, tudo o que é colocado na rede nela
-                  permanece - não há possibilidade de “apagar” (apenas a ilusão
-                  de que se conseguiu apagar). O controle corporativo dos dados,
-                  aliado às interpretações cada vez mais sofisticadas realizadas
-                  pelos algoritmos, torna transparente para estes detentores de
-                  dados até as informações que não foram explicitamente
-                  colocadas na internet. As inferências são cada vez mais
-                  precisas. Assim, a esfera do privado encontra-se em discussão
-                  profunda.
+                  No meio virtual, a ideia de privacidade muda radicalmente.
+                  Conforme já explicamos, tudo o que é colocado na rede, nela
+                  permanece. Não há a possibilidade de “apagar” (apenas há a
+                  ilusão de que se conseguiu apagar). O controle corporativo dos
+                  dados, aliado às interpretações cada vez mais sofisticadas
+                  realizadas pelos algoritmos, tornam transparentes para estes
+                  detentores de dados até as informações que não foram
+                  explicitamente colocadas na Internet. As inferências são cada
+                  vez mais precisas. Assim, a esfera do privado encontra-se em
+                  discussão profunda.
                 </p>
               </div>
             </div>
@@ -711,11 +713,11 @@
             <div class="column">
               <div class="is-left">
                 <p class="titulos">
-                  11) A cultura do entretenimento.
+                  11) A cultura do entretenimento
                 </p>
                 <p>
                   O fascínio da manipulação tecnológica de imagens e a grande
-                  interatividade proporcionada pela internet torna-a um ambiente
+                  interatividade proporcionada pela Internet torna-a um ambiente
                   essencialmente lúdico. Os avanços na sofisticação dos designs
                   de interfaces gráficas levam as pessoas a passar horas
                   hipnotizadas pelas telinhas de celulares e computadores. Os
@@ -739,20 +741,21 @@
             <div class="column">
               <div class="is-left">
                 <p class="titulos">
-                  12) O “espírito” comunitário.
+                  12) O “espírito” comunitário
                 </p>
                 <p>
                   Influenciada diretamente pela contracultura dos anos 1960, a
-                  internet desde o princípio revelou-se um ótimo espaço para o
+                  Internet, desde o princípio, revelou-se um ótimo espaço para o
                   desenvolvimento de comunidades virtuais. Estas comunidades
-                  cresceram sob forte ênfase em valores como o compartilhamento
-                  e o livre debate de ideias, a partir de grupos reunidos sob
-                  características comuns. Com o passar dos anos, especialmente
-                  após a virada do século, a ideia de comunidades virtuais e
-                  seus valores foram capturados pelas corporações dominantes da
-                  internet e viraram “redes sociais” virtuais, um espaço
-                  propício tanto para os interesses de pessoas e grupos quanto
-                  para os interesses comerciais e corporativos.
+                  cresceram por meio da forte ênfase em valores como o
+                  compartilhamento e o livre debate de ideias, a partir de
+                  grupos reunidos sob características comuns. Com o passar dos
+                  anos, especialmente após a virada do século, a ideia de
+                  comunidades virtuais e seus valores foram capturados pelas
+                  corporações dominantes da Internet e viraram “redes sociais”
+                  virtuais, um espaço propício tanto para os interesses de
+                  pessoas e grupos quanto para os interesses comerciais e
+                  corporativos.
                 </p>
               </div>
             </div>
@@ -822,7 +825,7 @@
         </p>
         <div class="block-bordered">
           <div class="columns is-vcentered">
-            <div class="column is-6">
+            <div class="column is-5">
               <vue-plyr>
                 <div class="plyr__video-embed">
                   <iframe
@@ -843,28 +846,30 @@
                 <p>
                   No Vídeo, vemos duas jovens fazendo uma coreografia com a
                   letra da música "Harder, Better, Faster, Stronger", da dupla
-                  francesa Daft Punk. A música por si só já apresenta algumas
+                  francesa Daft Punk. A música, por si só, já apresenta algumas
                   características da cibercultura, pois usa uma sequência de
-                  palavras de forma rimada e lógica. As palavras inicialmente
-                  são apresentadas e depois combinadas (remixadas) dando outro
-                  sentido à música. Assim, não há uma linearidade na letra, mas
-                  mesmo assim ela faz sentido. As jovens encobrem o rosto e usam
-                  o corpo para apresentar a letra dando a ideia de múltipla
+                  palavras de forma rimada e lógica. As palavras, inicialmente,
+                  são apresentadas e depois combinadas (remixadas), dando outro
+                  sentido à música. Assim, não há uma linearidade na letra, mas,
+                  mesmo assim, ela faz sentido. As jovens cobrem o rosto e usam
+                  o corpo para apresentar a letra, dando a ideia de múltipla
                   identidade e fragmentação. Além disso, fazem um remix, pois
-                  apresentam a música sem o clipe original. Aparentemente, o
-                  objetivo principal da gravação é o entretenimento. A música se
-                  popularizou e teve inúmeros vídeos publicados no Youtube
-                  indicando a cultura remix e o espírito comunitário.
-                </p>
-                <p>
-                  E você conseguiu perceber outras características da
-                  cibercultura no vídeo? Se tiver curiosidade pesquise mais
-                  sobre o vídeo original e suas diferentes versões. Todas são
-                  facilmente encontradas na Internet.
+                  apresentam a música sem o clipe original.
                 </p>
               </div>
             </div>
           </div>
+          <p>
+            Aparentemente, o objetivo principal da gravação é o entretenimento.
+            A música popularizou-se e teve inúmeros vídeos publicados no
+            <i>YouTube</i>, indicando a cultura remix e o espírito comunitário.
+          </p>
+          <p>
+            E você ,conseguiu perceber outras características da cibercultura no
+            Vídeo? Se tiver curiosidade, pesquise mais sobre o vídeo original e
+            suas diferentes versões. Todas são facilmente encontradas na
+            Internet.
+          </p>
         </div>
         <div class="block-bordered">
           <div class="columns is-vcentered">
@@ -930,7 +935,7 @@ export default {
   article {
     margin-top: 50px;
     section {
-      padding-bottom: 80px;
+      // padding-bottom: 80px;
       .carla-1 {
         float: left;
       }
