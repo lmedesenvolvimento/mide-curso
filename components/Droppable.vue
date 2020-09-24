@@ -76,6 +76,12 @@ export default {
         }
         this.$eventHub.$emit('dragged', this.validated)
       })
+
+      this.$emit('dragged', {
+        data: this.dataTransfer,
+        validated: this.validated
+      })
+
       this.$emit('dragend', this.validated)
     }
   }
@@ -85,12 +91,12 @@ export default {
 <style lang="scss">
 .mide-droppable {
   user-select: none;
-  &.validated {
+  &.is-validated {
     .drag-dropped {
       display: block;
     }
   }
-  &:not(.validated) {
+  &:not(.is-validated) {
     .drag-shadow {
       display: block;
     }

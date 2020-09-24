@@ -30,6 +30,7 @@ import Draggable from './Draggable.vue'
 
 // Jogos
 import GamePlayCard from './GamePlayCard.vue'
+import GamePlayCiberCultura from './GamePlayCiberCultura.vue'
 
 const Components = {
   install: (Vue) => {
@@ -57,6 +58,7 @@ const Components = {
 
     // Jogos
     Vue.component('mide-game-play-card', GamePlayCard)
+    Vue.component('mide-game-play-cibercultura', GamePlayCiberCultura)
 
     // plugins
     Vue.component('mide-radial-progress', RadialProgressBar)

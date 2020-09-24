@@ -51,3 +51,7 @@ p {
     text-indent: 2rem;
   }
 }
+
+b, strong {
+ @include avenir-bold; 
+}

@@ -334,6 +334,8 @@
 
           <div class="title">Drag and Drop Cards</div>
           <mide-game-play-card v-model="cards"></mide-game-play-card>
+          <div class="title">Drag and Drop Cibercultura</div>
+          <mide-game-play-cibercultura></mide-game-play-cibercultura>
 
           <div class="title">Forms</div>
 

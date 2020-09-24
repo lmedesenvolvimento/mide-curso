@@ -1,7 +1,7 @@
 <template>
   <div class="mide-draggable" :class="{ 'is-validated': validated }">
     <div v-if="validated" class="mide-draggable-validated">
-      <slot name="validated"></slot>
+      <slot name="validated" :data="dataTransfer"></slot>
     </div>
     <Drag
       v-else
@@ -67,12 +67,12 @@ export default {
   &.is-dragging {
     pointer-events: none;
   }
-  &.validated {
+  &.is-validated {
     .mide-draggable-validated {
       display: block;
     }
   }
-  &:not(.validated) {
+  &:not(.is-validated) {
     .mide-draggable-drag {
       display: block;
     }
