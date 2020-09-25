@@ -58,7 +58,7 @@
             do Ensino Fundamental. O conteúdo compreenderá a inserção dos
             Recursos Educacionais Digitais no cotidiano escolar, envolvendo os
             aspectos de planejamento e avaliação. O conteúdo será apresentado
-            através de aulas web que incluem hipertextos, animações, imagens e
+            por meio de aulas web que incluem hipertextos, animações, imagens e
             vídeos. O material do curso poderá ser realizado de modo
             autoinstrucional (sem mediação de um tutor) ou em um ambiente
             virtual de aprendizagem (com mediação de um tutor).
