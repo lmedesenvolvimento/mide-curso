@@ -161,27 +161,24 @@
         Vejamos, agora, os principais componentes de uma plano de aula.
       </p>
       <p>
-        <strong>1. ESTRUTURA CURRICULAR</strong> <br />
-        1.1 Modalidade / nível de ensino: <br />
-        1.2. Áreas do conhecimento: <br />
-        1.3 Componente curricular: <br />
-        1.4 Unidade Temática: <br />
-        1.5 Objeto do conhecimento: <br />
+        <strong>1. ESTRUTURA CURRICULAR</strong>
+      </p>
+      <p class="title is-6 is-uppercase">
+        1.1 Modalidade / nível de ensino:
       </p>
       <p>
-        <strong>2. DADOS DA AULA</strong> <br />
-        2.1 O que o(a) aluno(a) poderá aprender com esta aula <br />
-        2.2 Duração da atividade <br />
-        2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)
-        <br />
-        2.4 Estratégias e recursos da aula <br />
-        2.5 Avaliação <br />
+        Aqui você precisa descrever para qual ano do Ensino Fundamental o plano
+        está sendo proposto.
       </p>
       <p class="title is-6 is-uppercase">
         1.2 Áreas do conhecimento:
       </p>
       <p>
-        Segundo a BNCC as <strong>áreas do conhecimento</strong> favorecem a
+        Segundo a
+        <a href="http://basenacionalcomum.mec.gov.br/abase" target="_blank"
+          >BNCC</a
+        >
+        as <strong>áreas do conhecimento</strong> favorecem a
         <strong>comunicação</strong> entre os conhecimentos e saberes de
         diferentes componentes curriculares. Sendo elas:
       </p>
@@ -336,12 +333,13 @@
         <b>objeto de conhecimento</b> se <b>relaciona</b> a um número variável
         de <b>habilidades</b>, conforme será explicado em dados da aula.
       </p>
-      <p>
+      <p class="title is-6 is-uppercase">
         2. DADOS DA AULA
       </p>
       <p class="title is-6 is-uppercase">
         2.1 O que o(a) aluno(a) poderá aprender com esta aula
       </p>
+
       <p class="areas column is-5">
         <img
           src="~assets/images/unidade-III/o-que-o-aluno-podera-numero-1.png"
@@ -372,6 +370,7 @@
         src="~assets/images/unidade-III/o-que-o-aluno-podera-card-maior.png"
         width="400"
       />
+      <br />
       <br />
       <p class="title is-6 is-uppercase">
         2.2 Duração da atividade

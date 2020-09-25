@@ -283,7 +283,7 @@
                     Que pena!<br />
                     Você não acertou
                     <span class="has-text-danger">
-                      todas as palavras!
+                      nenhuma palavra!
                     </span>
                   </strong>
 
@@ -916,6 +916,7 @@
 export default {
   data() {
     return {
+      maxCorrect: 3,
       challenge: [
         { text: 'Comunismo', value: 'comunismo' },
         { text: 'Capitalismo', value: 'capitalismo' },
