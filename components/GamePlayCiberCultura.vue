@@ -110,6 +110,7 @@
                           {{ card.title }}
                         </p>
                         <b-button
+                          v-if="card.validated"
                           class="card-feedback-btn"
                           type="is-text"
                           @click="() => openDetails(card)"
@@ -184,6 +185,11 @@ export default {
     },
     currentProgress() {
       return Math.round((this.completed.length / this.items.length) * 100)
+    }
+  },
+  watch: {
+    items() {
+      this.cardGroups = chunk(this.items, this.cardsPerLine)
     }
   },
   created() {
