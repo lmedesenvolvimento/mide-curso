@@ -484,8 +484,23 @@
             :hide-feedback="true"
           >
             <template slot="question">
+              <br />
+
               <center>
-                <img src="~assets/images/unidade-II/imagem-primeiro-red.png" />
+                <div class="card red-card">
+                  <div class="card-image">
+                    <figure>
+                      <img
+                        src="~assets/images/unidade-II/imagem-primeiro-red.png"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <b>
+                      <a href="https://youtu.be/6rFmYIPSvzw">Visualizar RED</a>
+                    </b>
+                  </div>
+                </div>
               </center>
             </template>
             <template #option="{option, model, setModel, tries, valid}">
@@ -513,7 +528,23 @@
           >
             <template slot="question">
               <center>
-                <img src="~assets/images/unidade-II/imagem-segundo-red.png" />
+                <div class="card red-card">
+                  <div class="card-image">
+                    <figure>
+                      <img
+                        src="~assets/images/unidade-II/imagem-segundo-red.png"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <b>
+                      <a
+                        href="https://phet.colorado.edu/pt_BR/simulation/balancing-act"
+                        >Visualizar RED</a
+                      ></b
+                    >
+                  </div>
+                </div>
               </center>
             </template>
             <template #option="{option, model, setModel, tries, valid}">
@@ -542,7 +573,22 @@
           >
             <template slot="question">
               <center>
-                <img src="~assets/images/unidade-II/imagem-terceiro-red.png" />
+                <div class="card red-card">
+                  <div class="card-image">
+                    <figure>
+                      <img
+                        src="~assets/images/unidade-II/imagem-terceiro-red.png"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <b>
+                      <a href="https://www.ufmg.br/naondadavida/?p=1721"
+                        >Visualizar RED</a
+                      >
+                    </b>
+                  </div>
+                </div>
               </center>
             </template>
             <template #option="{option, model, setModel, tries, valid}">
@@ -571,7 +617,23 @@
           >
             <template slot="question">
               <center>
-                <img src="~assets/images/unidade-II/imagem-quarto-red.png" />
+                <div class="card red-card">
+                  <div class="card-image">
+                    <figure>
+                      <img
+                        src="~assets/images/unidade-II/imagem-quarto-red.png"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <b>
+                      <a
+                        href="https://escola.britannica.com.br/jogos/GE_2_18/index.html"
+                        >Visualizar RED</a
+                      >
+                    </b>
+                  </div>
+                </div>
               </center>
             </template>
             <template #option="{option, model, setModel, tries, valid}">
@@ -600,7 +662,23 @@
           >
             <template slot="question">
               <center>
-                <img src="~assets/images/unidade-II/imagem-quinto-red.png" />
+                <div class="card red-card">
+                  <div class="card-image">
+                    <figure>
+                      <img
+                        src="~assets/images/unidade-II/imagem-quinto-red.png"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <b>
+                      <a
+                        href="https://api.portalmec.c3sl.ufpr.br/v1/learning_objects/3310/download "
+                        >Visualizar RED</a
+                      >
+                    </b>
+                  </div>
+                </div>
               </center>
             </template>
             <template #option="{option, model, setModel, tries, valid}">
@@ -1093,6 +1171,11 @@ export default {
         }
       }
     }
+  }
+  .red-card {
+    width: 400px;
+    padding: 10px;
+    text-transform: uppercase;
   }
 }
 </style>
