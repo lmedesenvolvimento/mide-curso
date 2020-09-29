@@ -670,73 +670,65 @@
 
         <b-tab-item label="2º REPOSITÓRIO">
           <center>
-            <h6 class="title is-5">PORTAL DOMÍNIO PÚBLICO</h6>
-            <img
-              src="~assets/images/unidade-II/imagem-segundo-repositorio.png"
-            />
+            <h6 class="title is-5">Portal eduCAPES</h6>
+            <img src="~assets/images/unidade-II/imagem-2-repositorio.png" />
             <p>
               Fonte:
-              <a
-                href="http://portal.mec.gov.br/dominio-publico"
-                target="_blank"
-              >
-                http://portal.mec.gov.br/dominio-publico
+              <a href="https://educapes.capes.gov.br/" target="_blank">
+                https://educapes.capes.gov.br/
               </a>
             </p>
           </center>
           <p>
-            Lançado em 2004, o Portal Domínio Público oferece
-            <b>acesso gratuito a obras literárias, artísticas e científicas</b>
-            (na forma de textos, sons, imagens e vídeos), já em domínio público
-            ou que tenham a sua divulgação autorizada. O portal também é um
-            espaço que encaminha os usuários para vários outros materiais do
-            Ministério da Educação.
+            Lançado em 2016, o Portal eduCAPES oferece acesso gratuito a objetos
+            educacionais abertos, oriundos da Universidade Aberta do Brasil
+            (UAB) e de parcerias firmadas com várias instituições de ensino e
+            centros de pesquisa, para uso de alunos e professores da educação
+            básica, superior e pós graduação. Em seu acervo é possível encontrar
+            jogos, animações, vídeos, áudios, além de textos, livros didáticos,
+            artigos de pesquisa, teses, dissertações e videoaulas. Tais
+            conteúdos podem ser baixados ou usados on-line.
           </p>
         </b-tab-item>
 
         <b-tab-item label="3º REPOSITÓRIO">
           <center>
-            <h6 class="title is-5">TV ESCOLA</h6>
+            <h6 class="title is-5">REliA</h6>
             <img src="~assets/images/unidade-II/imagem-3-repositorio.png" />
             <p>
               Fonte:
-              <a href="https://tvescola.org.br/" target="_blank">
-                https://tvescola.org.br/
+              <a href="https://relia.org.br/" target="_blank">
+                https://relia.org.br/
               </a>
             </p>
           </center>
           <p>
-            A TV Escola é um canal de televisão gerido pela Associação de
-            Comunicação Educativa Roquette Pinto (Acerp), que é uma organização
-            social independente, de direito privado, responsável pela produção
-            do conteúdo exibido diariamente no canal.
+            Criado em 2011, o REliA é uma plataforma que tem o intuito de
+            organizar o levantamento de recursos com licenças abertas feito pelo
+            <a href="https://educadigital.org.br/" target="_blank"
+              >Instituto Educadigital</a
+            >
+            via projeto
+            <a href="https://aberta.org.br/" target="_blank">REA.br.</a> Possui
+            em seu acervo recursos disponíveis no Brasil e no mundo nos formatos
+            de vídeos, games, animações, videoaulas, infográficos, mapas etc.
           </p>
           <p>
-            Chegou a fazer parte do Ministério da Educação, mas desde 2015,
-            mantém apenas contrato de gestão com o MEC para produção de conteúdo
-            e gestão operacional.
+            Cada recurso catalogado recebe uma classificação de acordo com o
+            nível de ensino, áreas do conhecimento, disciplinas, além de outras
+            informações como licenças de uso e idioma.
           </p>
           <p>
-            Os principais objetivos da TV Escola são o aperfeiçoamento e a
-            valorização dos professores da rede pública, o enriquecimento do
-            processo de ensino e de aprendizagem e a melhoria da qualidade do
-            ensino.
+            O ponto de maior destaque do REliA está relacionado à possibilidade
+            do usuário personalizar um recurso disponível neste repositório.
+            Para isso, em cada um dos tipos de mídia disponíveis existe uma
+            subcategoria denominada “Para criar”, que busca os recursos que
+            oferecem essa possibilidade de produção autoral pelo usuário. Para
+            isso, deve-se escolher qual o tipo de mídia deseja criar, vão
+            aparecer as subcategorias, em seguida selecionar “Para criar” e
+            clicar no botão “Pesquisar”. Feito isso, será apresentada uma lista
+            de recursos que possibilitam a criação pelo usuário.
           </p>
-          <p>
-            Há inúmeras possibilidades de uso da TV Escola: desenvolvimento
-            profissional de gestores e docentes (inclusive, preparação para
-            vestibular, cursos de progressão funcional e concurso público);
-            dinamização das atividades de sala de aula; preparação de atividades
-            extraclasse, recuperação e aceleração de estudos; utilização de
-            vídeos para trabalhos de avaliação do aluno e de grupos de alunos;
-            revitalização da biblioteca e aproximação escola-comunidade.
-          </p>
-          <center>
-            Fonte:
-            <a href="http://portal.mec.gov.br/tv-escola" target="_blank">
-              http://portal.mec.gov.br/tv-escola
-            </a>
-          </center>
           <br />
           <br />
         </b-tab-item>
@@ -744,33 +736,28 @@
         <b-tab-item label="4º REPOSITÓRIO">
           <center>
             <h6 class="title is-5">
-              BANCO INTERNACIONAL DE OBJETOS EDUCACIONAIS (BIOE)
+              CNEC NOAS
             </h6>
             <img src="~assets/images/unidade-II/imagem-4-repositorio.png" />
             <p>
               Fonte:
-              <a href="http://objetoseducacionais2.mec.gov.br/" target="_blank">
-                http://objetoseducacionais2.mec.gov.br/
+              <a href="https://www.noas.com.br/" target="_blank">
+                https://www.noas.com.br/
               </a>
             </p>
           </center>
           <p>
-            O Banco Internacional de Objetos Educacionais é um portal para
-            assessorar o professor. No banco, estão disponíveis recursos
-            educacionais gratuitos em diversas mídias (áudio, vídeo,
-            animação/simulação, imagem, hipertexto, softwares educacionais) que
-            atendem desde a Educação Básica até o Ensino Superior, nas diversas
-            áreas do conhecimento.
+            O CNEC NOAS é uma plataforma que armazena objetos de aprendizagem
+            desenvolvidos pelo núcleo de computação aplicada do colégio
+            cenecista Dr. José Ferreira. Em seu acervo, possui inúmeros recursos
+            para o ensino infantil (artes, ciências, filosofia, geografia,
+            história, língua portuguesa e matemática), ensino fundamental 1 e 2
+            (artes, ciências, filosofia, geografia, história, língua
+            Inglesa,língua espanhola, língua portuguesa e matemática), ensino
+            médio (biologia, filosofia, física, geografia, história, química,
+            língua portuguesa e matemática) e ensino superior (astronomia,
+            biologia, física, matemática e química).
           </p>
-          <center>
-            Fonte:
-            <a
-              href="http://portal.mec.gov.br/seed-banco-internacional-de-objetos-educacionais"
-              target="_blank"
-            >
-              http://portal.mec.gov.br/seed-banco-internacional-de-objetos-educacionais
-            </a>
-          </center>
           <br />
           <br />
         </b-tab-item>
