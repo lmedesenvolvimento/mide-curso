@@ -497,7 +497,9 @@
                   </div>
                   <div class="card-content">
                     <b>
-                      <a href="https://youtu.be/6rFmYIPSvzw">Visualizar RED</a>
+                      <a href="https://youtu.be/6rFmYIPSvzw" target="_blank"
+                        >Visualizar RED</a
+                      >
                     </b>
                   </div>
                 </div>
@@ -540,6 +542,7 @@
                     <b>
                       <a
                         href="https://phet.colorado.edu/pt_BR/simulation/balancing-act"
+                        target="_blank"
                         >Visualizar RED</a
                       ></b
                     >
@@ -583,7 +586,9 @@
                   </div>
                   <div class="card-content">
                     <b>
-                      <a href="https://www.ufmg.br/naondadavida/?p=1721"
+                      <a
+                        href="https://www.ufmg.br/naondadavida/?p=1721"
+                        target="_blank"
                         >Visualizar RED</a
                       >
                     </b>
@@ -629,6 +634,7 @@
                     <b>
                       <a
                         href="https://escola.britannica.com.br/jogos/GE_2_18/index.html"
+                        target="_blank"
                         >Visualizar RED</a
                       >
                     </b>
@@ -674,6 +680,7 @@
                     <b>
                       <a
                         href="https://api.portalmec.c3sl.ufpr.br/v1/learning_objects/3310/download "
+                        target="_blank"
                         >Visualizar RED</a
                       >
                     </b>
