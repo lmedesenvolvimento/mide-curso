@@ -34,6 +34,7 @@
     "uuid": "^8.3.0",
     "v-tooltip": "^2.0.3",
     "vue-easy-dnd": "^1.8.4",
+    "vue-html-to-paper": "^1.3.1",
     "vue-plyr": "^6.0.4",
     "vue-radial-progress": "^0.3.1",
     "vuex": "^3.4.0",

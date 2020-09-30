@@ -1051,7 +1051,7 @@
           </div>
         </div>
       </div>
-      <mide-tabs>
+      <mide-tabs id="form-plan">
         <b-tab-item label="1. Estrutura Curricular">
           <h4>1.1 Modalidade / nível de ensino:</h4>
           <b-input placeholder="Escreva aqui" type="text"></b-input>
@@ -1112,7 +1112,9 @@
             placeholder="Escreva aqui"
           >
           </b-input>
-          <b-button type="is-info is-light">IMPRIMIR PLANO</b-button>
+          <b-button type="is-info is-light" @click="print"
+            >IMPRIMIR PLANO</b-button
+          >
         </b-tab-item>
       </mide-tabs>
       <div class="block-bordered">
@@ -1281,6 +1283,26 @@ export default {
             'Como sugestão, imprima a medalha de defensor dos filhotes e ao final, entregue-as aos seus alunos.'
         }
       ]
+    }
+  },
+  methods: {
+    print() {
+      const inputs = document.querySelectorAll(
+        '#form-plan input, #form-plan textarea'
+      )
+
+      const tabItems = document.querySelectorAll('#form-plan .tab-item')
+
+      // set visibility for all tab-items
+      tabItems.forEach((tab) => tab.setAttribute('style', 'display: block;'))
+
+      // set placeholders for print
+      inputs.forEach((input) => (input.placeholder = input.value))
+
+      this.$htmlToPaper('form-plan')
+
+      // after print reset placeholders
+      inputs.forEach((input) => (input.placeholder = ''))
     }
   }
 }

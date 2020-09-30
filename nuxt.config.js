@@ -66,7 +66,8 @@ export default {
     '~plugins/components.js',
     '~plugins/vuex-persistedstate.js',
     '~plugins/plyr.js',
-    '~plugins/fancybox.js'
+    '~plugins/fancybox.js',
+    '~plugins/vue-html-to-paper.js'
   ],
   /*
    ** Nuxt.js dev-modules
