@@ -279,7 +279,7 @@
           </div>
         </div>
 
-        <div class="fundo">
+        <!-- <div class="fundo">
           <center>
             <h6 class="title is-6">
               Essa reportagem mostra algumas estratégias para se discutir o tema
@@ -296,6 +296,38 @@
               </a>
             </p>
           </center>
+        </div> -->
+        <div>
+          <ul>
+            <li>
+              - Discuta com os(as) alunos(as) o que é a Internet. Mostre como
+              ela pode ser importante na vida cotidiana. Reflita com eles(as) os
+              aspectos positivos e negativos.
+            </li>
+            <li>
+              - Converse com eles(as) sobre algumas atividades que podem ser
+              feitas por meio da Internet: pesquisar, jogar, ouvir música,
+              assistir vídeos, compartilhar imagens ou opiniões, promover
+              campanhas para ajudar ao próximo e manter contato com amigos.
+              Pergunte que outras atividades eles(as) fazem?
+            </li>
+            <li>
+              - Pergunte se eles(as) possuem smartphones e se usam redes
+              sociais.
+            </li>
+            <li>
+              - Debata os riscos que as redes sociais podem oferecer, como:
+              saber com quem está conversando. Alerte para o perigo de alguém
+              criar um perfil falso para conseguir alguma vantagem ou prejudicar
+              outra pessoa. Além disso, é preciso ter cuidado com o
+              compartilhamento de notícias falsas, fotos de pessoas em situação
+              constrangedoras ou em perigo.
+            </li>
+            <li>
+              - Converse quanto tempo eles(as) passam em média navegando na
+              Internet e reflitam juntos sobre o tempo de uso das telas.
+            </li>
+          </ul>
         </div>
         <div class="title has-icon heading">
           Saberes necessários para a construção das competências de inclusão e
