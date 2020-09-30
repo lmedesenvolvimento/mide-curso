@@ -329,6 +329,23 @@
             </li>
           </ul>
         </div>
+        <div>
+          <div class="columns is-vcentered">
+            <div class="column is-3">
+              <figure>
+                <img src="~assets/images/carla-explicacao.png" />
+              </figure>
+            </div>
+            <div class="column">
+              <div class="dialog-box is-left">
+                Todas essas reflexões podem levar para um discussão muito
+                importante sobre o respeito, pois respeitar as pessoas e as
+                regras é uma questão de educação e cidadania, tanto dentro como
+                fora do ciberespaço.
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="title has-icon heading">
           Saberes necessários para a construção das competências de inclusão e
           letramentos digitais
