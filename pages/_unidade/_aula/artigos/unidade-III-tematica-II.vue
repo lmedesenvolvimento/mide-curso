@@ -65,7 +65,9 @@
         </div>
       </div>
 
-      1. ESTRUTURA CURRICULAR <br />
+      <p class="title is-4">
+        1. ESTRUTURA CURRICULAR
+      </p>
       <p class="title is-6 is-uppercase">
         1.1 Modalidade / nível de ensino:
       </p>
@@ -73,10 +75,8 @@
       <br />
       <center>
         <div class="contentbox">
-          <h1 class="title is-1">4º</h1>
+          <h1 class="title is-1">4º<span class="is-6"> ano</span></h1>
           <h3 class="subtitle is-uppercase">
-            ano
-            <br />
             Ensino fundamental
           </h3>
         </div>
@@ -93,6 +93,7 @@
       <p>A área de conhecimentodo RED Revista Digital da Criança é:</p>
       <center>
         <div class="contentbox">
+          <br /><br />
           <h2 class="title is-4 is-uppercase">Linguagem</h2>
         </div>
 
@@ -103,6 +104,7 @@
       <p>O Componente curricular do RED Revista Digital da Criança é:</p>
       <center>
         <div class="contentbox">
+          <br /><br />
           <h2 class="title is-4 is-uppercase">Língua Portuguesa</h2>
         </div>
 
@@ -113,6 +115,7 @@
       <p>A unidade temática utilizada pelo RED Revista Digital da Criança é:</p>
       <center>
         <div class="contentbox">
+          <br /><br />
           <h2 class="title is-4 is-uppercase">Leitura/escuta</h2>
           (compartilhada e autônoma)
         </div>
@@ -127,26 +130,35 @@
         </div>
         <img src="~assets/images/unidade-III/caixa-modalidade.png" />
       </center>
-      2. DADOS DA AULA
+      <br />
+      <div class="title is-4">
+        2. DADOS DA AULA
+      </div>
       <p class="title is-6 is-uppercase">
         2.1 O que o(a) aluno(a) poderá aprender com esta aula
       </p>
       <center>
         <div class="contentbox">
-          <p>
-            Identificar as características de uma revista, tais como capa e
-            seções, por exemplo; <br />
-            Perceber as especificidades das revistas e dos gêneros que a compõem
-            a partir de seus conteúdos. <br />
-          </p>
+          <center>
+            <p class="column is-5">
+              <strong>O Aluno aprenderá a:</strong><br />
+              - Identificar as características de uma revista, tais como capa e
+              seções, por exemplo; <br />
+              - Perceber as especificidades das revistas e dos gêneros que a
+              compõem a partir de seus conteúdos.
+              <br />
+            </p>
+          </center>
           <br /><br />
-          <p>
-            Habilidade da BNCC: <br />
-            Ler/assistir e compreender, com autonomia, notícias, reportagens,
-            vídeos em vlogs argumentativos, dentre outros gêneros do campo
-            político-cidadão, de acordo com as convenções dos gêneros e
-            considerando a situação comunicativa e o tema/assunto do texto.
-          </p>
+          <center>
+            <p class="column is-5">
+              <strong>Habilidade da BNCC:</strong><br />
+              Ler/assistir e compreender, com autonomia, notícias, reportagens,
+              vídeos em vlogs argumentativos, dentre outros gêneros do campo
+              político-cidadão, de acordo com as convenções dos gêneros e
+              considerando a situação comunicativa e o tema/assunto do texto.
+            </p>
+          </center>
         </div>
         <img src="~assets/images/unidade-III/duracao-da-atividade-caixa.png" />
       </center>
@@ -193,6 +205,7 @@
         cotidiano, espera-se que ele(a) já tenha se apropriado dos seguintes
         conhecimentos:
       </p>
+
       <div class="container is-fluid mb-4">
         <div class="columns is-multiline is-fill-vertical">
           <div class="column is-7 mb-2">
@@ -627,10 +640,8 @@
       O plano de RED É o Bicho foi proposto para:<br />
       <center>
         <div class="contentbox">
-          <h1 class="title is-1">3º</h1>
+          <h1 class="title is-1">3º ano</h1>
           <h3 class="subtitle is-uppercase">
-            ano
-            <br />
             Ensino fundamental
           </h3>
         </div>
@@ -673,10 +684,14 @@
       <p class="title is-6 is-uppercase">1.5 Objeto do conhecimento:</p>
       <center>
         <div class="contentbox">
-          <h2 class="title is-4 is-uppercase">
-            Contar, Quantificar, Julgar e interpretar argumentos baseados em
-            quantidades
-          </h2>
+          <center>
+            <div class="column is-4 is-uppercase">
+              <strong>
+                Contar, Quantificar, Julgar e interpretar argumentos baseados em
+                quantidades
+              </strong>
+            </div>
+          </center>
         </div>
 
         <img src="~assets/images/unidade-III/caixa-modalidade.png" />
@@ -690,10 +705,14 @@
       </p>
       <center>
         <div class="contentbox">
-          Na atividade do Peixe-boi, o(a) aluno(a) poderá aprender a formar
-          agrupamentos (conjuntos), contar, quantificar e a trabalhar as
-          operações de adição e subtração através da resolução de problemas de
-          comparação.
+          <center>
+            <div class="column is-5">
+              Na atividade do Peixe-boi, o(a) aluno(a) poderá aprender a formar
+              agrupamentos (conjuntos), contar, quantificar e a trabalhar as
+              operações de adição e subtração através da resolução de problemas
+              de comparação.
+            </div>
+          </center>
         </div>
         <img
           src="~assets/images/unidade-III/caixa-modalidade.png"
@@ -704,7 +723,29 @@
         2.2 Duração da atividade
       </p>
       <p class="title is-6 is-uppercase">
-        2 aulas de 50 minutos cada
+        <center>
+          <div class="contentbox">
+            <b>Quantidade de aulas:</b>
+            <h1 class="title is-1">2</h1>
+            <h3 class="subtitle is-uppercase">
+              aulas
+            </h3>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <b>Quantos minutos duram cada aula:</b>
+            <h1 class="title is-1">50</h1>
+            <h3 class="subtitle is-uppercase">
+              minutos
+            </h3>
+          </div>
+          <img
+            src="~assets/images/unidade-III/duracao-da-atividade-caixa.png"
+          />
+        </center>
+        <br />
       </p>
       <p class="title is-6 is-uppercase">
         2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)
@@ -906,8 +947,10 @@
             </div>
             <div class="card-content">
               <div class="content">
-                {{ collapse.pic }}
-                {{ collapse.text }}
+                <img :src="collapse.pic" alt="" />
+                <div>
+                  {{ collapse.text }}
+                </div>
               </div>
             </div>
           </b-collapse>
@@ -1325,7 +1368,12 @@ export default {
   }
   .contentbox {
     position: absolute;
-    padding: 8% 30% 30% 30%;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
   section {
     margin-bottom: 50px;
@@ -1343,6 +1391,9 @@ export default {
       }
       .card-header-title {
         font: Bold 14px avenir-next-lt-pro-bold;
+        h5 {
+          margin-right: 3px;
+        }
       }
       .card-content {
         text-indent: 50px;

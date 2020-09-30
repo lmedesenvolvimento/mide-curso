@@ -195,7 +195,9 @@
         Língua Inglesa. Já o componente de Ciências Humanas possui o componente:
         Geografia e História.
       </p>
-      <img src="~assets/images/unidade-III/areas-do-conhecimento.png" />
+      <center>
+        <img src="~assets/images/unidade-III/areas-do-conhecimento.png" />
+      </center>
       <p class="title is-6 is-uppercase">
         1.3. Componente curricular:
       </p>
@@ -229,11 +231,11 @@
           <p class="title is-5">09.</p>
           <p class="subtitle is-6">Ensino Religioso</p>
         </div>
+        <img
+          src="~assets/images/unidade-III/componente-curricular-caixa.png"
+          width="400"
+        />
       </center>
-      <img
-        src="~assets/images/unidade-III/componente-curricular-caixa.png"
-        width="400"
-      />
       <p class="title is-6 is-uppercase">
         1.4 Unidade temática:
       </p>
@@ -248,59 +250,62 @@
         como exemplo na Unidade 2 e no Bloco Temático 3 (propostas de planos de
         aulas com suporte de RED).
       </p>
-      <div class="areas column is-5">
-        <strong>Língua Portuguesa</strong> <br />
+      <center>
+        <div class="areas column is-5">
+          <strong>Língua Portuguesa</strong> <br />
+          <img
+            src="~assets/images/unidade-III/unidade-tematica-detalhe-card.png"
+          /><br /><br />
+          Especificamente, o componente curricular de Língua Portuguesa,
+          conceitua suas unidades temáticas em Práticas de linguagem, sendo
+          divididas em:<br /><br />
+          <li>
+            oralidade
+          </li>
+          <li>
+            leitura/escuta
+          </li>
+          <li>
+            produção (escrita e multissemiótica)
+          </li>
+          <li>
+            análise linguística/semiótica
+          </li>
+        </div>
         <img
-          src="~assets/images/unidade-III/unidade-tematica-detalhe-card.png"
-        /><br />
-        Especificamente, o componente curricular de Língua Portuguesa, conceitua
-        suas unidades temáticas em Práticas de linguagem, sendo divididas em:<br /><br />
+          src="~assets/images/unidade-III/unidade-tematica-card.png"
+          width="400"
+        /><br /><br />
+        <div class="areas column is-5">
+          <strong>Matemática</strong><br />
+          <img
+            src="~assets/images/unidade-III/unidade-tematica-detalhe-card.png"
+          /><br /><br />
+          O componente curricular de Matemática divide suas unidades temáticas
+          em:<br /><br />
 
-        <li>
-          oralidade
-        </li>
-        <li>
-          leitura/escuta
-        </li>
-        <li>
-          produção (escrita e multissemiótica)
-        </li>
-        <li>
-          análise linguística/semiótica
-        </li>
-      </div>
-      <img
-        src="~assets/images/unidade-III/unidade-tematica-card.png"
-        width="400"
-      /><br /><br />
-      <div class="areas column is-5">
-        <strong>Matemática</strong><br />
+          <li>
+            números
+          </li>
+          <li>
+            álgebra
+          </li>
+          <li>
+            geometria
+          </li>
+          <li>
+            grandezas e medidas
+          </li>
+          <li>
+            Probabilidade e estatística
+          </li>
+        </div>
         <img
-          src="~assets/images/unidade-III/unidade-tematica-detalhe-card.png"
-        /><br />
-        O componente curricular de Matemática divide suas unidades temáticas
-        em:<br /><br />
-
-        <li>
-          números
-        </li>
-        <li>
-          álgebra
-        </li>
-        <li>
-          geometria
-        </li>
-        <li>
-          grandezas e medidas
-        </li>
-        <li>
-          Probabilidade e estatística
-        </li>
-      </div>
-      <img
-        src="~assets/images/unidade-III/unidade-tematica-card.png"
-        width="400"
-      />
+          src="~assets/images/unidade-III/unidade-tematica-card.png"
+          width="400"
+        />
+      </center>
+      <br />
       <p class="title is-6 is-uppercase">
         1.5 Objeto do conhecimento:
       </p>
@@ -339,37 +344,40 @@
       <p class="title is-6 is-uppercase">
         2.1 O que o(a) aluno(a) poderá aprender com esta aula
       </p>
-
-      <p class="areas column is-5">
+      <center>
+        <p class="areas column is-5">
+          <img
+            src="~assets/images/unidade-III/o-que-o-aluno-podera-numero-1.png"
+          /><br /><br />
+          Neste subitem, defina os <strong>objetivos de aprendizagem</strong>.
+          Na BNCC, esses objetivos são definidos por
+          <strong>habilidades</strong> que expressam as
+          <strong>aprendizagens essenciais</strong> a serem asseguradas aos(as)
+          alunos(as) nos diferentes contextos escolares.
+        </p>
         <img
-          src="~assets/images/unidade-III/o-que-o-aluno-podera-numero-1.png"
-        /><br />
-        Neste subitem, defina os objetivos de aprendizagem. Na BNCC, esses
-        objetivos são definidos por habilidades que expressam as aprendizagens
-        essenciais a serem asseguradas aos(as) alunos(as) nos diferentes
-        contextos escolares.
-      </p>
-      <img
-        src="~assets/images/unidade-III/unidade-tematica-card.png"
-        width="400"
-      />
-      <br />
-      <p class="areas column is-5">
+          src="~assets/images/unidade-III/unidade-tematica-card.png"
+          width="400"
+        />
+        <br />
+        <p class="areas column is-5">
+          <img
+            src="~assets/images/unidade-III/o-que-o-aluno-podera-numero-2.png"
+          /><br /><br />
+          É preciso destacar que os <strong>critérios</strong> de organização
+          das habilidades descritos na BNCC expressam uma indicação e
+          <strong>não</strong> devem ser tomados como
+          <strong>modelo obrigatório</strong>. A forma de apresentação adotada
+          na BNCC “tem por objetivo assegurar a clareza, a precisão e a
+          explicitação do que se espera que todos os alunos aprendam na Educação
+          Básica, fornecendo orientações para a elaboração de currículos em todo
+          o País, adequados aos diferentes contextos.” (BRASIL, 2017, p. 31).
+        </p>
         <img
-          src="~assets/images/unidade-III/o-que-o-aluno-podera-numero-2.png"
-        /><br />
-        É preciso destacar que os critérios de organização das habilidades
-        descritos na BNCC expressam uma indicação e não devem ser tomados como
-        modelo obrigatório. A forma de apresentação adotada na BNCC “tem por
-        objetivo assegurar a clareza, a precisão e a explicitação do que se
-        espera que todos os alunos aprendam na Educação Básica, fornecendo
-        orientações para a elaboração de currículos em todo o País, adequados
-        aos diferentes contextos.” (BRASIL, 2017, p. 31).
-      </p>
-      <img
-        src="~assets/images/unidade-III/o-que-o-aluno-podera-card-maior.png"
-        width="400"
-      />
+          src="~assets/images/unidade-III/o-que-o-aluno-podera-card-maior.png"
+          width="400"
+        />
+      </center>
       <br />
       <br />
       <p class="title is-6 is-uppercase">
@@ -379,22 +387,25 @@
         Tempo médio necessário para que os(as) alunos(as) atinjam os objetivos
         de aprendizagem. A duração deve ser descrita em aulas. Exemplo:
       </p>
-      <div class="areas column is-5">
-        <center>
-          <b>Quantas aulas:</b> <br />
-          <h1 class="title is-1">3</h1>
-          <h3 class="subtitle is-uppercase">aulas</h3>
-          <br />
-          <br />
-          <br />
-          <br />
-          <b>Quantos minutos duram cada aula:</b><br />
-          <h1 class="title is-1">45</h1>
-          <h3 class="subtitle is- is-uppercase">minutos</h3>
-        </center>
-      </div>
-      <img src="~assets/images/unidade-III/duracao-da-atividade-caixa.png" />
-
+      <center>
+        <div class="areas column is-5">
+          <center>
+            <br />
+            <b>Quantas aulas:</b> <br />
+            <h1 class="title is-1">3</h1>
+            <h3 class="subtitle is-uppercase">aulas</h3>
+            <br />
+            <br />
+            <br />
+            <br />
+            <b>Quantos minutos duram cada aula:</b><br />
+            <h1 class="title is-1">45</h1>
+            <h3 class="subtitle is- is-uppercase">minutos</h3>
+          </center>
+        </div>
+        <img src="~assets/images/unidade-III/duracao-da-atividade-caixa.png" />
+      </center>
+      <br />
       <p class="title is-6 is-uppercase">
         2.3 Conhecimentos prévios trabalhados pelo professor com o(a) aluno(a)
       </p>
@@ -533,11 +544,21 @@ export default {
 #unidade-III-tematica-I {
   .boxcurricular {
     position: absolute;
-    padding: 80px 0 0 120px;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
   .areas {
     position: absolute;
-    padding: 40px 20px 0 40px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: left;
   }
   .title-objetos {
     padding: 50px 0 0 28px;
