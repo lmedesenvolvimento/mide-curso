@@ -479,7 +479,9 @@
       <mide-tabs>
         <b-tab-item label="1º RED">
           <challenge
+            id="u2_t1_desafio_1"
             name="challege-1"
+            :percentage="10"
             :options="challenge1"
             correct="1"
             :hide-feedback="true"
@@ -524,7 +526,9 @@
         </b-tab-item>
         <b-tab-item label="2º RED">
           <challenge
+            id="u2_t1_desafio_2"
             name="challege-2"
+            :percentage="10"
             :options="challenge2"
             correct="2"
             :hide-feedback="true"
@@ -570,7 +574,9 @@
 
         <b-tab-item label="3º RED">
           <challenge
+            id="u2_t1_desafio_3"
             name="challege-3"
+            :percentage="10"
             :options="challenge3"
             correct="4"
             :hide-feedback="true"
@@ -616,7 +622,9 @@
 
         <b-tab-item label="4º RED">
           <challenge
+            id="u2_t1_desafio_4"
             name="challege-4"
+            :percentage="10"
             :options="challenge4"
             correct="5"
             :hide-feedback="true"
@@ -662,8 +670,10 @@
 
         <b-tab-item label="5º RED">
           <challenge
+            id="u2_t1_desafio_5"
             name="challege-5"
-            :options="challenge4"
+            :percentage="10"
+            :options="challenge5"
             correct="3"
             :hide-feedback="true"
           >

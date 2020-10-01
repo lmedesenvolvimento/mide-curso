@@ -196,6 +196,7 @@
           exercício da sexualidade e à vida em comunidade.
         </p>
         <challenge
+          id="u1_t1_desafio_1"
           name="challege-1"
           :options="challenge"
           :multiple="true"
@@ -398,7 +399,9 @@
         </p>
         <div>Vejamos algumas destas principais características.</div>
         <mide-game-play-cibercultura
+          id="u1_t1_desafio_2"
           v-model="cibercultura"
+          :percentage="38"
         ></mide-game-play-cibercultura>
         <!-- 
           DECREAPTED

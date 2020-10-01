@@ -715,7 +715,9 @@
           <b-tab-item label="Questão 1">
             <p>
               <challenge
+                id="u2_t1_desafio_1"
                 name="challege-1"
+                :percentage="14"
                 :options="challenge1"
                 correct="3"
                 :hide-feedback="true"
@@ -735,7 +737,7 @@
                 </template>
                 <template #option="{option, model, setModel, tries, valid}">
                   <mide-radio
-                    name="challege-3"
+                    name="challege-1"
                     :input="model"
                     :value="option"
                     :valid="
@@ -756,7 +758,9 @@
           <b-tab-item label="Questão 2">
             <p>
               <challenge
+                id="u2_t1_desafio_2"
                 name="challege-2"
+                :percentage="14"
                 :options="challenge2"
                 correct="4"
                 :hide-feedback="true"
@@ -794,7 +798,9 @@
           <b-tab-item label="Questão 3">
             <p>
               <challenge
-                name="challege-33"
+                id=""
+                name="challege-3"
+                :percentage="14"
                 :options="challenge3"
                 correct="2,4,6"
                 :multiple="true"
