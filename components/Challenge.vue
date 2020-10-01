@@ -100,6 +100,10 @@ export default {
       type: Boolean,
       default: false
     },
+    percentage: {
+      type: Number,
+      default: 0
+    },
     submitBtnText: {
       type: String,
       default: 'Verificar'
@@ -195,7 +199,9 @@ export default {
       this.valid =
         validated && options.length === this.correct.split(',').length
 
-      if (!this.valid) {
+      if (this.valid) {
+        this.$store.dispatch('unidades/addProgress', this.percentage)
+      } else {
         this.tries.push(this.$incorrect.join(','))
       }
 

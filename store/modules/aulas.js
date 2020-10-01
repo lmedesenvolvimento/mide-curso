@@ -33,16 +33,14 @@ const actions = {
       commit('unidades/COMPLETE_UNIDADE', null, { root: true })
     }
   },
-  calcPercentage({ state, commit }) {
+  calcPercentage({ state, commit, rootState }) {
     const aula = state.data.find((a) => a.id === state.current.id)
-    const aulasByUnidade = state.data.filter((a) => {
-      return a.unidadeId === aula.unidadeId
-    })
 
-    const aulasCompleted = aulasByUnidade.filter((a) => a.completed)
-    const percentage = Math.round(
-      (aulasCompleted.length / aulasByUnidade.length) * 100
+    const unidade = rootState?.unidades?.data?.find(
+      (u) => u.id === aula.unidadeId
     )
+
+    const percentage = (unidade.percentage || 0) + aula.percentage
 
     commit(
       'unidades/UPDATE_PERCENTAGE',

@@ -11,7 +11,7 @@
           "next": "unidade-I-tematica-I",
           "titulo": "Introdução",
           "descricao": "Unidade 1",
-          "porcentagem": 2,
+          "percentage": 2,
           "initial": true
         },
         {
@@ -19,7 +19,7 @@
           "next": "unidade-I-tematica-II",
           "titulo": "Temática 1",
           "descricao": "Cibercultura e educação",
-          "porcentagem": 4,
+          "percentage": 4,
           "atividades": [
             {
               "u1_t1_desafio_1": 10,
@@ -31,7 +31,7 @@
           "id": "unidade-I-tematica-II",
           "titulo": "Temática 2",
           "descricao": "A cultura digital na BNCC",
-          "porcentagem": 4,
+          "percentage": 4,
           "atividades": [
             {
               "u1_t2_desafio_1": 14,
@@ -53,7 +53,7 @@
           "next": "unidade-II-tematica-I",
           "titulo": "Introdução",
           "descricao": "Unidade 2",
-          "porcentagem": 2,
+          "percentage": 2,
           "initial": true
         },
         {
@@ -61,7 +61,7 @@
           "next": "unidade-II-tematica-II",
           "titulo": "Temática 1",
           "descricao": "O USO DE RECURSOS EDUCACIONAIS DIGITAIS (RED) COMO FERRAMENTA NO ENSINO DE LÍNGUA PORTUGUESA E  MATEMÁTICA",
-          "porcentagem": 4,
+          "percentage": 4,
           "atividades": [
             {
               "u2_t1_desafio_1": 10,
@@ -76,7 +76,7 @@
           "id": "unidade-II-tematica-II",
           "titulo": "Temática 2",
           "descricao": "RECURSOS NA PLATAFORMA INTEGRADA DE RECURSOS EDUCACIONAIS DIGITAIS",
-          "porcentagem": 4,
+          "percentage": 4,
           "atividades": [
             {
               "u2_t2_desafio_1": 20,
@@ -96,7 +96,7 @@
           "id": "unidade-III-introducao",
           "next": "unidade-III-tematica-I",
           "titulo": "Introdução",
-          "porcentagem": 2,
+          "percentage": 2,
           "descricao": "Unidade 3",
           "initial": true
         },
@@ -105,13 +105,13 @@
           "next": "unidade-III-tematica-II",
           "titulo": "Temática 1",
           "descricao": "PLANEJAMENTO DO PROCESSO DE ENSINO COM SUPORTE DE RED",
-          "porcentagem": 19
+          "percentage": 19
         },
         {
           "id": "unidade-III-tematica-II",
           "titulo": "Temática 2",
           "descricao": "PROPOSTAS DE PLANOS DE AULAS COM SUPORTE DE RED",
-          "porcentagem": 4,
+          "percentage": 4,
           "atividades": [
             {
               "u3_t2_desafio_1": 75

@@ -10,6 +10,10 @@ const state = {
 }
 
 const actions = {
+  addProgress({ state, commit }, number) {
+    const unidade = state.data.find((u) => u.id === state.current.id)
+    commit('UPDATE_PERCENTAGE', unidade.percentage + number)
+  },
   setCurrent({ commit }, payload) {
     commit('SET_CURRENT', payload)
   }

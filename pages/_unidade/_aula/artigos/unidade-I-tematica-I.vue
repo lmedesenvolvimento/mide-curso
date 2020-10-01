@@ -200,6 +200,7 @@
           :options="challenge"
           :multiple="true"
           :card="true"
+          :percentage="10"
           correct="capitalismo,comunismo,ditadura"
         >
           <template slot="question">
