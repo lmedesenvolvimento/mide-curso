@@ -167,7 +167,11 @@ export default {
     event: 'change'
   },
   props: {
-    items: Array
+    items: Array,
+    percentage: {
+      type: Number,
+      default: 0
+    }
   },
   data() {
     return {
@@ -208,6 +212,16 @@ export default {
       newArray[index].validated = validated
 
       this.$emit('change', newArray)
+
+      const isValidated = this.cards.every((c) => c.validated)
+
+      if (isValidated) {
+        this.$store.dispatch('unidades/addProgressByActivity', {
+          id: this.$attrs.id,
+          type: 'activity',
+          number: this.percentage
+        })
+      }
     }
   }
 }

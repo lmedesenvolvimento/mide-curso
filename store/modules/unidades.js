@@ -6,13 +6,23 @@ const state = {
     u.url = require(`@/assets/${u.url}`)
     u.percentage = 0
     return u
-  })
+  }),
+  logs: []
 }
 
 const actions = {
-  addProgress({ state, commit }, number) {
+  addProgressByActivity({ state, commit }, { id, type, number }) {
+    const isHasInLog = state.logs.some(
+      (log) => log.type === type && log.id === id
+    )
+
+    if (isHasInLog) return
+
     const unidade = state.data.find((u) => u.id === state.current.id)
-    commit('UPDATE_PERCENTAGE', unidade.percentage + number)
+    const percentage = unidade.percentage + number
+
+    commit('UPDATE_PERCENTAGE', { percentage, unidadeId: state.current.id })
+    commit('ADD_LOGS', { id, type, number })
   },
   setCurrent({ commit }, payload) {
     commit('SET_CURRENT', payload)
@@ -22,6 +32,9 @@ const actions = {
 const mutations = {
   SET_CURRENT(state, payload) {
     state.current = { ...payload }
+  },
+  ADD_LOGS(state, payload) {
+    state.logs.push(payload)
   },
   UPDATE_PERCENTAGE(state, { percentage, unidadeId }) {
     const unidadeIndex = state.data.findIndex((u) => u.id === unidadeId)

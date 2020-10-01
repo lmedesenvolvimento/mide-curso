@@ -1379,7 +1379,11 @@
           </div>
         </div>
       </div>
-      <mide-game-play-card v-model="cards"></mide-game-play-card>
+      <mide-game-play-card
+        id="u2_t1_desafio_4"
+        v-model="cards"
+        :percentage="37"
+      ></mide-game-play-card>
       <img src="~assets/images/capa-matematica.png" />
       <div class="titulos is-uppercase"><center>Matemática</center></div>
       <br />

@@ -200,7 +200,11 @@ export default {
         validated && options.length === this.correct.split(',').length
 
       if (this.valid) {
-        this.$store.dispatch('unidades/addProgress', this.percentage)
+        this.$store.dispatch('unidades/addProgressByActivity', {
+          id: this.$attrs.id,
+          type: 'activity',
+          number: this.percentage
+        })
       } else {
         this.tries.push(this.$incorrect.join(','))
       }

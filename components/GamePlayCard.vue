@@ -66,7 +66,11 @@ export default {
     event: 'change'
   },
   props: {
-    cards: Array
+    cards: Array,
+    percentage: {
+      type: Number,
+      default: 0
+    }
   },
   data() {
     return {
@@ -79,8 +83,19 @@ export default {
   methods: {
     dragend(success, index) {
       const newArray = [...this.cards]
+
       newArray[index].success = success
       this.$emit('change', newArray)
+
+      const validated = this.cards.every((c) => c.success)
+
+      if (validated) {
+        this.$store.dispatch('unidades/addProgressByActivity', {
+          id: this.$attrs.id,
+          type: 'activity',
+          number: this.percentage
+        })
+      }
     }
   }
 }
