@@ -320,8 +320,8 @@
             A palavra <b>Animação</b> vem do latim “Anima”, que significa “Alma”
             ou “Sopro Vital”. Portanto, pode-se dizer que animação significa “<b
               >dar vida</b
-            >” a objetos estáticos, que podem ser imagens, textos etc. Braga e
-            Menezes, 2015.
+            >” a objetos estáticos, que podem ser imagens, textos etc. (Braga e
+            Menezes, 2015).
           </p>
           <p>
             Dessa forma, um <b>RED do tipo animação</b> busca a compreensão
@@ -339,7 +339,8 @@
             <img src="~assets/images/imagem-animacao.png" />
             <p>
               Fonte: Ministério da Saúde em parceria com o Ministério da
-              Educação. Recurso disponível em:
+              Educação. <br />
+              Recurso disponível em:
               <a href="https://youtu.be/OsnorIgJWbM" target="_blank">
                 https://youtu.be/OsnorIgJWbM
               </a>
@@ -404,8 +405,8 @@
         <b-tab-item label="Áudio">
           <p>
             Pode ser definido como um sinal de uma fonte sonora ou ainda uma
-            faixa do espectro reservada ao som (dicionário Michaelis online).
-            Como exemplo, é possível citar um áudio com contação de história.
+            faixa do espectro reservada ao som (MICHAELIS, 2020). Como exemplo,
+            é possível citar um áudio com contação de história.
           </p>
 
           <center>
@@ -808,9 +809,9 @@
             do usuário personalizar um recurso disponível neste repositório.
             Para isso, em cada um dos tipos de mídia disponíveis existe uma
             subcategoria denominada “Para criar”, que busca os recursos que
-            oferecem essa possibilidade de produção autoral pelo usuário. Para
-            isso, deve-se escolher qual o tipo de mídia deseja criar, vão
-            aparecer as subcategorias, em seguida selecionar “Para criar” e
+            oferecem essa possibilidade de produção autoral pelo usuário.Em
+            seguida, deve-se escolher qual o tipo de mídia deseja criar. Serão
+            apresentadas as subcategorias, em seguida selecionar “Para criar” e
             clicar no botão “Pesquisar”. Feito isso, será apresentada uma lista
             de recursos que possibilitam a criação pelo usuário.
           </p>

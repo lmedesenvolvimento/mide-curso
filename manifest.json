@@ -11,18 +11,34 @@
           "next": "unidade-I-tematica-I",
           "titulo": "Introdução",
           "descricao": "Unidade 1",
+          "porcentagem": 2,
           "initial": true
         },
         {
           "id": "unidade-I-tematica-I",
           "next": "unidade-I-tematica-II",
           "titulo": "Temática 1",
-          "descricao": "Cibercultura e educação"
+          "descricao": "Cibercultura e educação",
+          "porcentagem": 4,
+          "atividades": [
+            {
+              "u1_t1_desafio_1": 10,
+              "u1_t1_desafio_2": 38
+            }
+          ]
         },
         {
           "id": "unidade-I-tematica-II",
           "titulo": "Temática 2",
-          "descricao": "A cultura digital na BNCC"
+          "descricao": "A cultura digital na BNCC",
+          "porcentagem": 4,
+          "atividades": [
+            {
+              "u1_t2_desafio_1": 14,
+              "u1_t2_desafio_2": 14,
+              "u1_t2_desafio_3": 14
+            }
+          ]
         }
       ]
     },
@@ -37,18 +53,36 @@
           "next": "unidade-II-tematica-I",
           "titulo": "Introdução",
           "descricao": "Unidade 2",
+          "porcentagem": 2,
           "initial": true
         },
         {
           "id": "unidade-II-tematica-I",
           "next": "unidade-II-tematica-II",
           "titulo": "Temática 1",
-          "descricao": "O USO DE RECURSOS EDUCACIONAIS DIGITAIS (RED) COMO FERRAMENTA NO ENSINO DE LÍNGUA PORTUGUESA E  MATEMÁTICA"
+          "descricao": "O USO DE RECURSOS EDUCACIONAIS DIGITAIS (RED) COMO FERRAMENTA NO ENSINO DE LÍNGUA PORTUGUESA E  MATEMÁTICA",
+          "porcentagem": 4,
+          "atividades": [
+            {
+              "u2_t1_desafio_1": 10,
+              "u2_t1_desafio_2": 10,
+              "u2_t1_desafio_3": 10,
+              "u2_t1_desafio_4": 10,
+              "u2_t1_desafio_5": 10
+            }
+          ]
         },
         {
           "id": "unidade-II-tematica-II",
           "titulo": "Temática 2",
-          "descricao": "RECURSOS NA PLATAFORMA INTEGRADA DE RECURSOS EDUCACIONAIS DIGITAIS"
+          "descricao": "RECURSOS NA PLATAFORMA INTEGRADA DE RECURSOS EDUCACIONAIS DIGITAIS",
+          "porcentagem": 4,
+          "atividades": [
+            {
+              "u2_t2_desafio_1": 20,
+              "u2_t2_desafio_2": 20
+            }
+          ]
         }
       ]
     },
@@ -62,6 +96,7 @@
           "id": "unidade-III-introducao",
           "next": "unidade-III-tematica-I",
           "titulo": "Introdução",
+          "porcentagem": 2,
           "descricao": "Unidade 3",
           "initial": true
         },
@@ -69,12 +104,19 @@
           "id": "unidade-III-tematica-I",
           "next": "unidade-III-tematica-II",
           "titulo": "Temática 1",
-          "descricao": "PLANEJAMENTO DO PROCESSO DE ENSINO COM SUPORTE DE RED"
+          "descricao": "PLANEJAMENTO DO PROCESSO DE ENSINO COM SUPORTE DE RED",
+          "porcentagem": 19
         },
         {
           "id": "unidade-III-tematica-II",
           "titulo": "Temática 2",
-          "descricao": "PROPOSTAS DE PLANOS DE AULAS COM SUPORTE DE RED"
+          "descricao": "PROPOSTAS DE PLANOS DE AULAS COM SUPORTE DE RED",
+          "porcentagem": 4,
+          "atividades": [
+            {
+              "u3_t2_desafio_1": 75
+            }
+          ]
         }
       ]
     }
