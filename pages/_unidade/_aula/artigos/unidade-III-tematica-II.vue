@@ -1450,6 +1450,13 @@ export default {
       document.querySelectorAll('.form-placeholder').forEach((placeholder) => {
         placeholder.remove()
       })
+
+      // Atualizando progresso do aluno
+      this.$store.dispatch('unidades/addProgressByActivity', {
+        id: 'u3-t2',
+        type: 'activity',
+        number: 75
+      })
     }
   }
 }
