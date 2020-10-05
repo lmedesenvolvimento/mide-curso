@@ -123,7 +123,13 @@
         <a>PORTAL DO PROFESSOR</a>
         <img src="~assets/images/unidade-III/portal-do-professor.png" />
       </center>
-      Veja mais em:<b><a>http://portaldoprofessor.mec.gov.br/index.html</a></b>
+      Veja mais em:<b
+        ><a
+          href="http://portaldoprofessor.mec.gov.br/index.html"
+          target="_blank"
+          >http://portaldoprofessor.mec.gov.br/index.html</a
+        ></b
+      >
 
       <div class="block-bordered">
         <div class="columns is-vcentered">

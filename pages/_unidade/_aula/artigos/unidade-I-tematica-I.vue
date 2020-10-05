@@ -227,9 +227,14 @@
                       Muito bem! <br />
                       Você
                       <span class="has-text-success"
-                        >Acertou {{ totalCorrect }}
+                        >Acertou
+                        {{
+                          totalCorrect === 1 || totalCorrect === 2
+                            ? totalCorrect
+                            : 'todas as'
+                        }}
                       </span>
-                      palavra(s)!
+                      palavras!
                     </strong>
                   </p>
                   <p>
@@ -262,7 +267,12 @@
                     Muito bem! <br />
                     Você
                     <span class="has-text-success"
-                      >Acertou {{ totalCorrect }}
+                      >Acertou
+                      {{
+                        totalCorrect === 1 || totalCorrect === 2
+                          ? totalCorrect
+                          : 'todas as'
+                      }}
                     </span>
                     {{ totalCorrect === 1 ? 'palavra' : 'palavras' }}!
                   </strong>

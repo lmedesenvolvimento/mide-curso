@@ -28,7 +28,7 @@
           </div>
           <div class="column">
             <div class="dialog-box is-left">
-              Qual plano você quer conhecer primeiro?
+              Vamos conhecer o plano de língua portuguesa e matemática!
             </div>
           </div>
         </div>
@@ -53,7 +53,12 @@
               dentre eles o editorial, o infográfico, a entrevista e a carta do
               leitor. É muito interessante que você possa conhecer bem o recurso
               antes de ler o plano. Para isso você pode baixá-lo
-              <b><a>aqui</a></b
+              <b
+                ><a
+                  href="https://plataformaintegrada.mec.gov.br/recurso?id=35900&name=Revista%20Digital%20da%20Crian%C3%A7a"
+                  target="_blank"
+                  >aqui</a
+                ></b
               >.
             </div>
           </div>
@@ -368,7 +373,7 @@
             </div>
             <div class="card-content">
               <div class="content">
-                {{ collapse.image }}
+                <img :src="collapse.img" alt="" /> <br />
                 {{ collapse.text }}
               </div>
             </div>
@@ -624,7 +629,12 @@
               pensamento numérico e a habilidade de quantificar objetos e
               interpretar informações através da quantificação. É muito
               importante que você possa conhecer bem o recurso antes de ler o
-              plano. Para isso, basta acessá-lo aqui.
+              plano. Para isso, basta acessá-lo
+              <a
+                href="https://plataformaintegrada.mec.gov.br/recurso?id=36677&name=%C3%89%20o%20Bicho%202.0"
+                target="_blank"
+                >aqui.</a
+              >
             </div>
           </div>
           <div class="column is-3">
@@ -1321,40 +1331,47 @@ export default {
         {
           n: '1',
           title: 'TELA INICIAL',
+          img: require('@/assets/images/unidade-III/imagem-revista-digital-1.png'),
           text:
             'Na capa do RED consta o título da revista e algumas informações sobre o conteúdo.'
         },
         {
           n: '2',
           title: 'EDITORIAL',
+          img: require('@/assets/images/unidade-III/imagem-revista-digital-2.png'),
           text: 'O editorial traz uma breve apresentação dos editores.'
         },
         {
           n: '3',
           title: 'SUMÁRIO',
+          img: require('@/assets/images/unidade-III/imagem-revista-digital-3.png'),
           text: ' O sumário lista todo seu conteúdo.'
         },
         {
           n: '4',
           title: 'INFOGRÁFICO – EVOLUÇÃO DAS BRINCADEIRAS',
+          img: require('@/assets/images/unidade-III/imagem-revista-digital-4.png'),
           text:
             '       Aborda-se, na seção posterior, um infográfico interativo sobre a evolução das brincadeiras infantis. Nele, apresentam-se curiosidades        (Quando começou? Como se brinca? Você sabia?) sobre as brincadeiras: faz       de conta, cabra-cega, amarelinha e games.'
         },
         {
           n: '5',
           title: 'ATIVIDADES – CAÇA–PALAVRAS',
+          img: require('@/assets/images/unidade-III/imagem-revista-digital-5.png'),
           text:
             'Em seguida, o recurso traz um caça-palavras sobre as brincadeiras apresentadas no infográfico.'
         },
         {
           n: '6',
           title: 'ENTREVISTA',
+          img: require('@/assets/images/unidade-III/imagem-revista-digital-6.png'),
           text:
             ' Na seção seguinte, o recurso apresenta uma entrevista com Maria Clara, de nove anos, sobre a produção de conteúdo digital.'
         },
         {
           n: '7',
           title: 'ATIVIDADE – ENTREVISTA',
+          img: require('@/assets/images/unidade-III/imagem-revista-digital-7.png'),
           text:
             ' Após a entrevista, tem-se um jogo da memória, no qual o(a) aluno(a)         deverá relacionar cartas de baralho sobre as perguntas e as respostas da entrevista.'
         }
@@ -1370,24 +1387,28 @@ export default {
         {
           n: '2',
           title: 'ATIVIDADE DE AGRUPAMENTO FEITO',
+          pic: require('@/assets/images/unidade-III/imagem-e-o-bicho-2.png'),
           text:
             'Após realizar o agrupamento, os(as) alunos(as) serão conduzidos a atividade de contar e quantificar as espécies.'
         },
         {
           n: '3',
           title: 'ATIVIDADE DE CONTAR E QUANTIFICAR AS ESPÉCIES',
+          pic: require('@/assets/images/unidade-III/imagem-e-o-bicho-3.png'),
           text:
             ' Após a realização da atividade de contagem e quantificação, o(a) aluno(a) deve responder desafios envolvendo comparação e adição através de resolução problemas.'
         },
         {
           n: '4',
           title: 'ATIVIDADES DE COMPARAÇÃO E ADIÇÃO',
+          pic: require('@/assets/images/unidade-III/imagem-e-o-bicho-4.png'),
           text:
             ' Ao finalizarem a atividade, os(as) alunos(as) serão condecorados com a medalha de Defensor dos Filhotes.'
         },
         {
           n: '5',
           title: 'MEDALHA "DEFENSOR DOS FILHOTES"',
+          pic: require('@/assets/images/unidade-III/imagem-e-o-bicho-5.png'),
           text:
             'Como sugestão, imprima a medalha de defensor dos filhotes e ao final, entregue-as aos seus alunos.'
         }
