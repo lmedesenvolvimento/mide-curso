@@ -1,0 +1,13 @@
+body {
+  background-color: white;
+  padding: 2.5cm 2cm;
+}
+
+.tabs, button, input[type=submit], input, textarea, .help.counter {
+  display: none;
+}
+
+input::after, textarea::after {
+  display: block;
+  content: attr(placeholder);
+}

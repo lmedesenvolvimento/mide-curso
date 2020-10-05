@@ -1094,72 +1094,136 @@
           </div>
         </div>
       </div>
-      <mide-tabs id="form-plan">
-        <b-tab-item label="1. Estrutura Curricular">
-          <h4>1.1 Modalidade / nível de ensino:</h4>
-          <b-input placeholder="Escreva aqui" type="text"></b-input>
-          <br />
-          <h4>1.2. Áreas do conhecimento:</h4>
-          <b-input placeholder="Escreva aqui" type="text"></b-input>
-          <br />
-          <h4>1.3 Componente curricular:</h4>
-          <b-input placeholder="Escreva aqui" type="text"></b-input>
-          <br />
-          <h4>1.4 Unidade Temática:</h4>
-          <b-input placeholder="Escreva aqui" type="text"></b-input>
-          <br />
-          <h4>1.5 Objeto de conhecimento:</h4>
-          <b-input placeholder="Escreva aqui" type="text"></b-input>
-        </b-tab-item>
+      <form ref="form" novalidate @submit.prevent="print(true)">
+        <mide-tabs id="form-plan" ref="formTabs">
+          <b-tab-item label="1. Estrutura Curricular">
+            <h4>1.1 Modalidade / nível de ensino: *</h4>
+            <b-field>
+              <b-input
+                ref="1_1"
+                placeholder="Escreva aqui"
+                required
+                type="text"
+              ></b-input>
+            </b-field>
+            <br />
+            <h4>1.2. Áreas do conhecimento: *</h4>
+            <b-field>
+              <b-input
+                ref="1_2"
+                placeholder="Escreva aqui"
+                required
+                type="text"
+              ></b-input>
+            </b-field>
+            <br />
+            <h4>1.3 Componente curricular: *</h4>
+            <b-field>
+              <b-input
+                ref="1_3"
+                placeholder="Escreva aqui"
+                required
+                type="text"
+              ></b-input>
+            </b-field>
+            <br />
+            <h4>1.4 Unidade Temática: *</h4>
+            <b-field>
+              <b-input
+                ref="1_4"
+                placeholder="Escreva aqui"
+                required
+                type="text"
+              ></b-input>
+            </b-field>
+            <br />
+            <h4>1.5 Objeto de conhecimento: *</h4>
+            <b-field>
+              <b-input
+                ref="1_5"
+                placeholder="Escreva aqui"
+                required
+                type="text"
+              ></b-input>
+            </b-field>
+          </b-tab-item>
 
-        <b-tab-item label="2. Dados da aula">
-          <h4>2.1 O que o(a) aluno(a) poderá aprender com esta aula</h4>
-          <b-input
-            type="textarea"
-            minlength="150"
-            maxlength="600"
-            placeholder="Escreva aqui"
-          >
-          </b-input>
-          <br />
-          <h4>2.2 Duração da atividade</h4>
-          <b-input placeholder="Escreva aqui" type="text"></b-input>
+          <b-tab-item label="2. Dados da aula">
+            <h4>2.1 O que o(a) aluno(a) poderá aprender com esta aula *</h4>
+            <b-field>
+              <b-input
+                ref="2_1"
+                type="textarea"
+                placeholder="Escreva aqui"
+                required
+                minlength="150"
+                maxlength="600"
+              >
+              </b-input>
+            </b-field>
+            <br />
+            <h4>2.2 Duração da atividade</h4>
+            <b-field>
+              <b-input
+                ref="2_2"
+                placeholder="Escreva aqui"
+                required
+                type="text"
+              ></b-input>
+            </b-field>
 
-          <br />
-          <h4>
-            2.3 Conhecimentos prévios trabalhados pelo professor com o(a)
-            aluno(a)
-          </h4>
-          <b-input
-            type="textarea"
-            minlength="1000"
-            maxlength="5000"
-            placeholder="Escreva aqui"
-          >
-          </b-input>
-          <br />
-          <h4>2.4 Estratégias e recursos da aula</h4>
-          <b-input
-            type="textarea"
-            minlength="1000"
-            maxlength="5000"
-            placeholder="Escreva aqui"
-          >
-          </b-input>
-          <br />
-          <h4>2.5 Avaliação</h4>
-          <b-input
-            type="textarea"
-            minlength="1000"
-            maxlength="5000"
-            placeholder="Escreva aqui"
-          >
-          </b-input>
-          <b-button type="is-info is-light" @click="print"
-            >IMPRIMIR PLANO</b-button
-          >
-        </b-tab-item>
-      </mide-tabs>
+            <br />
+            <h4>
+              2.3 Conhecimentos prévios trabalhados pelo professor com o(a)
+              aluno(a) *
+            </h4>
+            <b-field>
+              <b-input
+                ref="2_3"
+                type="textarea"
+                placeholder="Escreva aqui"
+                minlength="1000"
+                maxlength="5000"
+                required
+              >
+              </b-input>
+            </b-field>
+            <br />
+            <h4>2.4 Estratégias e recursos da aula *</h4>
+            <b-field>
+              <b-input
+                ref="2_4"
+                type="textarea"
+                placeholder="Escreva aqui"
+                minlength="1000"
+                maxlength="5000"
+                required
+              >
+              </b-input>
+            </b-field>
+            <br />
+            <h4>2.5 Avaliação *</h4>
+            <b-field>
+              <b-input
+                ref="2_5"
+                type="textarea"
+                placeholder="Escreva aqui"
+                minlength="1000"
+                maxlength="5000"
+                required
+              >
+              </b-input>
+            </b-field>
+            <b-button
+              tag="input"
+              native-type="submit"
+              type="is-info is-light"
+              value="IMPRIMIR PLANO"
+              @click.native="print(false)"
+            />
+          </b-tab-item>
+        </mide-tabs>
+      </form>
       <div class="block-bordered">
         <div class="columns is-vcentered">
           <div class="column is-3">
@@ -1251,6 +1315,8 @@ export default {
   data() {
     return {
       isOpen: 0,
+      errors: {},
+      requidedMessage: 'Pergunta Obrigatória',
       collapses_p1: [
         {
           n: '1',
@@ -1329,7 +1395,36 @@ export default {
     }
   },
   methods: {
-    print() {
+    getErrorMessage(attr) {
+      return this.errors[attr] ? this.errors[attr].message : ''
+    },
+    print(fromForm) {
+      const form = this.$refs.form
+      const tabs = this.$refs.formTabs
+      const valid = form.checkValidity()
+
+      // Filtrando referência do formulário
+      const inputsKey = Object.keys(this.$refs).filter((k) => k.match(/^\d/g))
+
+      if (!valid) {
+        const error = inputsKey.find((name) => {
+          const input = this.$refs[name]
+          const inputValid = input.checkHtml5Validity() // forçando feedback
+          return !inputValid
+        })
+
+        // Se o error for na primeira parte do formulário
+        if (error && error.includes('1_')) {
+          tabs.prev()
+        }
+
+        return false
+      }
+
+      if (!fromForm) {
+        return false
+      }
+
       const inputs = document.querySelectorAll(
         '#form-plan input, #form-plan textarea'
       )
@@ -1340,12 +1435,21 @@ export default {
       tabItems.forEach((tab) => tab.setAttribute('style', 'display: block;'))
 
       // set placeholders for print
-      inputs.forEach((input) => (input.placeholder = input.value))
+      inputs.forEach((input) => {
+        const placeholder = document.createElement('p')
+
+        placeholder.setAttribute('class', 'form-placeholder')
+        placeholder.textContent = input.value
+
+        input.parentNode.appendChild(placeholder)
+      })
 
       this.$htmlToPaper('form-plan')
 
       // after print reset placeholders
-      inputs.forEach((input) => (input.placeholder = ''))
+      document.querySelectorAll('.form-placeholder').forEach((placeholder) => {
+        placeholder.remove()
+      })
     }
   }
 }
