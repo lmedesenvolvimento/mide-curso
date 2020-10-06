@@ -213,7 +213,7 @@ export default {
 
       this.$emit('change', newArray)
 
-      const isValidated = this.cards.every((c) => c.validated)
+      const isValidated = this.cards?.every((c) => c.validated) || false
 
       if (isValidated) {
         this.$store.dispatch('unidades/addProgressByActivity', {

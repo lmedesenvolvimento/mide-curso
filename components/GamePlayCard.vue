@@ -87,7 +87,7 @@ export default {
       newArray[index].success = success
       this.$emit('change', newArray)
 
-      const validated = this.cards.every((c) => c.success)
+      const validated = this.cards?.every((c) => c.success) || false
 
       if (validated) {
         this.$store.dispatch('unidades/addProgressByActivity', {
