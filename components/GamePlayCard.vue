@@ -77,16 +77,8 @@ export default {
       sorted: []
     }
   },
-  created() {
-    this.sorted = shuffle(this.cards)
-  },
-  methods: {
-    dragend(success, index) {
-      const newArray = [...this.cards]
-
-      newArray[index].success = success
-      this.$emit('change', newArray)
-
+  watch: {
+    cards() {
       const validated = this.cards?.every((c) => c.success) || false
 
       if (validated) {
@@ -96,6 +88,16 @@ export default {
           number: this.percentage
         })
       }
+    }
+  },
+  created() {
+    this.sorted = shuffle(this.cards)
+  },
+  methods: {
+    dragend(success, index) {
+      const newArray = [...this.cards]
+      newArray[index].success = success
+      this.$emit('change', newArray)
     }
   }
 }

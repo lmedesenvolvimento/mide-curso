@@ -194,6 +194,16 @@ export default {
   watch: {
     items() {
       this.cardGroups = chunk(this.items, this.cardsPerLine)
+
+      const isValidated = this.items?.every((c) => c.validated) || false
+
+      if (isValidated) {
+        this.$store.dispatch('unidades/addProgressByActivity', {
+          id: this.$attrs.id,
+          type: 'activity',
+          number: this.percentage
+        })
+      }
     }
   },
   created() {
@@ -212,16 +222,6 @@ export default {
       newArray[index].validated = validated
 
       this.$emit('change', newArray)
-
-      const isValidated = this.cards?.every((c) => c.validated) || false
-
-      if (isValidated) {
-        this.$store.dispatch('unidades/addProgressByActivity', {
-          id: this.$attrs.id,
-          type: 'activity',
-          number: this.percentage
-        })
-      }
     }
   }
 }
