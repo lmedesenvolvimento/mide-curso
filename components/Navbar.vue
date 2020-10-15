@@ -35,16 +35,6 @@ export default {
           title: 'Início',
           pack: 'icon',
           to: { name: 'home' }
-        },
-        {
-          title: 'Biblioteca',
-          pack: 'icon',
-          to: { name: 'inspire' }
-        },
-        {
-          title: 'Componentes',
-          pack: 'icon',
-          to: { name: 'inspire' }
         }
       ]
     }
