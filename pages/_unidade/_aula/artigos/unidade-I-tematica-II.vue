@@ -715,7 +715,7 @@
           <b-tab-item label="Questão 1">
             <p>
               <challenge
-                id="u2_t1_desafio_1"
+                id="u1_t2_desafio_1"
                 name="challege-1"
                 :percentage="14"
                 :options="challenge1"
@@ -758,7 +758,7 @@
           <b-tab-item label="Questão 2">
             <p>
               <challenge
-                id="u2_t1_desafio_2"
+                id="u1_t2_desafio_2"
                 name="challege-2"
                 :percentage="14"
                 :options="challenge2"
@@ -798,7 +798,7 @@
           <b-tab-item label="Questão 3">
             <p>
               <challenge
-                id=""
+                id="u1_t2_desafio_3"
                 name="challege-3"
                 :percentage="14"
                 :options="challenge3"
