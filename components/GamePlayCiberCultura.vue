@@ -125,6 +125,12 @@
           </b-carousel>
         </div>
       </div>
+      <p v-if="getEvent">
+        <small>
+          Respondido:
+          {{ lastDateEvent }}
+        </small>
+      </p>
     </div>
     <b-modal :active.sync="isDetailVisible" :width="800">
       <div class="card mide-gameplay-cibercultura-modal">
@@ -159,6 +165,7 @@
 
 <script>
 /* eslint-disable vue/require-default-prop */
+import moment from 'moment'
 import { chunk, shuffle } from 'lodash'
 
 export default {
@@ -184,6 +191,15 @@ export default {
     }
   },
   computed: {
+    getEvent() {
+      return this.$store.getters['unidades/findEventBy'](
+        this.$attrs.id,
+        'activity'
+      )
+    },
+    lastDateEvent() {
+      return moment(this.getEvent?.created_at).format('DD/MM/YYYY mm:hh:ss')
+    },
     completed() {
       return this.items.filter((i) => i.validated)
     },

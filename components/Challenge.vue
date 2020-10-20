@@ -39,6 +39,12 @@
           />
         </label>
       </div>
+      <p v-if="getEvent">
+        <small>
+          Respondido:
+          {{ lastDateEvent }}
+        </small>
+      </p>
       <center>
         <button
           name="challenge"
@@ -80,6 +86,7 @@
 </template>
 
 <script>
+import moment from 'moment'
 import { v4 as uuidv4 } from 'uuid'
 export default {
   props: {
@@ -123,6 +130,15 @@ export default {
     }
   },
   computed: {
+    getEvent() {
+      return this.$store.getters['unidades/findEventBy'](
+        this.$attrs.id,
+        'activity'
+      )
+    },
+    lastDateEvent() {
+      return moment(this.getEvent?.created_at).format('DD/MM/YYYY mm:hh:ss')
+    },
     getName() {
       if (this.multiple) {
         return uuidv4()

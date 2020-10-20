@@ -54,12 +54,20 @@
         </div>
       </div>
     </div>
+    <p v-if="getEvent">
+      <small>
+        Respondido:
+        {{ lastDateEvent }}
+      </small>
+    </p>
   </div>
 </template>
 
 <script>
 /* eslint-disable vue/require-default-prop */
+import moment from 'moment'
 import { shuffle } from 'lodash'
+
 export default {
   model: {
     prop: 'cards',
@@ -75,6 +83,17 @@ export default {
   data() {
     return {
       sorted: []
+    }
+  },
+  computed: {
+    getEvent() {
+      return this.$store.getters['unidades/findEventBy'](
+        this.$attrs.id,
+        'activity'
+      )
+    },
+    lastDateEvent() {
+      return moment(this.getEvent?.created_at).format('DD/MM/YYYY mm:hh:ss')
     }
   },
   watch: {

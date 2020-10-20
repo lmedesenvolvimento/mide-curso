@@ -34,11 +34,14 @@ const mutations = {
     state.current = { ...payload }
   },
   ADD_LOGS(state, payload) {
-    state.logs.push(payload)
+    state.logs.push({ ...payload, created_at: new Date() })
   },
   UPDATE_PERCENTAGE(state, { percentage, unidadeId }) {
     const unidadeIndex = state.data.findIndex((u) => u.id === unidadeId)
     state.data[unidadeIndex] = { ...state.data[unidadeIndex], percentage }
+
+    const API = new global.BridgeRestApi()
+    API.registrarPorcentagemConclusaoUnidade(unidadeId, percentage)
   },
   COMPLETE_UNIDADE() {
     const unidadeIndex = state.data.findIndex(
@@ -50,9 +53,16 @@ const mutations = {
   }
 }
 
+const getters = {
+  findEventBy: (state) => (id, type) => {
+    return state.logs.find((log) => log.type === type && log.id === id)
+  }
+}
+
 export default {
   namespaced: true,
   state,
   actions,
-  mutations
+  mutations,
+  getters
 }

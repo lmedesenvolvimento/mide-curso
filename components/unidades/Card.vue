@@ -16,10 +16,10 @@
         <div class="card-content has-text-left">
           <slot name="description" /> {{ unidade.descricao }}
           <div class="mide-progress">
-            {{ unidade.percentage }}%
+            {{ getPercentage(unidade) }}%
             <progress
               class="progress is-info"
-              :value="unidade.percentage"
+              :value="getPercentage(unidade)"
               max="100"
             ></progress>
           </div>
@@ -41,6 +41,13 @@ export default {
     toLesson() {
       const lesson = this.unidade?.aulas?.find(({ initial }) => initial)
       return `/${this.unidade?.id}/${lesson?.id}/artigos/${lesson?.id}`
+    }
+  },
+  methods: {
+    getPercentage(unidade) {
+      const API = new global.BridgeRestApi()
+      const percentage = API.obterPorcentagemConclusaoUnidade(unidade.id)
+      return percentage || unidade.percentage
     }
   }
 }

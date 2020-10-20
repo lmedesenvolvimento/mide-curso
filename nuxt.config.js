@@ -67,7 +67,8 @@ export default {
     '~plugins/vuex-persistedstate.js',
     '~plugins/plyr.js',
     '~plugins/fancybox.js',
-    '~plugins/vue-html-to-paper.js'
+    '~plugins/vue-html-to-paper.js',
+    '~plugins/avamec.js'
   ],
   /*
    ** Nuxt.js dev-modules
@@ -129,7 +130,8 @@ export default {
     plugins: [
       new webpack.ProvidePlugin({
         $: 'jquery',
-        jQuery: 'jquery'
+        jQuery: 'jquery',
+        BridgeRestApi: 'BridgeRestApi'
       })
     ],
     /*
