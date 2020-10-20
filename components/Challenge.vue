@@ -137,7 +137,7 @@ export default {
       )
     },
     lastDateEvent() {
-      return moment(this.getEvent?.created_at).format('DD/MM/YYYY mm:hh:ss')
+      return moment(this.getEvent?.createdAt).format('DD/MM/YYYY HH:mm:ss')
     },
     getName() {
       if (this.multiple) {

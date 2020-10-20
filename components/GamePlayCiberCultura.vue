@@ -198,7 +198,7 @@ export default {
       )
     },
     lastDateEvent() {
-      return moment(this.getEvent?.created_at).format('DD/MM/YYYY mm:hh:ss')
+      return moment(this.getEvent?.createdAt).format('DD/MM/YYYY HH:mm:ss')
     },
     completed() {
       return this.items.filter((i) => i.validated)

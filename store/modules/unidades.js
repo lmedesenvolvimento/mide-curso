@@ -34,7 +34,7 @@ const mutations = {
     state.current = { ...payload }
   },
   ADD_LOGS(state, payload) {
-    state.logs.push({ ...payload, created_at: new Date() })
+    state.logs.push({ ...payload, createdAt: new Date() })
   },
   UPDATE_PERCENTAGE(state, { percentage, unidadeId }) {
     const unidadeIndex = state.data.findIndex((u) => u.id === unidadeId)
