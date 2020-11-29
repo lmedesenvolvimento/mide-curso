@@ -45,9 +45,7 @@ export default {
   },
   methods: {
     getPercentage(unidade) {
-      const API = new global.BridgeRestApi()
-      const percentage = API.obterPorcentagemConclusaoUnidade(unidade.id)
-      return percentage || unidade.percentage
+      return unidade.percentage
     }
   }
 }

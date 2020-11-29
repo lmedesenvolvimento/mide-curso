@@ -16,6 +16,19 @@ const mecManifest = manifest.unidades.map((u) => ({
   }))
 }))
 
+manifest.unidades.forEach((u) => {
+  const identificador = S(u.id).underscore().s
+
+  
+  fs.writeFileSync(
+    './dist/'+ identificador  +'.html',
+    `
+      <script>window.location.assign('./index.html')</script>
+    `,
+    { mode: 0o755 }
+  )
+})
+
 try {
   fs.writeFileSync(
     './dist/configuracao_conteudo.json',

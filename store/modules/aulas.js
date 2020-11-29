@@ -36,6 +36,10 @@ const actions = {
   calcPercentage({ state, commit, rootState }) {
     const aula = state.data.find((a) => a.id === state.current.id)
 
+    if (!aula) {
+      return
+    }
+
     const isHasInLog = rootState?.unidades?.logs.some(
       (log) => log.type === 'aula:completed' && log.id === aula.id
     )
@@ -46,7 +50,7 @@ const actions = {
       (u) => u.id === aula.unidadeId
     )
 
-    const percentage = (unidade.percentage || 0) + aula.percentage
+    const percentage = (unidade?.percentage || 0) + (aula?.percentage || 0)
 
     commit(
       'unidades/UPDATE_PERCENTAGE',
